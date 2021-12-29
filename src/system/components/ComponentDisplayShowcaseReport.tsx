@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable @typescript-eslint/no-use-before-define */
 import { useEffect, useState, useRef } from 'react';
 import '../styles/dpodDisplayGeneric.scss';
 import ShowcaseReport from '../itemTypes/showcaseReport';
@@ -47,7 +49,7 @@ export const ComponentDisplayShowcaseReport = (props: IComponentDisplayShowcaseR
 	useEffect(() => {
 		assignFieldsFromItem();
 		setComponentState(ComponentState.Viewing);
-	}, [props.item]);
+	}, []);
 
 	const assignFieldsFromItem = () => {
 		setField_id(props.item.get_id());
