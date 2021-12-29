@@ -1,5 +1,14 @@
 - .. make production mode show one page, developer mode show all
-	- .. make and show config variable 
+	- ..hide and block pages not allowed 
+
+
+- layout
+	- with gatsby-like SiteLayout
+	- dark
+	- responsive
+
+
+
 - make second page to show in production
 
 
