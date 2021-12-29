@@ -1,0 +1,13 @@
+{
+	"message": "Welcome to this page from JSON.",
+	"reports": [
+		"Report 001",
+		"Report 002",
+		"Report 003",
+		"Report 004"
+	],
+	"config": {
+		"status": "online",
+		"attempts": 34
+	}
+}

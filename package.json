@@ -1,0 +1,67 @@
+{
+	"name": "dpodreact",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.14.1",
+		"@testing-library/react": "^11.2.7",
+		"@testing-library/user-event": "^12.8.3",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"markdown": "^0.5.0",
+		"minimist": "^1.2.5",
+		"mongodb": "^4.1.4",
+		"mongoose": "^6.0.13",
+		"newsapi": "^2.4.1",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-fade-in": "^2.0.1",
+		"react-icons": "^4.3.1",
+		"react-loader-spinner": "^4.0.0",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "4.0.3",
+		"sass": "^1.35.1",
+		"sqlite3": "^5.0.2",
+		"ts-node": "^10.0.0",
+		"typescript": "^4.3.4",
+		"web-vitals": "^1.1.2"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"backend": "./node_modules/.bin/nodemon",
+		"backendnode": "./node_modules/.bin/ts-node --skip-project backend/server.ts",
+		"startOLD": "./dev/scripts/appstart.sh",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"dpod": "./node_modules/.bin/ts-node --skip-project src/system/scripts/dpod.ts",
+		"backend_old": "./node_modules/.bin/ts-node --skip-project backend/server.ts",
+		"backend_node": "./node_modules/.bin/ts-node --skip-project backend/server.ts",
+		"kill-all-branches": "git for-each-ref --format '%(refname:short)' refs/heads | grep -v \"dev\\|master\\|main\" | xargs git branch -D"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@types/faker": "^5.5.9",
+		"@types/react": "^17.0.11",
+		"@types/react-router-dom": "^5.1.7",
+		"faker": "^5.5.3",
+		"nodemon": "^2.0.9",
+		"remove-accents": "^0.4.2"
+	}
+}

@@ -1,0 +1,30 @@
+.page_showcaseUseToggle {
+	.showArea {
+		margin: 0 0 20px 0;
+		font-size: 2rem;
+		.theValue {
+			color: brown;
+			font-family: 'Courier New', Courier, monospace;
+		}
+	}
+	.buttonArea {
+		display: flex;
+		button {
+			width: 150px;
+			height: 50px;
+			margin: 0 10px 10px 0;
+			font-size: 1.4rem;
+		}
+		div {
+			font-size: 3rem;
+			color: #999;
+			margin: 0 10px 0 0;
+		}
+	}
+	.controls {
+		border: 1px solid #ccc;
+		padding: 20px 10px 10px 20px;
+		border-radius: 5px;
+		width: 733px;
+	}
+}

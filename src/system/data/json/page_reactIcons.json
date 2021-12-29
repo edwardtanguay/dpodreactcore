@@ -1,0 +1,18 @@
+[
+	"gr;GrEdit;edit;pen, write, Stift, manage",
+	"im;ImDatabase;database;three lines, burger",
+	"ri;RiDeleteBin6Line;delete; trash can, erase, remove",
+	"fi;FiSettings; settings; gear, Eigenschaften",
+	"bs;BsArrowUp; up arrow; arrow, point",
+	"bs;BsArrowDown; down arrow; arrow, point",
+	"bs;BsArrowRight; right arrow; arrow, point",
+	"bs;BsArrowLeft; left arrow; arrow, point",
+	"fi;FiAlertTriangle;warning; alert, triangle",
+	"md;MdAdd;add; plus",
+	"fi;FiCopy;copy;two",
+	"bs;BsInfoSquare;info;box",
+	"fa;FaInfo;info;without",
+	"bs;BsPlusLg;large add;plus",
+	"gr;GrRevert;revert;back,clear,arrow",
+	"bi;BiSave;save; disk"
+]

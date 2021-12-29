@@ -1,0 +1,47 @@
+.page_showcaseReactIcons {
+    .message {
+        font-style: italic;
+    }
+    ul {
+        margin: 0 0 0 40px !important;
+        li {
+            margin-top: 0.4rem;
+        }
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    h3:not(:first-of-type) {
+        margin-top: 1rem;
+    }
+    code {
+        color: brown;
+    }
+    .example {
+        display: flex;
+        margin: 10px 0 0 20px;
+        background-color: #eee;
+        width: 500px;
+        padding: 20px;
+        .icon {
+            font-size: 1.5rem;
+            border-right: 1px solid #ccc;
+            padding-right: 15px;
+            margin-right: 13px;
+        }
+        .info {
+            margin-left: 10px;
+            p {
+                margin-bottom: 4px;
+            }
+        }
+    }
+    .iconTitle {
+        font-weight: bold;
+    }
+    textarea.iconCode {
+        width: 400px;
+        height: 40px;
+        line-height: 1.2rem;
+    }
+}

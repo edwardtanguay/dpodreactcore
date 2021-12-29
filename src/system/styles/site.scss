@@ -1,0 +1,128 @@
+@use "partials/variables" as basic;
+
+html {
+	font-size: basic.$basicFontSize;
+}
+
+body {
+	background-color: basic.$firstColor;
+	padding: basic.$padding;
+	font-family: basic.$primaryFontFamily;
+
+	/* override resets */
+	h1 {
+		font-size: 2em;
+		margin-left: basic.$margin;
+	}
+	h2 {
+		font-size: 1.6em;
+	}
+	a {
+		color: #000;
+	}
+
+	/* all pages */
+	.page {
+		h2.title {
+			margin-bottom: 10px;
+		}
+		p.description {
+			margin-bottom: 20px;
+			font-style: italic;
+			padding-bottom: 10px;
+			border-bottom: 1px solid #ccc;
+			display: inline-block;
+		}
+		code {
+			background-color: #eee;
+			font-family: "Courier New", Courier, monospace;
+		}
+		p {
+			line-height: 1.2rem;
+		}
+		ul {
+			margin-left: 20px;
+			li {
+				line-height: 1.3rem;
+				list-style: disc;
+			}
+		}
+		div {
+			line-height: 1.3rem;
+		}
+	}
+	.app_site {
+		.topHeader {
+			display: flex;
+			h1.siteTitle {
+				margin: 0 0 10px 20px;
+				.version {
+					color: brown;
+					position: relative; 
+					top: .4rem; 
+					left: 4px;
+					font-size: 45%;
+				}
+			}
+			.menuToggle {
+				margin: 8px 0 0 12px;
+				.toggle {
+					display: inline-block;
+					cursor: pointer;
+				}
+				.toggle_input {
+					display: none;
+				}
+				.toggle_fill {
+					position: relative;
+					width: 40px;
+					height: 20px;
+					border-radius: 20px;
+					background-color: #dddddd;
+					transition: background-color 0.2s;
+				}
+				.toggle_input:checked ~ .toggle_fill {
+					background: #a1a1a1;
+				}
+
+				.toggle_fill::after {
+					content: "";
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 20px;
+					width: 20px;
+					background-color: #ffffff;
+					box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+					border-radius: 20px;
+					transition: transform 0.2s;
+				}
+
+				.toggle_input:checked ~ .toggle_fill::after {
+					transform: translateX(20px);
+				}
+			}
+		}
+
+		.app_container {
+			background-color: basic.$secondColor;
+			margin: basic.$margin 0 0 0;
+			padding: basic.$padding;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+			min-height: basic.$basicLayoutHeight;
+		}
+
+		nav {
+			margin: 0 20px;
+			span {
+				margin: 0 13px 5px 0;
+				display: inline-block;
+			}
+			a {
+				color: #333;
+				font-size: 0.9em;
+			}
+		}
+	}
+}

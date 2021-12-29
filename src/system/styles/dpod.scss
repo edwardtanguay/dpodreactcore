@@ -1,0 +1,52 @@
+div.dpod_labeledArea {
+	margin-bottom: 20px;
+	position: absolute;
+	.fieldLabel {
+		font-variant: small-caps;
+		font-size: 0.9rem;
+		color: rgb(66, 64, 64);
+		position: relative;
+	}
+	fieldset {
+		border: 1px solid #bbb;
+		border-radius: 5px;
+		margin-left: 5px;
+		padding: 10px;
+		font-size: 0.9rem;
+		position: relative;
+		width: 600px;
+		background-color: #eee;
+		legend {
+			// border: 1px solid #bbb;
+			border-radius: 5px;
+			position: absolute;
+			top: 0;
+			background-color: rgb(219, 219, 219);
+			padding: 0 5px !important;
+			&::after {
+				content: " ";
+			}
+		}
+		ul {
+			margin: 0 0 10px 20px;
+		}
+	}
+}
+
+button.dpod_button {
+	font-size: 0.9rem;
+	padding: 4px 10px;
+	border-radius: 3px;
+}
+
+.dpod_p {
+	margin-bottom: 10px;
+}
+
+.dpod_topSpace {
+	margin-top: 10px;
+}
+
+.dpod_hide {
+	display: none;
+}

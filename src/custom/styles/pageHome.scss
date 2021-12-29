@@ -1,0 +1,4 @@
+@use '../../system/styles/partials/variables' as home;
+.page_home {
+	color: home.$thirdColor;
+}

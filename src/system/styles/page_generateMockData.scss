@@ -1,0 +1,60 @@
+.page_generateMockData {
+	.workArea {
+		padding: 20px;
+		margin: 10px 0 0 10px;
+		border-radius: 5px;
+		width: 700px;
+		background-color: #eee;
+		textarea {
+			width: 99%;
+			height: 200px;
+			margin-top: 5px;
+			background-color: #ddd;
+		}
+		code {
+			background-color: #ddd;
+			a {
+				color: brown !important;
+				font-size: 1rem;
+			}
+		}
+		.message {
+			margin-top: 10px;
+			font-size: 0.9rem;
+		}
+		.loadingMessage {
+			margin-top: 10px;
+			font-size: 0.9rem;
+			font-style: italic;
+		}
+		.spinner {
+			animation: spin infinite 2s linear;
+		}
+		@keyframes spin {
+			from {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(360deg);
+			}
+		}
+	}
+	.buttonArea {
+		display: flex;
+		input {
+			margin-left: 10px;
+			width: 480px;
+		}
+		.userObjectButton {
+			width: 197px;
+		}
+	}
+
+	h3 {
+		font-weight: bold;
+		font-size: 1.3rem;
+		&::after {
+			content: ":";
+		}
+	}
+}

@@ -1,0 +1,22 @@
+.page_importAssessmentJSONIntoSQLite {
+    .message {
+        font-style: italic;
+    }
+	ul {
+		list-style: disc;
+		margin: 10px 0 0 30px;
+	}
+	h3 {
+		font-size: 1.3rem;
+		margin: 20px 0 0 0;
+	}
+	.importArea {
+		margin: 20px 0 0 0;
+		code {
+			color: brown;
+		}
+	}
+	.buttonRow {
+		margin: 20px 0 0 0;
+	}
+}

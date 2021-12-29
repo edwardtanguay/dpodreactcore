@@ -1,0 +1,29 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useState, useEffect } from 'react';
+import '../styles/page_@@pageCamel.scss';
+import PageManager from '../classes/pageManager';
+
+function Page@@pagePascal() {
+	const pageIdCode = '@@pageCamel';
+	const [message, setMessage] = useState('');
+	const pm = new PageManager(pageIdCode);
+	
+	const loadPageData = async () => {
+		const data = await pm.loadPageData();
+		setMessage(data.message);
+	}
+
+	useEffect(() => {
+		loadPageData();
+	}, []);
+
+	return (
+		<div className="page page_@@pageCamel">
+			<h2 className="title">@@pageTitle</h2>
+			<p className="description">An info page that displays @@pageText</p>	
+			<p className="message">{message}</p>
+		</div>
+	)
+}
+
+export default Page@@pagePascal;
