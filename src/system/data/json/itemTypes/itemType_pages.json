@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"idCode": "home",
+		"menu": "main",
+		"title": "Home",
+		"description": "",
+		"kind": "system",
+		"environment": "frontendOnly",
+		"accessGroups": "loggedInUsers, loggedOutUseres",
+		"displayOrder": 10,
+		"extras": "",
+		"systemWhenCreated": "2021-12-29 20:29:34",
+		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": 2,
+		"idCode": "howtos",
+		"menu": "main",
+		"title": "Howtos",
+		"description": "",
+		"kind": "custom",
+		"environment": "frontendOnly",
+		"accessGroups": "loggedInUsers, loggedOutUseres",
+		"displayOrder": 20,
+		"extras": "",
+		"systemWhenCreated": "2021-12-29 20:30:35",
+		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": 3,
+		"idCode": "createPage",
+		"menu": "developer",
+		"title": "Create Page",
+		"description": "",
+		"kind": "system",
+		"environment": "frontendBackend",
+		"accessGroups": "developers",
+		"displayOrder": 1010,
+		"extras": "",
+		"systemWhenCreated": "2021-12-29 20:45:06",
+		"systemWhoCreated": "systemUnknown"
+	}
+]

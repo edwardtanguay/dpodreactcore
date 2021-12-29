@@ -1,5 +1,5 @@
 import '../styles/page_howtos.scss';
-import howtos from '../data/json/itemType_howtos.json';
+import howtos from '../data/json/itemTypes/itemType_howtos.json';
 import * as qarr from '../../system/qtools/qarr';
 
 // const sortedHowtos = howtos.sort((a,b) => a.systemWhenCreated - b.systemWhenCreated);
