@@ -1,6 +1,4 @@
-- .. create dpodreactcore
-- change color
-
+.. deploy to edwardtanguay
 
 =================================================
 MILESTONES

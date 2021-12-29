@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import '../styles/page_generateMockData.scss';
 import PageManager from '../classes/pageManager';
 import { FaSpinner } from 'react-icons/fa';
