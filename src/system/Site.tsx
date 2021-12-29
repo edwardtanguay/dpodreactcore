@@ -1,6 +1,4 @@
-import { useContext } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import ShowContext from '../context/ShowContext.jsx';
 import './styles/reset.scss';
 import './styles/site.scss';
 import './styles/dpod.scss';
