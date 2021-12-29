@@ -28,20 +28,6 @@
 		"systemWhoCreated": "systemUnknown"
 	},
 	{
-		"id": 3,
-		"idCode": "createPage",
-		"menu": "developer",
-		"title": "Create Page",
-		"description": "",
-		"kind": "system",
-		"environment": "frontendBackend",
-		"accessGroups": "developers",
-		"displayOrder": 1010,
-		"extras": "",
-		"systemWhenCreated": "2021-12-29 20:45:06",
-		"systemWhoCreated": "systemUnknown"
-	},
-	{
 		"id": 4,
 		"idCode": "showcaseJavaScriptComponent",
 		"menu": "developer",
@@ -92,7 +78,7 @@
 		"kind": "system",
 		"environment": "frontendBackend",
 		"accessGroups": "developers",
-		"displayOrder": 1110,
+		"displayOrder": 1030,
 		"extras": "",
 		"systemWhenCreated": "2021-12-29 22:39:45",
 		"systemWhoCreated": "systemUnknown"
@@ -120,7 +106,7 @@
 		"kind": "system",
 		"environment": "frontendBackend",
 		"accessGroups": "developers",
-		"displayOrder": 1120,
+		"displayOrder": 1020,
 		"extras": "",
 		"systemWhenCreated": "2021-12-29 22:39:45",
 		"systemWhoCreated": "systemUnknown"
