@@ -320,5 +320,19 @@
 		"extras": "",
 		"systemWhenCreated": "2021-12-29 22:39:45",
 		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": 24,
+		"idCode": "flashcards",
+		"menu": "main",
+		"title": "Flashcards",
+		"description": "",
+		"kind": "custom",
+		"environment": "frontendOnly",
+		"accessGroups": "loggedInUsers, loggedOutUseres",
+		"displayOrder": 30,
+		"extras": "",
+		"systemWhenCreated": "2021-12-29 22:50:28",
+		"systemWhoCreated": "systemUnknown"
 	}
 ]

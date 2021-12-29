@@ -6,6 +6,7 @@ import './styles/site.scss';
 import './styles/dpod.scss';
 import PageHome from '../custom/components/PageHome';
 import * as config from '../system/config';
+import * as qarr from '../system/qtools/qarr';
 
 // DYNAMIC_CODE_AREA: loadPageComponentLines
 import PageShowcaseCounterUsingState from './pages/PageShowcaseCounterUsingState'; // ::showcaseCounterUsingState
@@ -29,8 +30,11 @@ import PageShowcaseMongoDBDriverCRUD from './pages/PageShowcaseMongoDBDriverCRUD
 import PageGenerateMockData from './pages/PageGenerateMockData';// ::generateMockData
 import PageShowcaseMongooseCRUD from './pages/PageShowcaseMongooseCRUD';// ::showcaseMongooseCRUD
 import PageHowtos from './pages/PageHowtos';// ::howtos
+import PageFlashcards from './pages/PageFlashcards';// ::flashcards
 
 import pages from './data/json/itemTypes/itemType_pages.json';
+
+const displayOrderSortedPages = qarr.sortObjects(pages, 'displayOrder');
 
 const userHasAccess = (pageIdCode: string) => {
 	return pages.find(page => page.idCode === pageIdCode);
@@ -62,7 +66,7 @@ function Site() {
 					</div>
 				</div>
 				<nav>
-					{pages.filter(page => page.environment === 'frontendOnly' || config.getSiteMode() === 'development').map((page: any, i: number) => {
+					{displayOrderSortedPages.filter((page: any) => page.environment === 'frontendOnly' || config.getSiteMode() === 'development').map((page: any, i: number) => {
 						const smartIdCode = page.idCode === 'home' ? '/' : '/' + page.idCode;
 						return <span><Link key={i} to={`${smartIdCode}`}>{page.title}</Link></span>
 					})}
@@ -93,6 +97,7 @@ function Site() {
 						<Route path='/generateMockData'>{userHasAccess('generateMockData') && <PageGenerateMockData />}</Route> {/* ::generateMockData */}
 						<Route path='/showcaseMongooseCRUD'>{userHasAccess('showcaseMongooseCRUD') && <PageShowcaseMongooseCRUD />}</Route> {/* ::showcaseMongooseCRUD */}
 						<Route path='/howtos'>{userHasAccess('howtos') && <PageHowtos />}</Route> {/* ::howtos */}
+						<Route path='/flashcards'><PageFlashcards /></Route>{/* ::flashcards */}
 					</Switch>
 				</section>
 			</div>

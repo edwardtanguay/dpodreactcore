@@ -83,7 +83,7 @@ class DpodSiteBuilder {
 		const siteDynamicFile = new DynamicFile(this.getSitePathAndFileName());
 		siteDynamicFile.addCodeChunkToCodeArea('loadPageComponentLines', this.data.pageCamel, `import Page${this.data.pagePascal} from './pages/Page${this.data.pagePascal}';`);
 		siteDynamicFile.addCodeChunkToCodeArea('linkPageComponentLines', this.data.pageCamel, `<span><Link to='/${this.data.pageCamel}'>${this.pageTitle}</Link></span>`);
-		siteDynamicFile.addCodeChunkToCodeArea('routePageComponentLines', this.data.pageCamel, `<Route path='/${this.data.pageCamel}'><Page${this.data.pagePascal} /></Route>`);
+		siteDynamicFile.addCodeChunkToCodeArea('routePageComponentLines', this.data.pageCamel, `<Route path='/${this.data.pageCamel}'>{userHasAccess('${this.data.pageCamel}') && <Page${this.data.pagePascal} />}</Route>`);
 		siteDynamicFile.save();
 	}
 
