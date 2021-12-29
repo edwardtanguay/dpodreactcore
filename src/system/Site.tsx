@@ -41,29 +41,12 @@ const userHasAccess = (pageIdCode: string) => {
 }
 
 function Site() {
-	const { isShowing, setIsShowing } = useContext(ShowContext);
-
-	const showHandler = () => {
-		setIsShowing((prevIsShowing: boolean) => !prevIsShowing);
-	};
 
 	return (
 		<Router>
 			<div className='app_site'>
 				<div className="topHeader">
-					<h1 className='siteTitle'>Datapod for React<span className="version">Version 0.02.00</span></h1>
-					<div className='menuToggle'>
-						<label htmlFor='myToggle' className='toggle'>
-							<input
-								className='toggle_input'
-								type='checkbox'
-								id='myToggle'
-								checked={isShowing}
-								onChange={showHandler}
-							/>
-							<div className='toggle_fill'></div>
-						</label>
-					</div>
+					<h1 className='siteTitle'>Edward Tanguay</h1>
 				</div>
 				<nav>
 					{displayOrderSortedPages.filter((page: any) => page.environment === 'frontendOnly' || config.getSiteMode() === 'development').map((page: any, i: number) => {
@@ -97,7 +80,7 @@ function Site() {
 						<Route path='/generateMockData'>{userHasAccess('generateMockData') && <PageGenerateMockData />}</Route> {/* ::generateMockData */}
 						<Route path='/showcaseMongooseCRUD'>{userHasAccess('showcaseMongooseCRUD') && <PageShowcaseMongooseCRUD />}</Route> {/* ::showcaseMongooseCRUD */}
 						<Route path='/howtos'>{userHasAccess('howtos') && <PageHowtos />}</Route> {/* ::howtos */}
-						<Route path='/flashcards'><PageFlashcards /></Route>{/* ::flashcards */}
+						<Route path='/flashcards'>{userHasAccess('flashcards') && <PageFlashcards />}</Route>{/* ::flashcards */}
 					</Switch>
 				</section>
 			</div>
