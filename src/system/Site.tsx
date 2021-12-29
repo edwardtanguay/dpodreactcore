@@ -32,7 +32,9 @@ import PageHowtos from './pages/PageHowtos';// ::howtos
 
 import pages from './data/json/itemTypes/itemType_pages.json';
 
-
+const userHasAccess = (pageIdCode: string) => {
+	return pages.find(page => page.idCode === pageIdCode);
+}
 
 function Site() {
 	const { isShowing, setIsShowing } = useContext(ShowContext);
@@ -59,7 +61,6 @@ function Site() {
 						</label>
 					</div>
 				</div>
-				[{config.getSiteMode()}] - [{pages.length}]
 				<nav>
 					{pages.filter(page => page.environment === 'frontendOnly' || config.getSiteMode() === 'development').map((page: any, i: number) => {
 						const smartIdCode = page.idCode === 'home' ? '/' : '/' + page.idCode;
@@ -71,27 +72,27 @@ function Site() {
 					<Switch>
 						<Route exact path='/'><PageHome /></Route>
 						{/* DYNAMIC_JSX_AREA: routePageComponentLines */}
-						<Route path='/showcaseCounterUsingState'><PageShowcaseCounterUsingState /></Route> {/* ::showcaseCounterUsingState */}
-						<Route path='/showcaseCounterUsingReducer'><PageShowcaseCounterUsingReducer /></Route>{/* ::showcaseCounterUsingReducer */}
-						<Route path='/showcaseTypeScriptClasses'><PageShowcaseTypeScriptClasses /></Route>{/* ::showcaseTypeScriptClasses */}
-						<Route path='/showcaseJavaScriptComponent'><PageShowcaseJavaScriptComponent /></Route>{/* ::showcaseJavaScriptComponent */}
-						<Route path='/showcaseSqliteReader'><PageShowcaseSqliteReader /></Route>{/* ::showcaseSqliteReader */}
-						<Route path='/showcaseJsonReadWrite'><PageShowcaseJsonReadWrite /></Route>{/* ::showcaseJsonReadWrite */}
-						<Route path='/deletePage'>{false && <PageDeletePage />}</Route>{/* ::deletePage */}
-						<Route path='/createPage'><PageCreatePage /></Route>{/* ::createPage */}
-						<Route path='/showcaseNewsApi'><PageShowcaseNewsApi /></Route>{/* ::showcaseNewsApi */}
-						<Route path='/manageShowcaseReports'><PageManageShowcaseReports /></Route>{/* ::manageShowcaseReports */}
-						<Route path='/showcaseUseToggle'><PageShowcaseUseToggle /></Route>{/* ::showcaseUseToggle */}
-						<Route path='/showcaseClassInState'><PageShowcaseClassInState /></Route>{/* ::showcaseClassInState */}
-						<Route path='/showcaseFetchTryCatch'><PageShowcaseFetchTryCatch /></Route>{/* ::showcaseFetchTryCatch */}
-						<Route path='/showcaseReactIcons'><PageShowcaseReactIcons /></Route>{/* ::showcaseReactIcons */}
-						<Route path='/curriculumFlashcardParser'><PageCurriculumFlashcardParser /></Route>{/* ::curriculumFlashcardParser */}
-						<Route path='/importAssessmentJSONIntoSQLite'><PageImportAssessmentJSONIntoSQLite /></Route>{/* ::importAssessmentJSONIntoSQLite */}
-						<Route path='/showcaseSampleDataWithFaker'><PageShowcaseSampleDataWithFaker /></Route>{/* ::showcaseSampleDataWithFaker */}
-						<Route path='/showcaseMongoDBDriverCRUD'><PageShowcaseMongoDBDriverCRUD /></Route>{/* ::showcaseMongoDBDriverCRUD */}
-						<Route path='/generateMockData'><PageGenerateMockData /></Route>{/* ::generateMockData */}
-						<Route path='/showcaseMongooseCRUD'><PageShowcaseMongooseCRUD /></Route>{/* ::showcaseMongooseCRUD */}
-						<Route path='/howtos'><PageHowtos /></Route>{/* ::howtos */}
+						<Route path='/showcaseCounterUsingState'>{userHasAccess('showcaseCounterUsingState') && <PageShowcaseCounterUsingState />}</Route> {/* ::showcaseCounterUsingState */}
+						<Route path='/showcaseCounterUsingReducer'>{userHasAccess('showcaseCounterUsingReducer') && <PageShowcaseCounterUsingReducer />}</Route> {/* ::showcaseCounterUsingReducer */}
+						<Route path='/showcaseTypeScriptClasses'>{userHasAccess('showcaseTypeScriptClasses') && <PageShowcaseTypeScriptClasses />}</Route> {/* ::showcaseTypeScriptClasses */}
+						<Route path='/showcaseJavaScriptComponent'>{userHasAccess('showcaseJavaScriptComponent') && <PageShowcaseJavaScriptComponent />}</Route> {/* ::showcaseJavaScriptComponent */}
+						<Route path='/showcaseSqliteReader'>{userHasAccess('showcaseSqliteReader') && <PageShowcaseSqliteReader />}</Route> {/* ::showcaseSqliteReader */}
+						<Route path='/showcaseJsonReadWrite'>{userHasAccess('showcaseJsonReadWrite') && <PageShowcaseJsonReadWrite />}</Route> {/* ::showcaseJsonReadWrite */}
+						<Route path='/deletePage'>{userHasAccess('deletePage') && <PageDeletePage />}</Route> {/* ::deletePage */}
+						<Route path='/createPage'>{userHasAccess('createPage') && <PageCreatePage />}</Route> {/* ::createPage */}
+						<Route path='/showcaseNewsApi'>{userHasAccess('showcaseNewsApi') && <PageShowcaseNewsApi />}</Route> {/* ::showcaseNewsApi */}
+						<Route path='/manageShowcaseReports'>{userHasAccess('manageShowcaseReports') && <PageManageShowcaseReports />}</Route> {/* ::manageShowcaseReports */}
+						<Route path='/showcaseUseToggle'>{userHasAccess('showcaseUseToggle') && <PageShowcaseUseToggle />}</Route> {/* ::showcaseUseToggle */}
+						<Route path='/showcaseClassInState'>{userHasAccess('showcaseClassInState') && <PageShowcaseClassInState />}</Route> {/* ::showcaseClassInState */}
+						<Route path='/showcaseFetchTryCatch'>{userHasAccess('showcaseFetchTryCatch') && <PageShowcaseFetchTryCatch />}</Route> {/* ::showcaseFetchTryCatch */}
+						<Route path='/showcaseReactIcons'>{userHasAccess('showcaseReactIcons') && <PageShowcaseReactIcons />}</Route> {/* ::showcaseReactIcons */}
+						<Route path='/curriculumFlashcardParser'>{userHasAccess('curriculumFlashcardParser') && <PageCurriculumFlashcardParser />}</Route> {/* ::curriculumFlashcardParser */}
+						<Route path='/importAssessmentJSONIntoSQLite'>{userHasAccess('importAssessmentJSONIntoSQLite') && <PageImportAssessmentJSONIntoSQLite />}</Route> {/* ::importAssessmentJSONIntoSQLite */}
+						<Route path='/showcaseSampleDataWithFaker'>{userHasAccess('showcaseSampleDataWithFaker') && <PageShowcaseSampleDataWithFaker />}</Route> {/* ::showcaseSampleDataWithFaker */}
+						<Route path='/showcaseMongoDBDriverCRUD'>{userHasAccess('showcaseMongoDBDriverCRUD') && <PageShowcaseMongoDBDriverCRUD />}</Route> {/* ::showcaseMongoDBDriverCRUD */}
+						<Route path='/generateMockData'>{userHasAccess('generateMockData') && <PageGenerateMockData />}</Route> {/* ::generateMockData */}
+						<Route path='/showcaseMongooseCRUD'>{userHasAccess('showcaseMongooseCRUD') && <PageShowcaseMongooseCRUD />}</Route> {/* ::showcaseMongooseCRUD */}
+						<Route path='/howtos'>{userHasAccess('howtos') && <PageHowtos />}</Route> {/* ::howtos */}
 					</Switch>
 				</section>
 			</div>
