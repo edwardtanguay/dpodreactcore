@@ -5,6 +5,7 @@ import './styles/reset.scss';
 import './styles/site.scss';
 import './styles/dpod.scss';
 import PageHome from '../custom/components/PageHome';
+import * as config from '../system/config';
 
 // DYNAMIC_CODE_AREA: loadPageComponentLines
 import PageShowcaseCounterUsingState from './pages/PageShowcaseCounterUsingState'; // ::showcaseCounterUsingState
@@ -60,63 +61,73 @@ function Site() {
 					</span>
 					{isShowing && (
 						<>
-{/* DYNAMIC_JSX_AREA: linkPageComponentLines */}
-<span><Link to='/createPage'>Create Page</Link></span>{/* ::createPage */}
-<span><Link to='/deletePage'>Delete Page</Link></span>{/* ::deletePage */}
-<span><Link to='/showcaseCounterUsingState'>Showcase: Counter Using useState()</Link></span> {/* ::showcaseCounterUsingState */}
-<span><Link to='/showcaseCounterUsingReducer'>Showcase: Counter Using useReducer()</Link></span>{/* ::showcaseCounterUsingReducer */}
-<span><Link to='/showcaseTypeScriptClasses'>Showcase: TypeScript Classes</Link></span>{/* ::showcaseTypeScriptClasses */}
-<span><Link to='/showcaseJavaScriptComponent'>Showcase: JavaScript Component</Link></span>{/* ::showcaseJavaScriptComponent */}
-<span><Link to='/showcaseSqliteReader'>Showcase: SQLite Reader</Link></span>{/* ::showcaseSqliteReader */}
-<span><Link to='/showcaseJsonReadWrite'>Showcase: JSON Read/Write</Link></span>{/* ::showcaseJsonReadWrite */}
-<span><Link to='/showcaseNewsApi'>Showcase: News Api</Link></span>{/* ::showcaseNewsApi */}
-<span><Link to='/manageShowcaseReports'>Manage Showcase Reports</Link></span>{/* ::manageShowcaseReports */}
-<span><Link to='/showcaseUseToggle'>Showcase: useToggle()</Link></span>{/* ::showcaseUseToggle */}
-<span><Link to='/showcaseClassInState'>Showcase Class In State</Link></span>{/* ::showcaseClassInState */}
-<span><Link to='/showcaseFetchTryCatch'>Showcase: Fetch Try/Catch</Link></span>{/* ::showcaseFetchTryCatch */}
-<span><Link to='/showcaseReactIcons'>Showcase: React-Icons</Link></span>{/* ::showcaseReactIcons */}
-<span><Link to='/curriculumFlashcardParser'>Curriculum Flashcard Parser</Link></span>{/* ::curriculumFlashcardParser */}
-<span><Link to='/importAssessmentJSONIntoSQLite'>Import Assessment JSON into SQLite</Link></span>{/* ::importAssessmentJSONIntoSQLite */}
-<span><Link to='/showcaseSampleDataWithFaker'>Showcase: Sample Data with Faker</Link></span>{/* ::showcaseSampleDataWithFaker */}
-<span><Link to='/showcaseMongoDBDriverCRUD'>Showcase: MongoDB Driver CRUD</Link></span>{/* ::showcaseMongoDBDriverCRUD */}
-<span><Link to='/generateMockData'>Generate Mock Data</Link></span>{/* ::generateMockData */}
-<span><Link to='/showcaseMongooseCRUD'>Showcase: Mongoose CRUD</Link></span>{/* ::showcaseMongooseCRUD */}
-<span><Link to='/howtos'>Howtos</Link></span>{/* ::howtos */}
+							{/* DYNAMIC_JSX_AREA: linkPageComponentLines */}
+							{config.getSiteMode() === 'development' && (
+								<>
+									<span><Link to='/createPage'>Create Page</Link></span>{/* ::createPage */}
+									<span><Link to='/deletePage'>Delete Page</Link></span>{/* ::deletePage */}
+									<span><Link to='/showcaseCounterUsingState'>Showcase: Counter Using useState()</Link></span> {/* ::showcaseCounterUsingState */}
+									<span><Link to='/showcaseCounterUsingReducer'>Showcase: Counter Using useReducer()</Link></span>{/* ::showcaseCounterUsingReducer */}
+									<span><Link to='/showcaseTypeScriptClasses'>Showcase: TypeScript Classes</Link></span>{/* ::showcaseTypeScriptClasses */}
+									<span><Link to='/showcaseJavaScriptComponent'>Showcase: JavaScript Component</Link></span>{/* ::showcaseJavaScriptComponent */}
+									<span><Link to='/showcaseSqliteReader'>Showcase: SQLite Reader</Link></span>{/* ::showcaseSqliteReader */}
+									<span><Link to='/showcaseJsonReadWrite'>Showcase: JSON Read/Write</Link></span>{/* ::showcaseJsonReadWrite */}
+									<span><Link to='/showcaseNewsApi'>Showcase: News Api</Link></span>{/* ::showcaseNewsApi */}
+									<span><Link to='/manageShowcaseReports'>Manage Showcase Reports</Link></span>{/* ::manageShowcaseReports */}
+									<span><Link to='/showcaseUseToggle'>Showcase: useToggle()</Link></span>{/* ::showcaseUseToggle */}
+									<span><Link to='/showcaseClassInState'>Showcase Class In State</Link></span>{/* ::showcaseClassInState */}
+									<span><Link to='/showcaseFetchTryCatch'>Showcase: Fetch Try/Catch</Link></span>{/* ::showcaseFetchTryCatch */}
+									<span><Link to='/showcaseReactIcons'>Showcase: React-Icons</Link></span>{/* ::showcaseReactIcons */}
+									<span><Link to='/curriculumFlashcardParser'>Curriculum Flashcard Parser</Link></span>{/* ::curriculumFlashcardParser */}
+									<span><Link to='/importAssessmentJSONIntoSQLite'>Import Assessment JSON into SQLite</Link></span>{/* ::importAssessmentJSONIntoSQLite */}
+									<span><Link to='/showcaseSampleDataWithFaker'>Showcase: Sample Data with Faker</Link></span>{/* ::showcaseSampleDataWithFaker */}
+									<span><Link to='/showcaseMongoDBDriverCRUD'>Showcase: MongoDB Driver CRUD</Link></span>{/* ::showcaseMongoDBDriverCRUD */}
+									<span><Link to='/generateMockData'>Generate Mock Data</Link></span>{/* ::generateMockData */}
+									<span><Link to='/showcaseMongooseCRUD'>Showcase: Mongoose CRUD</Link></span>{/* ::showcaseMongooseCRUD */}
+								</>
+							)}
+							<span><Link to='/howtos'>Howtos</Link></span>{/* ::howtos */}
 						</>
 					)}
 				</nav>
 
 				<section className='app_container'>
 					<Switch>
-						<Route exact path='/'>
-							<PageHome />
-						</Route>
-{/* DYNAMIC_JSX_AREA: routePageComponentLines */}
-<Route path='/showcaseCounterUsingState'><PageShowcaseCounterUsingState /></Route> {/* ::showcaseCounterUsingState */}
-<Route path='/showcaseCounterUsingReducer'><PageShowcaseCounterUsingReducer /></Route>{/* ::showcaseCounterUsingReducer */}
-<Route path='/showcaseTypeScriptClasses'><PageShowcaseTypeScriptClasses /></Route>{/* ::showcaseTypeScriptClasses */}
-<Route path='/showcaseJavaScriptComponent'><PageShowcaseJavaScriptComponent /></Route>{/* ::showcaseJavaScriptComponent */}
-<Route path='/showcaseSqliteReader'><PageShowcaseSqliteReader /></Route>{/* ::showcaseSqliteReader */}
-<Route path='/showcaseJsonReadWrite'><PageShowcaseJsonReadWrite /></Route>{/* ::showcaseJsonReadWrite */}
-<Route path='/deletePage'><PageDeletePage /></Route>{/* ::deletePage */}
-<Route path='/createPage'><PageCreatePage /></Route>{/* ::createPage */}
-<Route path='/showcaseNewsApi'><PageShowcaseNewsApi /></Route>{/* ::showcaseNewsApi */}
-<Route path='/manageShowcaseReports'><PageManageShowcaseReports /></Route>{/* ::manageShowcaseReports */}
-<Route path='/showcaseUseToggle'><PageShowcaseUseToggle /></Route>{/* ::showcaseUseToggle */}
-<Route path='/showcaseClassInState'><PageShowcaseClassInState /></Route>{/* ::showcaseClassInState */}
-<Route path='/showcaseFetchTryCatch'><PageShowcaseFetchTryCatch /></Route>{/* ::showcaseFetchTryCatch */}
-<Route path='/showcaseReactIcons'><PageShowcaseReactIcons /></Route>{/* ::showcaseReactIcons */}
-<Route path='/curriculumFlashcardParser'><PageCurriculumFlashcardParser /></Route>{/* ::curriculumFlashcardParser */}
-<Route path='/importAssessmentJSONIntoSQLite'><PageImportAssessmentJSONIntoSQLite /></Route>{/* ::importAssessmentJSONIntoSQLite */}
-<Route path='/showcaseSampleDataWithFaker'><PageShowcaseSampleDataWithFaker /></Route>{/* ::showcaseSampleDataWithFaker */}
-<Route path='/showcaseMongoDBDriverCRUD'><PageShowcaseMongoDBDriverCRUD /></Route>{/* ::showcaseMongoDBDriverCRUD */}
-<Route path='/generateMockData'><PageGenerateMockData /></Route>{/* ::generateMockData */}
-<Route path='/showcaseMongooseCRUD'><PageShowcaseMongooseCRUD /></Route>{/* ::showcaseMongooseCRUD */}
-<Route path='/howtos'><PageHowtos /></Route>{/* ::howtos */}
+						<Route exact path='/'><PageHome /></Route>
+						{/* DYNAMIC_JSX_AREA: routePageComponentLines */}
+						{true && (
+							<>
+								<Route path='/howtos'><PageHowtos /></Route>{/* ::howtos */}
+							</>
+						)}
+						{config.getSiteMode() === 'development' && (
+							<>
+								<Route path='/showcaseCounterUsingState'><PageShowcaseCounterUsingState /></Route> {/* ::showcaseCounterUsingState */}
+								<Route path='/showcaseCounterUsingReducer'><PageShowcaseCounterUsingReducer /></Route>{/* ::showcaseCounterUsingReducer */}
+								<Route path='/showcaseTypeScriptClasses'><PageShowcaseTypeScriptClasses /></Route>{/* ::showcaseTypeScriptClasses */}
+								<Route path='/showcaseJavaScriptComponent'><PageShowcaseJavaScriptComponent /></Route>{/* ::showcaseJavaScriptComponent */}
+								<Route path='/showcaseSqliteReader'><PageShowcaseSqliteReader /></Route>{/* ::showcaseSqliteReader */}
+								<Route path='/showcaseJsonReadWrite'><PageShowcaseJsonReadWrite /></Route>{/* ::showcaseJsonReadWrite */}
+								<Route path='/deletePage'><PageDeletePage /></Route>{/* ::deletePage */}
+								<Route path='/createPage'><PageCreatePage /></Route>{/* ::createPage */}
+								<Route path='/showcaseNewsApi'><PageShowcaseNewsApi /></Route>{/* ::showcaseNewsApi */}
+								<Route path='/manageShowcaseReports'><PageManageShowcaseReports /></Route>{/* ::manageShowcaseReports */}
+								<Route path='/showcaseUseToggle'><PageShowcaseUseToggle /></Route>{/* ::showcaseUseToggle */}
+								<Route path='/showcaseClassInState'><PageShowcaseClassInState /></Route>{/* ::showcaseClassInState */}
+								<Route path='/showcaseFetchTryCatch'><PageShowcaseFetchTryCatch /></Route>{/* ::showcaseFetchTryCatch */}
+								<Route path='/showcaseReactIcons'><PageShowcaseReactIcons /></Route>{/* ::showcaseReactIcons */}
+								<Route path='/curriculumFlashcardParser'><PageCurriculumFlashcardParser /></Route>{/* ::curriculumFlashcardParser */}
+								<Route path='/importAssessmentJSONIntoSQLite'><PageImportAssessmentJSONIntoSQLite /></Route>{/* ::importAssessmentJSONIntoSQLite */}
+								<Route path='/showcaseSampleDataWithFaker'><PageShowcaseSampleDataWithFaker /></Route>{/* ::showcaseSampleDataWithFaker */}
+								<Route path='/showcaseMongoDBDriverCRUD'><PageShowcaseMongoDBDriverCRUD /></Route>{/* ::showcaseMongoDBDriverCRUD */}
+								<Route path='/generateMockData'><PageGenerateMockData /></Route>{/* ::generateMockData */}
+								<Route path='/showcaseMongooseCRUD'><PageShowcaseMongooseCRUD /></Route>{/* ::showcaseMongooseCRUD */}
+							</>
+						)}
 					</Switch>
 				</section>
 			</div>
-		</Router>
+		</Router >
 	);
 }
 
