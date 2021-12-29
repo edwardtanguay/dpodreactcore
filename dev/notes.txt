@@ -1,4 +1,7 @@
-.. deploy to edwardtanguay
+- .. make production mode show one page, developer mode show all
+	- .. make and show config variable 
+- make second page to show in production
+
 
 =================================================
 MILESTONES
