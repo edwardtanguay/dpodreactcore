@@ -13,7 +13,7 @@ function PageHowtos() {
 			<section className="howtos">
 				{sortedHowtos.map((howto: any, i:number) => {
 					return (
-						<p key={i}>{howto.systemWhenCreated.substr(0, 10)} - <a target="_blank" href={`https://onespace.netlify.app/howtos?id=${howto.id}`}>{howto.title}</a></p>
+						<p key={i}>{howto.systemWhenCreated.substr(0, 10)} - <a target="_blank" href={`https://onespace.netlify.app/howtos?id=${howto.id}`} rel="noreferrer">{howto.title}</a></p>
 					)
 				})}
 			</section>
