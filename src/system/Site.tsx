@@ -27,7 +27,7 @@ import PageShowcaseSampleDataWithFaker from './pages/PageShowcaseSampleDataWithF
 import PageShowcaseMongoDBDriverCRUD from './pages/PageShowcaseMongoDBDriverCRUD';// ::showcaseMongoDBDriverCRUD
 import PageGenerateMockData from './pages/PageGenerateMockData';// ::generateMockData
 import PageShowcaseMongooseCRUD from './pages/PageShowcaseMongooseCRUD';// ::showcaseMongooseCRUD
-import PageHowtos from './pages/PageHowtos';// ::howtos
+import PageHowtos from '../custom/pages/PageHowtos';// ::howtos
 import PageFlashcards from './pages/PageFlashcards';// ::flashcards
 
 import pages from './data/json/itemTypes/itemType_pages.json';

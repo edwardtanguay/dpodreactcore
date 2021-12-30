@@ -1,3 +1,6 @@
+- .. make interface Howtos
+	- jsfiddle
+	- rank
 - .. get howtos site working with individual code examples show
 
 
