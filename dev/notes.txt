@@ -1,3 +1,7 @@
+- .. get howtos site working with individual code examples show
+
+
+
 - .. helmet for seo
 - .. make layout
 	- with gatsby-like SiteLayout

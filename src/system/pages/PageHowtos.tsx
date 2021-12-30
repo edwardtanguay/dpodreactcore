@@ -12,8 +12,8 @@ function PageHowtos() {
 	return (
 		<>
 			<Helmet>
-				<title>Edward Tanguay - Code Examples</title>
-				<meta name="description" content="Edward's code examples, ideas and explanations" />
+				<title>Edward's how-to instructions and code examples</title>
+				<meta name="description" content="How to get things done in JavaScript, React, Node, MongoDB, CSS, TypeScript, SQLite, Google Sheets, etc." />
 			</Helmet>
 			<div className="page page_howtos">
 				<h2 className="title">{howtos.length} Howtos</h2>
