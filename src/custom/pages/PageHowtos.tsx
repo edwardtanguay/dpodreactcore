@@ -1,13 +1,24 @@
+import { useState, useEffect } from 'react';
 import '../styles/page_howtos.scss';
-import howtos from '../data/json/itemTypes/itemType_howtos.json';
 // @ts-ignore
 import { Helmet } from 'react-helmet';
+import initialHowtos from '../models/model_howtos';
+import { IHowto } from '../models/interfaces';
 import * as qarr from '../../system/qtools/qarr';
 
-// const sortedHowtos = howtos.sort((a,b) => a.systemWhenCreated - b.systemWhenCreated);
-const sortedHowtos = qarr.sortObjects(howtos, 'systemWhenCreated', 'desc');
+const getSortedItems = (sortIdCode: string) => {
+	switch (sortIdCode) {
+		case 'newestFirst':
+			return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'desc');
+		case 'oldestFirst':
+			return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'asc');
+		default:
+			return initialHowtos;
+	}
+}
 
 function PageHowtos() {
+	const [howtos, setHowtos] = useState<IHowto[]>(getSortedItems('newestFirst'));
 
 	return (
 		<>
@@ -18,9 +29,9 @@ function PageHowtos() {
 			<div className="page page_howtos">
 				<h2 className="title">{howtos.length} Howtos</h2>
 				<section className="howtos">
-					{sortedHowtos.map((howto: any, i: number) => {
+					{howtos.map((howto: any, i: number) => {
 						return (
-							<p key={i}>{howto.systemWhenCreated.substr(0, 10)} - <a target="_blank" href={`https://onespace.netlify.app/howtos?id=${howto.id}`} rel="noreferrer">{howto.title}</a></p>
+							<div key={i}>{howto.systemWhenCreated.substr(0, 10)} - <a target="_blank" href={`https://onespace.netlify.app/howtos?id=${howto.id}`} rel="noreferrer">{howto.title}</a></div>
 						)
 					})}
 				</section>
