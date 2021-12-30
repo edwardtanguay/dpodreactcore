@@ -29,3 +29,8 @@ Extras
 									<span><Link to='/showcaseMongoDBDriverCRUD'>Showcase: MongoDB Driver CRUD</Link></span>{/* ::showcaseMongoDBDriverCRUD */}
 									<span><Link to='/generateMockData'>Generate Mock Data</Link></span>{/* ::generateMockData */}
 									<span><Link to='/showcaseMongooseCRUD'>Showcase: Mongoose CRUD</Link></span>::showcaseMongooseCRUD
+
+- this works:
+	<Route path='/deletePage'>{false && <PageDeletePage />}</Route>{/* ::deletePage */}
+
+- make second page to show in production

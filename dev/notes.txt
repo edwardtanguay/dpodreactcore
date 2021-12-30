@@ -1,19 +1,8 @@
-- .. make production mode show one page, developer mode show all
-	- .. block
-
-
-
-
-- layout
+- .. helmet for seo
+- .. make layout
 	- with gatsby-like SiteLayout
 	- dark
 	- responsive
-
-
-- this works:
-	<Route path='/deletePage'>{false && <PageDeletePage />}</Route>{/* ::deletePage */}
-
-- make second page to show in production
 
 
 =================================================

@@ -49,7 +49,7 @@ function Site() {
 				<nav>
 					{displayOrderSortedPages.filter((page: any) => page.environment === 'frontendOnly' || config.getSiteMode() === 'development').map((page: any, i: number) => {
 						const smartIdCode = page.idCode === 'home' ? '/' : '/' + page.idCode;
-						return <span><Link key={i} to={`${smartIdCode}`}>{page.title}</Link></span>
+						return <span key={i}><Link to={`${smartIdCode}`}>{page.title}</Link></span>
 					})}
 				</nav>
 
