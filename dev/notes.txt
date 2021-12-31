@@ -1,6 +1,7 @@
 - .. fix howtos
-	- .. all styles
-	
+	- x all styles
+	- .. images
+
 
 
 
