@@ -183,6 +183,7 @@ body {
 			background-color: #e5e5e5;
 			border: 1px solid #ccc;
 			border-radius: 5px;
+			overflow-x: scroll;
 			margin: 2px 0 0 -19px;
 
 			pre {
@@ -247,6 +248,20 @@ body {
 				line-height: 27px;
 			}
 
+			/* smartphone */
+			@media (max-width: 767px) {
+				.title {
+					font-size: 1.2rem;
+				}
+			}
+
+			/* computer */
+			@media (min-width: 768px) {
+				.title {
+					font-size: 1.4rem;
+				}
+			}
+
 			.manageIconArea {
 				z-index: 0;
 			}
@@ -288,7 +303,7 @@ body {
 
 			/* smartphone */
 			@media (max-width: 767px) {
-				padding: 2px 20px 20px 0;
+				padding: 10px 20px 20px 40px;
 			}
 
 			/* computer */
