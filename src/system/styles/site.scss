@@ -34,8 +34,10 @@ body {
 			display: inline-block;
 		}
 		code {
-			background-color: #eee;
+			background-color: #ddd;
 			font-family: "Courier New", Courier, monospace;
+			color: brown;
+			font-weight: bold;
 		}
 		p {
 			line-height: 1.2rem;
@@ -126,6 +128,90 @@ body {
 		}
 	}
 
+	// OUTLINE
+
+	ul.outline {
+		list-style: disc;
+
+		/* smartphone */
+		@media (max-width: 767px) {
+			margin: 1px 0 0 10px !important;
+		}
+
+		/* computer */
+		@media (min-width: 768px) {
+			margin: 20px;
+		}
+
+		li {
+			line-height: 19px;
+			// margin: 0 0 0 0;
+			margin-top: 10px;
+			margin-left: -20px;
+		}
+
+		li code {
+			color: brown;
+			background-color: #ddd;
+			font-weight: bold;
+			font-family: "Courier New", Courier, monospace;
+		}
+
+		li a {
+			color: black;
+		}
+
+		img {
+			margin: 10px 0 10px 0;
+			border: 1px solid #ddd;
+			max-width: 100%;
+		}
+
+		li.codeBlock {
+			list-style: none;
+		}
+
+		ul {
+			margin: 0 0 0 38px !important;
+		}
+
+		div.codeBlock {
+			color: #000;
+			font-family: courier;
+			font-size: 13px;
+			padding: 5px 10px 5px 10px;
+			background-color: #e5e5e5;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			margin: 2px 0 0 -19px;
+
+			pre {
+				margin: 0 0 0 0;
+			}
+		}
+
+		div.paragraphBlock {
+			font-family: courier;
+			font-size: 13px;
+			padding: 5px 10px 5px 10px;
+			background-color: rgb(243, 243, 220);
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			margin: -4px 0 0 0;
+
+			pre {
+				color: #000 !important;
+				margin: 0 0 0 0;
+				white-space: normal;
+			}
+		}
+
+		.video {
+			max-width: 100%;
+			margin: 10px 0 0 0;
+		}
+	}
+
 	.item {
 		border: 1px solid #ccc;
 		margin-bottom: 20px;
@@ -207,7 +293,7 @@ body {
 
 			/* computer */
 			@media (min-width: 768px) {
-				padding: 10px 20px 20px 0;
+				padding: 10px 20px 20px 40px;
 			}
 
 			pre {
