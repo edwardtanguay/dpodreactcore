@@ -1,7 +1,6 @@
 - .. fix howtos
-	- x all styles
-	- .. images
-
+	 - .. title
+	 - search
 
 
 
