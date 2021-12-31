@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-useless-constructor */
 import Controller from './controller';
-import fs from 'fs';
+// import fs from 'fs';
+const fs = require('fs');
 
 class ControllerShowcaseJsonReadWrite extends Controller {
 

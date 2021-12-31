@@ -1,3 +1,4 @@
+import OutlineTextParser from '../classes/outlineTextParser';
 import * as qstr from './qstr';
 
 const Markdown = require('markdown').markdown;
@@ -779,3 +780,11 @@ export const escapeHtml = (html: string) => {
 // 	r = r.replaceAll(/\*(.*?)\*/gm, '<i>$1</i>');
 // 	return r;
 // }
+
+export const parseOutline = (outlineText: string, itemTypeIdCode = '', options = {}) => {
+    const outlineTextParser = new OutlineTextParser(outlineText, options);
+    const imageDirectory = itemTypeIdCode === '' ? 'general' : itemTypeIdCode;
+    outlineTextParser.relativePublicImageDirectory = `customImages/${imageDirectory}`;
+    outlineTextParser.parse();
+    return outlineTextParser.displayParsed();
+}

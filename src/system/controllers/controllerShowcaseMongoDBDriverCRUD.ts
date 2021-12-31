@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-useless-constructor */
 import Controller from './controller';
 import { MongoClient } from 'mongodb';
-import dotenv from 'dotenv';
+import * as dotenv from 'dotenv';
 
 dotenv.config();
 const mongoConnectString = process.env.REACT_APP_MONGODB_URI || 'mongodb://localhost:27017';

@@ -1,9 +1,10 @@
 /* eslint-disable @typescript-eslint/no-useless-constructor */
 import Controller from './controller';
-import faker from 'faker';
-import fs from 'fs';
+import * as faker from 'faker';
+import * as fs from 'fs';
 import * as qstr from '../../system/qtools/qstr';
-import removeAccents from 'remove-accents';
+
+const removeAccents = require('remove-accents');
 
 class ControllerGenerateMockData extends Controller {
 

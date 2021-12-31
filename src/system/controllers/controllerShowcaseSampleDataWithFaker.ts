@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-useless-constructor */
 import Controller from './controller';
-import faker from 'faker';
+import * as faker from "faker/locale/de";
 import * as qdat from '../../system/qtools/qdat';
 
-faker.locale = 'de';
+// faker.locale = 'de';
 
 class ControllerShowcaseSampleDataWithFaker extends Controller {
 

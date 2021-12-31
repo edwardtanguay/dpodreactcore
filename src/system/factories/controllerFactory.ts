@@ -18,32 +18,34 @@ export const instantiate = (controllerIdCode: string, request: any, response: an
 	switch (controllerIdCode) {
 		case 'controller':
 			return new Controller(request, response);
-// DYNAMIC_CODE_AREA: switchBlock,2
-case 'controllerShowcaseJsonReadWrite': //:showcaseJsonReadWrite// ::
-return new ControllerShowcaseJsonReadWrite(request, response);
-case 'controllerDeletePage':// ::deletePage
-return new ControllerDeletePage(request, response);
-case 'controllerCreatePage':// ::createPage
-return new ControllerCreatePage(request, response);
-case 'controllerShowcaseNewsApi':// ::showcaseNewsApi
-return new ControllerShowcaseNewsApi(request, response);
-case 'controllerManageShowcaseReports':// ::manageShowcaseReports
-return new ControllerManageShowcaseReports(request, response);
-case 'controllerShowcaseFetchTryCatch':// ::showcaseFetchTryCatch
-return new ControllerShowcaseFetchTryCatch(request, response);
-case 'controllerCurriculumFlashcardParser':// ::curriculumFlashcardParser
-return new ControllerCurriculumFlashcardParser(request, response);
-case 'controllerImportAssessmentJSONIntoSQLite':// ::importAssessmentJSONIntoSQLite
-return new ControllerImportAssessmentJSONIntoSQLite(request, response);
-case 'controllerShowcaseSampleDataWithFaker':// ::showcaseSampleDataWithFaker
-return new ControllerShowcaseSampleDataWithFaker(request, response);
-case 'controllerShowcaseMongoDBDriverCRUD':// ::showcaseMongoDBDriverCRUD
-return new ControllerShowcaseMongoDBDriverCRUD(request, response);
-case 'controllerGenerateMockData':// ::generateMockData
-return new ControllerGenerateMockData(request, response);
-case 'controllerShowcaseMongooseCRUD':// ::showcaseMongooseCRUD
-return new ControllerShowcaseMongooseCRUD(request, response);
+		// DYNAMIC_CODE_AREA: switchBlock,2
+		case 'controllerShowcaseJsonReadWrite': //:showcaseJsonReadWrite// ::
+			return new ControllerShowcaseJsonReadWrite(request, response);
+		case 'controllerDeletePage':// ::deletePage
+			return new ControllerDeletePage(request, response);
+		case 'controllerCreatePage':// ::createPage
+			return new ControllerCreatePage(request, response);
+		case 'controllerShowcaseNewsApi':// ::showcaseNewsApi
+			return new ControllerShowcaseNewsApi(request, response);
+		case 'controllerManageShowcaseReports':// ::manageShowcaseReports
+			return new ControllerManageShowcaseReports(request, response);
+		case 'controllerShowcaseFetchTryCatch':// ::showcaseFetchTryCatch
+			return new ControllerShowcaseFetchTryCatch(request, response);
+		case 'controllerCurriculumFlashcardParser':// ::curriculumFlashcardParser
+			return new ControllerCurriculumFlashcardParser(request, response);
+		case 'controllerImportAssessmentJSONIntoSQLite':// ::importAssessmentJSONIntoSQLite
+			return new ControllerImportAssessmentJSONIntoSQLite(request, response);
+		case 'controllerShowcaseSampleDataWithFaker':// ::showcaseSampleDataWithFaker
+			return new ControllerShowcaseSampleDataWithFaker(request, response);
+		case 'controllerShowcaseMongoDBDriverCRUD':// ::showcaseMongoDBDriverCRUD
+			return new ControllerShowcaseMongoDBDriverCRUD(request, response);
+		case 'controllerGenerateMockData':// ::generateMockData
+			return new ControllerGenerateMockData(request, response);
+		case 'controllerShowcaseMongooseCRUD':// ::showcaseMongooseCRUD
+			return new ControllerShowcaseMongooseCRUD(request, response);
 		case 'controllerShowcaseSqliteReader': //:showcaseSqliteReader
 			return new ControllerShowcaseSqliteReader(request, response);
+		default:
+			return null;
 	}
 }

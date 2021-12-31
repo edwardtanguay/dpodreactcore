@@ -4,6 +4,6 @@ export interface IHowto {
 	title: string;
 	systemWhenCreated: string;
 	systemWhoCreated: string;
-	bodyParsed: string;
+	body: string;
 	jsfiddleUrl: string;
 }

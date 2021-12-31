@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-useless-constructor */
 import Controller from './controller';
-import mongoose from 'mongoose';
+import * as mongoose from 'mongoose';
 
 class ControllerShowcaseMongooseCRUD extends Controller {
 

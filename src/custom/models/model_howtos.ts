@@ -8,7 +8,7 @@ const getHowtos = () => {
 		const howto: IHowto = {
 			id: rawHowto.id,
 			title: rawHowto.title,
-			bodyParsed: '',
+			body: rawHowto.body,
 			categoryTitle: '',
 			systemWhenCreated: rawHowto.systemWhenCreated,
 			systemWhoCreated: rawHowto.systemWhoCreated,

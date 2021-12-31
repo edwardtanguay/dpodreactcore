@@ -1,8 +1,9 @@
 /* eslint-disable @typescript-eslint/no-useless-constructor */
 import Controller from './controller';
-import fs from 'fs';
 import SqliteManager from '../classes/sqliteManager';
 import * as qstr from '../qtools/qstr';
+
+const fs = require('fs');
 
 class ControllerImportAssessmentJSONIntoSQLite extends Controller {
 

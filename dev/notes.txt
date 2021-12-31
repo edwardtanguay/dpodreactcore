@@ -3,7 +3,7 @@
 	- rank
 - .. get howtos site working with individual code examples show
 
-
+- change howtos to generic items and item
 
 - .. helmet for seo
 - .. make layout

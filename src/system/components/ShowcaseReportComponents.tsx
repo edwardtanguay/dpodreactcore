@@ -49,7 +49,7 @@ export enum ShowcaseReportsMainKind {
 
 export const ShowcaseReportsMain = (props: IShowcaseReportsMainProps) => {
 	const showcaseReports = props.items;
-	const kind = props.kind
+	// const kind = props.kind
 	return (
 		<>
 			{showcaseReports.getItems<ShowcaseReport>().map((showcaseReport, index) => {

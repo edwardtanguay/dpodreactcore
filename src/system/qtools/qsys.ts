@@ -1,6 +1,8 @@
 import * as qstr from './qstr';
 import * as qsys from './qsys';
 import * as qfil from './qfil';
+// import { URLSearchParams } from "url"
+
 
 /**
  * GET ABSOLUTE DIRECTORY OF SITE AS A BACKSLASH DIRECTORY:
@@ -97,3 +99,21 @@ export const getPotentialImagePathAndFileName = (itemTypeIdCode: string, fileIdC
     });
     return r;
 }
+
+export const getParameterValueFromUrl = (parameter: string): string => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const value: any = urlParams.get(parameter);
+    if (value === null) {
+        return '';
+    }
+    return String(value);
+}
+
+export const changeBrowserState = (doc: any, page: string, variable: string, value: string, title: string) => {
+	if (qstr.isEmpty(variable)) {
+		window.history.replaceState('', '', page);
+	} else {
+		window.history.replaceState('', '', `${page}?${variable}=${value}`);
+	}
+	doc.title = title;
+};
