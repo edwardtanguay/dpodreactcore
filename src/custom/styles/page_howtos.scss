@@ -1,10 +1,52 @@
 .page_howtos {
-    .message {
-        font-style: italic;
-    }
+	.message {
+		font-style: italic;
+	}
 	.howtos {
 		p {
 			margin: 0 0 5px 0;
+		}
+	}
+	.listItemHowtos {
+		.category {
+			color: brown;
+			font-weight: 500;
+			font-variant: small-caps;
+		}
+		.createDate {
+			color: navy;
+			font-weight: 500;
+			font-size: 0.8em;
+			text-transform: uppercase;
+			&::after {
+				content: " - ";
+			}
+		}
+		.header {
+			margin-bottom: -2px;
+		}
+		.body {
+			margin-bottom: 11px;
+			span {
+				font-size: 1.2em;
+				line-height: 1px;
+				cursor: pointer;
+			}
+		}
+	}
+	.item {
+		.jsfiddleWrapper {
+			padding: 20px 40px 30px 40px;
+			.title {
+				color: #555;
+				padding: 0 0 5px 0;
+				border-bottom: 1px solid #aaa;
+				font-variant: small-caps;
+				font-size: 17px;
+				letter-spacing: 4px;
+				background-color: #eee;
+				font-weight: bold;
+			}
 		}
 	}
 }

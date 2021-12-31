@@ -9,7 +9,7 @@ const getHowtos = () => {
 			id: rawHowto.id,
 			title: rawHowto.title,
 			body: rawHowto.body,
-			categoryTitle: '',
+			categoryTitle: rawHowto.category,
 			systemWhenCreated: rawHowto.systemWhenCreated,
 			systemWhoCreated: rawHowto.systemWhoCreated,
 			jsfiddleUrl: ''

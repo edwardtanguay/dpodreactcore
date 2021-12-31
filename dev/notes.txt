@@ -1,3 +1,9 @@
+- .. fix howtos
+	- .. all styles
+	
+
+
+
 - .. make interface Howtos
 	- jsfiddle
 	- rank

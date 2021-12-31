@@ -58,8 +58,8 @@ body {
 				margin: 0 0 10px 20px;
 				.version {
 					color: brown;
-					position: relative; 
-					top: .4rem; 
+					position: relative;
+					top: 0.4rem;
 					left: 4px;
 					font-size: 45%;
 				}
@@ -122,6 +122,176 @@ body {
 			a {
 				color: #333;
 				font-size: 0.9em;
+			}
+		}
+	}
+
+	.item {
+		border: 1px solid #ccc;
+		margin-bottom: 20px;
+		border-radius: 5px;
+		-webkit-box-shadow: 7px 5px 15px -8px #000000;
+		box-shadow: 7px 5px 15px -8px #000000;
+
+		.header {
+			border-bottom: 1px solid #ccc;
+			padding: 5px 15px;
+			background-color: #ccc;
+			z-index: 10;
+
+			.category {
+				color: brown;
+				font-weight: 500;
+				font-variant: small-caps;
+			}
+
+			.createDate {
+				color: navy;
+				font-weight: 500;
+				font-size: 0.8em;
+				text-transform: uppercase;
+				&::after {
+					content: " - ";
+				}
+			}
+
+			.title {
+				font-size: 24px;
+				margin: 0 0 10px 0;
+				line-height: 27px;
+			}
+
+			.manageIconArea {
+				z-index: 0;
+			}
+
+			.headerRow {
+				a {
+					text-decoration: none;
+				}
+				.showExample {
+					font-size: 18px;
+					color: darkgreen;
+					display: flex;
+					margin-top: -5px;
+					.text {
+						margin-top: -3px;
+						margin-left: 5px;
+					}
+				}
+				.showDownload {
+					font-size: 18px;
+					color: rgb(1, 51, 1);
+					display: flex;
+					margin-top: -5px;
+					.text {
+						margin-top: -3px;
+					}
+				}
+				.subRow {
+					display: flex;
+					a {
+						margin-right: 20px;
+					}
+				}
+			}
+		}
+
+		.body {
+			background-color: #f3f3f3;
+
+			/* smartphone */
+			@media (max-width: 767px) {
+				padding: 2px 20px 20px 0;
+			}
+
+			/* computer */
+			@media (min-width: 768px) {
+				padding: 10px 20px 20px 0;
+			}
+
+			pre {
+				margin: 0;
+			}
+
+			.dataTypeWholeNumber_minus {
+				color: tomato;
+			}
+
+			.labelPart {
+				color: #aaa;
+			}
+
+			div.displayItemTextBlockArea {
+				background-color: #ddd;
+				padding: 5px;
+				border-radius: 5px;
+			}
+
+			div.displayItemTextBlockArea textarea {
+				font-size: 13px;
+				height: 200px;
+			}
+
+			/* if you find you need this code, put it back in but in a way
+        that does not effect the outline mode, e.g. see showcaseSearchAndDisplayItemType
+
+        ul {
+            margin    : 0 0 0 -10px;
+            list-style: none;
+        }
+
+        ul li::before {
+            content    : "\2022";
+            color      : #aaa;
+            font-weight: bold;
+            display    : inline-block;
+            width      : 1em;
+            margin-left: -1em;
+        }
+        */
+
+			table {
+				border-spacing: 2px;
+				border-collapse: separate;
+
+				td.label {
+					font-weight: bold;
+					white-space: nowrap;
+					vertical-align: top;
+					color: #555;
+				}
+
+				td.data {
+					background-color: #fff;
+					width: 100%;
+				}
+			}
+
+			/* smartphone */
+			@media (max-width: 767px) {
+				.video {
+					width: 186px;
+					height: 105px;
+				}
+
+				img.outlineImage {
+					width: 100%;
+				}
+			}
+
+			/* computer */
+			@media (min-width: 768px) {
+				.video {
+					width: 560px;
+					height: 315px;
+				}
+
+				img.outlineImage {
+					max-width: 100%;
+					height: auto;
+					width: auto;
+				}
 			}
 		}
 	}
