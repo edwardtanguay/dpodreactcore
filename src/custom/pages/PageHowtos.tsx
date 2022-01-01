@@ -64,16 +64,8 @@ const getItemsById = (id: number) => {
 
 function PageHowtos() {
 	const [howtos, setHowtos] = useState<IHowto[]>(getDefaultItems());
-	const [pageTitle, setPageTitle] = useState<string>("");
 	// const [searchText, setSearchText] = useState<string>("");
 
-	const buildHowManyText = (totalItemsShowing: number) => {
-		if (totalItemsShowing === howtos.length) {
-			setPageTitle(`${totalItemsShowing} Howtos`);
-		} else {
-			setPageTitle(`${totalItemsShowing} of <a class="siteTitleLink" href="howtos">${howtos.length} Howtos</a>`);
-		}
-	}
 	const getCurrentItem = (): IHowto => {
 		const item = howtos[0];
 		qsys.changeBrowserState(document, 'howtos', 'id', String(item.id), `${item.categoryTitle.toUpperCase()} HOWTO: ${item.title}`);
@@ -86,7 +78,6 @@ function PageHowtos() {
 
 	const setCurrentItemsById = (id: number) => {
 		setHowtos([...getItemsById(id)]);
-		buildHowManyText(1);
 		document.body.scrollTop = 0; // For Safari
 		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 	}
@@ -100,14 +91,19 @@ function PageHowtos() {
 
 
 			<div className="page page_howtos">
-				<h2 className="title">{pageTitle}</h2>
+				{howtos.length > 1 && (
+					<h2 className="title">{howtos.length} Howtos</h2>
+				)}
+				{howtos.length === 1 && (
+					<h2 className="title oneOfMany">1 of {initialHowtos.length} Howtos</h2>
+				)}
 
 				{/* ========== MULTIPLE RECORDS ========== */}
 				{howtos.length > 1 && (
 					<section className="howtos">
 						{howtos.map((howto: any, i: number) => {
 							return (
-								<div key={i} onClick={() => setCurrentItemsById(howto.id)}>{howto.systemWhenCreated.substr(0, 10)} - {howto.title}</div>
+								<div key={i} className="itemLinkTitle" onClick={() => setCurrentItemsById(howto.id)}>{howto.systemWhenCreated.substr(0, 10)} - {howto.title}</div>
 							)
 						})}
 					</section>

@@ -1,3 +1,5 @@
+- .. reclick menu should reload
+
 - .. fix howtos
 	 - .. title
 	 - search
