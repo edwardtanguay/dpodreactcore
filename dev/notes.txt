@@ -21,6 +21,7 @@
 	- enable full id/searchText/idCode via URL for all item pages
 		- add rnd=2938492384 in URL so that one has a more accurate display in social media links
 	- qstr.searchTextMatches refactor so that items are weighted more intelligently, e.g. higher if search text is found in category or title, and exact category match is the higher
+	- code blocks in code color
 - bugs
 	- get React Router to refresh even if you are on the same page
 
