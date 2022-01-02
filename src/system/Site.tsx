@@ -35,7 +35,7 @@ import pages from './data/json/itemTypes/itemType_pages.json';
 const displayOrderSortedPages = qarr.sortObjects(pages, 'displayOrder');
 
 const userHasAccess = (pageIdCode: string) => {
-	return pages.find(page => page.idCode === pageIdCode);
+	return pages.find(page => page.idCode === pageIdCode && (page.environment === 'frontendOnly' || config.getSiteMode() === 'development'));
 }
 
 function Site() {
