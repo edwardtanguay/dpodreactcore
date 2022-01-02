@@ -235,20 +235,20 @@ body {
 			background-color: #ccc;
 			z-index: 10;
 
-			.category {
-				color: brown;
-				font-weight: 500;
-				font-variant: small-caps;
-			}
-
 			.createDate {
-				color: navy;
+				color: rgb(128, 0, 117);
 				font-weight: 500;
 				font-size: 0.8em;
 				text-transform: uppercase;
 				&::after {
 					content: " - ";
 				}
+			}
+
+			.category {
+				color: yellow;
+				font-weight: 500;
+				font-variant: small-caps;
 			}
 
 			.title {
@@ -421,12 +421,12 @@ body {
 	.overviewItem {
 		margin: 0 0 10px 0;
 		.category {
-			color: brown;
+			color: rgb(175, 175, 112);
 			font-weight: 500;
 			font-variant: small-caps;
 		}
 		.createDate {
-			color: navy;
+			color: rgb(5, 5, 83);
 			font-weight: 500;
 			font-size: 0.8em;
 			text-transform: uppercase;
@@ -437,8 +437,18 @@ body {
 	}
 	.searchArea {
 		margin: 0 0 0px 0;
-		::placeholder {
-			color: red;
+		/* smartphone */
+		@media (max-width: 767px) {
+			::placeholder {
+				color: #555;
+			}
+		}
+
+		/* computer */
+		@media (min-width: 768px) {
+			::placeholder {
+				color: #999;
+			}
 		}
 
 		.buttonRow {
