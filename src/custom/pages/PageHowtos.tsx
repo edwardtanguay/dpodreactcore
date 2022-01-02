@@ -40,24 +40,6 @@ const getItems = (query: IItemsQueryObject) => {
 
 }
 
-const getDefaultItems = () => {
-	const id: number = qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id'));
-	if (id !== 0) {
-		return getItems({ idCode: '', searchText: '', id });
-	} else {
-		const searchText = qsys.getParameterValueFromUrl('searchText');
-		if (!qstr.isEmpty(searchText)) {
-			return getItems({ idCode: '', searchText, id: 0 });
-		} else {
-			let idCode = qsys.getParameterValueFromUrl('idCode');
-			if (qstr.isEmpty(idCode)) {
-				idCode = 'newestFirst';
-			}
-			return getItems({ idCode, searchText: '', id: 0 });
-		}
-	}
-}
-
 const getItemsById = (id: number) => {
 	return getItems({ idCode: '', searchText: '', id });
 }
@@ -65,6 +47,24 @@ const getItemsById = (id: number) => {
 function PageHowtos() {
 	const [howtos, setHowtos] = useState<IHowto[]>(getDefaultItems());
 	const [searchText, setSearchText] = useState<string>("");
+
+	function getDefaultItems () {
+		const id: number = qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id'));
+		if (id !== 0) {
+			return getItems({ idCode: '', searchText: '', id });
+		} else {
+			const searchText = qsys.getParameterValueFromUrl('searchText');
+			if (!qstr.isEmpty(searchText)) {
+				return getItems({ idCode: '', searchText, id: 0 });
+			} else {
+				let idCode = qsys.getParameterValueFromUrl('idCode');
+				if (qstr.isEmpty(idCode)) {
+					idCode = 'newestFirst';
+				}
+				return getItems({ idCode, searchText: '', id: 0 });
+			}
+		}
+	}
 
 	const setItemsByIdCode = (idCode: string) => {
 		const items = getItems({ idCode, searchText: '', id: 0 });
@@ -91,7 +91,12 @@ function PageHowtos() {
 	const displaySearchResults = (e: any) => {
 		const searchText: string = e.target.value;
 		setSearchText(searchText);
-		console.log(searchText);
+		if (searchText === '') {
+			setItemsByIdCode('newestFirst');
+		} else {
+			const items = getItems({ idCode: '', searchText, id: 0 });
+			setHowtos([...items]);
+		}
 		// const theFilteredItems: IHowto[] = howtos.filter((m: any) => qstr.searchTextMatches(searchText, [m.title,m.body].join('|')));
 		// 	.setState({
 		// 	searchText,
