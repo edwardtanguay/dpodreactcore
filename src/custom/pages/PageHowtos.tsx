@@ -110,6 +110,7 @@ function PageHowtos() {
 
 
 	const setItemsByIdCode = (idCode: string) => {
+		setSearchText('');
 		const items = getItems({ idCode, searchText: '', id: 0 });
 		setHowtos([...items]);
 	}
