@@ -11,17 +11,17 @@ import * as qsys from '../../system/qtools/qsys';
 import * as qdat from '../../system/qtools/qdat';
 
 interface IItemsQueryObject {
-	displayGroupIdCode: string,
+	idCode: string,
 	searchText: string,
 	id: number
 }
 
 const getItems = (query: IItemsQueryObject) => {
 
-	const { displayGroupIdCode, searchText, id } = query;
+	const { idCode, searchText, id } = query;
 
-	if (displayGroupIdCode !== '') {
-		switch (displayGroupIdCode) {
+	if (idCode !== '') {
+		switch (idCode) {
 			case 'oldestFirst':
 				return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'asc');
 			case 'newestFirst':
@@ -43,28 +43,34 @@ const getItems = (query: IItemsQueryObject) => {
 const getDefaultItems = () => {
 	const id: number = qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id'));
 	if (id !== 0) {
-		return getItems({ displayGroupIdCode: '', searchText: '', id });
+		return getItems({ idCode: '', searchText: '', id });
 	} else {
 		const searchText = qsys.getParameterValueFromUrl('searchText');
 		if (!qstr.isEmpty(searchText)) {
-			return getItems({ displayGroupIdCode: '', searchText, id: 0 });
+			return getItems({ idCode: '', searchText, id: 0 });
 		} else {
-			let displayGroupIdCode = qsys.getParameterValueFromUrl('displayGroupIdCode');
-			if (qstr.isEmpty(displayGroupIdCode)) {
-				displayGroupIdCode = 'newestFirst';
+			let idCode = qsys.getParameterValueFromUrl('idCode');
+			if (qstr.isEmpty(idCode)) {
+				idCode = 'newestFirst';
 			}
-			return getItems({ displayGroupIdCode, searchText: '', id: 0 });
+			return getItems({ idCode, searchText: '', id: 0 });
 		}
 	}
 }
 
 const getItemsById = (id: number) => {
-	return getItems({ displayGroupIdCode: '', searchText: '', id });
+	return getItems({ idCode: '', searchText: '', id });
 }
 
 function PageHowtos() {
 	const [howtos, setHowtos] = useState<IHowto[]>(getDefaultItems());
 	// const [searchText, setSearchText] = useState<string>("");
+
+	const setItemsByIdCode = (idCode: string) => {
+		const items = getItems({ idCode, searchText: '', id: 0 });
+		setHowtos([...items]);
+	}
+
 
 	const getCurrentItem = (): IHowto => {
 		const item = howtos[0];
@@ -95,7 +101,7 @@ function PageHowtos() {
 					<h2 className="title">{howtos.length} Howtos</h2>
 				)}
 				{howtos.length === 1 && (
-					<h2 className="title oneOfMany">1 of {initialHowtos.length} Howtos</h2>
+					<h2 className="title oneOfMany">1 of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => setItemsByIdCode('newestFirst')}>Howtos</span></h2>
 				)}
 
 				{/* ========== MULTIPLE RECORDS ========== */}

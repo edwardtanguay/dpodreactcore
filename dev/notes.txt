@@ -1,9 +1,5 @@
-- .. make link unclickable
-
-
-
-- on howtos: make 
-- .. fix howtos
+- x make link unclickable
+- .. complete howtos
 	 - .. title
 	 - search
 

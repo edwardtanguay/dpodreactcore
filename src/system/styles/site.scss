@@ -408,6 +408,10 @@ body {
 		cursor: pointer;
 	}
 	.oneOfMany {
-		color: #999;
+		color: #555;
+		.itemTypeTitle {
+			text-decoration: underline;
+			cursor: pointer;
+		}
 	}
 }
