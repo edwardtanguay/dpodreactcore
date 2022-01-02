@@ -32,7 +32,8 @@ const getItems = (query: IItemsQueryObject) => {
 	}
 
 	if (searchText !== '') {
-		return initialHowtos.filter((howto: IHowto) => qstr.searchTextMatches(searchText, [howto.title, howto.body].join('|')));
+		const items = initialHowtos.filter((howto: IHowto) => qstr.searchTextMatches(searchText, [howto.title, howto.body].join('|')));
+		return qarr.sortObjects(items, 'systemWhenCreated', 'desc');
 	}
 
 	if (id !== 0) {
