@@ -23,7 +23,8 @@
 	- responsive
 
 
-
+- features
+	- enable full id/searchText/idCode via URL for all item pages
 - bugs
 	- get React Router to refresh even if you are on the same page
 

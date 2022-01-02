@@ -16,47 +16,56 @@ interface IItemsQueryObject {
 	id: number
 }
 
-const getItems = (query: IItemsQueryObject) => {
-
-	const { idCode, searchText, id } = query;
-
-	if (idCode !== '') {
-		switch (idCode) {
-			case 'oldestFirst':
-				return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'asc');
-			case 'newestFirst':
-			default:
-				return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'desc');
-		}
-	}
-
-	if (searchText !== '') {
-		return initialHowtos.filter((howto: IHowto) => qstr.searchTextMatches(searchText, [howto.title, howto.body].join('|')));
-	}
-
-	if (id !== 0) {
-		return initialHowtos.filter((howto: IHowto) => howto.id === id);
-	}
-
-}
-
-const getItemsById = (id: number) => {
-	return getItems({ idCode: '', searchText: '', id });
-}
-
 function PageHowtos() {
 	const [howtos, setHowtos] = useState<IHowto[]>(getDefaultItems());
 	const [searchText, setSearchText] = useState<string>("");
 
-	function getDefaultItems () {
+	function getItems (query: IItemsQueryObject) {
+
+		const { idCode, searchText, id } = query;
+
+		if (idCode !== '') {
+			setSearchText('');
+			switch (idCode) {
+				case 'oldestFirst':
+					qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
+					return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'asc');
+				case 'newestFirst':
+				default:
+					qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
+					return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'desc');
+			}
+		}
+
+		if (searchText !== '') {
+			return initialHowtos.filter((howto: IHowto) => qstr.searchTextMatches(searchText, [howto.title, howto.body].join('|')));
+		}
+
+		if (id !== 0) {
+			return initialHowtos.filter((howto: IHowto) => howto.id === id);
+		}
+
+	}
+
+	const getItemsById = (id: number) => {
+		return getItems({ idCode: '', searchText: '', id });
+	}
+
+	function getDefaultItems() {
 		const id: number = qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id'));
+
+		// id
 		if (id !== 0) {
 			return getItems({ idCode: '', searchText: '', id });
 		} else {
+
+			// search
 			const searchText = qsys.getParameterValueFromUrl('searchText');
 			if (!qstr.isEmpty(searchText)) {
 				return getItems({ idCode: '', searchText, id: 0 });
 			} else {
+
+				// idCode
 				let idCode = qsys.getParameterValueFromUrl('idCode');
 				if (qstr.isEmpty(idCode)) {
 					idCode = 'newestFirst';
@@ -97,12 +106,6 @@ function PageHowtos() {
 			const items = getItems({ idCode: '', searchText, id: 0 });
 			setHowtos([...items]);
 		}
-		// const theFilteredItems: IHowto[] = howtos.filter((m: any) => qstr.searchTextMatches(searchText, [m.title,m.body].join('|')));
-		// 	.setState({
-		// 	searchText,
-		// 	filteredItems: theFilteredItems
-		// });
-		// this.buildHowManyText(theFilteredItems.length);
 	}
 
 	return (
@@ -114,10 +117,18 @@ function PageHowtos() {
 
 
 			<div className="page page_howtos">
-				{howtos.length > 1 && (
+
+				{/* ========== TITLE ========== */}
+				{howtos.length > 1 && searchText === '' && (
 					<h2 className="title">{howtos.length} Howtos</h2>
 				)}
-				{howtos.length === 1 && (
+				{howtos.length === 1 && searchText === '' && (
+					<h2 className="title oneOfMany">1 of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => setItemsByIdCode('newestFirst')}>Howtos</span></h2>
+				)}
+				{howtos.length > 1 && searchText !== '' && (
+					<h2 className="title oneOfMany">{howtos.length} of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => setItemsByIdCode('newestFirst')}>Howtos</span></h2>
+				)}
+				{howtos.length === 1 && searchText !== '' && (
 					<h2 className="title oneOfMany">1 of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => setItemsByIdCode('newestFirst')}>Howtos</span></h2>
 				)}
 
