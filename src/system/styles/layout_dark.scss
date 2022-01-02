@@ -18,7 +18,7 @@ body {
 		font-size: 1.6em;
 	}
 	a {
-		color: rgb(196, 196, 143); 
+		color: rgb(196, 196, 143);
 	}
 
 	/* all pages */
@@ -460,9 +460,26 @@ body {
 		.searchBox {
 			margin: 0 5px 0 0;
 			font-size: 2rem;
-			border: 1px solid #bbb;
+			border: 1px solid #777;
 			border-radius: 5px;
-			background-color: #ddd; 
+			background-color: #444;
+			padding: 3px;
+			width: 100%;
+			color: basic.$thirdColor;
+		}
+
+		/* smartphone */
+		@media (max-width: 767px) {
+			.searchBox {
+				width: 100%;
+			}
+		}
+
+		/* computer */
+		@media (min-width: 768px) {
+			.searchBox {
+				width: 400px;
+			}
 		}
 
 		.separator {
@@ -505,4 +522,3 @@ body {
 		}
 	}
 }
-

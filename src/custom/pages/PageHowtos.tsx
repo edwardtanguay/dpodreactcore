@@ -133,6 +133,9 @@ function PageHowtos() {
 				{howtos.length === 1 && searchText === '' && (
 					<h2 className="title oneOfMany">1 of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => setItemsByIdCode('newestFirst')}>Howtos</span></h2>
 				)}
+				{howtos.length === 0 && searchText !== '' && (
+					<h2 className="title oneOfMany">0 of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => setItemsByIdCode('newestFirst')}>Howtos</span></h2>
+				)}
 				{howtos.length > 1 && searchText !== '' && (
 					<h2 className="title oneOfMany">{howtos.length} of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => setItemsByIdCode('newestFirst')}>Howtos</span></h2>
 				)}
