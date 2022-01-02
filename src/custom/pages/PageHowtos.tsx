@@ -109,7 +109,10 @@ function PageHowtos() {
 					<section className="howtos">
 						{howtos.map((howto: any, i: number) => {
 							return (
-								<div key={i} className="itemLinkTitle" onClick={() => setCurrentItemsById(howto.id)}>{howto.systemWhenCreated.substr(0, 10)} - {howto.title}</div>
+								<div key={i} className="overviewItem">
+									<div className="header"><span className="createDate">{qdat.smartDateWithYear(howto.systemWhenCreated)}</span> <span className="category">{howto.categoryTitle}</span></div>
+									<div key={i} className="itemLinkTitle" onClick={() => setCurrentItemsById(howto.id)}>{howto.title}</div>
+								</div>
 							)
 						})}
 					</section>

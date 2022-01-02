@@ -1,8 +1,12 @@
 - x make link unclickable
 - .. complete howtos
-	 - .. title
-	 - search
+	 - x title
+	 - x show like on onespace
+	 - .. search
 
+
+
+- layout that switches
 
 
 - .. make interface Howtos

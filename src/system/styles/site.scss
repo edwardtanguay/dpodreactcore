@@ -414,4 +414,21 @@ body {
 			cursor: pointer;
 		}
 	}
+	.overviewItem {
+		margin: 0 0 10px 0;
+		.category {
+			color: brown;
+			font-weight: 500;
+			font-variant: small-caps;
+		}
+		.createDate {
+			color: navy;
+			font-weight: 500;
+			font-size: 0.8em;
+			text-transform: uppercase;
+			&::after {
+				content: " - ";
+			}
+		}
+	}
 }
