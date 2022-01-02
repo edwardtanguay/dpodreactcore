@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import '../styles/page_howtos.scss';
 // @ts-ignore
 import { Helmet } from 'react-helmet';
@@ -17,10 +17,15 @@ interface IItemsQueryObject {
 }
 
 function PageHowtos() {
-	const [howtos, setHowtos] = useState<IHowto[]>(getDefaultItems());
+	const [howtos, setHowtos] = useState<IHowto[]>([]);
 	const [searchText, setSearchText] = useState<string>("");
 
-	function getItems (query: IItemsQueryObject) {
+	useEffect(() => {
+		setHowtos([...getDefaultItems()]);
+	}, [])
+	
+
+	const getItems = (query: IItemsQueryObject) => {
 
 		const { idCode, searchText, id } = query;
 
@@ -51,7 +56,7 @@ function PageHowtos() {
 		return getItems({ idCode: '', searchText: '', id });
 	}
 
-	function getDefaultItems() {
+	const getDefaultItems = () => {
 		const id: number = qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id'));
 
 		// id
