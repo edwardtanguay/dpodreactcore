@@ -64,7 +64,7 @@ const getItemsById = (id: number) => {
 
 function PageHowtos() {
 	const [howtos, setHowtos] = useState<IHowto[]>(getDefaultItems());
-	// const [searchText, setSearchText] = useState<string>("");
+	const [searchText, setSearchText] = useState<string>("");
 
 	const setItemsByIdCode = (idCode: string) => {
 		const items = getItems({ idCode, searchText: '', id: 0 });
@@ -88,6 +88,18 @@ function PageHowtos() {
 		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 	}
 
+	const displaySearchResults = (e: any) => {
+		const searchText: string = e.target.value;
+		setSearchText(searchText);
+		console.log(searchText);
+		// const theFilteredItems: IHowto[] = howtos.filter((m: any) => qstr.searchTextMatches(searchText, [m.title,m.body].join('|')));
+		// 	.setState({
+		// 	searchText,
+		// 	filteredItems: theFilteredItems
+		// });
+		// this.buildHowManyText(theFilteredItems.length);
+	}
+
 	return (
 		<>
 			<Helmet>
@@ -103,6 +115,13 @@ function PageHowtos() {
 				{howtos.length === 1 && (
 					<h2 className="title oneOfMany">1 of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => setItemsByIdCode('newestFirst')}>Howtos</span></h2>
 				)}
+
+				{/* ========== SEARCH ========== */}
+				<div className="searchArea">
+					<div className="searchRow">
+						<input id="mainSearch" placeholder="search" type="text" value={searchText} className="form-control input-sm searchBox" onFocus={displaySearchResults} onChange={displaySearchResults} />
+					</div>
+				</div>
 
 				{/* ========== MULTIPLE RECORDS ========== */}
 				{howtos.length > 1 && (
