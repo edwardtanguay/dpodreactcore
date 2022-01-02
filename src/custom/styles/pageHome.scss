@@ -1,6 +1,5 @@
-@use '../../system/styles/partials/variables_layout_dark' as home;
 .page_home {
-	color: home.$thirdColor;
+	color: #000;
 	p {
 		margin: 0 0 10px 0;
 	}

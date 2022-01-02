@@ -18,12 +18,13 @@ body {
 		font-size: 1.6em;
 	}
 	a {
-		color: #000;
+		color: rgb(196, 196, 143); 
 	}
 
 	/* all pages */
 	.page {
 		h2.title {
+			color: basic.$thirdColor;
 			margin-bottom: 10px;
 		}
 		p.description {
@@ -41,6 +42,7 @@ body {
 		}
 		p {
 			line-height: 1.2rem;
+			color: basic.$thirdColor;
 		}
 		ul {
 			margin-left: 20px;
@@ -58,6 +60,7 @@ body {
 			display: flex;
 			h1.siteTitle {
 				margin: 0 0 10px 20px;
+				color: #888;
 				.version {
 					color: brown;
 					position: relative;
@@ -128,7 +131,7 @@ body {
 				}
 			}
 			a {
-				color: #333;
+				color: #ccc;
 				font-size: 0.9em;
 			}
 		}
@@ -409,7 +412,7 @@ body {
 		cursor: pointer;
 	}
 	.oneOfMany {
-		color: #555;
+		color: basic.$thirdColor;
 		.itemTypeTitle {
 			text-decoration: underline;
 			cursor: pointer;
