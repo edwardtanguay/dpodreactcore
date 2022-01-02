@@ -1,4 +1,4 @@
-@use "partials/variables" as basic;
+@use "partials/variables_layout_light" as basic;
 
 html {
 	font-size: basic.$basicFontSize;
@@ -502,3 +502,4 @@ body {
 		}
 	}
 }
+

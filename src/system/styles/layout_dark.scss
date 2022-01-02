@@ -1,0 +1,505 @@
+@use "partials/variables_layout_dark" as basic;
+
+html {
+	font-size: basic.$basicFontSize;
+}
+
+body {
+	background-color: basic.$firstColor;
+	padding: basic.$padding;
+	font-family: basic.$primaryFontFamily;
+
+	/* override resets */
+	h1 {
+		font-size: 2em;
+		margin-left: basic.$margin;
+	}
+	h2 {
+		font-size: 1.6em;
+	}
+	a {
+		color: #000;
+	}
+
+	/* all pages */
+	.page {
+		h2.title {
+			margin-bottom: 10px;
+		}
+		p.description {
+			margin-bottom: 20px;
+			font-style: italic;
+			padding-bottom: 10px;
+			border-bottom: 1px solid #ccc;
+			display: inline-block;
+		}
+		code {
+			background-color: #ddd;
+			font-family: "Courier New", Courier, monospace;
+			color: brown;
+			font-weight: bold;
+		}
+		p {
+			line-height: 1.2rem;
+		}
+		ul {
+			margin-left: 20px;
+			li {
+				line-height: 1.3rem;
+				list-style: disc;
+			}
+		}
+		div {
+			line-height: 1.3rem;
+		}
+	}
+	.app_site {
+		.topHeader {
+			display: flex;
+			h1.siteTitle {
+				margin: 0 0 10px 20px;
+				.version {
+					color: brown;
+					position: relative;
+					top: 0.4rem;
+					left: 4px;
+					font-size: 45%;
+				}
+			}
+			.menuToggle {
+				margin: 8px 0 0 12px;
+				.toggle {
+					display: inline-block;
+					cursor: pointer;
+				}
+				.toggle_input {
+					display: none;
+				}
+				.toggle_fill {
+					position: relative;
+					width: 40px;
+					height: 20px;
+					border-radius: 20px;
+					background-color: #dddddd;
+					transition: background-color 0.2s;
+				}
+				.toggle_input:checked ~ .toggle_fill {
+					background: #a1a1a1;
+				}
+
+				.toggle_fill::after {
+					content: "";
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 20px;
+					width: 20px;
+					background-color: #ffffff;
+					box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+					border-radius: 20px;
+					transition: transform 0.2s;
+				}
+
+				.toggle_input:checked ~ .toggle_fill::after {
+					transform: translateX(20px);
+				}
+			}
+		}
+
+		.app_container {
+			background-color: basic.$secondColor;
+			margin: basic.$margin 0 0 0;
+			padding: basic.$padding;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+			min-height: basic.$basicLayoutHeight;
+		}
+
+		nav {
+			margin: 0 20px;
+			span {
+				margin: 0 13px 5px 0;
+				display: inline-block;
+				user-select: none;
+				.active {
+					font-weight: bold;
+					pointer-events: none;
+					text-decoration: none;
+				}
+			}
+			a {
+				color: #333;
+				font-size: 0.9em;
+			}
+		}
+	}
+
+	// OUTLINE
+
+	ul.outline {
+		list-style: disc;
+
+		/* smartphone */
+		@media (max-width: 767px) {
+			margin: 1px 0 0 10px !important;
+		}
+
+		/* computer */
+		@media (min-width: 768px) {
+			margin: 20px;
+		}
+
+		li {
+			line-height: 19px;
+			// margin: 0 0 0 0;
+			margin-top: 10px;
+			margin-left: -20px;
+		}
+
+		li code {
+			color: brown;
+			background-color: #ddd;
+			font-weight: bold;
+			font-family: "Courier New", Courier, monospace;
+		}
+
+		li a {
+			color: black;
+		}
+
+		img {
+			margin: 10px 0 10px 0;
+			border: 1px solid #ddd;
+			max-width: 100%;
+		}
+
+		li.codeBlock {
+			list-style: none;
+		}
+
+		ul {
+			margin: 0 0 0 38px !important;
+		}
+
+		div.codeBlock {
+			color: #000;
+			font-family: courier;
+			font-size: 13px;
+			padding: 5px 10px 5px 10px;
+			background-color: #e5e5e5;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			overflow-x: scroll;
+			margin: 2px 0 0 -19px;
+
+			pre {
+				margin: 0 0 0 0;
+			}
+		}
+
+		div.paragraphBlock {
+			font-family: courier;
+			font-size: 13px;
+			padding: 5px 10px 5px 10px;
+			background-color: rgb(243, 243, 220);
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			margin: -4px 0 0 0;
+
+			pre {
+				color: #000 !important;
+				margin: 0 0 0 0;
+				white-space: normal;
+			}
+		}
+
+		.video {
+			max-width: 100%;
+			margin: 10px 0 0 0;
+		}
+	}
+
+	.item {
+		border: 1px solid #ccc;
+		margin-bottom: 20px;
+		border-radius: 5px;
+		-webkit-box-shadow: 7px 5px 15px -8px #000000;
+		box-shadow: 7px 5px 15px -8px #000000;
+
+		.header {
+			border-bottom: 1px solid #ccc;
+			padding: 5px 15px;
+			background-color: #ccc;
+			z-index: 10;
+
+			.category {
+				color: brown;
+				font-weight: 500;
+				font-variant: small-caps;
+			}
+
+			.createDate {
+				color: navy;
+				font-weight: 500;
+				font-size: 0.8em;
+				text-transform: uppercase;
+				&::after {
+					content: " - ";
+				}
+			}
+
+			.title {
+				font-size: 24px;
+				margin: 0 0 10px 0;
+				line-height: 27px;
+			}
+
+			/* smartphone */
+			@media (max-width: 767px) {
+				.title {
+					font-size: 1.2rem;
+				}
+			}
+
+			/* computer */
+			@media (min-width: 768px) {
+				.title {
+					font-size: 1.4rem;
+				}
+			}
+
+			.manageIconArea {
+				z-index: 0;
+			}
+
+			.headerRow {
+				a {
+					text-decoration: none;
+				}
+				.showExample {
+					font-size: 18px;
+					color: darkgreen;
+					display: flex;
+					margin-top: -5px;
+					.text {
+						margin-top: -3px;
+						margin-left: 5px;
+					}
+				}
+				.showDownload {
+					font-size: 18px;
+					color: rgb(1, 51, 1);
+					display: flex;
+					margin-top: -5px;
+					.text {
+						margin-top: -3px;
+					}
+				}
+				.subRow {
+					display: flex;
+					a {
+						margin-right: 20px;
+					}
+				}
+			}
+		}
+
+		.body {
+			background-color: #f3f3f3;
+
+			/* smartphone */
+			@media (max-width: 767px) {
+				padding: 10px 20px 20px 40px;
+			}
+
+			/* computer */
+			@media (min-width: 768px) {
+				padding: 10px 20px 20px 40px;
+			}
+
+			pre {
+				margin: 0;
+			}
+
+			.dataTypeWholeNumber_minus {
+				color: tomato;
+			}
+
+			.labelPart {
+				color: #aaa;
+			}
+
+			div.displayItemTextBlockArea {
+				background-color: #ddd;
+				padding: 5px;
+				border-radius: 5px;
+			}
+
+			div.displayItemTextBlockArea textarea {
+				font-size: 13px;
+				height: 200px;
+			}
+
+			/* if you find you need this code, put it back in but in a way
+        that does not effect the outline mode, e.g. see showcaseSearchAndDisplayItemType
+
+        ul {
+            margin    : 0 0 0 -10px;
+            list-style: none;
+        }
+
+        ul li::before {
+            content    : "\2022";
+            color      : #aaa;
+            font-weight: bold;
+            display    : inline-block;
+            width      : 1em;
+            margin-left: -1em;
+        }
+        */
+
+			table {
+				border-spacing: 2px;
+				border-collapse: separate;
+
+				td.label {
+					font-weight: bold;
+					white-space: nowrap;
+					vertical-align: top;
+					color: #555;
+				}
+
+				td.data {
+					background-color: #fff;
+					width: 100%;
+				}
+			}
+
+			/* smartphone */
+			@media (max-width: 767px) {
+				.video {
+					width: 186px;
+					height: 105px;
+				}
+
+				img.outlineImage {
+					width: 100%;
+				}
+			}
+
+			/* computer */
+			@media (min-width: 768px) {
+				.video {
+					width: 560px;
+					height: 315px;
+				}
+
+				img.outlineImage {
+					max-width: 100%;
+					height: auto;
+					width: auto;
+				}
+			}
+		}
+	}
+
+	// item page
+	$menuReduced: #bbb;
+	.itemLinkTitle {
+		cursor: pointer;
+	}
+	.oneOfMany {
+		color: #555;
+		.itemTypeTitle {
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	}
+	.overviewItem {
+		margin: 0 0 10px 0;
+		.category {
+			color: brown;
+			font-weight: 500;
+			font-variant: small-caps;
+		}
+		.createDate {
+			color: navy;
+			font-weight: 500;
+			font-size: 0.8em;
+			text-transform: uppercase;
+			&::after {
+				content: " - ";
+			}
+		}
+	}
+	.searchArea {
+		margin: 0 0 0px 0;
+		::placeholder {
+			color: #aaa;
+		}
+
+		.buttonRow {
+			margin: 0 5px 15px 5px;
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.searchRow {
+			display: flex;
+			flex-wrap: wrap;
+			margin-bottom: 10px;
+		}
+
+		.btn-topic {
+			margin: 0 5px 5px 0;
+		}
+
+		.searchBox {
+			margin: 0 5px 0 0;
+			font-size: 2rem;
+			border: 1px solid #bbb;
+			border-radius: 5px;
+			background-color: #ddd; 
+		}
+
+		.separator {
+			color: $menuReduced;
+		}
+
+		.category {
+			cursor: pointer;
+		}
+
+		.active {
+			background: $menuReduced;
+			font-weight: bold;
+			&:before {
+				content: " ";
+				white-space: pre;
+			}
+			&:after {
+				content: " ";
+				white-space: pre;
+			}
+		}
+
+		.category:hover {
+			background-color: $menuReduced;
+		}
+	}
+
+	/* smartphone view */
+	@media (max-width: 577px) {
+		.searchBox {
+			width: 240px;
+		}
+	}
+
+	/* computer/table view */
+	@media (min-width: 578px) {
+		.searchBox {
+			width: 400px;
+		}
+	}
+}
+

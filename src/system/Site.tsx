@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import './styles/reset.scss';
-import './styles/site.scss';
+import './styles/layout_dark.scss';
 import './styles/dpod.scss';
 import PageHome from '../custom/components/PageHome';
 import * as config from '../system/config';
