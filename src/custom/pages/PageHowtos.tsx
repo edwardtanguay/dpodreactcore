@@ -29,8 +29,6 @@ function PageHowtos() {
 		setHowtos([...getDefaultItems()]);
 	}, [])
 
-
-
 	const getItems = (query: IItemsQueryObject) => {
 
 		const { idCode, searchText, id } = query;

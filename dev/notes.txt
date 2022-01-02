@@ -1,10 +1,4 @@
-- x make link unclickable
-- .. complete howtos
-	 - x title
-	 - x show like on onespace
-	 - .. search
-
-
+- .. prepare for layout that switches
 
 - layout that switches
 
@@ -25,6 +19,7 @@
 
 - features
 	- enable full id/searchText/idCode via URL for all item pages
+	- qstr.searchTextMatches refactor so that items are weighted more intelligently, e.g. higher if search text is found in category or title, and exact category match is the higher
 - bugs
 	- get React Router to refresh even if you are on the same page
 
