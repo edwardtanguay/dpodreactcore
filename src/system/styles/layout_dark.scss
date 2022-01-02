@@ -235,21 +235,21 @@ body {
 			background-color: #ccc;
 			z-index: 10;
 
-			.createDate {
-				color: rgb(128, 0, 117);
-				font-weight: 500;
-				font-size: 0.8em;
-				text-transform: uppercase;
-				&::after {
-					content: " - ";
-				}
-			}
+			// .createDate {
+			// 	color: rgb(128, 0, 117);
+			// 	font-weight: 500;
+			// 	font-size: 0.8em;
+			// 	text-transform: uppercase;
+			// 	&::after {
+			// 		content: " - ";
+			// 	}
+			// }
 
-			.category {
-				color: yellow;
-				font-weight: 500;
-				font-variant: small-caps;
-			}
+			// .category {
+			// 	color: yellow;
+			// 	font-weight: 500;
+			// 	font-variant: small-caps;
+			// }
 
 			.title {
 				font-size: 24px;
@@ -410,6 +410,7 @@ body {
 	$menuReduced: #bbb;
 	.itemLinkTitle {
 		cursor: pointer;
+		color: basic.$thirdColor;
 	}
 	.oneOfMany {
 		color: basic.$thirdColor;
@@ -421,12 +422,12 @@ body {
 	.overviewItem {
 		margin: 0 0 10px 0;
 		.category {
-			color: rgb(175, 175, 112);
+			color: rgb(172, 172, 9);
 			font-weight: 500;
 			font-variant: small-caps;
 		}
 		.createDate {
-			color: rgb(5, 5, 83);
+			color: rgb(15, 6, 66);
 			font-weight: 500;
 			font-size: 0.8em;
 			text-transform: uppercase;
