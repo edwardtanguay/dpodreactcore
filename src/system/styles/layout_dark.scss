@@ -59,7 +59,14 @@ body {
 		.topHeader {
 			display: flex;
 			h1.siteTitle {
-				margin: 0 0 10px 20px;
+				/* smartphone */
+				@media (max-width: 767px) {
+					margin: 0 -10px 10px -12px;
+				}
+				/* computer */
+				@media (min-width: 768px) {
+					margin: 0 0 10px -2px;
+				}
 				color: #888;
 				.version {
 					color: brown;
@@ -113,10 +120,12 @@ body {
 		@media (max-width: 767px) {
 			.app_container {
 				background-color: basic.$secondColor;
-				margin: basic.$margin 0 0 0;
-				padding: basic.$padding;
-				border: 1px solid #888;
-				border-radius: 5px;
+				margin: basic.$margin -20px 0 -20px;
+				padding-top: basic.$padding;
+				padding-bottom: basic.$padding;
+				padding-right: 10px;
+				padding-left: 10px;
+				border-top: 1px solid #bbb;
 				min-height: basic.$basicLayoutHeight;
 			}
 		}
@@ -134,7 +143,6 @@ body {
 		}
 
 		nav {
-			margin: 0 20px;
 			span {
 				margin: 0 13px 5px 0;
 				display: inline-block;
@@ -150,6 +158,16 @@ body {
 				font-size: 0.9em;
 			}
 		}
+	}
+	/* smartphone */
+	@media (max-width: 767px) {
+		nav {
+			margin: 0 -10px;
+		}
+	}
+	/* computer */
+	@media (min-width: 768px) {
+		margin: 0 20px;
 	}
 
 	// OUTLINE
@@ -249,7 +267,7 @@ body {
 		.header {
 			border-bottom: 1px solid #ccc;
 			padding: 5px 15px;
-			background-color: basic.$itemHeaderBackroundColor; 
+			background-color: basic.$itemHeaderBackroundColor;
 			z-index: 10;
 
 			.createDate {
