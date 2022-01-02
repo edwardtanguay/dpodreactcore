@@ -109,13 +109,28 @@ body {
 			}
 		}
 
-		.app_container {
-			background-color: basic.$secondColor;
-			margin: basic.$margin 0 0 0;
-			padding: basic.$padding;
-			border: 1px solid #888;
-			border-radius: 5px;
-			min-height: basic.$basicLayoutHeight;
+		/* smartphone */
+		@media (max-width: 767px) {
+			.app_container {
+				background-color: basic.$secondColor;
+				margin: basic.$margin 0 0 0;
+				padding: basic.$padding;
+				border: 1px solid #888;
+				border-radius: 5px;
+				min-height: basic.$basicLayoutHeight;
+			}
+		}
+
+		/* computer */
+		@media (min-width: 768px) {
+			.app_container {
+				background-color: basic.$secondColor;
+				margin: basic.$margin 0 0 0;
+				padding: basic.$padding;
+				border: 1px solid #888;
+				border-radius: 5px;
+				min-height: basic.$basicLayoutHeight;
+			}
 		}
 
 		nav {
@@ -239,8 +254,8 @@ body {
 
 			.createDate {
 				color: basic.$createDate;
-				font-weight: 500;
-				font-size: 0.8em;
+				// font-weight: 500;
+				font-size: 0.9em;
 				text-transform: uppercase;
 				&::after {
 					content: " - ";
@@ -250,7 +265,7 @@ body {
 			.category {
 				color: basic.$category;
 				font-variant: small-caps;
-				text-shadow: 2px 2px 2px basic.$categoryShadowColor;
+				// text-shadow: 2px 2px 2px basic.$categoryShadowColor;
 			}
 
 			.title {
@@ -439,7 +454,7 @@ body {
 		.category {
 			color: basic.$category;
 			font-variant: small-caps;
-			text-shadow: 2px 2px 2px basic.$categoryShadowColor;
+			// text-shadow: 2px 2px 2px basic.$categoryShadowColor;
 		}
 		.itemLinkTitle {
 			font-weight: 500;
