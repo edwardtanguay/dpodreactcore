@@ -438,7 +438,7 @@ body {
 	.searchArea {
 		margin: 0 0 0px 0;
 		::placeholder {
-			color: #aaa;
+			color: red;
 		}
 
 		.buttonRow {
@@ -466,6 +466,9 @@ body {
 			padding: 3px;
 			width: 100%;
 			color: basic.$thirdColor;
+			::placeholder {
+				color: blue;
+			}
 		}
 
 		/* smartphone */
