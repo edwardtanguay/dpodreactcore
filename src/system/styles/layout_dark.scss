@@ -249,8 +249,8 @@ body {
 
 			.category {
 				color: basic.$category;
-				font-weight: 500;
 				font-variant: small-caps;
+				text-shadow: 2px 2px 2px basic.$categoryShadowColor;
 			}
 
 			.title {
@@ -439,6 +439,7 @@ body {
 		.category {
 			color: basic.$category;
 			font-variant: small-caps;
+			text-shadow: 2px 2px 2px basic.$categoryShadowColor;
 		}
 		.itemLinkTitle {
 			font-weight: 500;
