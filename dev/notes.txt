@@ -1,5 +1,8 @@
-- .. reclick menu should reload
+- .. make link unclickable
 
+
+
+- on howtos: make 
 - .. fix howtos
 	 - .. title
 	 - search
@@ -19,6 +22,10 @@
 	- dark
 	- responsive
 
+
+
+- bugs
+	- get React Router to refresh even if you are on the same page
 
 =================================================
 MILESTONES

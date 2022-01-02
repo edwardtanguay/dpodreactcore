@@ -77,7 +77,7 @@ function Site() {
 						{userHasAccess('showcaseMongoDBDriverCRUD') && <Route path='/showcaseMongoDBDriverCRUD' element={<PageShowcaseMongoDBDriverCRUD />} />} {/* ::showcaseMongoDBDriverCRUD */}
 						{userHasAccess('generateMockData') && <Route path='/generateMockData' element={<PageGenerateMockData />} />} {/* ::generateMockData */}
 						{userHasAccess('showcaseMongooseCRUD') && <Route path='/showcaseMongooseCRUD' element={<PageShowcaseMongooseCRUD />} />} {/* ::showcaseMongooseCRUD */}
-						{userHasAccess('howtos') && <Route path='/howtos' element={<PageHowtos />} />} {/* ::howtos */}
+						{userHasAccess('howtos') && <Route key={Date.now()} path='/howtos' element={<PageHowtos/>} />} {/* ::howtos */}
 						{userHasAccess('flashcards') && <Route path='/flashcards' element={<PageFlashcards />} />} {/* ::flashcards */}
 					</Routes>
 				</section>

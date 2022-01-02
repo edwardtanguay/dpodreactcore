@@ -120,6 +120,12 @@ body {
 			span {
 				margin: 0 13px 5px 0;
 				display: inline-block;
+				user-select: none;
+				.active {
+					font-weight: bold;
+					pointer-events: none;
+					text-decoration: none;
+				}
 			}
 			a {
 				color: #333;
