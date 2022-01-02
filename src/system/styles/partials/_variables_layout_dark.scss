@@ -1,13 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;400;700&family=Montserrat:wght@200;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@200;400;700&family=Montserrat:wght@200;400;700&display=swap");
 
 // Colors
 $firstColor: #333;
 $secondColor: #555;
 $thirdColor: #ccc;
+$createDate: orange;
+$category: rgb(172, 172, 9);
+$itemBody: #555;
+$linkColor: #d6d618;
+$mainTextColor: #fff;
+$codeBlockBackgroundColor: #222;
+$codeBlockTextColor: #aaa;
+$codeLineBackgroundColor: #333;
+$codeLineTextColor: #aaa;
 
 // Font
-$primaryFontFamily: 'Montserrat', Verdana, Helvetica, sans-serif;
-$secondaryFontFamily: 'Bitter', serif;
+$primaryFontFamily: "Montserrat", Verdana, Helvetica, sans-serif;
+$secondaryFontFamily: "Bitter", serif;
 $basicFontSize: 16px;
 $basicLineHeight: 1.5;
 $basicFontColor: $thirdColor;
@@ -19,4 +28,3 @@ $basicLayoutWidth: 100%;
 $basicLayoutHeight: 80vh;
 $margin: 1.25rem;
 $padding: 1.25rem;
-

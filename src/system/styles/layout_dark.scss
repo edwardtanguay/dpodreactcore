@@ -18,7 +18,7 @@ body {
 		font-size: 1.6em;
 	}
 	a {
-		color: rgb(196, 196, 143);
+		color: basic.$linkColor;
 	}
 
 	/* all pages */
@@ -35,9 +35,9 @@ body {
 			display: inline-block;
 		}
 		code {
-			background-color: #ddd;
+			background-color: basic.$codeLineBackgroundColor;
+			color: basic.$codeLineTextColor;
 			font-family: "Courier New", Courier, monospace;
-			color: brown;
 			font-weight: bold;
 		}
 		p {
@@ -113,7 +113,7 @@ body {
 			background-color: basic.$secondColor;
 			margin: basic.$margin 0 0 0;
 			padding: basic.$padding;
-			border: 1px solid #ddd;
+			border: 1px solid #888;
 			border-radius: 5px;
 			min-height: basic.$basicLayoutHeight;
 		}
@@ -160,10 +160,12 @@ body {
 		}
 
 		li code {
-			color: brown;
-			background-color: #ddd;
+			// background-color: #ddd;
 			font-weight: bold;
 			font-family: "Courier New", Courier, monospace;
+			display: inline-block;
+			padding-right: 5px;
+			padding-left: 5px;
 		}
 
 		li a {
@@ -185,14 +187,14 @@ body {
 		}
 
 		div.codeBlock {
-			color: #000;
+			color: basic.$codeBlockTextColor;
 			font-family: courier;
 			font-size: 13px;
 			padding: 5px 10px 5px 10px;
-			background-color: #e5e5e5;
+			background-color: basic.$codeBlockBackgroundColor;
 			border: 1px solid #ccc;
 			border-radius: 5px;
-			overflow-x: scroll;
+			overflow-x: auto;
 			margin: 2px 0 0 -19px;
 
 			pre {
@@ -223,7 +225,7 @@ body {
 	}
 
 	.item {
-		border: 1px solid #ccc;
+		border: 1px solid #aaa;
 		margin-bottom: 20px;
 		border-radius: 5px;
 		-webkit-box-shadow: 7px 5px 15px -8px #000000;
@@ -232,24 +234,24 @@ body {
 		.header {
 			border-bottom: 1px solid #ccc;
 			padding: 5px 15px;
-			background-color: #ccc;
+			background-color: #777;
 			z-index: 10;
 
-			// .createDate {
-			// 	color: rgb(128, 0, 117);
-			// 	font-weight: 500;
-			// 	font-size: 0.8em;
-			// 	text-transform: uppercase;
-			// 	&::after {
-			// 		content: " - ";
-			// 	}
-			// }
+			.createDate {
+				color: basic.$createDate;
+				font-weight: 500;
+				font-size: 0.8em;
+				text-transform: uppercase;
+				&::after {
+					content: " - ";
+				}
+			}
 
-			// .category {
-			// 	color: yellow;
-			// 	font-weight: 500;
-			// 	font-variant: small-caps;
-			// }
+			.category {
+				color: basic.$category;
+				font-weight: 500;
+				font-variant: small-caps;
+			}
 
 			.title {
 				font-size: 24px;
@@ -308,7 +310,12 @@ body {
 		}
 
 		.body {
-			background-color: #f3f3f3;
+			background-color: basic.$itemBody;
+			color: basic.$mainTextColor;
+
+			a {
+				color: basic.$linkColor;
+			}
 
 			/* smartphone */
 			@media (max-width: 767px) {
@@ -421,19 +428,21 @@ body {
 	}
 	.overviewItem {
 		margin: 0 0 10px 0;
-		.category {
-			color: rgb(172, 172, 9);
-			font-weight: 500;
-			font-variant: small-caps;
-		}
 		.createDate {
-			color: rgb(15, 6, 66);
-			font-weight: 500;
+			color: basic.$createDate;
 			font-size: 0.8em;
 			text-transform: uppercase;
 			&::after {
 				content: " - ";
 			}
+		}
+		.category {
+			color: basic.$category;
+			font-variant: small-caps;
+		}
+		.itemLinkTitle {
+			font-weight: 500;
+			color: #fff;
 		}
 	}
 	.searchArea {

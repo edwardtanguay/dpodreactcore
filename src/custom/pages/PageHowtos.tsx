@@ -16,72 +16,98 @@ interface IItemsQueryObject {
 	id: number
 }
 
+const getItems = (query: IItemsQueryObject) => {
+
+	const { idCode, searchText, id } = query;
+
+	if (idCode !== '') {
+		switch (idCode) {
+			case 'oldestFirst':
+				qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
+				return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'asc');
+			case 'newestFirst':
+			default:
+				return getInitialHowtos();
+		}
+	}
+
+	if (searchText !== '') {
+		return initialHowtos.filter((howto: IHowto) => qstr.searchTextMatches(searchText, [howto.title, howto.body].join('|')));
+	}
+
+	if (id !== 0) {
+		return initialHowtos.filter((howto: IHowto) => howto.id === id);
+	}
+
+}
+
 const getInitialHowtos = () => {
 	qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
 	return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'desc');
 }
 
+const getDefaultItems = () => {
+	const id: number = qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id'));
+
+	// id
+	if (id !== 0) {
+		return getItems({ idCode: '', searchText: '', id });
+	} else {
+
+		// search
+		const searchText = qsys.getParameterValueFromUrl('searchText');
+		if (!qstr.isEmpty(searchText)) {
+			return getItems({ idCode: '', searchText, id: 0 });
+		} else {
+
+			// idCode
+			let idCode = qsys.getParameterValueFromUrl('idCode');
+			if (qstr.isEmpty(idCode)) {
+				idCode = 'newestFirst';
+			}
+			return getItems({ idCode, searchText: '', id: 0 });
+		}
+	}
+}
+
 function PageHowtos() {
-	const [howtos, setHowtos] = useState<IHowto[]>(getInitialHowtos());
+	const [howtos, setHowtos] = useState<IHowto[]>(getDefaultItems());
 	const [searchText, setSearchText] = useState<string>("");
 
 	useEffect(() => {
 		setHowtos([...getDefaultItems()]);
 	}, [])
 
-	const getItems = (query: IItemsQueryObject) => {
+	// const getItems = (query: IItemsQueryObject) => {
 
-		const { idCode, searchText, id } = query;
+	// 	const { idCode, searchText, id } = query;
 
-		if (idCode !== '') {
-			setSearchText('');
-			switch (idCode) {
-				case 'oldestFirst':
-					qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
-					return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'asc');
-				case 'newestFirst':
-				default:
-					return getInitialHowtos();
-			}
-		}
+	// 	if (idCode !== '') {
+	// 		setSearchText('');
+	// 		switch (idCode) {
+	// 			case 'oldestFirst':
+	// 				qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
+	// 				return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'asc');
+	// 			case 'newestFirst':
+	// 			default:
+	// 				return getInitialHowtos();
+	// 		}
+	// 	}
 
-		if (searchText !== '') {
-			return initialHowtos.filter((howto: IHowto) => qstr.searchTextMatches(searchText, [howto.title, howto.body].join('|')));
-		}
+	// 	if (searchText !== '') {
+	// 		return initialHowtos.filter((howto: IHowto) => qstr.searchTextMatches(searchText, [howto.title, howto.body].join('|')));
+	// 	}
 
-		if (id !== 0) {
-			return initialHowtos.filter((howto: IHowto) => howto.id === id);
-		}
+	// 	if (id !== 0) {
+	// 		return initialHowtos.filter((howto: IHowto) => howto.id === id);
+	// 	}
 
-	}
+	// }
 
 	const getItemsById = (id: number) => {
 		return getItems({ idCode: '', searchText: '', id });
 	}
 
-	const getDefaultItems = () => {
-		const id: number = qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id'));
-
-		// id
-		if (id !== 0) {
-			return getItems({ idCode: '', searchText: '', id });
-		} else {
-
-			// search
-			const searchText = qsys.getParameterValueFromUrl('searchText');
-			if (!qstr.isEmpty(searchText)) {
-				return getItems({ idCode: '', searchText, id: 0 });
-			} else {
-
-				// idCode
-				let idCode = qsys.getParameterValueFromUrl('idCode');
-				if (qstr.isEmpty(idCode)) {
-					idCode = 'newestFirst';
-				}
-				return getItems({ idCode, searchText: '', id: 0 });
-			}
-		}
-	}
 
 	const setItemsByIdCode = (idCode: string) => {
 		const items = getItems({ idCode, searchText: '', id: 0 });
