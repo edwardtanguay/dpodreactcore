@@ -16,14 +16,20 @@ interface IItemsQueryObject {
 	id: number
 }
 
+const getInitialHowtos = () => {
+	qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
+	return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'desc');
+}
+
 function PageHowtos() {
-	const [howtos, setHowtos] = useState<IHowto[]>([]);
+	const [howtos, setHowtos] = useState<IHowto[]>(getInitialHowtos());
 	const [searchText, setSearchText] = useState<string>("");
 
 	useEffect(() => {
 		setHowtos([...getDefaultItems()]);
 	}, [])
-	
+
+
 
 	const getItems = (query: IItemsQueryObject) => {
 
@@ -37,8 +43,7 @@ function PageHowtos() {
 					return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'asc');
 				case 'newestFirst':
 				default:
-					qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
-					return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'desc');
+					return getInitialHowtos();
 			}
 		}
 
