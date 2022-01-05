@@ -1,4 +1,5 @@
 - .. prepare for layout that switches
+- howto focus onload
 
 - layout that switches
 
