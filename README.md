@@ -70,3 +70,24 @@ Datapod has a `live` mode and a `developer` mode. When the site is in live mode,
 - TypeScript classes, modules and scripts have the extension `.ts`
 - JavaScript components have the extension `.jsx`
 - JavaScript classes, modules and scripts have the extensions `.js`
+
+### Roadmap
+
+Diese Organisation würde ich dann tatsächlich verwenden als Hauptpunkt für diese drei Projekte:
+
+#### edwardtanguay.netlify.app (private repository)
+
+- erstens ist das meine zentrale Website, wo sich alle meine Projekte, Howtos, Code, Books, MOOCs, usw. befinden
+- zweitens ist das der Codebase von DatapodCore - ich entwickle neue Features für meine Website und ab und zu generiere ich eine neue Datapod-Versions
+- drittens ist das ein Distributed-Social-Data Node z.B. ich zeige nicht nur meine Howtos auf meine Website sondern stelle sie als JSON/APIs/GraphQL zur Verfügung für andere Social-Data sites zu konsumieren (wie z.B. eine Site von dir, die auch Howtos hat, die wir teilweise auf unsere Websites austauschen, usw.)
+
+#### Datapod-for-React (public repository)
+
+- die aktuelle Version von Datapod
+- dieses Projekt kann jeder sehen, clonen, forken und dafür pull-requests machen, aber ich werde alle Änderungen erstmal in meine DatapodCore Site (edwardtanguay) bringen, und dann eine neue Datapod-Version erstellen
+
+#### Distributed-Social-Data Nodes (alle public repositorys)
+
+- diese sind eine Sammlung von Starter Sites erstellt mit verschieden Technologien, aber alle entsprechen das DSD-Protokoll damit sie Semantic-Data (z.B. Howtos, Flashcards, Recipes, Runs) mit anderen DSD-Sites austauschen kann
+- eine Site wäre z.B. natürlich eine angepasste Datapod-for-React Site, die man auf Netlify hosten könnte, und sofort Content von anderen Sites (z.B. edwardtanguay.netlify.app, deine Site) erstmal darstellen könnte
+- in dem ich neue Platforms lerne (z.B. Laravel, Solid-JS, Gatsby, usw.) ein Ziel wäre eine Site zu erstellen, die das DSD-Protokoll implementiert, damit ich die Site hier zur Verfügung stelle könnte
