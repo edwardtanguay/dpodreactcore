@@ -4628,5 +4628,15 @@
 		"extras": "$rank=4.9;$generalRank=4.6",
 		"systemWhenCreated": "2022-01-13 01:37:20",
 		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": 486,
+		"category": "JavaScript",
+		"title": "Two data-driven JavaScript apps that fetch data from (1) local module and (2) external API",
+		"body": "- this app demonstrates two sites, one that loads data from a JavaScript object imported from a local module, and the other that fetchs JSON data from an external API:##twodatadrivenapps\n- notice how it uses string literals to create HTML as templates\n- you can view the full code here: https://github.com/edwardtanguay/javascript-data-driven-sites\n- **readFromObject/js/main.js**\n\t---------------------------------------------\n\timport { employees } from '../data/employees.js';\n\n\tconst contentElem = document.querySelector('.content');\n\n\tcontentElem.innerHTML += `There are ${employees.length} employees.`;\n\n\tcontentElem.innerHTML += employees.map(emp => {\n\t\treturn `\n\t<h2>${emp.firstName} ${emp.lastName} (${emp.address.country})</h2>\n\t<section class=\"body\">\n\t${emp.notes}\n\t</section>\n\t`;\n\t}).join('');\n\t---------------------------------------------\n- **fetchFromApi/js/main.js**\n\t------------------------------------------\n\tconst contentElem = document.querySelector('.content');\n\tcontentElem.innerHTML = 'Loading...';\n\n\t(async () => {\n\t\tconst response = await fetch('https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/json/employees.json');\n\t\tconst employees = await response.json();\n\n\t\tcontentElem.innerHTML = `There are ${employees.length} employees.`;\n\n\t\tcontentElem.innerHTML += employees.map(emp => {\n\t\t\treturn `\n\t<h2>${emp.firstName} ${emp.lastName} (${emp.address.country})</h2>\n\t<section class=\"body\">\n\t${emp.notes}\n\t</section>\n\t`;\n\t\t}).join('');\n\t})();\n\t------------------------------------------",
+		"points": 20,
+		"extras": "$rank=4.9;$generalRank=4.6",
+		"systemWhenCreated": "2022-01-14 23:17:56",
+		"systemWhoCreated": "systemUnknown"
 	}
 ]
