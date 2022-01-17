@@ -49,6 +49,10 @@ body {
 			li {
 				line-height: 1.3rem;
 				list-style: disc;
+				strong {
+					font-weight: bold;
+					color: rgb(230, 215, 150);
+				}
 			}
 		}
 		div {
