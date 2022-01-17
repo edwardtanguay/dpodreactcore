@@ -148,7 +148,7 @@ function PageHowtos() {
 		<>
 			<Helmet>
 				<title>Edward's how-to instructions and code examples</title>
-				<meta name="description" content="How to get things done in JavaScript, React, Node, MongoDB, CSS, TypeScript, SQLite, Google Sheets, etc." />
+				<meta name="description" content="How to get things done in JavaScript, React, Node, MongoDB, CSS, TypeScript, SQLite, Vue.js, etc." />
 			</Helmet>
 
 
