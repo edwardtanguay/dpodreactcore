@@ -174,7 +174,7 @@ function PageHowtos() {
 				{/* ========== SEARCH ========== */}
 				<div className="searchArea">
 					<div className="searchRow">
-						<input id="mainSearch" placeholder="search" type="text" value={searchText} className="form-control input-sm searchBox" onFocus={displaySearchResults} onChange={displaySearchResults} />
+						<input id="mainSearch" placeholder="search howtos" type="text" value={searchText} className="form-control input-sm searchBox" onFocus={displaySearchResults} onChange={displaySearchResults} />
 					</div>
 				</div>
 
