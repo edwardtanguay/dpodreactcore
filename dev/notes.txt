@@ -1,7 +1,7 @@
 - x change small
 - x try update react-scripts
-- .. howto focus onload
-- upgrade howto page with all necessary features
+- x howto focus onload
+- .. upgrade howto page with all necessary features
 	- >> https://edwardtanguay.netlify.app/howtos?id=496
 
 
