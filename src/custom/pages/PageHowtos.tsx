@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import '../styles/page_howtos.scss';
 // @ts-ignore
 import { Helmet } from 'react-helmet';
@@ -74,16 +74,20 @@ const getDefaultItems = () => {
 function PageHowtos() {
 	const [howtos, setHowtos] = useState<IHowto[]>(getDefaultItems());
 	const [searchText, setSearchText] = useState<string>("");
+	const refSearchText = useRef<HTMLInputElement>(null);
 
 	useEffect(() => {
 		setHowtos([...getDefaultItems()]);
+		if (refSearchText.current !== null) {
+			refSearchText.current.focus();
+		}
 	}, [])
 
 	// const getItems = (query: IItemsQueryObject) => {
 
 	// 	const { idCode, searchText, id } = query;
 
-	// 	if (idCode !== '') {
+	// 	if (idCode !== '') { 
 	// 		setSearchText('');
 	// 		switch (idCode) {
 	// 			case 'oldestFirst':
@@ -174,7 +178,7 @@ function PageHowtos() {
 				{/* ========== SEARCH ========== */}
 				<div className="searchArea">
 					<div className="searchRow">
-						<input id="mainSearch" placeholder="search howtos" type="text" value={searchText} className="form-control input-sm searchBox" onFocus={displaySearchResults} onChange={displaySearchResults} />
+						<input id="mainSearch" ref={refSearchText} placeholder="search howtos" type="text" value={searchText} className="form-control input-sm searchBox" onFocus={displaySearchResults} onChange={displaySearchResults} />
 					</div>
 				</div>
 
@@ -216,7 +220,6 @@ function PageHowtos() {
 						</div>
 					)
 				}
-				<div>Version 0.0001</div>
 			</div>
 		</>
 	)
