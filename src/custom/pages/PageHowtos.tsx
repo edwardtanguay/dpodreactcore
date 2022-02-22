@@ -216,7 +216,7 @@ function PageHowtos() {
 						</div>
 					)
 				}
-
+				<div>Version 0.0001</div>
 			</div>
 		</>
 	)

@@ -1,5 +1,9 @@
+- .. change small
+
 - .. prepare for layout that switches
 - howto focus onload
+
+- bug: Warning: Using UNSAFE_componentWillMount in strict mode is not recommended and may indicate bugs in your code. See https://reactjs.org/link/unsafe-component-lifecycles for details.
 
 - layout that switches
 
