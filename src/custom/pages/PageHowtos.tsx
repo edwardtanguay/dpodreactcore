@@ -79,7 +79,7 @@ function PageHowtos() {
 	useEffect(() => {
 		setHowtos([...getDefaultItems()]);
 		if (refSearchText.current !== null) {
-			refSearchText.current.focus();
+			// refSearchText.current.focus(); //TODO: fix so that focus doesn't move away from single item page
 		}
 	}, [])
 
