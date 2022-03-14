@@ -1,3 +1,5 @@
+- improve search: prioritize those items where search terms are found in the title
+
 - x change small
 - x try update react-scripts
 - x howto focus onload
