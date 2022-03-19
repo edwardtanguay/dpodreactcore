@@ -16,7 +16,6 @@ interface IItemsQueryObject {
 	id: number
 }
 
-
 function PageHowtos() {
 	const [howtos, setHowtos] = useState<IHowto[]>([]);
 	const [searchText, setSearchText] = useState<string>("");
@@ -27,10 +26,12 @@ function PageHowtos() {
 		const { idCode, searchText, id } = query;
 
 		if (idCode !== '') {
+			console.log(idCode);
 			switch (idCode) {
 				case 'oldestFirst':
-					qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
-					return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'asc');
+					// qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
+					const items = [...initialHowtos];
+					return qarr.sortObjects(items, 'systemWhenCreated', 'asc');
 				case 'newestFirst':
 				default:
 					return getInitialHowtos();
@@ -54,10 +55,13 @@ function PageHowtos() {
 	}
 
 	const getUrlId = () => {
-		return qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id'));
+		return Number(qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id')));
 	}
 	const getUrlSearchText = () => {
 		return qsys.getParameterValueFromUrl('searchText');
+	}
+	const getUrlIdCode = () => {
+		return qsys.getParameterValueFromUrl('idCode');
 	}
 
 	const getDefaultItems = () => {
@@ -76,7 +80,7 @@ function PageHowtos() {
 			} else {
 
 				// idCode
-				let idCode = qsys.getParameterValueFromUrl('idCode');
+				let idCode = getUrlIdCode();
 				if (qstr.isEmpty(idCode)) {
 					idCode = 'newestFirst';
 				}
@@ -87,9 +91,9 @@ function PageHowtos() {
 
 	useEffect(() => {
 		setHowtos([...getDefaultItems()]);
-		// if (refSearchText.current !== null) {
-		// 	// refSearchText.current.focus(); //TODO: fix so that focus doesn't move away from single item page
-		// }
+		if (refSearchText.current !== null && getUrlId() === 0 && getUrlSearchText() === '' && getUrlIdCode() === '') {
+			refSearchText.current.focus();
+		}
 	}, [])
 
 	const getItemsById = (id: number) => {
@@ -131,6 +135,13 @@ function PageHowtos() {
 		}
 	}
 
+	const showAllItems = () => {
+		if (refSearchText.current !== null) {
+			refSearchText.current.focus();
+		}
+		setItemsByIdCode('newestFirst');
+	}
+
 	return (
 		<>
 			<Helmet>
@@ -146,16 +157,16 @@ function PageHowtos() {
 					<h2 className="title">{howtos.length} Howtos</h2>
 				)}
 				{howtos.length === 1 && searchText === '' && (
-					<h2 className="title oneOfMany">1 of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => setItemsByIdCode('newestFirst')}>Howtos</span></h2>
+					<h2 className="title oneOfMany">1 of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => showAllItems()}>Howtos</span></h2>
 				)}
 				{howtos.length === 0 && searchText !== '' && (
-					<h2 className="title oneOfMany">0 of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => setItemsByIdCode('newestFirst')}>Howtos</span></h2>
+					<h2 className="title oneOfMany">0 of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => showAllItems()}>Howtos</span></h2>
 				)}
 				{howtos.length > 1 && searchText !== '' && (
-					<h2 className="title oneOfMany">{howtos.length} of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => setItemsByIdCode('newestFirst')}>Howtos</span></h2>
+					<h2 className="title oneOfMany">{howtos.length} of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => showAllItems()}>Howtos</span></h2>
 				)}
 				{howtos.length === 1 && searchText !== '' && (
-					<h2 className="title oneOfMany">1 of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => setItemsByIdCode('newestFirst')}>Howtos</span></h2>
+					<h2 className="title oneOfMany">1 of {initialHowtos.length} <span className="itemTypeTitle" onClick={() => showAllItems()}>Howtos</span></h2>
 				)}
 
 				{/* ========== SEARCH ========== */}
