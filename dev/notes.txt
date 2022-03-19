@@ -1,4 +1,8 @@
-- start both frontend and backend with one command
+- .. start both frontend and backend with one command
+
+
+
+
 - .. howtos page all features
 	- .. focus etc. as here: https://edwardtanguay.netlify.app/howtos?id=496
 
@@ -16,8 +20,10 @@
 
 
 
-
-
+- sprint: cleanup
+	- convert all require to import
+	- conver all function() to array functions
+	- replace all TypeScript any with appropriate type
 
 
 

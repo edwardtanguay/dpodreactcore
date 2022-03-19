@@ -1,7 +1,7 @@
 import * as qstr from './qtools/qstr';
 
 export const getBackendPort = () => {
-	return 4444;
+	return 4446;
 }
 
 export const getSiteMode = () => {

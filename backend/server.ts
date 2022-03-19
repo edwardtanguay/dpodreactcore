@@ -18,6 +18,10 @@ app.post('/controller*', function (request: any, response: any) {
 	}
 });
 
+app.get('/', (req: any, res: any) => {
+	res.send('dpod backend');
+});
+
 app.listen(port, () => {
 	console.log(`backend listening on port ${port}...`);
 });
