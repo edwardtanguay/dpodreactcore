@@ -1,6 +1,5 @@
-- set up Datapod-for-React repository
-- set up Datapod landing site
-
+- .. change repository on https://dpodreact.netlify.app 
+- create on readme: Datapod Roadmap
 
 
 
@@ -19,6 +18,8 @@
 
 - .. upgrade howto page with all necessary features
 	- >> https://edwardtanguay.netlify.app/howtos?id=496
+
+
 
 - tasks
 	- cleanup
