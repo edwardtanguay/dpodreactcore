@@ -1,4 +1,12 @@
-- .. rewrite readme
+- .. base clean up 
+- switch to public
+- set up Datapod-for-React repository
+- set up Datapod landing site
+
+
+
+
+
 - .. howtos page all features
 	- .. focus etc. as here: https://edwardtanguay.netlify.app/howtos?id=496
 
@@ -14,13 +22,15 @@
 - .. upgrade howto page with all necessary features
 	- >> https://edwardtanguay.netlify.app/howtos?id=496
 
-- versions
-
-- sprint: cleanup
-	- convert all require to import
-	- conver all function() to array functions
-	- replace all TypeScript any with appropriate type
-
+- tasks
+	- cleanup
+		- convert all require to import
+		- convert all function() to array functions
+		- replace all TypeScript any with appropriate type
+		- new create-react-app version
+	- reorganize ShowContext
+	- datapod generator
+		- custom/system separated cleanly	  
 
 
 
