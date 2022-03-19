@@ -167,6 +167,13 @@ body {
 			margin: 10px 0 0 0;
 			font-size: .7rem;
 			text-align: right;
+			a {
+				color: #fff;
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
 		}
 	}
 	/* smartphone */
