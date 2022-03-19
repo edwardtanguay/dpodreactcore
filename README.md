@@ -1,93 +1,54 @@
-# Datapod for React
+# Datapod-for-React Core
 
-This is a framework which extends create-react-app to enables you to quickly build data-driven sites.
+This is the core code which produces new versions for my open-source project **Datapod-for-React**.
+
+Specific content in this site is also exposed online as the content for my personal site [edwardtanguay.netlify.app](http://edwardtanguay.netlify.app).
+
+## Developer
+
+- [Edward Tanguay](http://tanguay.info)
+
+## Technology
+
+- React
+- TypeScript
+- SASS
 
 ## Setup
 
 - clone repository
 - `npm install`
-- `npm run start2`
-- `npm run backend`
-- you will see in your browser a site like this:
-<img src="dev/github/graphics/firstScreen.png">
+- `npm start` (starts both backend and frontend)
 
-## Current Features
+## FAQs
 
-- You can immediately create and delete pages with the Create Page and Delete Page menu items.
+### What two purposes does this project serve?
 
-![grafik](https://user-images.githubusercontent.com/446574/132846921-1add6434-33bc-4e78-a1d1-f17c9987a808.png)
+- I push code to this repository which gets immediately published as my personal project [edwardtanguay.netlify.app](http://edwardtanguay.netlify.app)
+- when I create a significant, new feature for this site, I run a code-generation process which produces a new version of my open-source framework **Datapod-for-React**
 
-- View the showcase pages to see various examples features that can be built into the site.
+### What is the difference between Datapod-for-React Core and Datapod-for-React?
 
-## Datapod Command Line Interface
+**Datapod-for-React Core** is a code base which produces my best-effort personal site edwardtanguay.netlify.app which is a central place for all my projects. It contains all the personal information for that site, as well as serves as a place for me to try out new functionality with React/TypeScript, various libraries, etc. to see if and how they work both offline and online in browser and smart phones, etc. 
 
-- get help: `npm run dpod`
-- create page: `npm run dpod -- createPage --pageTitle "Showcase Regex"`
+**Datapod-for-React** is the third implementation of my Datapod Framework (the two others were Datapod-for-PHP and Datapod-for-Node-Express). It is a framework that allows you to more easily work with data and host data-driven websites. 
 
-## Datapod Concepts
+### Why do you generate the code for your Datapod-for-React framework instead of develop it manually?
 
-### The distinction between `system` and `custom` 
+I mainly want to work on my edwardtanguay.netlify.app, developing both content and features for it. When I build new features for it, I don't want to have to then copy them back into my Datapod site, but simply have them generated automatically. 
 
-- `system` = everything that is core to the Datapod framework
-- `custom` = everything that is specific to a particular website which uses Datapod
-- there are two areas under `src`: 
-	- `system` - contains all components, classes and all other files that are necessary for the framework to run
-	- `custom` - contains all components, classes, etc. for a specific website that uses Datapod as its framework
-	- keep these files separate as you build your site so that in the future, you can upgrade to a new version of Datapod which will only change files in `system`
-- you will also see this distinction in e.g. ItemTypes and DataTypes, some that are `system` (e.g. `users`, `pageItems`) and some that are not (e.g. `howtos`, `flashcards`, `servers`, etc.)
+### How can other developers contribute to Datapod-for-React Core or Datapod-for-React?
 
-### Showcase Pages
+Since Datapod-for-React Core is just a personal project only part of which is published at edwardtanguay.netlify.app, the only contributors I have are developers with whom I'm working on a specific feature that is not yet published at Datapod-for-React.
 
-Datapod is seen foremost as a tool in which everything that you need to develop is contained in the site itself, i.e. is "pod like." In this spirit, Datapod-for-React has many *Showcase Pages* each which demonstrate how to do something with Datapod-for-React or in React itself. These pages show a live example of something that works which the developer can experiment with and then study the code to see how to implement it. When Datapod code contributors work on certain aspects of the site and first need to try something out to see if it works, they will often create a *Showcase Page* to get it working, and then when it works, they will leave it there for other developers to use.
+And since each new version of Datapod-for-React is generated instead of coded and pushed manually, developers who are interested in extending it fork the project for their own, and when they develop a significant feature or have a specific fix for a bug, they simply make it known to me, and I include it in the next generated version, giving them credit for their contribution in the version history.
 
-Datapod has a `live` mode and a `developer` mode. When the site is in live mode, none of these showcase pages or any other developer pages are visible or available. But when the developer switches to developer mode, all of these pages are available in the menu of the site itself.
+## Current Projects in Datapod-for-React Core
 
-### ItemTypes
+### Distributed Data Sharing (DDS)
 
-- (todo)
+DDS is a concept that allows sites and applications to use each other's content as base content for their own sites, e.g. changing it, extending it, correcting it, while keeping track of the distributed sharing trail. Key features include:
 
-### DataTypes
-
-- (todo)
-
-## Datapod-for-React Conventions 
-
-### Prefer TypeScript
-
-- to increase code security and stability, use TypeScript to create components, classes and modules instead of JavaScript
-
-### Prefer function components
-
-- to increase readability and testing, use React function components instead of class components
-
-### Prefer SASS
-
-- to increase styling flexibility, use SASS (`.scss`) instead of CSS files
-
-### File extensions
-
-- TypeScript components have the extension `.tsx`
-- TypeScript classes, modules and scripts have the extension `.ts`
-- JavaScript components have the extension `.jsx`
-- JavaScript classes, modules and scripts have the extensions `.js`
-
-### Roadmap
-
-Diese Organisation würde ich dann tatsächlich verwenden als Hauptpunkt für diese drei Projekte:
-
-#### edwardtanguay.netlify.app (private repository)
-
-- erstens ist das meine zentrale Website, wo sich alle meine Projekte, Howtos, Code, Books, MOOCs, usw. befinden
-- zweitens ist das der Codebase von DatapodCore - ich entwickle neue Features für meine Website und ab und zu generiere ich eine neue Datapod-Versions
-- drittens ist das ein Distributed-Social-Data Node z.B. ich zeige nicht nur meine Howtos auf meine Website sondern stelle sie als JSON/APIs/GraphQL zur Verfügung für andere Social-Data sites zu konsumieren (wie z.B. eine Site von dir, die auch Howtos hat, die wir teilweise auf unsere Websites austauschen, usw.)
-
-#### Datapod-for-React (public repository)
-
-- die aktuelle Version von Datapod
-- dieses Projekt kann jeder sehen, clonen, forken und dafür pull-requests machen, aber ich werde alle Änderungen erstmal in meine DatapodCore Site (edwardtanguay) bringen, und dann eine neue Datapod-Version erstellen
-
-#### Distributed-Social-Data Nodes (alle public repositorys)
-
-- diese sind eine Sammlung von Starter Sites erstellt mit verschieden Technologien, aber alle entsprechen das DSD-Protokoll damit sie Semantic-Data (z.B. Howtos, Flashcards, Recipes, Runs) mit anderen DSD-Sites austauschen kann
-- eine Site wäre z.B. natürlich eine angepasste Datapod-for-React Site, die man auf Netlify hosten könnte, und sofort Content von anderen Sites (z.B. edwardtanguay.netlify.app, deine Site) erstmal darstellen könnte
-- in dem ich neue Platforms lerne (z.B. Laravel, Solid-JS, Gatsby, usw.) ein Ziel wäre eine Site zu erstellen, die das DSD-Protokoll implementiert, damit ich die Site hier zur Verfügung stelle könnte
+- the content of a participating site is exposed as API or JSON files which are accessible to other sites
+- other sites read in this data, and present it to the site owner who can republish it on their own site as their own content, and thereby also changing, extending, or correcting this data
+- sites that share data will be able to consume the shared data of other sites and thus notify their own owners of changes, corrections and extensions made to their own content 

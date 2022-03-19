@@ -1,7 +1,4 @@
-
-
-
-
+- .. rewrite readme
 - .. howtos page all features
 	- .. focus etc. as here: https://edwardtanguay.netlify.app/howtos?id=496
 
