@@ -1,8 +1,16 @@
+- start both frontend and backend with one command
+- .. howtos page all features
+	- .. focus etc. as here: https://edwardtanguay.netlify.app/howtos?id=496
+
+- .. get site ready to show and explain on Tuesday
+	- readme: write down full plan for developing, publishing, etc.
+		- notes from Niko conversation
+
+- do graphql showcase with json: https://www.npmjs.com/package/json-graphql-server/v/2.3.1
+
+
 - improve search: prioritize those items where search terms are found in the title
 
-- x change small
-- x try update react-scripts
-- x howto focus onload
 - .. upgrade howto page with all necessary features
 	- >> https://edwardtanguay.netlify.app/howtos?id=496
 
