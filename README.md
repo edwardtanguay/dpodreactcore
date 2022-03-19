@@ -61,6 +61,7 @@ DDS is a concept that allows sites and applications to use each other's content 
 
 ## Versions: Datapod-for-React Core
 
+-   2022-03-19 - 0.02.00 - howto page focuses cursor
 -   2022-03-19 - 0.01.03 - added version information
 -   2022-03-19 - 0.01.02 - cleaned up base code and made repository public
 -   2022-03-19 - 0.01.01 - added npm-run-all which starts both frontend and backend
