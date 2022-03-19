@@ -1,3 +1,0 @@
-2022-03-19 - 0.01.02 - 
-2022-03-19 - 0.01.01 - added npm-run-all which starts both frontend and backend
-2022-03-19 - 0.01.00 - state up app as of 2022-03-19

@@ -82,7 +82,7 @@ function Site() {
 					</Routes>
 				</section>
 			</BrowserRouter>
-			<div className="versionInfo">Datapod for React CORE - Version 0.01.02</div>
+			<div className="versionInfo">Datapod for React CORE - Version 0.01.03</div>
 		</div>
 	);
 }

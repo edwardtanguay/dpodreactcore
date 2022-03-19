@@ -162,6 +162,12 @@ body {
 				font-size: 0.9em;
 			}
 		}
+		.versionInfo {
+			color: yellow;
+			margin: 10px 0 0 0;
+			font-size: .7rem;
+			text-align: right;
+		}
 	}
 	/* smartphone */
 	@media (max-width: 767px) {

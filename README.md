@@ -52,3 +52,10 @@ DDS is a concept that allows sites and applications to use each other's content 
 - the content of a participating site is exposed as API or JSON files which are accessible to other sites
 - other sites read in this data, and present it to the site owner who can republish it on their own site as their own content, and thereby also changing, extending, or correcting this data
 - sites that share data will be able to consume the shared data of other sites and thus notify their own owners of changes, corrections and extensions made to their own content 
+
+### Versions: Datapod-for-React Core
+
+2022-03-19 - 0.01.03 - added version information
+2022-03-19 - 0.01.02 - cleaned up base code and made repository public
+2022-03-19 - 0.01.01 - added npm-run-all which starts both frontend and backend
+2022-03-19 - 0.01.00 - state of app as of 2022-03-19

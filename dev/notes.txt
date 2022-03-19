@@ -1,5 +1,3 @@
-- .. base clean up 
-- switch to public
 - set up Datapod-for-React repository
 - set up Datapod landing site
 
@@ -413,9 +411,9 @@ ROADMAP
 			- 2021-12-24 - 1.21.00 - Added three new DataTypes: Natural Numbers, Whole Numbers, Decimals
 			- 2021-12-24 - 1.21.01 - Fixed spelling erros on setup
 		- files:
-			- 2021-09-24-0000000-firstPublicVersion.zip	
-			- 2021-12-24-0012100-threeDataTypes.zip
-			- 2021-12-24-0012101-fixedSpelling.zip
+			- 2021-09-24-00000-firstPublicVersion.zip
+			- 2021-12-24-12100-threeDataTypes.zip
+			- 2021-12-24-12101-fixedSpelling.zip
 		- notes
 			- I don't have build numbers so won't include these in the version
 		- limitations
@@ -458,3 +456,5 @@ ROADMAP
 - documentation
 	- pages
 		- Environment: frontendOnly, frontendBackend
+
+
