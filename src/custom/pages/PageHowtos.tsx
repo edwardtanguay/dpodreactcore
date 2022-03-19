@@ -16,98 +16,81 @@ interface IItemsQueryObject {
 	id: number
 }
 
-const getItems = (query: IItemsQueryObject) => {
-
-	const { idCode, searchText, id } = query;
-
-	if (idCode !== '') {
-		switch (idCode) {
-			case 'oldestFirst':
-				qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
-				return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'asc');
-			case 'newestFirst':
-			default:
-				return getInitialHowtos();
-		}
-	}
-
-	if (searchText !== '') {
-		const items = initialHowtos.filter((howto: IHowto) => qstr.searchTextMatches(searchText, [howto.title, howto.body].join('|')));
-		return qarr.sortObjects(items, 'systemWhenCreated', 'desc');
-	}
-
-	if (id !== 0) {
-		return initialHowtos.filter((howto: IHowto) => howto.id === id);
-	}
-
-}
-
-const getInitialHowtos = () => {
-	qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
-	return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'desc');
-}
-
-const getDefaultItems = () => {
-	const id: number = qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id'));
-
-	// id
-	if (id !== 0) {
-		return getItems({ idCode: '', searchText: '', id });
-	} else {
-
-		// search
-		const searchText = qsys.getParameterValueFromUrl('searchText');
-		if (!qstr.isEmpty(searchText)) {
-			return getItems({ idCode: '', searchText, id: 0 });
-		} else {
-
-			// idCode
-			let idCode = qsys.getParameterValueFromUrl('idCode');
-			if (qstr.isEmpty(idCode)) {
-				idCode = 'newestFirst';
-			}
-			return getItems({ idCode, searchText: '', id: 0 });
-		}
-	}
-}
 
 function PageHowtos() {
-	const [howtos, setHowtos] = useState<IHowto[]>(getDefaultItems());
+	const [howtos, setHowtos] = useState<IHowto[]>([]);
 	const [searchText, setSearchText] = useState<string>("");
 	const refSearchText = useRef<HTMLInputElement>(null);
 
+	const getItems = (query: IItemsQueryObject) => {
+
+		const { idCode, searchText, id } = query;
+
+		if (idCode !== '') {
+			switch (idCode) {
+				case 'oldestFirst':
+					qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
+					return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'asc');
+				case 'newestFirst':
+				default:
+					return getInitialHowtos();
+			}
+		}
+
+		if (searchText !== '') {
+			const items = initialHowtos.filter((howto: IHowto) => qstr.searchTextMatches(searchText, [howto.title, howto.body].join('|')));
+			return qarr.sortObjects(items, 'systemWhenCreated', 'desc');
+		}
+
+		if (id !== 0) {
+			return initialHowtos.filter((howto: IHowto) => howto.id === id);
+		}
+
+	}
+
+	const getInitialHowtos = () => {
+		qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
+		return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'desc');
+	}
+
+	const getUrlId = () => {
+		return qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id'));
+	}
+	const getUrlSearchText = () => {
+		return qsys.getParameterValueFromUrl('searchText');
+	}
+
+	const getDefaultItems = () => {
+		const id: number = getUrlId();
+
+		// id
+		if (id !== 0) {
+			return getItems({ idCode: '', searchText: '', id });
+		} else {
+
+			// search
+			const searchText = getUrlSearchText();
+			if (!qstr.isEmpty(searchText)) {
+				setSearchText(searchText);
+				return getItems({ idCode: '', searchText, id: 0 });
+			} else {
+
+				// idCode
+				let idCode = qsys.getParameterValueFromUrl('idCode');
+				if (qstr.isEmpty(idCode)) {
+					idCode = 'newestFirst';
+				}
+				return getItems({ idCode, searchText: '', id: 0 });
+			}
+		}
+	}
+
 	useEffect(() => {
 		setHowtos([...getDefaultItems()]);
-		if (refSearchText.current !== null) {
-			// refSearchText.current.focus(); //TODO: fix so that focus doesn't move away from single item page
-		}
+		// if (refSearchText.current !== null) {
+		// 	// refSearchText.current.focus(); //TODO: fix so that focus doesn't move away from single item page
+		// }
 	}, [])
-
-	// const getItems = (query: IItemsQueryObject) => {
-
-	// 	const { idCode, searchText, id } = query;
-
-	// 	if (idCode !== '') { 
-	// 		setSearchText('');
-	// 		switch (idCode) {
-	// 			case 'oldestFirst':
-	// 				qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
-	// 				return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'asc');
-	// 			case 'newestFirst':
-	// 			default:
-	// 				return getInitialHowtos();
-	// 		}
-	// 	}
-
-	// 	if (searchText !== '') {
-	// 		return initialHowtos.filter((howto: IHowto) => qstr.searchTextMatches(searchText, [howto.title, howto.body].join('|')));
-	// 	}
-
-	// 	if (id !== 0) {
-	// 		return initialHowtos.filter((howto: IHowto) => howto.id === id);
-	// 	}
-
-	// }
 
 	const getItemsById = (id: number) => {
 		return getItems({ idCode: '', searchText: '', id });
@@ -119,7 +102,6 @@ function PageHowtos() {
 		const items = getItems({ idCode, searchText: '', id: 0 });
 		setHowtos([...items]);
 	}
-
 
 	const getCurrentItem = (): IHowto => {
 		const item = howtos[0];
@@ -145,6 +127,7 @@ function PageHowtos() {
 		} else {
 			const items = getItems({ idCode: '', searchText, id: 0 });
 			setHowtos([...items]);
+			qsys.changeBrowserState(document, 'howtos', 'searchText', searchText, `Search "${searchText}"`);
 		}
 	}
 

@@ -1,11 +1,28 @@
-- .. change repository on https://dpodreact.netlify.app 
-- create on readme: Datapod Roadmap
+- .. make general plan
+
+
+getUrlInfo()
+	{
+		id: 0,
+		searchText: 'svg',
+		idCode: ''
+	}
 
 
 
+
+
+
+
+
+- .. make search change url
 
 - .. howtos page all features
 	- .. focus etc. as here: https://edwardtanguay.netlify.app/howtos?id=496
+
+
+
+
 
 - .. get site ready to show and explain on Tuesday
 	- readme: write down full plan for developing, publishing, etc.
