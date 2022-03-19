@@ -1,4 +1,3 @@
-- .. start both frontend and backend with one command
 
 
 
@@ -18,7 +17,7 @@
 - .. upgrade howto page with all necessary features
 	- >> https://edwardtanguay.netlify.app/howtos?id=496
 
-
+- versions
 
 - sprint: cleanup
 	- convert all require to import
