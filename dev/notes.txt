@@ -1,3 +1,4 @@
+- test smartphone with focus
 - generalize howtos (so that you can use it as a template)
 	- fix idCode for howtos: with buttons, dimly lit
 	- make itemPageManager class and export all generic code to it
