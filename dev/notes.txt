@@ -28,7 +28,7 @@
 	- datapod generator
 		- custom/system separated cleanly	  
 
-
+- implement React Hook Form
 
 
 - .. prepare for layout that switches
