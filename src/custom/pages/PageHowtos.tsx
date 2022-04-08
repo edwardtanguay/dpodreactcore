@@ -14,7 +14,7 @@ function PageHowtos(props: IItemPageProps) {
 	}, [id, searchText, idCode]);
 
 	const handleSearchClick = () => {
-		forceConsistentStateData({ searchText: 'google' });
+		forceConsistentStateData({ searchText: 'vim' });
 	};
 	const handleIdClick = () => {
 		forceConsistentStateData({ id: 344 });

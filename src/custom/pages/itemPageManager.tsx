@@ -5,7 +5,13 @@ import * as qarr from '../../system/qtools/qarr';
 import { IItem } from '../models/interfaces';
 
 export const itemPageManager =
-	(Component: any, itemTypeIdCode: string, itemTypeDescription: string) =>
+	(
+		Component: any,
+		itemTypeIdCode: string,
+		itemTypeSingleTitle: string,
+		itemTypePluralTitle: string,
+		itemTypeTabTitle: string
+	) =>
 	(props: any) => {
 		const [id, setId] = useState(0);
 		const [searchText, setSearchText] = useState('');
@@ -43,7 +49,7 @@ export const itemPageManager =
 					obj.idCode = '';
 					urlVariableName = 'id';
 					urlVariableValue = obj.id;
-					tabTitle = `${itemTypeIdCode}: ${obj.id}`
+					tabTitle = `${itemTypeSingleTitle}: ${obj.id}`;
 					break;
 				}
 				case obj.searchText !== '': {
@@ -51,7 +57,7 @@ export const itemPageManager =
 					obj.idCode = '';
 					urlVariableName = 'searchText';
 					urlVariableValue = obj.searchText;
-					tabTitle = `${itemTypeIdCode}: ${obj.searchText}`
+					tabTitle = `${itemTypePluralTitle}: "${obj.searchText}"`;
 					break;
 				}
 				case obj.idCode !== '': {
@@ -59,7 +65,7 @@ export const itemPageManager =
 					obj.searchText = '';
 					urlVariableName = 'idCode';
 					urlVariableValue = obj.idCode;
-					tabTitle = `${itemTypeIdCode}: ${obj.idCode}`
+					tabTitle = `${itemTypeIdCode}: ${obj.idCode}`;
 					break;
 				}
 				default: {

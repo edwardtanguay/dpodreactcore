@@ -35,6 +35,8 @@ import pages from './data/json/itemTypes/itemType_pages.json';
 const PageHowtos = itemPageManager(
 	_PageHowtos,
 	'howtos',
+	'Howto',
+	'Howtos',
 	`Edward's howtos and code examples`
 );
 
