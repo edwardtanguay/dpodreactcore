@@ -4,6 +4,7 @@ import '../styles/page_howtos.scss';
 import { IItemPageProps, IHowto } from '../models/interfaces';
 import _initialHowtos from '../models/model_howtos';
 import { Helmet } from 'react-helmet';
+import * as qdat from '../../system/qtools/qdat';
 
 // const refSearchText = useRef<HTMLInputElement>(null);
 
@@ -20,7 +21,13 @@ function PageHowtos(props: IItemPageProps) {
 		// if (refSearchText.current !== null) {
 		// 	refSearchText.current.focus();
 		// }
-		forceConsistentStateData({ idCode: 'newestFirst' });
+		forceConsistentStateData({});
+	};
+
+	const displayOneItem = (id:number) => {
+		forceConsistentStateData({ id});
+		document.body.scrollTop = 0; // For Safari
+		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 	};
 
 	const displaySearchResults = (e: any) => {
@@ -87,14 +94,26 @@ function PageHowtos(props: IItemPageProps) {
 					</h2>
 				)}
 
-
-
 				{/* ========== SEARCH ========== */}
 				<div className="searchArea">
 					<div className="searchRow">
 						<input id="mainSearch" placeholder="search howtos" type="text" value={searchText} className="form-control input-sm searchBox" onFocus={displaySearchResults} onChange={displaySearchResults} />
 					</div>
 				</div>
+
+				{/* ========== MULTIPLE RECORDS ========== */}
+				{items.length > 1 && (
+					<section className="howtos">
+						{items.map((howto: any, i: number) => {
+							return (
+								<div key={i} className="overviewItem">
+									<div className="header"><span className="createDate">{qdat.smartDateWithYear(howto.systemWhenCreated)}</span> <span className="category">{howto.categoryTitle}</span></div>
+									<div key={i} className="itemLinkTitle" onClick={() => displayOneItem(howto.id)}>{howto.title}</div>
+								</div>
+							)
+						})}
+					</section>
+				)}
 
 			</div>
 		</>

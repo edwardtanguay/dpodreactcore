@@ -20,8 +20,6 @@ ITEM PAGE: ADD BACK IN
 
 	const setCurrentItemsById = (id: number) => {
 		setItems([...getItemsById(id)]);
-		document.body.scrollTop = 0; // For Safari
-		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 	};
 
 
@@ -31,20 +29,6 @@ ITEM PAGE: ADD BACK IN
 
 
 			<div className="page page_howtos">
-
-				{/* ========== MULTIPLE RECORDS ========== */}
-				{howtos.length > 1 && (
-					<section className="howtos">
-						{howtos.map((howto: any, i: number) => {
-							return (
-								<div key={i} className="overviewItem">
-									<div className="header"><span className="createDate">{qdat.smartDateWithYear(howto.systemWhenCreated)}</span> <span className="category">{howto.categoryTitle}</span></div>
-									<div key={i} className="itemLinkTitle" onClick={() => setCurrentItemsById(howto.id)}>{howto.title}</div>
-								</div>
-							)
-						})}
-					</section>
-				)}
 
 				{/* ========== ONE RECORD ========== */}
 				{howtos.length === 1 &&
