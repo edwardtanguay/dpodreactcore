@@ -11,21 +11,19 @@ function PageHowtos(props: IItemPageProps) {
 	const [items, setItems] = useState<IHowto[]>([]);
 
 	const loadItems = (): IHowto[] => {
-
 		switch (true) {
-
 			case id !== 0: {
 				return _initialItems.filter((howto: IHowto) => howto.id === id);
 			}
-		case searchText !== '': {
-			const items = _initialItems.filter((howto: IHowto) =>
-				qstr.searchTextMatches(
-					searchText,
-					[howto.title, howto.body].join('|')
-				)
-			);
-			return qarr.sortObjects(items, 'systemWhenCreated', 'desc');
-		}
+			case searchText !== '': {
+				const items = _initialItems.filter((howto: IHowto) =>
+					qstr.searchTextMatches(
+						searchText,
+						[howto.title, howto.body].join('|')
+					)
+				);
+				return qarr.sortObjects(items, 'systemWhenCreated', 'desc');
+			}
 
 			case idCode !== '': {
 				switch (idCode) {
@@ -67,10 +65,12 @@ function PageHowtos(props: IItemPageProps) {
 		<div className="page page_howtos">
 			<div>There are {items.length} items.</div>
 			<hr />
-			{items.map(item => {
+			{items.map((item) => {
 				return (
-					<div>{item.systemWhenCreated} - {item.title}</div>
-				)
+					<div>
+						{item.systemWhenCreated} - {item.title}
+					</div>
+				);
 			})}
 		</div>
 	);
