@@ -20,23 +20,37 @@ export const itemPageManager = (Component: any) => (props: any) => {
 	};
 
 	const forceConsistentStateData = (obj: any) => {
+
+		//url variable
+		let urlVariableName = '';
+		let urlVariableValue = '';
+
+		// get defaults
 		obj.id = obj.id ?? 0;
 		obj.searchText = obj.searchText ?? '';
 		obj.idCode = obj.idCode ?? '';
+
+		// force consistency between variables
 		switch (true) {
 			case obj.id !== 0: {
 				obj.searchText = '';
 				obj.idCode = '';
+				urlVariableName = 'id';
+				urlVariableValue = obj.id;
 				break;
 			}
 			case obj.searchText !== '': {
 				obj.id = 0;
 				obj.idCode = '';
+				urlVariableName = 'searchText';
+				urlVariableValue = obj.searchText;
 				break;
 			}
 			case obj.idCode !== '': {
 				obj.id = 0;
 				obj.searchText = '';
+				urlVariableName = 'idCode';
+				urlVariableValue = obj.idCode;
 				break;
 			}
 			default: {
@@ -46,9 +60,21 @@ export const itemPageManager = (Component: any) => (props: any) => {
 				break;
 			}
 		}
+
+		// set state
 		setId(obj.id);
 		setSearchText(obj.searchText);
 		setIdCode(obj.idCode);
+
+		//update url
+		qsys.changeBrowserState(
+			document,
+			'howtos',
+			urlVariableName,
+			urlVariableValue,
+			`Edward's how-to instructions and code examples`
+		);
+
 	};
 
 	useEffect(() => {
@@ -65,9 +91,6 @@ export const itemPageManager = (Component: any) => (props: any) => {
 			id={id}
 			searchText={searchText}
 			idCode={idCode}
-			getUrlId={getUrlId}
-			getUrlSearchText={getUrlSearchText}
-			getUrlIdCode={getUrlIdCode}
 			forceConsistentStateData={forceConsistentStateData}
 		/>
 	);
