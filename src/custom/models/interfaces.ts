@@ -13,10 +13,13 @@ export interface IItemsQueryObject {
 	searchText: string,
 	id: number
 }
-
+ 
 export interface IItemPageProps {
-	getUrlId: number;
-	getUrlSearchText: string;
-	getUrlIdCode: string;
+	id: number;
+	searchText: string;
+	idCode: string;
+	getUrlId: any;
+	getUrlSearchText: any;
+	getUrlIdCode: any;
+	forceConsistentStateData: any;
 }
-
