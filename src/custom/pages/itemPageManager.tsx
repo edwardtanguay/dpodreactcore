@@ -25,6 +25,12 @@ export const itemPageManager =
 				getItems: (items: IItem[]) =>
 					qarr.sortObjects(items, 'systemWhenCreated', 'asc'),
 			},
+			{
+				idCode: 'firstTen',
+				title: 'First Ten',
+				getItems: (items: IItem[]) =>
+					qarr.sortObjects(items, 'systemWhenCreated', 'asc').slice(0,10),
+			},
 		];
 
 		const getIdCodeGroup = (idCode: string, items: IItem[]) => {

@@ -25,8 +25,8 @@ function PageHowtos(props: IItemPageProps) {
 			});
 		}
 	};
-	const handleIdCodeClick = () => {
-		forceConsistentStateData({ idCode: 'oldestFirst' });
+	const handleIdCodeClick = (idCode: string) => {
+		forceConsistentStateData({ idCode });
 	};
 
 	return (
@@ -35,7 +35,12 @@ function PageHowtos(props: IItemPageProps) {
 			<hr />
 			<button onClick={handleSearchClick}>Search</button>
 			<button onClick={() => handleIdClick(233)}>Id</button>
-			<button onClick={handleIdCodeClick}>IdCode</button>
+			<button onClick={() => handleIdCodeClick('oldestFirst')}>
+				Oldest First
+			</button>
+			<button onClick={() => handleIdCodeClick('firstTen')}>
+				First Ten
+			</button>
 			{items.map((item, i) => {
 				return (
 					<div key={i}>
