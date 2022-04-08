@@ -10,6 +10,12 @@ interface IProps {
 	getUrlIdCode: any;
 }
 
+interface IItemPageStateVariables {
+	id: number;
+	searchText: string;
+	idCode: string;
+}
+
 function PageHowtos(props: IProps) {
 	const { getUrlId, getUrlSearchText, getUrlIdCode } = props;
 	// const [items, setItems] = useState<IHowto[]>([]);
@@ -17,49 +23,51 @@ function PageHowtos(props: IProps) {
 	const [searchText, setSearchText] = useState('');
 	const [idCode, setIdCode] = useState('');
 
-	const setInitialPageState = () => {
-		const id2 = getUrlId();
-		console.log(id2);
-		setId(id2);
-		setSearchText(getUrlSearchText());
-		setIdCode(getUrlIdCode());
-	};
+	const changePageState = (obj: IItemPageStateVariables) => {
+		setId(obj.id);
+		setSearchText(obj.searchText);
+		setIdCode(obj.idCode);
+	}
 
-	const forceCorrectPageStateAndFilterItems = () => {
-		console.log(id);
+	const forceConsistentStateData = (obj: IItemPageStateVariables) => {
 		switch (true) {
-			case id !== 0: {
-				setSearchText('');
-				setIdCode('');
+			case obj.id !== 0: {
+				obj.searchText = '';
+				obj.idCode = '';
 				break;
 			}
-			case idCode !== '': {
-				setId(0);
-				setSearchText('');
+			case obj.searchText !== '': {
+				obj.id = 0;
+				obj.idCode = '';
 				break;
 			}
-			case searchText !== '': {
-				setId(0);
-				setIdCode('');
+			case obj.idCode !== '': {
+				obj.id = 0;
+				obj.searchText = '';
 				break;
 			}
 			default: {
-				setId(0);
-				setSearchText('');
-				setIdCode('');
+				obj.id = 0;
+				obj.searchText = '';
+				obj.idCode = '';
 				break;
 			}
 		}
 	};
 
 	useEffect(() => {
-		setInitialPageState();
+		const obj = {
+			id: getUrlId(),
+			searchText: getUrlSearchText(),
+			idCode: getUrlIdCode(),
+		};
+		forceConsistentStateData(obj);
+		changePageState(obj);
 	}, []);
 
-	useEffect(() => {
-		console.log('id has changed to: ' + id);
-		forceCorrectPageStateAndFilterItems();
-	}, [id]);
+	const handleClick = () => {
+		const obj = getCurrentStateObject();
+	}
 
 	return (
 		<div className="page page_howtos">
@@ -69,6 +77,7 @@ function PageHowtos(props: IProps) {
 				<li>searchText: [{searchText}]</li>
 				<li>idCode: [{idCode}]</li>
 			</ul>
+			<button onClick={handleClick}>change</button>
 		</div>
 	);
 }
