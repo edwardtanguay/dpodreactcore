@@ -36,7 +36,9 @@ export const itemPageManager =
 				idCode: 'firstTen',
 				title: 'First Ten',
 				getItems: (items: IItem[]) =>
-					qarr.sortObjects(items, 'systemWhenCreated', 'asc').slice(0,10),
+					qarr
+						.sortObjects(items, 'systemWhenCreated', 'asc')
+						.slice(0, 10),
 			},
 			...customIdCodeGroups,
 		];
@@ -75,6 +77,7 @@ export const itemPageManager =
 			obj.searchText = obj.searchText ?? '';
 			obj.idCode = obj.idCode ?? '';
 			obj.itemType = obj.itemTitle ?? '';
+			obj.keepSearchText = obj.keepSearchText ?? false;
 
 			// force consistency between variables
 			switch (true) {
@@ -120,7 +123,9 @@ export const itemPageManager =
 
 			// set state
 			setId(obj.id);
-			setSearchText(obj.searchText);
+			if (!obj.keepSearchText) {
+				setSearchText(obj.searchText);
+			}
 			setIdCode(obj.idCode);
 
 			//update url

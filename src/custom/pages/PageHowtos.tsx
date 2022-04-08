@@ -26,7 +26,7 @@ function PageHowtos(props: IItemPageProps) {
 	};
 
 	const displayOneItem = (id:number) => {
-		forceConsistentStateData({id});
+		forceConsistentStateData({id, keepSearchText: true});
 		document.body.scrollTop = 0; // For Safari
 		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 	};
