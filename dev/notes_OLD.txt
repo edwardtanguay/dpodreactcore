@@ -12,3 +12,25 @@
 
 
 
+	const getDefaultItems = () => {
+		const id: number = getUrlId();
+
+		// id
+		if (id !== 0) {
+			return getItems({ idCode: '', searchText: '', id });
+		} else {
+			// search
+			const searchText = getUrlSearchText();
+			if (!qstr.isEmpty(searchText)) {
+				setSearchText(searchText);
+				return getItems({ idCode: '', searchText, id: 0 });
+			} else {
+				// idCode
+				let idCode = getUrlIdCode();
+				if (qstr.isEmpty(idCode)) {
+					idCode = 'newestFirst';
+				}
+				return getItems({ idCode, searchText: '', id: 0 });
+			}
+		}
+	};

@@ -29,6 +29,7 @@ export const itemPageManager =
 			//url variable
 			let urlVariableName = '';
 			let urlVariableValue = '';
+			let tabTitle = '';
 
 			// get defaults
 			obj.id = obj.id ?? 0;
@@ -42,6 +43,7 @@ export const itemPageManager =
 					obj.idCode = '';
 					urlVariableName = 'id';
 					urlVariableValue = obj.id;
+					tabTitle = `${itemTypeIdCode}: ${obj.id}`
 					break;
 				}
 				case obj.searchText !== '': {
@@ -49,6 +51,7 @@ export const itemPageManager =
 					obj.idCode = '';
 					urlVariableName = 'searchText';
 					urlVariableValue = obj.searchText;
+					tabTitle = `${itemTypeIdCode}: ${obj.searchText}`
 					break;
 				}
 				case obj.idCode !== '': {
@@ -56,6 +59,7 @@ export const itemPageManager =
 					obj.searchText = '';
 					urlVariableName = 'idCode';
 					urlVariableValue = obj.idCode;
+					tabTitle = `${itemTypeIdCode}: ${obj.idCode}`
 					break;
 				}
 				default: {
@@ -77,7 +81,7 @@ export const itemPageManager =
 				itemTypeIdCode,
 				urlVariableName,
 				urlVariableValue,
-				itemTypeDescription
+				tabTitle
 			);
 		};
 
