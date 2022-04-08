@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import '../styles/page_howtos.scss';
 import { IItemPageProps, IHowto } from '../models/interfaces';
-import _initialItems from '../models/model_howtos';
+import _initialHowtos from '../models/model_howtos';
 
 function PageHowtos(props: IItemPageProps) {
 	const { id, searchText, idCode, loadItems, forceConsistentStateData } =
@@ -10,14 +10,14 @@ function PageHowtos(props: IItemPageProps) {
 	const [items, setItems] = useState<IHowto[]>([]);
 
 	useEffect(() => {
-		setItems([...loadItems(_initialItems)]);
+		setItems([...loadItems(_initialHowtos)]);
 	}, [id, searchText, idCode]);
 
 	const handleSearchClick = () => {
 		forceConsistentStateData({ searchText: 'vim' });
 	};
 	const handleIdClick = (id: number) => {
-		const item = _initialItems.find((m) => m.id === id);
+		const item = _initialHowtos.find((m) => m.id === id);
 		if (item !== undefined) {
 			forceConsistentStateData({
 				id: id,

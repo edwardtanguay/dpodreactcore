@@ -5,8 +5,9 @@ import * as qarr from '../../system/qtools/qarr';
 import { IItem } from '../models/interfaces';
 
 export const itemPageManager =
-	(
+	<T extends unknown>(
 		Component: any,
+		_initialItems: T[],
 		itemTypeIdCode: string,
 		itemTypeSingleTitle: string,
 		itemTypePluralTitle: string,
@@ -47,11 +48,18 @@ export const itemPageManager =
 			// force consistency between variables
 			switch (true) {
 				case obj.id !== 0: {
+					const item = (_initialItems as IItem[]).find(
+						(m) => m.id === obj.id
+					);
 					obj.searchText = '';
 					obj.idCode = '';
 					urlVariableName = 'id';
 					urlVariableValue = obj.id;
-					tabTitle = singleItemTab(obj.itemTitle)
+					if (item) {
+						tabTitle = singleItemTab((item as IItem).title);
+					} else {
+						tabTitle = 'item not found';
+					}
 					break;
 				}
 				case obj.searchText !== '': {
