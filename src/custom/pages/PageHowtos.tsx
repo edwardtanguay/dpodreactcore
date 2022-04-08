@@ -3,17 +3,25 @@ import { useState, useEffect } from 'react';
 import '../styles/page_howtos.scss';
 import { IItemPageProps, IHowto } from '../models/interfaces';
 import _initialItems from '../models/model_howtos';
+import * as qarr from '../../system/qtools/qarr';
 
 function PageHowtos(props: IItemPageProps) {
 	const { id, searchText, idCode } = props;
 	const [items, setItems] = useState<IHowto[]>([]);
 
-	const loadItems = () : IHowto[] => {
-		if (id !== 0) {
-			return _initialItems.filter((howto: IHowto) => howto.id === id);
+	const loadItems = (): IHowto[] => {
+		switch (true) {
+			case id !== 0: {
+				return _initialItems.filter((howto: IHowto) => howto.id === id);
+			}
+			default: {
+				return qarr.sortObjects(
+					_initialItems,
+					'systemWhenCreated',
+					'desc'
+				);
+			}
 		}
-
-		return [];
 	};
 
 	useEffect(() => {

@@ -46,7 +46,6 @@ ITEM PAGE: ADD BACK IN
 			'',
 			`Edward's how-to instructions and code examples`
 		);
-		return qarr.sortObjects(_initialItems, 'systemWhenCreated', 'desc');
 	};
 
 ==========================
