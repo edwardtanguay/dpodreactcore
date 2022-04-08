@@ -1,6 +1,5 @@
 ------ focus
 
-	// const refSearchText = useRef<HTMLInputElement>(null);
 
 		if (
 			refSearchText.current !== null &&

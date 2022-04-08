@@ -24,30 +24,56 @@ ITEM PAGE: ADD BACK IN
 		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 	};
 
-	const displaySearchResults = (e: any) => {
-		const searchText: string = e.target.value;
-		setSearchText(searchText);
-		if (searchText === '') {
-			setItemsByIdCode('newestFirst');
-		} else {
-			const items = getItems({ idCode: '', searchText, id: 0 });
-			setItems([...items]);
-			qsys.changeBrowserState(
-				document,
-				'howtos',
-				'searchText',
-				searchText,
-				`Search "${searchText}"`
-			);
-		}
-	};
 
-	const showAllItems = () => {
-		if (refSearchText.current !== null) {
-			refSearchText.current.focus();
-		}
-		setItemsByIdCode('newestFirst');
-	};
+
+==========================================
+==========================================
+
+
+			<div className="page page_howtos">
+
+				{/* ========== MULTIPLE RECORDS ========== */}
+				{howtos.length > 1 && (
+					<section className="howtos">
+						{howtos.map((howto: any, i: number) => {
+							return (
+								<div key={i} className="overviewItem">
+									<div className="header"><span className="createDate">{qdat.smartDateWithYear(howto.systemWhenCreated)}</span> <span className="category">{howto.categoryTitle}</span></div>
+									<div key={i} className="itemLinkTitle" onClick={() => setCurrentItemsById(howto.id)}>{howto.title}</div>
+								</div>
+							)
+						})}
+					</section>
+				)}
+
+				{/* ========== ONE RECORD ========== */}
+				{howtos.length === 1 &&
+					(
+						<div className="item">
+							<div className="header">
+								<div><span className="createDate">{qdat.smartDateWithYear(getCurrentItem().systemWhenCreated)}</span> <span className="category">{getCurrentItem().categoryTitle}</span></div>
+								<div className="headerRow">
+									<div className="title">{getCurrentItem().title}</div>
+								</div>
+							</div>
+							<div className="body">
+								<div className="codeArea" dangerouslySetInnerHTML={{ __html: convertBodyToBodyParsed(getCurrentItem()) }} />
+							</div>
+							{getCurrentItem().jsfiddleUrl &&
+								(
+									<div className="jsfiddleWrapper">
+										<div className="title">jsfiddle:</div>
+										<iframe title="JSFiddle" src={getCurrentItem().jsfiddleUrl} className="jsfiddle" width="100%" height="300" />
+									</div>
+								)
+							}
+						</div>
+					)
+				}
+			</div>
+		</>
+
+
 =====================================
 =====================================
 
