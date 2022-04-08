@@ -8,19 +8,19 @@ import * as qdat from '../../system/qtools/qdat';
 import * as qstr from '../../system/qtools/qstr';
 
 function PageHowtos(props: IItemPageProps) {
-	const { id, searchText, idCode, loadItems, forceConsistentStateData } =
+	const { id, searchText, idCode, loadItems, forceConsistentStateData, getUrlId, getUrlSearchText, getUrlIdCode } =
 		props;
 	const [items, setItems] = useState<IHowto[]>([]);
 	const refSearchText = useRef<HTMLInputElement>(null);
 
 	useEffect(() => {
 		setItems([...loadItems()]);
+		if (refSearchText.current !== null && getUrlId() === 0 && getUrlSearchText() === '' && getUrlIdCode() === '') {
+			refSearchText.current.focus();
+		}
 	}, [id, searchText, idCode]);
 
 	useEffect(() => {
-		if (refSearchText.current !== null && id === 0 && searchText === '' && idCode === '') {
-			refSearchText.current.focus();
-		}
 	}, []);
 
 	const showAllItems = () => {

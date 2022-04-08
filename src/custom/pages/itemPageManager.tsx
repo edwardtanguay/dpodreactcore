@@ -166,17 +166,6 @@ export const itemPageManager =
 
 				case idCode !== '': {
 					return getIdCodeGroup(idCode, _initialItems);
-					// switch (idCode) {
-					// 	case 'oldestFirst':
-					// 		return getIdCodeGroup(idCode, _initialItems);
-					// 	case 'newestFirst':
-					// 	default:
-					// 		return qarr.sortObjects(
-					// 			_initialItems,
-					// 			'systemWhenCreated',
-					// 			'desc'
-					// 		);
-					// }
 				}
 
 				default: {
@@ -196,6 +185,9 @@ export const itemPageManager =
 				idCode={idCode}
 				forceConsistentStateData={forceConsistentStateData}
 				loadItems={loadItems}
+				getUrlId={getUrlId}
+				getUrlSearchText={getUrlSearchText}
+				getUrlIdCode={getUrlIdCode}
 			/>
 		);
 	};

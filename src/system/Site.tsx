@@ -258,7 +258,7 @@ function Site() {
 			<div className="versionInfo">
 				Datapod for React CORE -{' '}
 				<a href="https://github.com/edwardtanguay/dpodreactcore#versions-datapod-for-react-core">
-					Version 0.03.00
+					Version 0.03.01
 				</a>
 				- generic item page
 			</div>
