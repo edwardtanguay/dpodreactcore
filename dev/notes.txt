@@ -13,40 +13,10 @@ ITEM PAGE: ADD BACK IN
 	const getItems = (query: IItemsQueryObject) => {
 		const { idCode, searchText, id } = query;
 
-		if (idCode !== '') {
-			switch (idCode) {
-				case 'oldestFirst':
-					const items = [..._initialItems];
-					return qarr.sortObjects(items, 'systemWhenCreated', 'asc');
-				case 'newestFirst':
-				default:
-					return getInitialItems();
-			}
-		}
 
-		if (searchText !== '') {
-			const items = _initialItems.filter((howto: IHowto) =>
-				qstr.searchTextMatches(
-					searchText,
-					[howto.title, howto.body].join('|')
-				)
-			);
-			return qarr.sortObjects(items, 'systemWhenCreated', 'desc');
-		}
 
 	};
 
-	===========================
-
-	const getInitialItems = () => {
-		qsys.changeBrowserState(
-			document,
-			'howtos',
-			'',
-			'',
-			`Edward's how-to instructions and code examples`
-		);
-	};
 
 ==========================
 

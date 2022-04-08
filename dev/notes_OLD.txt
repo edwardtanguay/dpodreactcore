@@ -1,0 +1,14 @@
+	===========================
+
+	const getInitialItems = () => {
+		qsys.changeBrowserState(
+			document,
+			'howtos',
+			'',
+			'',
+			`Edward's how-to instructions and code examples`
+		);
+	};
+
+
+
