@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import '../styles/page_howtos.scss';
 import { Helmet } from 'react-helmet';
-import initialHowtos from '../models/model_howtos';
+import initialItems from '../models/model_howtos';
 import {
 	IHowto,
 	IItemPageProps,
@@ -25,20 +25,18 @@ function PageHowtos(props: IItemPageProps) {
 		const { idCode, searchText, id } = query;
 
 		if (idCode !== '') {
-			console.log(idCode);
 			switch (idCode) {
 				case 'oldestFirst':
-					// qsys.changeBrowserState(document, 'howtos', '', '', `Edward's how-to instructions and code examples`);
-					const items = [...initialHowtos];
+					const items = [...initialItems];
 					return qarr.sortObjects(items, 'systemWhenCreated', 'asc');
 				case 'newestFirst':
 				default:
-					return getInitialHowtos();
+					return getInitialItems();
 			}
 		}
 
 		if (searchText !== '') {
-			const items = initialHowtos.filter((howto: IHowto) =>
+			const items = initialItems.filter((howto: IHowto) =>
 				qstr.searchTextMatches(
 					searchText,
 					[howto.title, howto.body].join('|')
@@ -48,11 +46,11 @@ function PageHowtos(props: IItemPageProps) {
 		}
 
 		if (id !== 0) {
-			return initialHowtos.filter((howto: IHowto) => howto.id === id);
+			return initialItems.filter((howto: IHowto) => howto.id === id);
 		}
 	};
 
-	const getInitialHowtos = () => {
+	const getInitialItems = () => {
 		qsys.changeBrowserState(
 			document,
 			'howtos',
@@ -60,7 +58,7 @@ function PageHowtos(props: IItemPageProps) {
 			'',
 			`Edward's how-to instructions and code examples`
 		);
-		return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'desc');
+		return qarr.sortObjects(initialItems, 'systemWhenCreated', 'desc');
 	};
 
 	const getUrlSearchText = () => {
@@ -179,7 +177,7 @@ function PageHowtos(props: IItemPageProps) {
 				)}
 				{howtos.length === 1 && searchText === '' && (
 					<h2 className="title oneOfMany">
-						1 of {initialHowtos.length}{' '}
+						1 of {initialItems.length}{' '}
 						<span
 							className="itemTypeTitle"
 							onClick={() => showAllItems()}
@@ -190,7 +188,7 @@ function PageHowtos(props: IItemPageProps) {
 				)}
 				{howtos.length === 0 && searchText !== '' && (
 					<h2 className="title oneOfMany">
-						0 of {initialHowtos.length}{' '}
+						0 of {initialItems.length}{' '}
 						<span
 							className="itemTypeTitle"
 							onClick={() => showAllItems()}
@@ -201,7 +199,7 @@ function PageHowtos(props: IItemPageProps) {
 				)}
 				{howtos.length > 1 && searchText !== '' && (
 					<h2 className="title oneOfMany">
-						{howtos.length} of {initialHowtos.length}{' '}
+						{howtos.length} of {initialItems.length}{' '}
 						<span
 							className="itemTypeTitle"
 							onClick={() => showAllItems()}
@@ -212,7 +210,7 @@ function PageHowtos(props: IItemPageProps) {
 				)}
 				{howtos.length === 1 && searchText !== '' && (
 					<h2 className="title oneOfMany">
-						1 of {initialHowtos.length}{' '}
+						1 of {initialItems.length}{' '}
 						<span
 							className="itemTypeTitle"
 							onClick={() => showAllItems()}
