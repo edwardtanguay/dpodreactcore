@@ -34,9 +34,6 @@ ITEM PAGE: ADD BACK IN
 			return qarr.sortObjects(items, 'systemWhenCreated', 'desc');
 		}
 
-		if (id !== 0) {
-			return _initialItems.filter((howto: IHowto) => howto.id === id);
-		}
 	};
 
 	===========================

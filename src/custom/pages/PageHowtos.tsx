@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
 import '../styles/page_howtos.scss';
 import { IItemPageProps, IHowto } from '../models/interfaces';
@@ -7,12 +8,16 @@ function PageHowtos(props: IItemPageProps) {
 	const { id, searchText, idCode } = props;
 	const [items, setItems] = useState<IHowto[]>([]);
 
-	const loadItems = () => {
-		setItems(_initialItems);
+	const loadItems = () : IHowto[] => {
+		if (id !== 0) {
+			return _initialItems.filter((howto: IHowto) => howto.id === id);
+		}
+
+		return [];
 	};
 
 	useEffect(() => {
-		loadItems();
+		setItems([...loadItems()]);
 	}, [id, searchText, idCode]);
 	// const handleClick = () => {
 	// 	forceConsistentStateData({ idCode: 'lesson002' });
