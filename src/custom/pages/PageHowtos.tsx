@@ -5,6 +5,7 @@ import { IItemPageProps, IHowto } from '../models/interfaces';
 import _initialHowtos from '../models/model_howtos';
 import { Helmet } from 'react-helmet';
 import * as qdat from '../../system/qtools/qdat';
+import * as qstr from '../../system/qtools/qstr';
 
 // const refSearchText = useRef<HTMLInputElement>(null);
 
@@ -25,7 +26,7 @@ function PageHowtos(props: IItemPageProps) {
 	};
 
 	const displayOneItem = (id:number) => {
-		forceConsistentStateData({ id});
+		forceConsistentStateData({id});
 		document.body.scrollTop = 0; // For Safari
 		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 	};
@@ -33,6 +34,14 @@ function PageHowtos(props: IItemPageProps) {
 	const displaySearchResults = (e: any) => {
 		const searchText: string = e.target.value;
 		forceConsistentStateData({ searchText });
+	};
+
+	const getCurrentItem = (): IHowto => {
+		return items[0];
+	};
+
+	const convertBodyToBodyParsed = (howto: IHowto): string => {
+		return qstr.parseOutline(howto.body, 'howtos');
 	};
 
 	return (
@@ -115,6 +124,30 @@ function PageHowtos(props: IItemPageProps) {
 					</section>
 				)}
 
+				{/* ========== ONE RECORD ========== */}
+				{items.length === 1 &&
+					(
+						<div className="item">
+							<div className="header">
+								<div><span className="createDate">{qdat.smartDateWithYear(getCurrentItem().systemWhenCreated)}</span> <span className="category">{getCurrentItem().categoryTitle}</span></div>
+								<div className="headerRow">
+									<div className="title">{getCurrentItem().title}</div>
+								</div>
+							</div>
+							<div className="body">
+								<div className="codeArea" dangerouslySetInnerHTML={{ __html: convertBodyToBodyParsed(getCurrentItem()) }} />
+							</div>
+							{getCurrentItem().jsfiddleUrl &&
+								(
+									<div className="jsfiddleWrapper">
+										<div className="title">jsfiddle:</div>
+										<iframe title="JSFiddle" src={getCurrentItem().jsfiddleUrl} className="jsfiddle" width="100%" height="300" />
+									</div>
+								)
+							}
+						</div>
+					)
+				}
 			</div>
 		</>
 	);

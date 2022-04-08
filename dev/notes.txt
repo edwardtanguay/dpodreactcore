@@ -14,9 +14,6 @@ ITEM PAGE: ADD BACK IN
 
 
 
-	const convertBodyToBodyParsed = (howto: IHowto): string => {
-		return qstr.parseOutline(howto.body, 'howtos');
-	};
 
 	const setCurrentItemsById = (id: number) => {
 		setItems([...getItemsById(id)]);
@@ -30,30 +27,6 @@ ITEM PAGE: ADD BACK IN
 
 			<div className="page page_howtos">
 
-				{/* ========== ONE RECORD ========== */}
-				{howtos.length === 1 &&
-					(
-						<div className="item">
-							<div className="header">
-								<div><span className="createDate">{qdat.smartDateWithYear(getCurrentItem().systemWhenCreated)}</span> <span className="category">{getCurrentItem().categoryTitle}</span></div>
-								<div className="headerRow">
-									<div className="title">{getCurrentItem().title}</div>
-								</div>
-							</div>
-							<div className="body">
-								<div className="codeArea" dangerouslySetInnerHTML={{ __html: convertBodyToBodyParsed(getCurrentItem()) }} />
-							</div>
-							{getCurrentItem().jsfiddleUrl &&
-								(
-									<div className="jsfiddleWrapper">
-										<div className="title">jsfiddle:</div>
-										<iframe title="JSFiddle" src={getCurrentItem().jsfiddleUrl} className="jsfiddle" width="100%" height="300" />
-									</div>
-								)
-							}
-						</div>
-					)
-				}
 			</div>
 		</>
 
