@@ -9,16 +9,6 @@
 =====================================
 ITEM PAGE: ADD BACK IN
 =====================================
-		if (
-			refSearchText.current !== null &&
-			getUrlId() === 0 &&
-			getUrlSearchText() === '' &&
-			getUrlIdCode() === ''
-		) {
-			refSearchText.current.focus();
-		}
-
-=====================================================
 
 	const getItems = (query: IItemsQueryObject) => {
 		const { idCode, searchText, id } = query;

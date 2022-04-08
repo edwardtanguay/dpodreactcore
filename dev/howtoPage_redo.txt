@@ -1,0 +1,13 @@
+------ focus
+
+
+		if (
+			refSearchText.current !== null &&
+			getUrlId() === 0 &&
+			getUrlSearchText() === '' &&
+			getUrlIdCode() === ''
+		) {
+			refSearchText.current.focus();
+		}
+
+
