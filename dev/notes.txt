@@ -1,3 +1,8 @@
+- .. create flashcard page and centralize all common code between howto and flashcards
+	- .. centralize code out of howto page
+		- .. create higher-order-component: itemPageManager
+
+
 - x test smartphone with focus
 - generalize howtos (so that you can use it as a template)
 	- fix idCode for howtos: with buttons, dimly lit
