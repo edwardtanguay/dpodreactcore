@@ -4,7 +4,8 @@ import * as qsys from '../../system/qtools/qsys';
 import * as qarr from '../../system/qtools/qarr';
 import { IItem } from '../models/interfaces';
 
-export const itemPageManager = (
+export const itemPageManager =
+	(
 		Component: any,
 		_initialItems: IItem[],
 		itemTypeIdCode: string,
@@ -16,6 +17,24 @@ export const itemPageManager = (
 		const [id, setId] = useState(0);
 		const [searchText, setSearchText] = useState('');
 		const [idCode, setIdCode] = useState('');
+
+		const idCodeGroups = [
+			{
+				idCode: 'oldestFirst',
+				title: 'Oldest First',
+				getItems: (items: IItem[]) =>
+					qarr.sortObjects(items, 'systemWhenCreated', 'asc'),
+			},
+		];
+
+		const getIdCodeGroup = (idCode: string, items: IItem[]) => {
+			const idCodeGroup = idCodeGroups.find((m) => m.idCode === idCode);
+			if (idCodeGroup !== undefined) {
+				return idCodeGroup.getItems(items);
+			} else {
+				return [];
+			}
+		};
 
 		const getUrlId = () => {
 			return qstr.forceStringAsInteger(
@@ -116,32 +135,29 @@ export const itemPageManager = (
 					);
 				}
 				case searchText !== '': {
-					const items = (_initialItems as IItem[]).filter((item: IItem) =>
-						qstr.searchTextMatches( 
-							searchText,
-							[item.bulkSearch].join('|')
-						)
+					const items = (_initialItems as IItem[]).filter(
+						(item: IItem) =>
+							qstr.searchTextMatches(
+								searchText,
+								[item.bulkSearch].join('|')
+							)
 					);
 					return qarr.sortObjects(items, 'systemWhenCreated', 'desc');
 				}
 
 				case idCode !== '': {
-					switch (idCode) {
-						case 'oldestFirst':
-							const items = [..._initialItems];
-							return qarr.sortObjects(
-								items,
-								'systemWhenCreated',
-								'asc'
-							);
-						case 'newestFirst':
-						default:
-							return qarr.sortObjects(
-								_initialItems,
-								'systemWhenCreated',
-								'desc'
-							);
-					}
+					return getIdCodeGroup(idCode, _initialItems);
+					// switch (idCode) {
+					// 	case 'oldestFirst':
+					// 		return getIdCodeGroup(idCode, _initialItems);
+					// 	case 'newestFirst':
+					// 	default:
+					// 		return qarr.sortObjects(
+					// 			_initialItems,
+					// 			'systemWhenCreated',
+					// 			'desc'
+					// 		);
+					// }
 				}
 
 				default: {
