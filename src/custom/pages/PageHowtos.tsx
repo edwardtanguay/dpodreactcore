@@ -16,8 +16,14 @@ function PageHowtos(props: IItemPageProps) {
 	const handleSearchClick = () => {
 		forceConsistentStateData({ searchText: 'vim' });
 	};
-	const handleIdClick = () => {
-		forceConsistentStateData({ id: 344 });
+	const handleIdClick = (id: number) => {
+		const item = _initialItems.find((m) => m.id === id);
+		if (item !== undefined) {
+			forceConsistentStateData({
+				id: id,
+				itemTitle: item.title,
+			});
+		}
 	};
 	const handleIdCodeClick = () => {
 		forceConsistentStateData({ idCode: 'oldestFirst' });
@@ -28,7 +34,7 @@ function PageHowtos(props: IItemPageProps) {
 			<div>There are {items.length} items.</div>
 			<hr />
 			<button onClick={handleSearchClick}>Search</button>
-			<button onClick={handleIdClick}>Id</button>
+			<button onClick={() => handleIdClick(233)}>Id</button>
 			<button onClick={handleIdCodeClick}>IdCode</button>
 			{items.map((item, i) => {
 				return (

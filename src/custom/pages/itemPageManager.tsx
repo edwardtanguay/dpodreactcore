@@ -10,7 +10,8 @@ export const itemPageManager =
 		itemTypeIdCode: string,
 		itemTypeSingleTitle: string,
 		itemTypePluralTitle: string,
-		itemTypeTabTitle: string
+		itemTypeTabMainTitle: string,
+		singleItemTab: any
 	) =>
 	(props: any) => {
 		const [id, setId] = useState(0);
@@ -41,6 +42,7 @@ export const itemPageManager =
 			obj.id = obj.id ?? 0;
 			obj.searchText = obj.searchText ?? '';
 			obj.idCode = obj.idCode ?? '';
+			obj.itemType = obj.itemTitle ?? '';
 
 			// force consistency between variables
 			switch (true) {
@@ -49,7 +51,7 @@ export const itemPageManager =
 					obj.idCode = '';
 					urlVariableName = 'id';
 					urlVariableValue = obj.id;
-					tabTitle = `${itemTypeSingleTitle}: ${obj.id}`;
+					tabTitle = singleItemTab(obj.itemTitle)
 					break;
 				}
 				case obj.searchText !== '': {
@@ -65,13 +67,14 @@ export const itemPageManager =
 					obj.searchText = '';
 					urlVariableName = 'idCode';
 					urlVariableValue = obj.idCode;
-					tabTitle = `${itemTypeIdCode}: ${obj.idCode}`;
+					tabTitle = `${itemTypePluralTitle}: ${obj.idCode}`;
 					break;
 				}
 				default: {
 					obj.id = 0;
 					obj.searchText = '';
 					obj.idCode = '';
+					tabTitle = itemTypeTabMainTitle;
 					break;
 				}
 			}

@@ -11,6 +11,7 @@ export interface IHowto {
 
 export interface IItem {
 	id: number;
+	title: string;
 	bulkSearch: string;
 }
 

@@ -37,7 +37,8 @@ const PageHowtos = itemPageManager(
 	'howtos',
 	'Howto',
 	'Howtos',
-	`Edward's howtos and code examples`
+	`Edward's howtos and code examples`,
+	(title: string) => `Howto: ${title}`
 );
 
 const displayOrderSortedPages = qarr.sortObjects(pages, 'displayOrder');
