@@ -1,20 +1,19 @@
-// import * as qstr from '../../system/qtools/qstr';
-// import * as qsys from '../../system/qtools/qsys';
+import * as qstr from '../../system/qtools/qstr';
+import * as qsys from '../../system/qtools/qsys';
 
 export const itemPageManager = (Component: any) => (props: any) => {
-	
-	// const getUrlId = () => {
-	// 	return Number(qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id')));
-	// };
 
-	// const getUrlSearchText = () => {
-	// 	return qsys.getParameterValueFromUrl('searchText');
-	// };
+	const getUrlId = () => {
+		return qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id'));
+	};
 
-	// const getUrlIdCode = () => {
-	// 	return qsys.getParameterValueFromUrl('idCode');
-	// };
+	const getUrlSearchText = () => {
+		return qsys.getParameterValueFromUrl('searchText');
+	};
 
-	// return <Component {...props} getUrlId={getUrlId} getUrlSearchText={getUrlSearchText} getUrlIdCode={getUrlIdCode} />;
-	return <Component {...props}/> 
+	const getUrlIdCode = () => {
+		return qsys.getParameterValueFromUrl('idCode');
+	};
+
+	return <Component {...props} getUrlId={getUrlId} getUrlSearchText={getUrlSearchText} getUrlIdCode={getUrlIdCode} />;
 };

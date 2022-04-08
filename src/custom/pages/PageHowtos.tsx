@@ -3,52 +3,71 @@
 import { useState, useEffect } from 'react';
 import '../styles/page_howtos.scss';
 // import _initialItems from '../models/model_howtos';
-import * as qstr from '../../system/qtools/qstr';
-import * as qsys from '../../system/qtools/qsys';
 
-const getUrlId = () => {
-	return qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id'));
-};
+interface IProps {
+	getUrlId: any;
+	getUrlSearchText: any;
+	getUrlIdCode: any;
+}
 
-const getUrlSearchText = () => {
-	return qsys.getParameterValueFromUrl('searchText');
-};
-
-const getUrlIdCode = () => {
-	return qsys.getParameterValueFromUrl('idCode');
-};
-
-function PageHowtos() {
-	// const { getUrlId, getUrlSearchText, getUrlIdCode } = props;
+function PageHowtos(props: IProps) {
+	const { getUrlId, getUrlSearchText, getUrlIdCode } = props;
 	// const [items, setItems] = useState<IHowto[]>([]);
 	const [id, setId] = useState(0);
 	const [searchText, setSearchText] = useState('');
 	const [idCode, setIdCode] = useState('');
 
 	const setInitialPageState = () => {
-		setId(getUrlId());
+		const id2 = getUrlId();
+		console.log(id2);
+		setId(id2);
 		setSearchText(getUrlSearchText());
 		setIdCode(getUrlIdCode());
 	};
 
-	const filterItemsBasedOnPageState = () => {};
+	const forceCorrectPageStateAndFilterItems = () => {
+		console.log(id);
+		switch (true) {
+			case id !== 0: {
+				setSearchText('');
+				setIdCode('');
+				break;
+			}
+			case idCode !== '': {
+				setId(0);
+				setSearchText('');
+				break;
+			}
+			case searchText !== '': {
+				setId(0);
+				setIdCode('');
+				break;
+			}
+			default: {
+				setId(0);
+				setSearchText('');
+				setIdCode('');
+				break;
+			}
+		}
+	};
 
 	useEffect(() => {
 		setInitialPageState();
-		filterItemsBasedOnPageState();
 	}, []);
 
 	useEffect(() => {
-		filterItemsBasedOnPageState();
-	}, [id, searchText, idCode]);
+		console.log('id has changed to: ' + id);
+		forceCorrectPageStateAndFilterItems();
+	}, [id]);
 
 	return (
 		<div className="page page_howtos">
 			<h2>Testing</h2>
 			<ul>
-				<li>id: {id}</li>
-				<li>searchText: {searchText}</li>
-				<li>idCode: {idCode}</li>
+				<li>id: [{id}]</li>
+				<li>searchText: [{searchText}]</li>
+				<li>idCode: [{idCode}]</li>
 			</ul>
 		</div>
 	);
