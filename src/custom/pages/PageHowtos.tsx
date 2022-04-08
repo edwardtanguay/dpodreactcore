@@ -10,12 +10,6 @@ interface IProps {
 	getUrlIdCode: any;
 }
 
-interface IItemPageStateVariables {
-	id: number;
-	searchText: string;
-	idCode: string;
-}
-
 function PageHowtos(props: IProps) {
 	const { getUrlId, getUrlSearchText, getUrlIdCode } = props;
 	// const [items, setItems] = useState<IHowto[]>([]);
@@ -23,13 +17,10 @@ function PageHowtos(props: IProps) {
 	const [searchText, setSearchText] = useState('');
 	const [idCode, setIdCode] = useState('');
 
-	const changePageState = (obj: IItemPageStateVariables) => {
-		setId(obj.id);
-		setSearchText(obj.searchText);
-		setIdCode(obj.idCode);
-	}
-
-	const forceConsistentStateData = (obj: IItemPageStateVariables) => {
+	const forceConsistentStateData = (obj: any) => {
+		obj.id = obj.id ?? 0;
+		obj.searchText = obj.searchText ?? '';
+		obj.idCode = obj.idCode ?? '';
 		switch (true) {
 			case obj.id !== 0: {
 				obj.searchText = '';
@@ -53,21 +44,22 @@ function PageHowtos(props: IProps) {
 				break;
 			}
 		}
+		setId(obj.id);
+		setSearchText(obj.searchText);
+		setIdCode(obj.idCode);
 	};
 
 	useEffect(() => {
-		const obj = {
+		forceConsistentStateData({
 			id: getUrlId(),
 			searchText: getUrlSearchText(),
 			idCode: getUrlIdCode(),
-		};
-		forceConsistentStateData(obj);
-		changePageState(obj);
+		});
 	}, []);
 
 	const handleClick = () => {
-		const obj = getCurrentStateObject();
-	}
+		forceConsistentStateData({ idCode: 'lesson002' });
+	};
 
 	return (
 		<div className="page page_howtos">
