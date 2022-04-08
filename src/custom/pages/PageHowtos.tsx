@@ -10,7 +10,7 @@ function PageHowtos(props: IItemPageProps) {
 	const [items, setItems] = useState<IHowto[]>([]);
 
 	useEffect(() => {
-		setItems([...loadItems(_initialHowtos)]);
+		setItems([...loadItems()]);
 	}, [id, searchText, idCode]);
 
 	const handleSearchClick = () => {

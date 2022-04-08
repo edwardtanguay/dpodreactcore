@@ -4,10 +4,9 @@ import * as qsys from '../../system/qtools/qsys';
 import * as qarr from '../../system/qtools/qarr';
 import { IItem } from '../models/interfaces';
 
-export const itemPageManager =
-	<T extends unknown>(
+export const itemPageManager = (
 		Component: any,
-		_initialItems: T[],
+		_initialItems: IItem[],
 		itemTypeIdCode: string,
 		itemTypeSingleTitle: string,
 		itemTypePluralTitle: string,
@@ -110,16 +109,16 @@ export const itemPageManager =
 			});
 		}, []);
 
-		const loadItems = (_initialItems: any[]) => {
+		const loadItems = () => {
 			switch (true) {
 				case id !== 0: {
-					return _initialItems.filter(
+					return (_initialItems as IItem[]).filter(
 						(item: IItem) => item.id === id
 					);
 				}
 				case searchText !== '': {
-					const items = _initialItems.filter((item: IItem) =>
-						qstr.searchTextMatches(
+					const items = (_initialItems as IItem[]).filter((item: IItem) =>
+						qstr.searchTextMatches( 
 							searchText,
 							[item.bulkSearch].join('|')
 						)

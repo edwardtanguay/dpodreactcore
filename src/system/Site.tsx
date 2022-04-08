@@ -32,9 +32,8 @@ import _PageHowtos from '../custom/pages/PageHowtos'; // ::howtos
 import PageFlashcards from './pages/PageFlashcards'; // ::flashcards
 import pages from './data/json/itemTypes/itemType_pages.json';
 import _initialHowtos from '../custom/models/model_howtos';
-import { IHowto } from '../custom/models/interfaces';
 
-const PageHowtos = itemPageManager<IHowto>(
+const PageHowtos = itemPageManager(
 	_PageHowtos,
 	_initialHowtos,
 	'howtos',
