@@ -7,3 +7,14 @@ export interface IHowto {
 	body: string;
 	jsfiddleUrl: string;
 }
+
+export interface IItemsQueryObject {
+	idCode: string,
+	searchText: string,
+	id: number
+}
+
+export interface IItemPageProps {
+	getUrlId: any
+}
+
