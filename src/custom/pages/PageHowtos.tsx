@@ -61,6 +61,10 @@ function PageHowtos(props: IProps) {
 		forceConsistentStateData({ idCode: 'lesson002' });
 	};
 
+	const handleClick2 = () => {
+		forceConsistentStateData({ searchText: 'react router' });
+	};
+
 	return (
 		<div className="page page_howtos">
 			<h2>Testing</h2>
@@ -70,6 +74,7 @@ function PageHowtos(props: IProps) {
 				<li>idCode: [{idCode}]</li>
 			</ul>
 			<button onClick={handleClick}>change</button>
+			<button onClick={handleClick2}>change2</button>
 		</div>
 	);
 }
