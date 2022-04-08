@@ -32,6 +32,7 @@ import _PageHowtos from '../custom/pages/PageHowtos'; // ::howtos
 import PageFlashcards from './pages/PageFlashcards'; // ::flashcards
 import pages from './data/json/itemTypes/itemType_pages.json';
 import _initialHowtos from '../custom/models/model_howtos';
+import { IItem } from '../custom/models/interfaces';
 
 const PageHowtos = itemPageManager(
 	_PageHowtos,
@@ -39,7 +40,15 @@ const PageHowtos = itemPageManager(
 	'howtos',
 	'Howtos',
 	`Edward's howtos and code examples`,
-	(title: string) => `Howto: ${title}`
+	(title: string) => `Howto: ${title}`,
+	[
+			{
+				idCode: 'lastThree',
+				title: 'Last Three',
+				getItems: (items: IItem[]) =>
+					qarr.sortObjects(items, 'systemWhenCreated', 'desc').slice(0,3),
+			}
+	]
 );
 
 const displayOrderSortedPages = qarr.sortObjects(pages, 'displayOrder');

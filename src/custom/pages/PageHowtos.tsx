@@ -41,6 +41,9 @@ function PageHowtos(props: IItemPageProps) {
 			<button onClick={() => handleIdCodeClick('firstTen')}>
 				First Ten
 			</button>
+			<button onClick={() => handleIdCodeClick('lastThree')}>
+			Last Three
+			</button>
 			{items.map((item, i) => {
 				return (
 					<div key={i}>

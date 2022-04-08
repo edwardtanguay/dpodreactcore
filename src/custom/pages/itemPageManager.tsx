@@ -4,6 +4,12 @@ import * as qsys from '../../system/qtools/qsys';
 import * as qarr from '../../system/qtools/qarr';
 import { IItem } from '../models/interfaces';
 
+interface ICodeGroup {
+	idCode: string;
+	title: string;
+	getItems: any;
+}
+
 export const itemPageManager =
 	(
 		Component: any,
@@ -11,14 +17,15 @@ export const itemPageManager =
 		itemTypeIdCode: string,
 		itemTypePluralTitle: string,
 		itemTypeTabMainTitle: string,
-		singleItemTab: any
+		singleItemTab: any,
+		customIdCodeGroups: ICodeGroup[]
 	) =>
 	(props: any) => {
 		const [id, setId] = useState(0);
 		const [searchText, setSearchText] = useState('');
 		const [idCode, setIdCode] = useState('');
 
-		const idCodeGroups = [
+		const idCodeGroups: ICodeGroup[] = [
 			{
 				idCode: 'oldestFirst',
 				title: 'Oldest First',
@@ -31,6 +38,7 @@ export const itemPageManager =
 				getItems: (items: IItem[]) =>
 					qarr.sortObjects(items, 'systemWhenCreated', 'asc').slice(0,10),
 			},
+			...customIdCodeGroups,
 		];
 
 		const getIdCodeGroup = (idCode: string, items: IItem[]) => {
