@@ -32,7 +32,11 @@ import _PageHowtos from '../custom/pages/PageHowtos'; // ::howtos
 import PageFlashcards from './pages/PageFlashcards'; // ::flashcards
 import pages from './data/json/itemTypes/itemType_pages.json';
 
-const PageHowtos = itemPageManager(_PageHowtos);
+const PageHowtos = itemPageManager(
+	_PageHowtos,
+	'howtos',
+	`Edward's howtos and code examples`
+);
 
 const displayOrderSortedPages = qarr.sortObjects(pages, 'displayOrder');
 
