@@ -8,7 +8,6 @@ export const itemPageManager = (
 		Component: any,
 		_initialItems: IItem[],
 		itemTypeIdCode: string,
-		itemTypeSingleTitle: string,
 		itemTypePluralTitle: string,
 		itemTypeTabMainTitle: string,
 		singleItemTab: any

@@ -34,3 +34,13 @@
 			}
 		}
 	};
+
+	const getItemsById = (id: number) => {
+		return getItems({ idCode: '', searchText: '', id });
+	};
+
+	const setItemsByIdCode = (idCode: string) => {
+		setSearchText('');
+		const items = getItems({ idCode, searchText: '', id: 0 });
+		setItems([...items]);
+	};

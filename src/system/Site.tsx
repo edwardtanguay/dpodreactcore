@@ -37,7 +37,6 @@ const PageHowtos = itemPageManager(
 	_PageHowtos,
 	_initialHowtos,
 	'howtos',
-	'Howto',
 	'Howtos',
 	`Edward's howtos and code examples`,
 	(title: string) => `Howto: ${title}`
