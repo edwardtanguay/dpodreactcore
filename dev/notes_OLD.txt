@@ -44,3 +44,15 @@
 		const items = getItems({ idCode, searchText: '', id: 0 });
 		setItems([...items]);
 	};
+
+	const getCurrentItem = (): IHowto => {
+		const item = items[0];
+		qsys.changeBrowserState(
+			document,
+			'howtos',
+			'id',
+			String(item.id),
+			`${item.categoryTitle.toUpperCase()} HOWTO: ${item.title}`
+		);
+		return item;
+	};
