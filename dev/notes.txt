@@ -1,7 +1,9 @@
 - .. create flashcard page and centralize all common code between howto and flashcards
 	- .. centralize code out of howto page
 		- .. create higher-order-component: itemPageManager
-
+			- .. when changing pages
+				- .. load all three
+				- force new url
 
 
 =====================================

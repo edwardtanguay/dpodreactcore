@@ -3,12 +3,20 @@
 import { useState, useEffect } from 'react';
 import '../styles/page_howtos.scss';
 // import _initialItems from '../models/model_howtos';
-// import * as qstr from '../../system/qtools/qstr';
-// import * as qsys from '../../system/qtools/qsys';
+import * as qstr from '../../system/qtools/qstr';
+import * as qsys from '../../system/qtools/qsys';
 
-// const getUrlId2 = () => {
-// 	return qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id'));
-// };
+const getUrlId = () => {
+	return qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id'));
+};
+
+const getUrlSearchText = () => {
+	return qsys.getParameterValueFromUrl('searchText');
+};
+
+const getUrlIdCode = () => {
+	return qsys.getParameterValueFromUrl('idCode');
+};
 
 function PageHowtos() {
 	// const { getUrlId, getUrlSearchText, getUrlIdCode } = props;
@@ -18,9 +26,9 @@ function PageHowtos() {
 	const [idCode, setIdCode] = useState('');
 
 	const setInitialPageState = () => {
-		setId(999);
-		setSearchText('react');
-		setIdCode('oldestfirst');
+		setId(getUrlId());
+		setSearchText(getUrlSearchText());
+		setIdCode(getUrlIdCode());
 	};
 
 	const filterItemsBasedOnPageState = () => {};
