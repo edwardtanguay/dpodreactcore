@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import * as qstr from '../../system/qtools/qstr';
 import * as qsys from '../../system/qtools/qsys';
+import * as qarr from '../../system/qtools/qarr';
+import { IItem } from '../models/interfaces';
 
 export const itemPageManager = (Component: any) => (props: any) => {
 	const [id, setId] = useState(0);
@@ -20,7 +22,6 @@ export const itemPageManager = (Component: any) => (props: any) => {
 	};
 
 	const forceConsistentStateData = (obj: any) => {
-
 		//url variable
 		let urlVariableName = '';
 		let urlVariableValue = '';
@@ -74,7 +75,6 @@ export const itemPageManager = (Component: any) => (props: any) => {
 			urlVariableValue,
 			`Edward's how-to instructions and code examples`
 		);
-
 	};
 
 	useEffect(() => {
@@ -85,6 +85,49 @@ export const itemPageManager = (Component: any) => (props: any) => {
 		});
 	}, []);
 
+	const loadItems = (_initialItems: any[]) => {
+		switch (true) {
+			case id !== 0: {
+				return _initialItems.filter((item: IItem) => item.id === id);
+			}
+			case searchText !== '': {
+				const items = _initialItems.filter((item: IItem) =>
+					qstr.searchTextMatches(
+						searchText,
+						[item.bulkSearch].join('|')
+					)
+				);
+				return qarr.sortObjects(items, 'systemWhenCreated', 'desc');
+			}
+
+			case idCode !== '': {
+				switch (idCode) {
+					case 'oldestFirst':
+						const items = [..._initialItems];
+						return qarr.sortObjects(
+							items,
+							'systemWhenCreated',
+							'asc'
+						);
+					case 'newestFirst':
+					default:
+						return qarr.sortObjects(
+							_initialItems,
+							'systemWhenCreated',
+							'desc'
+						);
+				}
+			}
+
+			default: {
+				return qarr.sortObjects(
+					_initialItems,
+					'systemWhenCreated',
+					'desc'
+				);
+			}
+		}
+	};
 	return (
 		<Component
 			{...props}
@@ -92,6 +135,7 @@ export const itemPageManager = (Component: any) => (props: any) => {
 			searchText={searchText}
 			idCode={idCode}
 			forceConsistentStateData={forceConsistentStateData}
+			loadItems={loadItems}
 		/>
 	);
 };

@@ -6,6 +6,12 @@ export interface IHowto {
 	systemWhoCreated: string;
 	body: string;
 	jsfiddleUrl: string;
+	bulkSearch: string;
+}
+
+export interface IItem {
+	id: number;
+	bulkSearch: string;
 }
 
 export interface IItemsQueryObject {
@@ -22,4 +28,5 @@ export interface IItemPageProps {
 	getUrlSearchText: any;
 	getUrlIdCode: any;
 	forceConsistentStateData: any;
+	loadItems: any;
 }

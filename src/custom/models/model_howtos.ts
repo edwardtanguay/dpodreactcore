@@ -12,7 +12,8 @@ const getHowtos = () => {
 			categoryTitle: rawHowto.category,
 			systemWhenCreated: rawHowto.systemWhenCreated,
 			systemWhoCreated: rawHowto.systemWhoCreated,
-			jsfiddleUrl: ''
+			jsfiddleUrl: '',
+			bulkSearch: `${rawHowto.title}|${rawHowto.body}`
 		}
 		howtos.push(howto);
 	});
