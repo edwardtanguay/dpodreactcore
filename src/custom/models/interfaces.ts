@@ -15,6 +15,8 @@ export interface IItemsQueryObject {
 }
 
 export interface IItemPageProps {
-	getUrlId: any
+	getUrlId: number;
+	getUrlSearchText: string;
+	getUrlIdCode: string;
 }
 

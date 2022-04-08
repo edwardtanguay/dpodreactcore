@@ -3,6 +3,152 @@
 		- .. create higher-order-component: itemPageManager
 
 
+
+=====================================
+ITEM PAGE: ADD BACK IN
+=====================================
+		if (
+			refSearchText.current !== null &&
+			getUrlId() === 0 &&
+			getUrlSearchText() === '' &&
+			getUrlIdCode() === ''
+		) {
+			refSearchText.current.focus();
+		}
+
+=====================================================
+
+	const getItems = (query: IItemsQueryObject) => {
+		const { idCode, searchText, id } = query;
+
+		if (idCode !== '') {
+			switch (idCode) {
+				case 'oldestFirst':
+					const items = [..._initialItems];
+					return qarr.sortObjects(items, 'systemWhenCreated', 'asc');
+				case 'newestFirst':
+				default:
+					return getInitialItems();
+			}
+		}
+
+		if (searchText !== '') {
+			const items = _initialItems.filter((howto: IHowto) =>
+				qstr.searchTextMatches(
+					searchText,
+					[howto.title, howto.body].join('|')
+				)
+			);
+			return qarr.sortObjects(items, 'systemWhenCreated', 'desc');
+		}
+
+		if (id !== 0) {
+			return _initialItems.filter((howto: IHowto) => howto.id === id);
+		}
+	};
+
+	===========================
+
+	const getInitialItems = () => {
+		qsys.changeBrowserState(
+			document,
+			'howtos',
+			'',
+			'',
+			`Edward's how-to instructions and code examples`
+		);
+		return qarr.sortObjects(_initialItems, 'systemWhenCreated', 'desc');
+	};
+
+==========================
+
+
+
+	// const refSearchText = useRef<HTMLInputElement>(null);
+
+	const getDefaultItems = () => {
+		const id: number = getUrlId();
+
+		// id
+		if (id !== 0) {
+			return getItems({ idCode: '', searchText: '', id });
+		} else {
+			// search
+			const searchText = getUrlSearchText();
+			if (!qstr.isEmpty(searchText)) {
+				setSearchText(searchText);
+				return getItems({ idCode: '', searchText, id: 0 });
+			} else {
+				// idCode
+				let idCode = getUrlIdCode();
+				if (qstr.isEmpty(idCode)) {
+					idCode = 'newestFirst';
+				}
+				return getItems({ idCode, searchText: '', id: 0 });
+			}
+		}
+	};
+
+
+	const getItemsById = (id: number) => {
+		return getItems({ idCode: '', searchText: '', id });
+	};
+
+	const setItemsByIdCode = (idCode: string) => {
+		setSearchText('');
+		const items = getItems({ idCode, searchText: '', id: 0 });
+		setItems([...items]);
+	};
+
+	const getCurrentItem = (): IHowto => {
+		const item = items[0];
+		qsys.changeBrowserState(
+			document,
+			'howtos',
+			'id',
+			String(item.id),
+			`${item.categoryTitle.toUpperCase()} HOWTO: ${item.title}`
+		);
+		return item;
+	};
+
+	const convertBodyToBodyParsed = (howto: IHowto): string => {
+		return qstr.parseOutline(howto.body, 'howtos');
+	};
+
+	const setCurrentItemsById = (id: number) => {
+		setItems([...getItemsById(id)]);
+		document.body.scrollTop = 0; // For Safari
+		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+	};
+
+	const displaySearchResults = (e: any) => {
+		const searchText: string = e.target.value;
+		setSearchText(searchText);
+		if (searchText === '') {
+			setItemsByIdCode('newestFirst');
+		} else {
+			const items = getItems({ idCode: '', searchText, id: 0 });
+			setItems([...items]);
+			qsys.changeBrowserState(
+				document,
+				'howtos',
+				'searchText',
+				searchText,
+				`Search "${searchText}"`
+			);
+		}
+	};
+
+	const showAllItems = () => {
+		if (refSearchText.current !== null) {
+			refSearchText.current.focus();
+		}
+		setItemsByIdCode('newestFirst');
+	};
+=====================================
+=====================================
+
 - x test smartphone with focus
 - generalize howtos (so that you can use it as a template)
 	- fix idCode for howtos: with buttons, dimly lit
