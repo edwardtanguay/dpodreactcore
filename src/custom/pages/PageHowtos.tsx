@@ -16,7 +16,12 @@ interface IItemsQueryObject {
 	id: number
 }
 
-function PageHowtos() {
+interface IProps {
+	getUrlId: any
+}
+
+function PageHowtos(props:IProps) {
+	const { getUrlId } = props;
 	const [howtos, setHowtos] = useState<IHowto[]>([]);
 	const [searchText, setSearchText] = useState<string>("");
 	const refSearchText = useRef<HTMLInputElement>(null);
@@ -54,9 +59,6 @@ function PageHowtos() {
 		return qarr.sortObjects(initialHowtos, 'systemWhenCreated', 'desc');
 	}
 
-	const getUrlId = () => {
-		return Number(qstr.forceStringAsInteger(qsys.getParameterValueFromUrl('id')));
-	}
 	const getUrlSearchText = () => {
 		return qsys.getParameterValueFromUrl('searchText');
 	}
