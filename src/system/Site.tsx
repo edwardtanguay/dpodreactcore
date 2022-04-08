@@ -42,12 +42,14 @@ const PageHowtos = itemPageManager(
 	`Edward's howtos and code examples`,
 	(title: string) => `Howto: ${title}`,
 	[
-			{
-				idCode: 'lastThree',
-				title: 'Last Three',
-				getItems: (items: IItem[]) =>
-					qarr.sortObjects(items, 'systemWhenCreated', 'desc').slice(0,3),
-			}
+		{
+			idCode: 'lastThree',
+			title: 'Last Three',
+			getItems: (items: IItem[]) =>
+				qarr
+					.sortObjects(items, 'systemWhenCreated', 'desc')
+					.slice(0, 3),
+		},
 	]
 );
 
@@ -256,8 +258,9 @@ function Site() {
 			<div className="versionInfo">
 				Datapod for React CORE -{' '}
 				<a href="https://github.com/edwardtanguay/dpodreactcore#versions-datapod-for-react-core">
-					Version 0.02.00
+					Version 0.03.00
 				</a>
+				- generic item page
 			</div>
 		</div>
 	);
