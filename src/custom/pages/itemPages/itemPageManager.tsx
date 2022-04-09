@@ -158,10 +158,23 @@ export const itemPageManager =
 						(item: IItem) =>
 							qstr.searchTextMatches(
 								searchText,
-								[item.bulkSearch].join('|')
+								item.bulkSearch
 							)
 					);
-					return qarr.sortObjects(items, 'systemWhenCreated', 'desc');
+					let titleMatchItems: IItem[] = [];
+					let otherMatchItems: IItem[] = [];
+					items.forEach(item => {
+						if (qstr.searchTextMatches(searchText, item.title)) {
+							titleMatchItems.push(item);
+						} else {
+							otherMatchItems.push(item);
+						}
+					});
+					
+					titleMatchItems = qarr.sortObjects(titleMatchItems, 'systemWhenCreated', 'desc');
+					otherMatchItems = qarr.sortObjects(otherMatchItems, 'systemWhenCreated', 'desc');
+
+					return titleMatchItems.concat(otherMatchItems);
 				}
 
 				case idCode !== '': {
