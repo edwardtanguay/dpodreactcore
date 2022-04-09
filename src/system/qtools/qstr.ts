@@ -573,7 +573,7 @@ export const forcePascalNotation = (term: string) => {
 
 	// make sure no spaces are in the string, e.g. "showcaseType Script" --> "showcaseTypeScript"
 	r = qstr.replaceAll(r, ' ', '');
-	
+
 	return r;
 }
 
@@ -759,14 +759,14 @@ export const smartPlural = (number: number, singularNoun: string, pluralNoun: st
 }
 
 export const escapeHtml = (html: string) => {
-    const tagsToReplace: any = {
-        '&': '&amp;',
-        '<': '&lt;',
-        '>': '&gt;'
-    };
-    return html.replace(/[&<>]/g, function(tag) {
-        return tagsToReplace[tag] || tag;
-    });
+	const tagsToReplace: any = {
+		'&': '&amp;',
+		'<': '&lt;',
+		'>': '&gt;'
+	};
+	return html.replace(/[&<>]/g, function (tag) {
+		return tagsToReplace[tag] || tag;
+	});
 };
 
 // TODO: fix replaceAll (es2021 error from TypeScript)
@@ -782,9 +782,25 @@ export const escapeHtml = (html: string) => {
 // }
 
 export const parseOutline = (outlineText: string, itemTypeIdCode = '', options = {}) => {
-    const outlineTextParser = new OutlineTextParser(outlineText, options);
-    const imageDirectory = itemTypeIdCode === '' ? 'general' : itemTypeIdCode;
-    outlineTextParser.relativePublicImageDirectory = `customImages/${imageDirectory}`;
-    outlineTextParser.parse();
-    return outlineTextParser.displayParsed();
+	const outlineTextParser = new OutlineTextParser(outlineText, options);
+	const imageDirectory = itemTypeIdCode === '' ? 'general' : itemTypeIdCode;
+	outlineTextParser.relativePublicImageDirectory = `customImages/${imageDirectory}`;
+	outlineTextParser.parse();
+	return outlineTextParser.displayParsed();
+}
+
+export const wrapFoundSearchWordsWithClassElement = (text: string, searchText: string, className: string) => {
+	// searchText = "regex vue"
+	// regexString = "(regex)|(vue)"
+	// regexReplaceString = "$1$2";
+	const searchWords = searchText.split(' ').filter(word => word.length >= 3);
+	if (searchWords.length > 0) {
+		const regexSearchString = searchWords.map(word => `(${word})`).join('|');
+		const regexReplaceString = searchWords.map((_m, i) => '$' + String(i + 1)).join('');
+		const re = new RegExp(regexSearchString, "ig");
+		const result = text.replace(re, `<span class="searchHighlight">${regexReplaceString}</span>`)
+		return result === undefined ? text : result;
+	} else {
+		return text;
+	}
 }

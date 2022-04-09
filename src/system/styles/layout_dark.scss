@@ -27,6 +27,10 @@ body {
 			color: basic.$thirdColor;
 			margin-bottom: 10px;
 		}
+		.searchHighlight {
+			color: rgb(246, 242, 135);
+			background-color: #555;
+		}
 		p.description {
 			margin-bottom: 20px;
 			font-style: italic;
@@ -165,7 +169,7 @@ body {
 		.versionInfo {
 			color: yellow;
 			margin: 10px 0 0 0;
-			font-size: .7rem;
+			font-size: 0.7rem;
 			text-align: right;
 			a {
 				color: #fff;

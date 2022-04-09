@@ -105,7 +105,10 @@ function PageHowtos(props: IItemPageProps) {
 										onClick={() => displayOneItem(howto.id)}
 									>
 										{searchText !== '' && (
-											<>{howto.highlightedTitle}</>
+											<span dangerouslySetInnerHTML={{
+													__html: howto.highlightedTitle,
+												}}
+											></span>
 										)}
 										{searchText === '' && (
 											<>{howto.title}</>
