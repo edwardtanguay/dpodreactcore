@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import * as qstr from '../../system/qtools/qstr';
-import * as qsys from '../../system/qtools/qsys';
-import * as qarr from '../../system/qtools/qarr';
-import { IItem } from '../models/interfaces';
+import * as qstr from '../../../system/qtools/qstr';
+import * as qsys from '../../../system/qtools/qsys';
+import * as qarr from '../../../system/qtools/qarr';
+import { IItem } from '../../models/interfaces';
 
 interface ICodeGroup {
 	idCode: string;
