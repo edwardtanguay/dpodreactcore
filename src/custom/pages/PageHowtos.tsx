@@ -3,25 +3,41 @@ import { useState, useEffect, useRef } from 'react';
 import '../styles/page_howtos.scss';
 import { IItemPageProps, IHowto } from '../models/interfaces';
 import _initialHowtos from '../models/model_howtos';
-import { Helmet } from 'react-helmet';
 import * as qdat from '../../system/qtools/qdat';
 import * as qstr from '../../system/qtools/qstr';
+import { ItemPageHeader } from './itemPages/ItemPageHeader';
+import { ItemPageHelmet } from './itemPages/ItemPageHelmet';
+
+const pageTitle = `Edward's how-to instructions and code examples`;
+const pageDescription = 'How to get things done in JavaScript, React, Node, MongoDB, CSS, TypeScript, SQLite, Vue.js, etc.';
 
 function PageHowtos(props: IItemPageProps) {
-	const { id, searchText, idCode, loadItems, forceConsistentStateData, getUrlId, getUrlSearchText, getUrlIdCode } =
-		props;
+	const {
+		id,
+		searchText,
+		idCode,
+		loadItems,
+		forceConsistentStateData,
+		getUrlId,
+		getUrlSearchText,
+		getUrlIdCode,
+	} = props;
 	const [items, setItems] = useState<IHowto[]>([]);
 	const refSearchText = useRef<HTMLInputElement>(null);
 
 	useEffect(() => {
 		setItems([...loadItems()]);
-		if (refSearchText.current !== null && getUrlId() === 0 && getUrlSearchText() === '' && getUrlIdCode() === '') {
+		if (
+			refSearchText.current !== null &&
+			getUrlId() === 0 &&
+			getUrlSearchText() === '' &&
+			getUrlIdCode() === ''
+		) {
 			refSearchText.current.focus();
 		}
 	}, [id, searchText, idCode]);
 
-	useEffect(() => {
-	}, []);
+	useEffect(() => {}, []);
 
 	const showAllItems = () => {
 		if (refSearchText.current !== null) {
@@ -51,62 +67,13 @@ function PageHowtos(props: IItemPageProps) {
 
 	return (
 		<>
-			<Helmet>
-				<title>Edward's how-to instructions and code examples</title>
-				<meta
-					name="description"
-					content="How to get things done in JavaScript, React, Node, MongoDB, CSS, TypeScript, SQLite, Vue.js, etc."
-				/>
-			</Helmet>
 			<div className="page page_howtos">
-				{/* ========== TITLE ========== */}
-				{items.length > 1 && searchText === '' && (
-					<h2 className="title">{items.length} Howtos</h2>
-				)}
-				{items.length === 1 && searchText === '' && (
-					<h2 className="title oneOfMany">
-						1 of {_initialHowtos.length}{' '}
-						<span
-							className="itemTypeTitle"
-							onClick={() => showAllItems()}
-						>
-							Howtos
-						</span>
-					</h2>
-				)}
-				{items.length === 0 && searchText !== '' && (
-					<h2 className="title oneOfMany">
-						0 of {_initialHowtos.length}{' '}
-						<span
-							className="itemTypeTitle"
-							onClick={() => showAllItems()}
-						>
-							Howtos
-						</span>
-					</h2>
-				)}
-				{items.length > 1 && searchText !== '' && (
-					<h2 className="title oneOfMany">
-						{items.length} of {_initialHowtos.length}{' '}
-						<span
-							className="itemTypeTitle"
-							onClick={() => showAllItems()}
-						>
-							Howtos
-						</span>
-					</h2>
-				)}
-				{items.length === 1 && searchText !== '' && (
-					<h2 className="title oneOfMany">
-						1 of {_initialHowtos.length}{' '}
-						<span
-							className="itemTypeTitle"
-							onClick={() => showAllItems()}
-						>
-							Howtos
-						</span>
-					</h2>
-				)}
+				<ItemPageHeader
+					items={items}
+					searchText={searchText}
+					_initialHowtos={_initialHowtos}
+					showAllItems={showAllItems}
+				/>
 
 				{/* ========== SEARCH ========== */}
 				<div className="searchArea">
@@ -198,6 +165,10 @@ function PageHowtos(props: IItemPageProps) {
 					</div>
 				)}
 			</div>
+			<ItemPageHelmet
+				pageTitle={pageTitle}
+				pageDescription={pageDescription}
+			/>
 		</>
 	);
 }
