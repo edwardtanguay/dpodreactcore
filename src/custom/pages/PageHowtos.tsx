@@ -7,6 +7,7 @@ import * as qdat from '../../system/qtools/qdat';
 import * as qstr from '../../system/qtools/qstr';
 import { ItemPageHeader } from './itemPages/ItemPageHeader';
 import { ItemPageHelmet } from './itemPages/ItemPageHelmet';
+import { ItemPageSearch } from './itemPages/ItemPageSearch';
 
 const pageTitle = `Edward's how-to instructions and code examples`;
 const pageDescription = 'How to get things done in JavaScript, React, Node, MongoDB, CSS, TypeScript, SQLite, Vue.js, etc.';
@@ -75,21 +76,7 @@ function PageHowtos(props: IItemPageProps) {
 					showAllItems={showAllItems}
 				/>
 
-				{/* ========== SEARCH ========== */}
-				<div className="searchArea">
-					<div className="searchRow">
-						<input
-							id="mainSearch"
-							placeholder="search howtos"
-							ref={refSearchText}
-							type="text"
-							value={searchText}
-							className="form-control input-sm searchBox"
-							onFocus={displaySearchResults}
-							onChange={displaySearchResults}
-						/>
-					</div>
-				</div>
+				<ItemPageSearch refSearchText={refSearchText} searchText={searchText} displaySearchResults={displaySearchResults}/>
 
 				{/* ========== MULTIPLE RECORDS ========== */}
 				{items.length > 1 && (
