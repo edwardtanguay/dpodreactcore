@@ -165,6 +165,7 @@ function PageHowtos(props: IItemPageProps) {
 					</div>
 				)}
 			</div>
+
 			<ItemPageHelmet
 				pageTitle={pageTitle}
 				pageDescription={pageDescription}
