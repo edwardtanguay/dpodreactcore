@@ -165,8 +165,10 @@ export const itemPageManager =
 					let otherMatchItems: IItem[] = [];
 					items.forEach(item => {
 						if (qstr.searchTextMatches(searchText, item.title)) {
+							item.highlightedTitle = `HIGHLIGHTED: ${item.title}`;
 							titleMatchItems.push(item);
 						} else {
+							item.highlightedTitle = item.title;
 							otherMatchItems.push(item);
 						}
 					});

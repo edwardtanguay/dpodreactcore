@@ -7,11 +7,13 @@ export interface IHowto {
 	body: string;
 	jsfiddleUrl: string;
 	bulkSearch: string;
+	highlightedTitle: string;
 }
 
 export interface IItem {
 	id: number;
 	title: string;
+	highlightedTitle: string;
 	bulkSearch: string;
 }
 

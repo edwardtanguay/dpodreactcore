@@ -10,7 +10,8 @@ import { ItemPageHelmet } from './itemPages/ItemPageHelmet';
 import { ItemPageSearch } from './itemPages/ItemPageSearch';
 
 const pageTitle = `Edward's how-to instructions and code examples`;
-const pageDescription = 'How to get things done in JavaScript, React, Node, MongoDB, CSS, TypeScript, SQLite, Vue.js, etc.';
+const pageDescription =
+	'How to get things done in JavaScript, React, Node, MongoDB, CSS, TypeScript, SQLite, Vue.js, etc.';
 
 function PageHowtos(props: IItemPageProps) {
 	const {
@@ -76,7 +77,11 @@ function PageHowtos(props: IItemPageProps) {
 					showAllItems={showAllItems}
 				/>
 
-				<ItemPageSearch refSearchText={refSearchText} searchText={searchText} displaySearchResults={displaySearchResults}/>
+				<ItemPageSearch
+					refSearchText={refSearchText}
+					searchText={searchText}
+					displaySearchResults={displaySearchResults}
+				/>
 
 				{/* ========== MULTIPLE RECORDS ========== */}
 				{items.length > 1 && (
@@ -99,7 +104,12 @@ function PageHowtos(props: IItemPageProps) {
 										className="itemLinkTitle"
 										onClick={() => displayOneItem(howto.id)}
 									>
-										{howto.title}
+										{searchText !== '' && (
+											<>{howto.highlightedTitle}</>
+										)}
+										{searchText === '' && (
+											<>{howto.title}</>
+										)}
 									</div>
 								</div>
 							);
