@@ -1,14 +1,36 @@
 import '../styles/page_siteVersions.scss';
+import rawSiteVersions from '../data/json/itemType_siteVersions.json';
+
+const siteVersions = rawSiteVersions.sort((a, b) =>
+	a.whenPublished < b.whenPublished ? 1 : -1
+);
 
 function PageSiteVersions() {
-
 	return (
 		<div className="page page_siteVersions">
-			<h2 className="title">Site Versions</h2>
-			<p className="description">An info page that displays site versions</p>	
-			<p className="message">Welcome to this page.</p>
+			<h2 className="title">Datapod-for-React CORE</h2>
+			<h3>Version history</h3>
+			<p className="versions">
+				<ul>
+					{siteVersions.map((sv, index) => {
+						return (
+							<li key={index} className="siteVersion">
+								<span className="version">{sv.version}</span>
+								<span className="separator">{' '}-{' '}</span>
+								<span className="whenPublished">
+									{sv.whenPublished}
+								</span>
+								<span className="separator">{' '}-{' '}</span>
+								<span className="shortDescription">
+									{sv.shortDescription}
+								</span>
+							</li>
+						);
+					})}
+				</ul>
+			</p>
 		</div>
-	)
+	);
 }
 
 export default PageSiteVersions;

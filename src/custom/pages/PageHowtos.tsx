@@ -81,6 +81,7 @@ function PageHowtos(props: IItemPageProps) {
 					refSearchText={refSearchText}
 					searchText={searchText}
 					displaySearchResults={displaySearchResults}
+					items={items}
 				/>
 
 				{/* ========== MULTIPLE RECORDS ========== */}

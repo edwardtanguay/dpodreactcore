@@ -2,13 +2,15 @@ interface IProps {
 	refSearchText: any;
 	searchText: string;
 	displaySearchResults: any;
+	items: any[];
 }
 
 export const ItemPageSearch = (props: IProps) => {
-
-	const {refSearchText,searchText, displaySearchResults} = props;
+	const { refSearchText, searchText, displaySearchResults,items } = props;
 
 	return (
+		<>
+			{items.length > 0 && (
 				<div className="searchArea">
 					<div className="searchRow">
 						<input
@@ -23,5 +25,7 @@ export const ItemPageSearch = (props: IProps) => {
 						/>
 					</div>
 				</div>
-	)
-}
+			)}
+		</>
+	);
+};

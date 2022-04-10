@@ -36,7 +36,7 @@ import pages from './data/json/itemTypes/itemType_pages.json';
 import _initialHowtos from '../custom/models/model_howtos';
 import { IItem } from '../custom/models/interfaces';
 
-const currentSiteVersion = siteVersions[siteVersions.length - 1];
+const currentSiteVersion = siteVersions[0];
 
 const PageHowtos = itemPageManager(
 	_PageHowtos,
@@ -105,15 +105,13 @@ function Site() {
 					</div>
 					<div className="versionInfo">
 						<div className="innerArea">
-							<div className="core">Built on Datapod-for-React CORE</div>
+							<div className="core">
+								Built on Datapod-for-React CORE
+							</div>
 							<div className="version">
-								<a
-									target="_blank"
-									href="https://github.com/edwardtanguay/dpodreactcore"
-									rel="noreferrer"
-								>
+								<NavLink to="siteVersions">
 									Version {currentSiteVersion.version}
-								</a>{' '}
+								</NavLink> {" "}
 								- {currentSiteVersion.whenPublished}
 							</div>
 							<div className="details">
@@ -126,12 +124,6 @@ function Site() {
 					<Routes>
 						<Route path="/" element={<PageHome />} />
 						{/* DYNAMIC_JSX_AREA: routePageComponentLines */}
-						<Route path="/siteVersions">
-							{userHasAccess('siteVersions') && (
-								<PageSiteVersions />
-							)}
-						</Route>
-						{/* ::siteVersions */}
 						<Route
 							path="/showcaseCounterUsingState"
 							element={<PageShowcaseCounterUsingState />}
@@ -278,6 +270,11 @@ function Site() {
 							/>
 						)}{' '}
 						{/* ::howtos */}
+						<Route
+							path="/siteVersions"
+							element={<PageSiteVersions />}
+						/>
+						{/* ::siteVersions */}
 						{userHasAccess('flashcards') && (
 							<Route
 								path="/flashcards"

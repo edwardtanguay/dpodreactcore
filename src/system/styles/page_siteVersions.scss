@@ -1,5 +1,29 @@
 .page_siteVersions {
-    .message {
-        font-style: italic;
+    font-family: "Courier New", Courier, monospace;
+
+    h2.title {
+        color: yellow !important;
+    }
+
+    h3 {
+        color: #111;
+        margin: 0 0 10px 0;
+        font-size: 1.3rem;
+    }
+
+    .versions {
+        .version {
+            color: #fff;
+            font-weight: bold;
+        }
+        .whenPublished {
+            color: #ddd;
+        }
+        .separator {
+            color: #999;
+        }
+        .shortDescription {
+            color: orange;
+        }
     }
 }
