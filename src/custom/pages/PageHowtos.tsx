@@ -3,12 +3,12 @@ import { useState, useEffect, useRef } from 'react';
 import '../styles/page_howtos.scss';
 import { IItemPageProps, IHowto } from '../models/interfaces';
 import _initialHowtos from '../models/model_howtos';
-import * as qdat from '../../system/qtools/qdat';
 import * as qstr from '../../system/qtools/qstr';
 import { ItemPageHeader } from './itemPages/ItemPageHeader';
 import { ItemPageHelmet } from './itemPages/ItemPageHelmet';
 import { ItemPageSearch } from './itemPages/ItemPageSearch';
-import { Howtos } from './itemPageItems/HowTos';
+import { Howtos } from './itemPageItems/Howtos';
+import { Howto } from './itemPageItems/Howto';
 
 const pageTitle = `Edward's how-to instructions and code examples`;
 const pageDescription =
@@ -91,53 +91,9 @@ function PageHowtos(props: IItemPageProps) {
 					items={items}
 				/>
 
-				{/* ========== MULTIPLE RECORDS ========== */}
 				<Howtos items={items} displayOneItem={displayOneItem} searchText={searchText}/>
 
-				{/* ========== ONE RECORD ========== */}
-				{items.length === 1 && (
-					<div className="item">
-						<div className="header">
-							<div>
-								<span className="createDate">
-									{qdat.smartDateWithYear(
-										getCurrentItem().systemWhenCreated
-									)}
-								</span>{' '}
-								<span className="category">
-									{getCurrentItem().categoryTitle}
-								</span>
-							</div>
-							<div className="headerRow">
-								<div className="title">
-									{getCurrentItem().title}
-								</div>
-							</div>
-						</div>
-						<div className="body">
-							<div
-								className="codeArea"
-								dangerouslySetInnerHTML={{
-									__html: convertBodyToBodyParsed(
-										getCurrentItem()
-									),
-								}}
-							/>
-						</div>
-						{getCurrentItem().jsfiddleUrl && (
-							<div className="jsfiddleWrapper">
-								<div className="title">jsfiddle:</div>
-								<iframe
-									title="JSFiddle"
-									src={getCurrentItem().jsfiddleUrl}
-									className="jsfiddle"
-									width="100%"
-									height="300"
-								/>
-							</div>
-						)}
-					</div>
-				)}
+				<Howto items={items} getCurrentItem={getCurrentItem} convertBodyToBodyParsed={convertBodyToBodyParsed}/>
 			</div>
 
 			<ItemPageHelmet
