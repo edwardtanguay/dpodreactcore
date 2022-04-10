@@ -103,22 +103,22 @@ function Site() {
 							</div>
 						</nav>
 					</div>
-					<div className="versionInfo">
-						<div className="innerArea">
-							<div className="core">
-								Built on Datapod-for-React CORE
-							</div>
-							<div className="version">
-								<NavLink to="siteVersions">
-									Version {currentSiteVersion.version}
-								</NavLink> {" "}
-								- {currentSiteVersion.whenPublished}
-							</div>
-							<div className="details">
-								{currentSiteVersion.shortDescription}
+					<NavLink to="siteVersions">
+						<div className="versionInfo">
+							<div className="innerArea">
+								<div className="core">
+									Built on Datapod-for-React CORE
+								</div>
+								<div className="versionInfo">
+									<span className="version">Version {currentSiteVersion.version}</span>
+									<span className="date">{' '}-{' '}{currentSiteVersion.whenPublished}</span>
+								</div>
+								<div className="details">
+									{currentSiteVersion.shortDescription}
+								</div>
 							</div>
 						</div>
-					</div>
+					</NavLink>{' '}
 				</div>
 				<section className="app_container">
 					<Routes>

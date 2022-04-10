@@ -86,6 +86,9 @@ body {
 			}
 			.versionInfo {
 				display: inline-block;
+				.innerArea:hover {
+					background-color: rgb(79, 79, 79);
+				}
 				.innerArea {
 					background-color: #444;
 					padding: 10px;
@@ -108,17 +111,15 @@ body {
 						color: yellow;
 						font-size: 0.8rem;
 					}
-					.version {
-						a {
+					.versionInfo {
+						.version {
 							font-size: 0.8rem;
 							color: #fff;
-							text-decoration: none;
 						}
-						a:hover {
-							text-decoration: underline;
+						.date {
+							font-size: 0.8rem;
+							color: #ccc;
 						}
-						font-size: 0.8rem;
-						color: #ccc;
 					}
 					.details {
 						color: orange;
@@ -140,9 +141,9 @@ body {
 				border-top: 1px solid #bbb;
 				min-height: basic.$basicLayoutHeight;
 			}
-				.versionInfo {
-					display: none !important;
-				}
+			.versionInfo {
+				display: none !important;
+			}
 		}
 
 		/* computer */
