@@ -11,6 +11,18 @@
         font-size: 1.3rem;
     }
 
+    .invite {
+        background-color: #777;
+        padding: 10px;
+        margin: 0 0 10px 0;
+        border-radius: 5px;
+        display: inline-block;
+        font-size: 0.9rem;
+        a {
+            color: #222;
+        }
+    }
+
     .versions {
         .version {
             color: #fff;

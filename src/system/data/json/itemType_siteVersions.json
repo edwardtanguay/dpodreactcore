@@ -16,5 +16,11 @@
 		"whenPublished": "2022-04-10 13:22:43",
 		"shortDescription": "version info box",
 		"notes": ""
+	},
+	{
+		"version": "0.04.03",
+		"whenPublished": "2022-04-10 15:04:22",
+		"shortDescription": "created version page",
+		"notes": ""
 	}
 ]
