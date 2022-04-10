@@ -8,6 +8,7 @@ import * as qstr from '../../system/qtools/qstr';
 import { ItemPageHeader } from './itemPages/ItemPageHeader';
 import { ItemPageHelmet } from './itemPages/ItemPageHelmet';
 import { ItemPageSearch } from './itemPages/ItemPageSearch';
+import { Howtos } from './itemPageItems/HowTos';
 
 const pageTitle = `Edward's how-to instructions and code examples`;
 const pageDescription =
@@ -91,42 +92,7 @@ function PageHowtos(props: IItemPageProps) {
 				/>
 
 				{/* ========== MULTIPLE RECORDS ========== */}
-				{items.length > 1 && (
-					<section className="howtos">
-						{items.map((howto: any, i: number) => {
-							return (
-								<div key={i} className="overviewItem">
-									<div className="header">
-										<span className="createDate">
-											{qdat.smartDateWithYear(
-												howto.systemWhenCreated
-											)}
-										</span>{' '}
-										<span className="category">
-											{howto.categoryTitle}
-										</span>
-									</div>
-									<div
-										key={i}
-										className="itemLinkTitle"
-										onClick={() => displayOneItem(howto.id)}
-									>
-										{searchText !== '' && (
-											<span
-												dangerouslySetInnerHTML={{
-													__html: howto.highlightedTitle,
-												}}
-											></span>
-										)}
-										{searchText === '' && (
-											<>{howto.title}</>
-										)}
-									</div>
-								</div>
-							);
-						})}
-					</section>
-				)}
+				<Howtos items={items} displayOneItem={displayOneItem} searchText={searchText}/>
 
 				{/* ========== ONE RECORD ========== */}
 				{items.length === 1 && (
