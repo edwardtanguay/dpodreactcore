@@ -1,6 +1,5 @@
-import rawHowtos from '../data/json/rawHowtos.json';
+import rawHowtos from '../data/json/itemType_howtos.json';
 import { IHowto } from '../models/interfaces';
-
 
 const getHowtos = () => {
 	const howtos: IHowto[] = [];
@@ -22,6 +21,4 @@ const getHowtos = () => {
 	return howtos;
 }
 
-
-// export const howtos = getHowtos();
 export default getHowtos();

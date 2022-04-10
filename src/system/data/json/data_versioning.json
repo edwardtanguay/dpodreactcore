@@ -35,9 +35,18 @@
 			"whenPublished": "2022-04-10 21:14:37",
 			"shortDescription": "added upcoming changes to version page",
 			"notes": ""
+		},
+		{
+			"version": "0.05.00",
+			"whenPublished": "2022-04-10 23:53:42",
+			"shortDescription": "added Flashcard page with basic functionality",
+			"notes": ""
 		}
 	],
 	"todos": [
+		{
+			"title": "customize Flashcard page"
+		},
 		{
 			"title": "hide version info box when on version page"
 		},

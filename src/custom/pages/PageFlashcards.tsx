@@ -1,20 +1,20 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect, useRef } from 'react';
-import '../styles/page_howtos.scss';
-import { IItemPageProps, IHowto } from '../models/interfaces';
-import _initialHowtos from '../models/model_howtos';
+import '../styles/page_flashcards.scss';
+import { IItemPageProps, IFlashcard } from '../models/interfaces';
+import _initialFlashcards from '../models/model_flashcards';
 import * as qstr from '../../system/qtools/qstr';
 import { ItemPageHeader } from './itemPages/ItemPageHeader';
 import { ItemPageHelmet } from './itemPages/ItemPageHelmet';
 import { ItemPageSearch } from './itemPages/ItemPageSearch';
-import { Howtos } from './itemPageItems/Howtos';
-import { Howto } from './itemPageItems/Howto';
+import { Flashcards } from './itemPageItems/Flashcards';
+import { Flashcard } from './itemPageItems/Flashcard';
 
 const pageTitle = `Edward's how-to instructions and code examples`;
 const pageDescription =
 	'How to get things done in JavaScript, React, Node, MongoDB, CSS, TypeScript, SQLite, Vue.js, etc.';
 
-function PageHowtos(props: IItemPageProps) {
+function PageFlashcards(props: IItemPageProps) {
 	const {
 		id,
 		searchText,
@@ -25,7 +25,7 @@ function PageHowtos(props: IItemPageProps) {
 		getUrlSearchText,
 		getUrlIdCode,
 	} = props;
-	const [items, setItems] = useState<IHowto[]>([]);
+	const [items, setItems] = useState<IFlashcard[]>([]);
 	const refSearchText = useRef<HTMLInputElement>(null);
 
 	useEffect(() => {
@@ -66,23 +66,23 @@ function PageHowtos(props: IItemPageProps) {
 		forceConsistentStateData({ searchText });
 	};
 
-	const getCurrentItem = (): IHowto => {
+	const getCurrentItem = (): IFlashcard => {
 		return items[0];
 	};
 
-	const convertBodyToBodyParsed = (howto: IHowto): string => {
-		return qstr.parseOutline(howto.body, 'howtos');
+	const convertBodyToBodyParsed = (flashcard: IFlashcard): string => {
+		return qstr.parseOutline(flashcard.back, 'flashcards');
 	};
 
 	return (
 		<>
-			<div className="page page_howtos">
+			<div className="page page_flashcards">
 				<ItemPageHeader
 					items={items}
 					searchText={searchText}
-					_initialItems={_initialHowtos}
+					_initialItems={_initialFlashcards}
 					showAllItems={showAllItems}
-					itemTypePluralTitleNotation="Howtos"
+					itemTypePluralTitleNotation={'Flashcards'}
 				/>
 
 				<ItemPageSearch
@@ -90,16 +90,16 @@ function PageHowtos(props: IItemPageProps) {
 					searchText={searchText}
 					displaySearchResults={displaySearchResults}
 					items={items}
-					itemTypePluralTextNotation="howtos"
+					itemTypePluralTextNotation="flashcards"
 				/>
 
-				<Howtos
+				<Flashcards
 					items={items}
 					displayOneItem={displayOneItem}
 					searchText={searchText}
 				/>
 
-				<Howto
+				<Flashcard
 					items={items}
 					getCurrentItem={getCurrentItem}
 					convertBodyToBodyParsed={convertBodyToBodyParsed}
@@ -114,4 +114,4 @@ function PageHowtos(props: IItemPageProps) {
 	);
 }
 
-export default PageHowtos;
+export default PageFlashcards;

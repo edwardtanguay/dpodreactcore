@@ -2,12 +2,12 @@ export interface IHowto {
 	id: number;
 	categoryTitle: string;
 	title: string;
-	systemWhenCreated: string;
-	systemWhoCreated: string;
 	body: string;
 	jsfiddleUrl: string;
 	bulkSearch: string;
 	highlightedTitle: string;
+	systemWhenCreated: string;
+	systemWhoCreated: string;
 }
 
 export interface IItem {
@@ -22,7 +22,7 @@ export interface IItemsQueryObject {
 	searchText: string,
 	id: number
 }
- 
+
 export interface IItemPageProps {
 	id: number;
 	searchText: string;
@@ -32,4 +32,16 @@ export interface IItemPageProps {
 	getUrlIdCode: any;
 	forceConsistentStateData: any;
 	loadItems: any;
+}
+
+export interface IFlashcard {
+	id: number;
+	categoryTitle: string;
+	front: string;
+	back: string;
+	title: string;
+	highlightedTitle: string;
+	bulkSearch: string;
+	systemWhenCreated: string;
+	systemWhoCreated: string;
 }
