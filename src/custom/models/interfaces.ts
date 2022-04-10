@@ -36,7 +36,7 @@ export interface IItemPageProps {
 
 export interface IFlashcard {
 	id: number;
-	category: string;
+	categoryTitle: string;
 	front: string;
 	back: string;
 	title: string;

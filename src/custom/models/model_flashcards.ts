@@ -6,7 +6,7 @@ const getFlashcards = () => {
 	rawFlashcards.forEach((rawFlashcard: any) => {
 		const flashcard: IFlashcard = {
 			id: rawFlashcard.id,
-			category: rawFlashcard.category,
+			categoryTitle: rawFlashcard.category,
 			front: rawFlashcard.front,
 			back: rawFlashcard.back,
 			title: rawFlashcard.front,
