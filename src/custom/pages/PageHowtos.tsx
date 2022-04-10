@@ -7,7 +7,7 @@ import * as qstr from '../../system/qtools/qstr';
 import { ItemPageHeader } from './itemPages/ItemPageHeader';
 import { ItemPageHelmet } from './itemPages/ItemPageHelmet';
 import { ItemPageSearch } from './itemPages/ItemPageSearch';
-import { Howtos } from './itemPageItems/Howtos2';
+import { Howtos } from './itemPageItems/Howtos';
 import { Howto } from './itemPageItems/Howto';
 
 const pageTitle = `Edward's how-to instructions and code examples`;
