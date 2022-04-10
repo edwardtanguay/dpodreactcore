@@ -1,4 +1,4 @@
-import '../styles/pageHome.scss';
+import '../styles/page_home.scss';
 // import * as config from '../../system/config';
 
 function PageHome() {

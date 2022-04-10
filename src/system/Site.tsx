@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import './styles/reset.scss';
 import './styles/layout_dark.scss';
 import './styles/dpod.scss';
-import PageHome from '../custom/components/PageHome';
+import PageHome from '../custom/pages/PageHome';
 import * as config from '../system/config';
 import * as qarr from '../system/qtools/qarr';
 import data_versioning from './data/json/data_versioning.json';
@@ -31,7 +31,7 @@ import PageShowcaseMongooseCRUD from './pages/PageShowcaseMongooseCRUD'; // ::sh
 import PageSiteVersions from './pages/PageSiteVersions'; // ::siteVersions
 import { itemPageManager } from '../custom/pages/itemPages/itemPageManager';
 import _PageHowtos from '../custom/pages/PageHowtos'; // ::howtos
-import PageFlashcards from './pages/PageFlashcards'; // ::flashcards
+import PageFlashcards from '../custom/pages/PageFlashcards'; // ::flashcards
 import pages from './data/json/itemTypes/itemType_pages.json';
 import _initialHowtos from '../custom/models/model_howtos';
 import { IItem } from '../custom/models/interfaces';
