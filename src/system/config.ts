@@ -5,9 +5,10 @@ export const getBackendPort = () => {
 }
 
 export const getSiteMode = () => {
-	const siteMode = process.env.REACT_APP_SITEMODE ? process.env.REACT_APP_SITEMODE : 'production';
-	return siteMode;
-} 
+	return 'live';
+	// const siteMode = process.env.REACT_APP_SITEMODE ? process.env.REACT_APP_SITEMODE : 'production';
+	// return siteMode;
+}
 
 export const getApplicationPath = () => {
 	let dirName = __dirname;

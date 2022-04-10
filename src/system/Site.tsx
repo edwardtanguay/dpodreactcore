@@ -28,6 +28,7 @@ import PageShowcaseSampleDataWithFaker from './pages/PageShowcaseSampleDataWithF
 import PageShowcaseMongoDBDriverCRUD from './pages/PageShowcaseMongoDBDriverCRUD'; // ::showcaseMongoDBDriverCRUD
 import PageGenerateMockData from './pages/PageGenerateMockData'; // ::generateMockData
 import PageShowcaseMongooseCRUD from './pages/PageShowcaseMongooseCRUD'; // ::showcaseMongooseCRUD
+import PageSiteVersions from './pages/PageSiteVersions'; // ::siteVersions
 import { itemPageManager } from '../custom/pages/itemPages/itemPageManager';
 import _PageHowtos from '../custom/pages/PageHowtos'; // ::howtos
 import PageFlashcards from './pages/PageFlashcards'; // ::flashcards
@@ -121,12 +122,16 @@ function Site() {
 					<Routes>
 						<Route path="/" element={<PageHome />} />
 						{/* DYNAMIC_JSX_AREA: routePageComponentLines */}
-						{userHasAccess('showcaseCounterUsingState') && (
-							<Route
-								path="/showcaseCounterUsingState"
-								element={<PageShowcaseCounterUsingState />}
-							/>
-						)}{' '}
+						<Route path="/siteVersions">
+							{userHasAccess('siteVersions') && (
+								<PageSiteVersions />
+							)}
+						</Route>
+						{/* ::siteVersions */}
+						<Route
+							path="/showcaseCounterUsingState"
+							element={<PageShowcaseCounterUsingState />}
+						/>
 						{/* ::showcaseCounterUsingState */}
 						{userHasAccess('showcaseCounterUsingReducer') && (
 							<Route

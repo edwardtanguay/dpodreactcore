@@ -320,5 +320,19 @@
 		"extras": "",
 		"systemWhenCreated": "2021-12-29 22:50:28",
 		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": 25,
+		"idCode": "siteVersion",
+		"menu": "main",
+		"title": "Site Versions",
+		"description": "",
+		"kind": "custom",
+		"environment": "hide",
+		"accessGroups": "loggedInUsers, loggedOutUseres",
+		"displayOrder": 20,
+		"extras": "",
+		"systemWhenCreated": "2021-12-29 20:30:35",
+		"systemWhoCreated": "systemUnknown"
 	}
 ]
