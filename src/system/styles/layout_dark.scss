@@ -66,6 +66,7 @@ body {
 	.app_site {
 		.topHeader {
 			display: flex;
+			justify-content: space-between;
 			h1.siteTitle {
 				/* smartphone */
 				@media (max-width: 767px) {
@@ -76,50 +77,25 @@ body {
 					margin: 0 0 10px -2px;
 				}
 				color: #888;
-				.version {
-					color: brown;
-					position: relative;
-					top: 0.4rem;
-					left: 4px;
-					font-size: 45%;
-				}
 			}
-			.menuToggle {
-				margin: 8px 0 0 12px;
-				.toggle {
-					display: inline-block;
-					cursor: pointer;
+			.versionInfo {
+				background-color: #444;
+				padding: 5px;
+				border-radius: 4px;
+				text-align: left;
+				position: absolute;
+				right: 10px;
+				top: 0;
+				box-shadow: 0 0 30px #444;
+				div:not(:last-child) {
+					margin: 0 0 3px 0;
 				}
-				.toggle_input {
-					display: none;
+				.intro {
+					color: #999;
 				}
-				.toggle_fill {
-					position: relative;
-					width: 40px;
-					height: 20px;
-					border-radius: 20px;
-					background-color: #dddddd;
-					transition: background-color 0.2s;
-				}
-				.toggle_input:checked ~ .toggle_fill {
-					background: #a1a1a1;
-				}
-
-				.toggle_fill::after {
-					content: "";
-					position: absolute;
-					top: 0;
-					left: 0;
-					height: 20px;
-					width: 20px;
-					background-color: #ffffff;
-					box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-					border-radius: 20px;
-					transition: transform 0.2s;
-				}
-
-				.toggle_input:checked ~ .toggle_fill::after {
-					transform: translateX(20px);
+				.details {
+					color: orange;
+					font-style: italic;
 				}
 			}
 		}
@@ -135,6 +111,9 @@ body {
 				padding-left: 10px;
 				border-top: 1px solid #bbb;
 				min-height: basic.$basicLayoutHeight;
+			}
+			.versionInfo {
+				display: none;
 			}
 		}
 

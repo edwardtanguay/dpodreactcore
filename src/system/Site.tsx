@@ -69,6 +69,22 @@ function Site() {
 		<div className="app_site">
 			<div className="topHeader">
 				<h1 className="siteTitle">Edward Tanguay</h1>
+				<div className="versionInfo">
+					<div className="intro">This site runs on:</div>
+					<div>
+						Datapod for React CORE -{' '}
+						<a
+							target="_blank"
+							href="https://github.com/edwardtanguay/dpodreactcore"
+							rel="noreferrer"
+						>
+							Version 0.05.03
+						</a>
+					</div>
+					<div className="details">
+						search highlighting, React 18, version info
+					</div>
+				</div>
 			</div>
 			<BrowserRouter>
 				<nav>
@@ -255,13 +271,6 @@ function Site() {
 					</Routes>
 				</section>
 			</BrowserRouter>
-			<div className="versionInfo">
-				Datapod for React CORE -{' '}
-				<a href="https://github.com/edwardtanguay/dpodreactcore#versions-datapod-for-react-core">
-					Version 0.05.00
-				</a>{' '}
-				- search highlights and React 18
-			</div>
 		</div>
 	);
 }
