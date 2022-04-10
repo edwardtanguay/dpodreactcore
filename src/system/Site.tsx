@@ -95,19 +95,17 @@ function Site() {
 					</div>
 					<div className="versionInfo">
 						<div className="innerArea">
-							<div className="intro">This site runs on:</div>
-							<div className="core">
-								Datapod for React CORE -{' '}
-							</div>
-							<div className="nnn">
+							<div className="intro">This site runs on</div>
+							<div className="core">Datapod-for-React CORE</div>
+							<div className="version">
 								<a
 									target="_blank"
 									href="https://github.com/edwardtanguay/dpodreactcore"
 									rel="noreferrer"
 								>
-									{' '}
-									2022-04-10 12:24:08 - Version 0.05.03{' '}
-								</a>
+									Version 0.05.03
+								</a>{' '}
+								- 2022-04-10 12:24:08
 							</div>
 							<div className="details">
 								search highlighting, React 18, version info

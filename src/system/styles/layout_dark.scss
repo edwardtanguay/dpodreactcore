@@ -137,14 +137,31 @@ body {
 					font-size: 0.7rem;
 					box-shadow: 0 0 30px #444;
 					margin: 0 0 0 10px;
+					div {
+						white-space: nowrap;
+					}
 					div:not(:last-child) {
 						margin: 0 0 3px 0;
 					}
-					div {
-						
-					}
 					.intro {
-						color: #999;
+						color: #bbb;
+						font-style: italic;
+					}
+					.core {
+						color: yellow;
+						font-size: 0.8rem;
+					}
+					.version {
+						a {
+							font-size: 0.8rem;
+							color: #fff;
+							text-decoration: none;
+						}
+						a:hover {
+							text-decoration: underline;
+						}
+						font-size: 0.8rem;
+						color: #ccc;
 					}
 					.details {
 						color: orange;
