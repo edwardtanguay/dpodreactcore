@@ -29,6 +29,23 @@
 			"whenPublished": "2022-04-10 15:40:01",
 			"shortDescription": "fixed autofocus on page load",
 			"notes": ""
+		},
+		{
+			"version": "0.04.05",
+			"whenPublished": "2022-04-10 21:14:37",
+			"shortDescription": "added upcoming changes to version page",
+			"notes": ""
+		}
+	],
+	"todos": [
+		{
+			"title": "hide version info box when on version page"
+		},
+		{
+			"title": "port flashcards from onespace"
+		},
+		{
+			"title": "make version page responsive"
 		}
 	]
 }

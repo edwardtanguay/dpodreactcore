@@ -6,12 +6,10 @@
     }
 
     h3 {
-        color: #111;
-        margin: 10px 0 10px 0;
+        color: #222;
+        margin: 15px 0 10px 0;
         font-size: 1.3rem;
-    }
-    h3:not(:first-of-type) {
-        margin: 20px 0 10px 0;
+        font-weight: bold;
     }
 
     .invite {
@@ -23,6 +21,23 @@
         font-size: 0.9rem;
         a {
             color: #222;
+        }
+    }
+
+    .todos {
+        ul {
+            list-style: none;
+            li {
+                color: #fff;
+            }
+            li::before {
+                content: "\2022";
+                color: #fff;
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                margin-left: -1em;
+            }
         }
     }
 
