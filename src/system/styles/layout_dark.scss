@@ -92,8 +92,10 @@ body {
 				border-top: 1px solid #bbb;
 				min-height: basic.$basicLayoutHeight;
 			}
-			.versionInfo {
-				display: none;
+			nav {
+				.versionInfo {
+					display: none !important;
+				}
 			}
 		}
 

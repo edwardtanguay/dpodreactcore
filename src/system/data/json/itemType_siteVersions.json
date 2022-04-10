@@ -1,0 +1,20 @@
+[
+	{
+		"version": "0.04.00",
+		"whenPublished": "2022-04-09 07:11:53",
+		"shortDescription": "search highlighting",
+		"notes": ""
+	},
+	{
+		"version": "0.04.01",
+		"whenPublished": "2022-04-10 13:10:22",
+		"shortDescription": "React 18",
+		"notes": ""
+	},
+	{
+		"version": "0.04.02",
+		"whenPublished": "2022-04-10 13:22:43",
+		"shortDescription": "version info box",
+		"notes": ""
+	}
+]

@@ -5,6 +5,7 @@ import './styles/dpod.scss';
 import PageHome from '../custom/components/PageHome';
 import * as config from '../system/config';
 import * as qarr from '../system/qtools/qarr';
+import siteVersions from './data/json/itemType_siteVersions.json';
 
 // DYNAMIC_CODE_AREA: loadPageComponentLines
 import PageShowcaseCounterUsingState from './pages/PageShowcaseCounterUsingState'; // ::showcaseCounterUsingState
@@ -33,6 +34,8 @@ import PageFlashcards from './pages/PageFlashcards'; // ::flashcards
 import pages from './data/json/itemTypes/itemType_pages.json';
 import _initialHowtos from '../custom/models/model_howtos';
 import { IItem } from '../custom/models/interfaces';
+
+const currentSiteVersion = siteVersions[siteVersions.length - 1];
 
 const PageHowtos = itemPageManager(
 	_PageHowtos,
@@ -103,12 +106,12 @@ function Site() {
 									href="https://github.com/edwardtanguay/dpodreactcore"
 									rel="noreferrer"
 								>
-									Version 0.05.03
+									Version {currentSiteVersion.version}
 								</a>{' '}
-								- 2022-04-10 12:24:08
+								- {currentSiteVersion.whenPublished}
 							</div>
 							<div className="details">
-								search highlighting, React 18, version info
+								{currentSiteVersion.shortDescription}
 							</div>
 						</div>
 					</div>
