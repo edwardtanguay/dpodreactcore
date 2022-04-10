@@ -70,37 +70,42 @@ const userHasAccess = (pageIdCode: string) => {
 
 function Site() {
 	return (
-		<div className="app_site">
-			<div className="topHeader">
-				<h1 className="siteTitle">Edward Tanguay</h1>
-			</div>
-			<BrowserRouter>
-				<nav>
-					<div className="pageLinks">
-						{displayOrderSortedPages
-							.filter(
-								(page: any) =>
-									page.environment === 'frontendOnly' ||
-									config.getSiteMode() === 'development'
-							)
-							.map((page: any, i: number) => {
-								const smartIdCode =
-									page.idCode === 'home'
-										? '/'
-										: '/' + page.idCode;
-								return (
-									<span key={i}>
-										<NavLink to={`${smartIdCode}`}>
-											{page.title}
-										</NavLink>
-									</span>
-								);
-							})}
+		<BrowserRouter>
+			<div className="app_site">
+				<div className="topArea">
+					<div className="headerAndNav">
+						<div className="topHeader">
+							<h1 className="siteTitle">Edward Tanguay</h1>
+						</div>
+						<nav>
+							<div className="pageLinks">
+								{displayOrderSortedPages
+									.filter(
+										(page: any) =>
+											page.environment ===
+												'frontendOnly' ||
+											config.getSiteMode() ===
+												'development'
+									)
+									.map((page: any, i: number) => {
+										const smartIdCode =
+											page.idCode === 'home'
+												? '/'
+												: '/' + page.idCode;
+										return (
+											<span key={i}>
+												<NavLink to={`${smartIdCode}`}>
+													{page.title}
+												</NavLink>
+											</span>
+										);
+									})}
+							</div>
+						</nav>
 					</div>
 					<div className="versionInfo">
 						<div className="innerArea">
-							<div className="intro">This site runs on</div>
-							<div className="core">Datapod-for-React CORE</div>
+							<div className="core">Built on Datapod-for-React CORE</div>
 							<div className="version">
 								<a
 									target="_blank"
@@ -116,8 +121,7 @@ function Site() {
 							</div>
 						</div>
 					</div>
-				</nav>
-
+				</div>
 				<section className="app_container">
 					<Routes>
 						<Route path="/" element={<PageHome />} />
@@ -283,8 +287,8 @@ function Site() {
 						{/* ::flashcards */}
 					</Routes>
 				</section>
-			</BrowserRouter>
-		</div>
+			</div>
+		</BrowserRouter>
 	);
 }
 

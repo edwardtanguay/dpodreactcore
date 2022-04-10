@@ -64,71 +64,26 @@ body {
 		}
 	}
 	.app_site {
-		.topHeader {
+		.topArea {
 			display: flex;
 			justify-content: space-between;
-			h1.siteTitle {
-				/* smartphone */
-				@media (max-width: 767px) {
-					margin: 0 -10px 10px -12px;
-				}
-				/* computer */
-				@media (min-width: 768px) {
-					margin: 0 0 10px -2px;
-				}
-				color: #888;
-			}
-		}
-
-		/* smartphone */
-		@media (max-width: 767px) {
-			.app_container {
-				background-color: basic.$secondColor;
-				margin: basic.$margin -20px 0 -20px;
-				padding-top: basic.$padding;
-				padding-bottom: basic.$padding;
-				padding-right: 10px;
-				padding-left: 10px;
-				border-top: 1px solid #bbb;
-				min-height: basic.$basicLayoutHeight;
-			}
-			nav {
-				.versionInfo {
-					display: none !important;
+			.headerAndNav {
+				.topHeader {
+					display: flex;
+					justify-content: space-between;
+					h1.siteTitle {
+						/* smartphone */
+						@media (max-width: 767px) {
+							margin: 0 -10px 10px -12px;
+						}
+						/* computer */
+						@media (min-width: 768px) {
+							margin: 0 0 10px -2px;
+						}
+						color: #888;
+					}
 				}
 			}
-		}
-
-		/* computer */
-		@media (min-width: 768px) {
-			.app_container {
-				background-color: basic.$secondColor;
-				margin: basic.$margin 0 0 0;
-				padding: basic.$padding;
-				border: 1px solid #888;
-				border-radius: 5px;
-				min-height: basic.$basicLayoutHeight;
-			}
-		}
-
-		nav {
-			display: flex;
-			span {
-				margin: 0 13px 5px 0;
-				display: inline-block;
-
-				user-select: none;
-				.active {
-					font-weight: bold;
-					pointer-events: none;
-					text-decoration: none;
-				}
-			}
-			a {
-				color: #ccc;
-				font-size: 0.9em;
-			}
-
 			.versionInfo {
 				display: inline-block;
 				.innerArea {
@@ -168,8 +123,57 @@ body {
 					.details {
 						color: orange;
 						font-style: italic;
+						font-size: 0.8rem;
 					}
 				}
+			}
+		}
+
+		/* smartphone */
+		@media (max-width: 767px) {
+			.app_container {
+				background-color: basic.$secondColor;
+				margin: basic.$margin -20px 0 -20px;
+				padding-top: basic.$padding;
+				padding-bottom: basic.$padding;
+				padding-right: 10px;
+				padding-left: 10px;
+				border-top: 1px solid #bbb;
+				min-height: basic.$basicLayoutHeight;
+			}
+				.versionInfo {
+					display: none !important;
+				}
+		}
+
+		/* computer */
+		@media (min-width: 768px) {
+			.app_container {
+				background-color: basic.$secondColor;
+				margin: basic.$margin 0 0 0;
+				padding: basic.$padding;
+				border: 1px solid #888;
+				border-radius: 5px;
+				min-height: basic.$basicLayoutHeight;
+			}
+		}
+
+		nav {
+			display: flex;
+			span {
+				margin: 0 13px 5px 0;
+				display: inline-block;
+
+				user-select: none;
+				.active {
+					font-weight: bold;
+					pointer-events: none;
+					text-decoration: none;
+				}
+			}
+			a {
+				color: #ccc;
+				font-size: 0.9em;
 			}
 		}
 	}
