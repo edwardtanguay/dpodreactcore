@@ -22,5 +22,11 @@
 		"whenPublished": "2022-04-10 15:04:22",
 		"shortDescription": "created version page",
 		"notes": ""
+	},
+	{
+		"version": "0.04.04",
+		"whenPublished": "2022-04-10 15:40:01",
+		"shortDescription": "fixed autofocus on page load",
+		"notes": ""
 	}
 ]

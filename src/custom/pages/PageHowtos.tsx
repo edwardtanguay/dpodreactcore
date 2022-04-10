@@ -39,7 +39,13 @@ function PageHowtos(props: IItemPageProps) {
 		}
 	}, [id, searchText, idCode]);
 
-	useEffect(() => {}, []);
+	useEffect(() => {
+		setTimeout(() => {
+			if (refSearchText.current !== null) {
+				refSearchText.current.focus();
+			}
+		}, 50);
+	}, []);
 
 	const showAllItems = () => {
 		if (refSearchText.current !== null) {
@@ -106,7 +112,8 @@ function PageHowtos(props: IItemPageProps) {
 										onClick={() => displayOneItem(howto.id)}
 									>
 										{searchText !== '' && (
-											<span dangerouslySetInnerHTML={{
+											<span
+												dangerouslySetInnerHTML={{
 													__html: howto.highlightedTitle,
 												}}
 											></span>
