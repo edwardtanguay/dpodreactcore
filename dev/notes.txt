@@ -19,7 +19,10 @@ ITEM PAGE: ADD BACK IN
 		setItems([...getItemsById(id)]);
 	};
 
-
+- tasks
+	- enable backend/frontend with no vulnerabilities
+		- (see foray on this when you upgrade to react-scripts 5)
+		- perhaps convert to Vite
 
 ==========================================
 ==========================================
