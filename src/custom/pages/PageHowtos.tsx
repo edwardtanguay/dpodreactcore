@@ -80,8 +80,9 @@ function PageHowtos(props: IItemPageProps) {
 				<ItemPageHeader
 					items={items}
 					searchText={searchText}
-					_initialHowtos={_initialHowtos}
+					_initialItems={_initialHowtos}
 					showAllItems={showAllItems}
+					itemTypePluralTitleNotation="Howtos"
 				/>
 
 				<ItemPageSearch

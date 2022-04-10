@@ -2,12 +2,12 @@ export interface IHowto {
 	id: number;
 	categoryTitle: string;
 	title: string;
-	systemWhenCreated: string;
-	systemWhoCreated: string;
 	body: string;
 	jsfiddleUrl: string;
 	bulkSearch: string;
 	highlightedTitle: string;
+	systemWhenCreated: string;
+	systemWhoCreated: string;
 }
 
 export interface IItem {
@@ -36,9 +36,12 @@ export interface IItemPageProps {
 
 export interface IFlashcard {
 	id: number;
+	category: string;
 	front: string;
 	back: string;
 	title: string;
 	highlightedTitle: string;
 	bulkSearch: string;
+	systemWhenCreated: string;
+	systemWhoCreated: string;
 }
