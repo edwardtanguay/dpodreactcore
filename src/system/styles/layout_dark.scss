@@ -78,27 +78,6 @@ body {
 				}
 				color: #888;
 			}
-			.versionInfo {
-				background-color: #444;
-				padding: 5px;
-				border-radius: 4px;
-				text-align: left;
-				position: absolute;
-				font-size: 0.7rem;
-				right: 37px;
-				top: 20px;
-				box-shadow: 0 0 30px #444;
-				div:not(:last-child) {
-					margin: 0 0 3px 0;
-				}
-				.intro {
-					color: #999;
-				}
-				.details {
-					color: orange;
-					font-style: italic;
-				}
-			}
 		}
 
 		/* smartphone */
@@ -131,7 +110,7 @@ body {
 		}
 
 		nav {
-			max-width: 1500px;
+			display: flex;
 			span {
 				margin: 0 13px 5px 0;
 				display: inline-block;
@@ -146,6 +125,32 @@ body {
 			a {
 				color: #ccc;
 				font-size: 0.9em;
+			}
+
+			.versionInfo {
+				display: inline-block;
+				.innerArea {
+					background-color: #444;
+					padding: 10px;
+					border-radius: 4px;
+					text-align: left;
+					font-size: 0.7rem;
+					box-shadow: 0 0 30px #444;
+					margin: 0 0 0 10px;
+					div:not(:last-child) {
+						margin: 0 0 3px 0;
+					}
+					div {
+						
+					}
+					.intro {
+						color: #999;
+					}
+					.details {
+						color: orange;
+						font-style: italic;
+					}
+				}
 			}
 		}
 	}

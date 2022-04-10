@@ -69,45 +69,51 @@ function Site() {
 		<div className="app_site">
 			<div className="topHeader">
 				<h1 className="siteTitle">Edward Tanguay</h1>
-				<div className="versionInfo">
-					<div className="intro">This site runs on:</div>
-					<div className="core">Datapod for React CORE - </div>
-					<div className="nnn">
-						<a
-							target="_blank"
-							href="https://github.com/edwardtanguay/dpodreactcore"
-							rel="noreferrer"
-						>
-							{' '}
-							2022-04-10 12:24:08 - Version 0.05.03{' '}
-						</a>
-					</div>
-					<div className="details">
-						search highlighting, React 18, version info
-					</div>
-				</div>
 			</div>
 			<BrowserRouter>
 				<nav>
-					{displayOrderSortedPages
-						.filter(
-							(page: any) =>
-								page.environment === 'frontendOnly' ||
-								config.getSiteMode() === 'development'
-						)
-						.map((page: any, i: number) => {
-							const smartIdCode =
-								page.idCode === 'home'
-									? '/'
-									: '/' + page.idCode;
-							return (
-								<span key={i}>
-									<NavLink to={`${smartIdCode}`}>
-										{page.title}
-									</NavLink>
-								</span>
-							);
-						})}
+					<div className="pageLinks">
+						{displayOrderSortedPages
+							.filter(
+								(page: any) =>
+									page.environment === 'frontendOnly' ||
+									config.getSiteMode() === 'development'
+							)
+							.map((page: any, i: number) => {
+								const smartIdCode =
+									page.idCode === 'home'
+										? '/'
+										: '/' + page.idCode;
+								return (
+									<span key={i}>
+										<NavLink to={`${smartIdCode}`}>
+											{page.title}
+										</NavLink>
+									</span>
+								);
+							})}
+					</div>
+					<div className="versionInfo">
+						<div className="innerArea">
+							<div className="intro">This site runs on:</div>
+							<div className="core">
+								Datapod for React CORE -{' '}
+							</div>
+							<div className="nnn">
+								<a
+									target="_blank"
+									href="https://github.com/edwardtanguay/dpodreactcore"
+									rel="noreferrer"
+								>
+									{' '}
+									2022-04-10 12:24:08 - Version 0.05.03{' '}
+								</a>
+							</div>
+							<div className="details">
+								search highlighting, React 18, version info
+							</div>
+						</div>
+					</div>
 				</nav>
 
 				<section className="app_container">
