@@ -323,7 +323,7 @@
 	},
 	{
 		"id": 25,
-		"idCode": "siteVersion",
+		"idCode": "siteVersions",
 		"menu": "main",
 		"title": "Site Versions",
 		"description": "",
