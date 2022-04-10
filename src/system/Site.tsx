@@ -71,14 +71,15 @@ function Site() {
 				<h1 className="siteTitle">Edward Tanguay</h1>
 				<div className="versionInfo">
 					<div className="intro">This site runs on:</div>
-					<div>
-						Datapod for React CORE -{' '}
+					<div className="core">Datapod for React CORE - </div>
+					<div className="nnn">
 						<a
 							target="_blank"
 							href="https://github.com/edwardtanguay/dpodreactcore"
 							rel="noreferrer"
 						>
-							Version 0.05.03
+							{' '}
+							2022-04-10 12:24:08 - Version 0.05.03{' '}
 						</a>
 					</div>
 					<div className="details">

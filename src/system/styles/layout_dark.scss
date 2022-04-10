@@ -84,8 +84,9 @@ body {
 				border-radius: 4px;
 				text-align: left;
 				position: absolute;
-				right: 10px;
-				top: 0;
+				font-size: 0.7rem;
+				right: 37px;
+				top: 20px;
 				box-shadow: 0 0 30px #444;
 				div:not(:last-child) {
 					margin: 0 0 3px 0;
@@ -130,9 +131,11 @@ body {
 		}
 
 		nav {
+			max-width: 1500px;
 			span {
 				margin: 0 13px 5px 0;
 				display: inline-block;
+
 				user-select: none;
 				.active {
 					font-weight: bold;
@@ -143,19 +146,6 @@ body {
 			a {
 				color: #ccc;
 				font-size: 0.9em;
-			}
-		}
-		.versionInfo {
-			color: yellow;
-			margin: 10px 0 0 0;
-			font-size: 0.7rem;
-			text-align: right;
-			a {
-				color: #fff;
-				text-decoration: none;
-			}
-			a:hover {
-				text-decoration: underline;
 			}
 		}
 	}
