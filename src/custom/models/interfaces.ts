@@ -22,7 +22,7 @@ export interface IItemsQueryObject {
 	searchText: string,
 	id: number
 }
- 
+
 export interface IItemPageProps {
 	id: number;
 	searchText: string;
@@ -32,4 +32,13 @@ export interface IItemPageProps {
 	getUrlIdCode: any;
 	forceConsistentStateData: any;
 	loadItems: any;
+}
+
+export interface IFlashcard {
+	id: number;
+	front: string;
+	back: string;
+	title: string;
+	highlightedTitle: string;
+	bulkSearch: string;
 }
