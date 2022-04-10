@@ -23,17 +23,17 @@ function PageSiteVersions() {
 			<h3>Version history</h3>
 			<div className="versions">
 				<ul>
-					{versions.map((sv: any, index: number) => {
+					{versions.map((version: any, index: number) => {
 						return (
 							<li key={index} className="siteVersion">
-								<span className="version">{sv.version}</span>
+								<span className="version">{version.version}</span>
 								<span className="separator"> - </span>
 								<span className="whenPublished">
-									{sv.whenPublished}
+									{version.whenPublished}
 								</span>
 								<span className="separator"> - </span>
 								<span className="shortDescription">
-									{sv.shortDescription}
+									{version.shortDescription}
 								</span>
 							</li>
 						);

@@ -1,4 +1,4 @@
-import rawHowtos from '../data/json/rawHowtos.json';
+import rawHowtos from '../data/json/itemType_howtos.json';
 import { IHowto } from '../models/interfaces';
 
 
