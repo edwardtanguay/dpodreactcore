@@ -8,7 +8,7 @@ import { ItemPageHeader } from './itemPages/ItemPageHeader';
 import { ItemPageHelmet } from './itemPages/ItemPageHelmet';
 import { ItemPageSearch } from './itemPages/ItemPageSearch';
 import { Howtos } from './itemPageItems/Howtos';
-import { Howto } from './itemPageItems/Howto';
+import { Howto } from './itemPageItems/Howto2';
 
 const pageTitle = `Edward's how-to instructions and code examples`;
 const pageDescription =
