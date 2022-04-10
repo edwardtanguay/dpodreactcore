@@ -5,7 +5,7 @@ import './styles/dpod.scss';
 import PageHome from '../custom/components/PageHome';
 import * as config from '../system/config';
 import * as qarr from '../system/qtools/qarr';
-import siteVersions from './data/json/itemType_siteVersions.json';
+import data_versioning from './data/json/data_versioning.json';
 
 // DYNAMIC_CODE_AREA: loadPageComponentLines
 import PageShowcaseCounterUsingState from './pages/PageShowcaseCounterUsingState'; // ::showcaseCounterUsingState
@@ -36,7 +36,7 @@ import pages from './data/json/itemTypes/itemType_pages.json';
 import _initialHowtos from '../custom/models/model_howtos';
 import { IItem } from '../custom/models/interfaces';
 
-const currentSiteVersion = siteVersions[0];
+const currentSiteVersion = (data_versioning as any).versions[0];
 
 const PageHowtos = itemPageManager(
 	_PageHowtos,
@@ -110,8 +110,13 @@ function Site() {
 									Built on Datapod-for-React CORE
 								</div>
 								<div className="versionInfo">
-									<span className="version">Version {currentSiteVersion.version}</span>
-									<span className="date">{' '}-{' '}{currentSiteVersion.whenPublished}</span>
+									<span className="version">
+										Version {currentSiteVersion.version}
+									</span>
+									<span className="date">
+										{' '}
+										- {currentSiteVersion.whenPublished}
+									</span>
 								</div>
 								<div className="details">
 									{currentSiteVersion.shortDescription}

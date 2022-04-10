@@ -1,8 +1,8 @@
 import '../styles/page_siteVersions.scss';
-import rawSiteVersions from '../data/json/itemType_siteVersions.json';
+import data_versioning from '../data/json/data_versioning.json';
 
-const siteVersions = rawSiteVersions.sort((a, b) =>
-	a.whenPublished < b.whenPublished ? 1 : -1
+const siteVersions = (data_versioning as any).versions.sort(
+	(a: any, b: any) => (a.whenPublished < b.whenPublished ? 1 : -1)
 );
 
 function PageSiteVersions() {
@@ -11,7 +11,7 @@ function PageSiteVersions() {
 			<h2 className="title">Datapod-for-React CORE</h2>
 			<h3>Version history</h3>
 			<div className="invite">
-				You want to help me develop this?{' '}
+				You want to help me develop the Datapod-for-React framework?{' '}
 				<a
 					href="https://github.com/edwardtanguay/dpodreactcore"
 					target="_blank"
@@ -20,9 +20,9 @@ function PageSiteVersions() {
 					Fork, code, create a pull-request
 				</a>
 			</div>
-			<p className="versions">
+			<div className="versions">
 				<ul>
-					{siteVersions.map((sv, index) => {
+					{siteVersions.map((sv: any, index: number) => {
 						return (
 							<li key={index} className="siteVersion">
 								<span className="version">{sv.version}</span>
@@ -38,7 +38,7 @@ function PageSiteVersions() {
 						);
 					})}
 				</ul>
-			</p>
+			</div>
 		</div>
 	);
 }
