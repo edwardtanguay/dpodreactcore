@@ -11,7 +11,7 @@ export const ItemPageHeader = (props: IProps) => {
 	return (
 		<>
 			{items.length > 1 && searchText === '' && (
-				<h2 className="title">{items.length} Howtos</h2>
+				<h2 className="title">{items.length} {itemTypePluralTitleNotation}</h2>
 			)}
 			{items.length === 1 && searchText === '' && (
 				<h2 className="title oneOfMany">

@@ -90,11 +90,20 @@ function PageHowtos(props: IItemPageProps) {
 					searchText={searchText}
 					displaySearchResults={displaySearchResults}
 					items={items}
+					itemTypePluralTextNotation="howtos"
 				/>
 
-				<Howtos items={items} displayOneItem={displayOneItem} searchText={searchText}/>
+				<Howtos
+					items={items}
+					displayOneItem={displayOneItem}
+					searchText={searchText}
+				/>
 
-				<Howto items={items} getCurrentItem={getCurrentItem} convertBodyToBodyParsed={convertBodyToBodyParsed}/>
+				<Howto
+					items={items}
+					getCurrentItem={getCurrentItem}
+					convertBodyToBodyParsed={convertBodyToBodyParsed}
+				/>
 			</div>
 
 			<ItemPageHelmet

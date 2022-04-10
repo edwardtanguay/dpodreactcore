@@ -90,6 +90,7 @@ function PageFlashcards(props: IItemPageProps) {
 					searchText={searchText}
 					displaySearchResults={displaySearchResults}
 					items={items}
+					itemTypePluralTextNotation="flashcards"
 				/>
 
 				<Flashcards

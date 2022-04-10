@@ -3,10 +3,17 @@ interface IProps {
 	searchText: string;
 	displaySearchResults: any;
 	items: any[];
+	itemTypePluralTextNotation: string;
 }
 
 export const ItemPageSearch = (props: IProps) => {
-	const { refSearchText, searchText, displaySearchResults,items } = props;
+	const {
+		refSearchText,
+		searchText,
+		displaySearchResults,
+		items,
+		itemTypePluralTextNotation,
+	} = props;
 
 	return (
 		<>
@@ -15,7 +22,7 @@ export const ItemPageSearch = (props: IProps) => {
 					<div className="searchRow">
 						<input
 							id="mainSearch"
-							placeholder="search howtos"
+							placeholder={'search ' + itemTypePluralTextNotation}
 							ref={refSearchText}
 							type="text"
 							value={searchText}
