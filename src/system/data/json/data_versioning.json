@@ -47,12 +47,15 @@
 			"whenPublished": "2022-04-11 15:57:57",
 			"shortDescription": "fixed bug: search produced empty screen because of regex error",
 			"notes": ""
+		},
+		{
+			"version": "0.05.02",
+			"whenPublished": "2022-04-11 22:04:10",
+			"shortDescription": "categories are now searched and highlighted",
+			"notes": ""
 		}
 	],
 	"todos": [
-		{
-			"title": "also search category and make high priority on match"
-		},
 		{
 			"title": "customize Flashcard page"
 		},
