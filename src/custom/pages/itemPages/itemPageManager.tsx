@@ -156,26 +156,40 @@ export const itemPageManager =
 				case searchText !== '': {
 					const items = (_initialItems as IItem[]).filter(
 						(item: IItem) =>
-							qstr.searchTextMatches(
-								searchText,
-								item.bulkSearch
-							)
+							qstr.searchTextMatches(searchText, item.bulkSearch)
 					);
 					let titleMatchItems: IItem[] = [];
 					let otherMatchItems: IItem[] = [];
-					items.forEach(item => {
+					items.forEach((item) => {
 						if (qstr.searchTextMatches(searchText, item.title)) {
-							item.highlightedTitle = qstr.replaceAll(item.title, searchText, `<span class="searchHighlight">${searchText}</span>`);
-							item.highlightedTitle = qstr.wrapFoundSearchWordsWithClassElement(item.title, searchText, 'searchHighlight');
+							item.highlightedTitle = qstr.replaceAll(
+								item.title,
+								searchText,
+								`<span class="searchHighlight">${searchText}</span>`
+							);
+							item.highlightedTitle =
+								qstr.wrapFoundSearchWordsWithClassElement(
+									item.title,
+									searchText,
+									'searchHighlight'
+								);
 							titleMatchItems.push(item);
 						} else {
 							item.highlightedTitle = item.title;
 							otherMatchItems.push(item);
 						}
 					});
-					
-					titleMatchItems = qarr.sortObjects(titleMatchItems, 'systemWhenCreated', 'desc');
-					otherMatchItems = qarr.sortObjects(otherMatchItems, 'systemWhenCreated', 'desc');
+
+					titleMatchItems = qarr.sortObjects(
+						titleMatchItems,
+						'systemWhenCreated',
+						'desc'
+					);
+					otherMatchItems = qarr.sortObjects(
+						otherMatchItems,
+						'systemWhenCreated',
+						'desc'
+					);
 
 					return titleMatchItems.concat(otherMatchItems);
 				}

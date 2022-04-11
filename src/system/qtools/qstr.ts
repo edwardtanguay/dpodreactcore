@@ -793,7 +793,8 @@ export const wrapFoundSearchWordsWithClassElement = (text: string, searchText: s
 	// searchText = "regex vue"
 	// regexString = "(regex)|(vue)"
 	// regexReplaceString = "$1$2";
-	const searchWords = searchText.split(' ').filter(word => word.length >= 3);
+	const escapedSearchText = searchText.replace(/[-[\]{}()*+?.,\\^$|]/g, "\\$&");
+	const searchWords = escapedSearchText.split(' ').filter(word => word.length >= 3);
 	if (searchWords.length > 0) {
 		const regexSearchString = searchWords.map(word => `(${word})`).join('|');
 		const regexReplaceString = searchWords.map((_m, i) => '$' + String(i + 1)).join('');

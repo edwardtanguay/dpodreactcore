@@ -17,7 +17,7 @@ export const ItemPageSearch = (props: IProps) => {
 
 	return (
 		<>
-			{items.length > 0 && (
+			{(items.length > 0 || searchText !== '') && (
 				<div className="searchArea">
 					<div className="searchRow">
 						<input
