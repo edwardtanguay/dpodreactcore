@@ -26,15 +26,19 @@ function PageSiteVersions() {
 					{versions.map((version: any, index: number) => {
 						return (
 							<li key={index} className="siteVersion">
-								<span className="version">{version.version}</span>
-								<span className="separator"> - </span>
-								<span className="whenPublished">
-									{version.whenPublished}
-								</span>
-								<span className="separator"> - </span>
-								<span className="shortDescription">
-									{version.shortDescription}
-								</span>
+								<div className="line">
+									<span className="version">
+										{version.version}
+									</span>
+									<span className="separator"> - </span>
+									<span className="whenPublished">
+										{version.whenPublished}
+									</span>
+									<span className="separator"> - </span>
+									<span className="shortDescription">
+										{version.shortDescription}
+									</span>
+								</div>
 							</li>
 						);
 					})}
@@ -45,7 +49,9 @@ function PageSiteVersions() {
 				<ul>
 					{todos.map((todo: any, index: number) => {
 						return (
-							<li key={index} className="todo">{todo.title}</li>
+							<li key={index} className="todo">
+								<div className="line">{todo.title}</div>
+							</li>
 						);
 					})}
 				</ul>

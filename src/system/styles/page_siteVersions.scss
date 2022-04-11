@@ -24,42 +24,49 @@
         }
     }
 
-    .todos {
+    .versions {
         ul {
-            list-style: none;
-            li {
-                color: #fff;
+            margin: 0 0 0 2px;
+            li:first-child div {
+                background-color: #737373;
+                padding: 2px 0;
             }
-            li::before {
-                content: "\2022";
-                color: #fff;
-                font-weight: bold;
-                display: inline-block;
-                width: 1em;
-                margin-left: -1em;
+            li {
+                list-style: none;
+                div.line {
+                    display: inline-block;
+                    .version {
+                        color: #fff;
+                        font-weight: bold;
+                    }
+                    .whenPublished {
+                        color: #ddd;
+                    }
+                    .separator {
+                        color: #999;
+                    }
+                    .shortDescription {
+                        color: orange;
+                    }
+                }
             }
         }
     }
 
-    .versions {
+    .todos {
         ul {
-            margin: 0 0 0 2px;
-            li {
-                list-style: none;
+            list-style: none;
+            li:first-child div {
+                background-color: #737373;
+                padding: 2px 0;
+                font-style: italic;
             }
-        }
-        .version {
-            color: #fff;
-            font-weight: bold;
-        }
-        .whenPublished {
-            color: #ddd;
-        }
-        .separator {
-            color: #999;
-        }
-        .shortDescription {
-            color: orange;
+            li {
+                color: #fff;
+                div.line {
+                    display: inline-block;
+                }
+            }
         }
     }
 }
