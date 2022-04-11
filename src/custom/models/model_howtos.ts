@@ -8,12 +8,13 @@ const getHowtos = () => {
 			id: rawHowto.id,
 			title: rawHowto.title,
 			body: rawHowto.body,
-			categoryTitle: rawHowto.category,
+			category: rawHowto.category,
 			systemWhenCreated: rawHowto.systemWhenCreated,
 			systemWhoCreated: rawHowto.systemWhoCreated,
 			jsfiddleUrl: '',
 			bulkSearch: `${rawHowto.title}|${rawHowto.body}`,
-			highlightedTitle: ''
+			highlightedTitle: '',
+			highlightedCategory: ''
 		}
 		howtos.push(howto);
 	});

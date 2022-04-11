@@ -162,11 +162,6 @@ export const itemPageManager =
 					let otherMatchItems: IItem[] = [];
 					items.forEach((item) => {
 						if (qstr.searchTextMatches(searchText, item.title)) {
-							item.highlightedTitle = qstr.replaceAll(
-								item.title,
-								searchText,
-								`<span class="searchHighlight">${searchText}</span>`
-							);
 							item.highlightedTitle =
 								qstr.wrapFoundSearchWordsWithClassElement(
 									item.title,

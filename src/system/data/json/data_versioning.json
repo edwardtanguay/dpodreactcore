@@ -45,7 +45,7 @@
 		{
 			"version": "0.05.01",
 			"whenPublished": "2022-04-11 15:57:57",
-			"shortDescription": "fixed bug: search to produce empty screen because of regex error",
+			"shortDescription": "fixed bug: search produced empty screen because of regex error",
 			"notes": ""
 		}
 	],

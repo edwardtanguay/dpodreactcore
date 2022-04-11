@@ -1,19 +1,22 @@
 export interface IHowto {
 	id: number;
-	categoryTitle: string;
+	category: string;
 	title: string;
 	body: string;
 	jsfiddleUrl: string;
 	bulkSearch: string;
 	highlightedTitle: string;
+	highlightedCategory: string;
 	systemWhenCreated: string;
 	systemWhoCreated: string;
 }
 
 export interface IItem {
 	id: number;
+	category: string;
 	title: string;
 	highlightedTitle: string;
+	highlightedCategory: string;
 	bulkSearch: string;
 }
 
@@ -36,11 +39,12 @@ export interface IItemPageProps {
 
 export interface IFlashcard {
 	id: number;
-	categoryTitle: string;
+	category: string;
 	front: string;
 	back: string;
 	title: string;
 	highlightedTitle: string;
+	highlightedCategory: string;
 	bulkSearch: string;
 	systemWhenCreated: string;
 	systemWhoCreated: string;

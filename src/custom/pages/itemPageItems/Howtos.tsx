@@ -23,12 +23,20 @@ export const Howtos = (props: IProps) => {
 											howto.systemWhenCreated
 										)}
 									</span>{' '}
-									<span className="category">
-										{howto.categoryTitle}
-									</span>
+									{searchText !== '' && (
+										<span
+											dangerouslySetInnerHTML={{
+												__html: howto.highlightedCategory,
+											}}
+										></span>
+									)}
+									{searchText === '' && (
+										<span className="category">
+											{howto.category}
+										</span>
+									)}
 								</div>
 								<div
-									key={i}
 									className="itemLinkTitle"
 									onClick={() => displayOneItem(howto.id)}
 								>

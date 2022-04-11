@@ -6,12 +6,13 @@ const getFlashcards = () => {
 	rawFlashcards.forEach((rawFlashcard: any) => {
 		const flashcard: IFlashcard = {
 			id: rawFlashcard.id,
-			categoryTitle: rawFlashcard.category,
+			category: rawFlashcard.category,
 			front: rawFlashcard.front,
 			back: rawFlashcard.back,
 			title: rawFlashcard.front,
 			bulkSearch: `${rawFlashcard.front}|${rawFlashcard.back}`,
 			highlightedTitle: '',
+			highlightedCategory: '',
 			systemWhenCreated: rawFlashcard.systemWhenCreated,
 			systemWhoCreated: rawFlashcard.systemWhoCreated
 		}
