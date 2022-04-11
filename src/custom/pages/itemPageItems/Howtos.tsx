@@ -24,7 +24,7 @@ export const Howtos = (props: IProps) => {
 										)}
 									</span>{' '}
 									{searchText !== '' && (
-										<span
+										<span className="category"
 											dangerouslySetInnerHTML={{
 												__html: howto.highlightedCategory,
 											}}
