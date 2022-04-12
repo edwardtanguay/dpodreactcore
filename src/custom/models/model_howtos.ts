@@ -13,8 +13,8 @@ const getHowtos = () => {
 			systemWhoCreated: rawHowto.systemWhoCreated,
 			jsfiddleUrl: '',
 			bulkSearch: `${rawHowto.title}|${rawHowto.body}`,
-			highlightedTitle: '',
-			highlightedCategory: ''
+			highlightedTitle: rawHowto.title,
+			highlightedCategory: rawHowto.category
 		}
 		howtos.push(howto);
 	});

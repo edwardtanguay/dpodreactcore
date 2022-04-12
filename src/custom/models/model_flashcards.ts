@@ -11,8 +11,8 @@ const getFlashcards = () => {
 			back: rawFlashcard.back,
 			title: rawFlashcard.front,
 			bulkSearch: `${rawFlashcard.front}|${rawFlashcard.back}`,
-			highlightedTitle: '',
-			highlightedCategory: '',
+			highlightedTitle: rawFlashcard.front,
+			highlightedCategory: rawFlashcard.category,
 			systemWhenCreated: rawFlashcard.systemWhenCreated,
 			systemWhoCreated: rawFlashcard.systemWhoCreated
 		}
