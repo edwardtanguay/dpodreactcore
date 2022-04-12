@@ -177,6 +177,7 @@ export const itemPageManager =
 							titleMatchItems.push(item);
 						} else {
 							item.highlightedTitle = item.title;
+							item.highlightedCategory = item.category;
 							otherMatchItems.push(item);
 						}
 					});
