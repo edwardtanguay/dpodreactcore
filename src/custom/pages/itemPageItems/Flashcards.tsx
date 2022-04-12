@@ -23,18 +23,12 @@ export const Flashcards = (props: IProps) => {
 											flashcard.systemWhenCreated
 										)}
 									</span>{' '}
-									{searchText !== '' && (
-										<span className="category"
-											dangerouslySetInnerHTML={{
-												__html: flashcard.highlightedCategory,
-											}}
-										></span>
-									)}
-									{searchText === '' && (
-										<span className="category">
-											{flashcard.category}
-										</span>
-									)}
+									<span
+										className="category"
+										dangerouslySetInnerHTML={{
+											__html: flashcard.highlightedCategory,
+										}}
+									></span>
 								</div>
 								<div
 									key={i}
@@ -48,7 +42,9 @@ export const Flashcards = (props: IProps) => {
 											}}
 										></span>
 									)}
-									{searchText === '' && <>{flashcard.title}</>}
+									{searchText === '' && (
+										<>{flashcard.title}</>
+									)}
 								</div>
 							</div>
 						);

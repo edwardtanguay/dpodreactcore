@@ -21,7 +21,7 @@ export const Howto = (props: IProps) => {
 								)}
 							</span>{' '}
 							<span className="category">
-								{getCurrentItem().categoryTitle}
+								{getCurrentItem().category}
 							</span>
 						</div>
 						<div className="headerRow">
