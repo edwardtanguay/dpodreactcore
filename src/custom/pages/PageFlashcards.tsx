@@ -42,7 +42,7 @@ function PageFlashcards(props: IItemPageProps) {
 
 	useEffect(() => {
 		setTimeout(() => {
-			if (refSearchText.current !== null) {
+			if (refSearchText.current !== null && getUrlId() === 0) {
 				refSearchText.current.focus();
 			}
 		}, 50);
