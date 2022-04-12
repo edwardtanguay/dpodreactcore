@@ -59,9 +59,18 @@
 			"whenPublished": "2022-04-12 23:03:08",
 			"shortDescription": "fixed bug: sometimes doesn't show category on howtos/flashcards",
 			"notes": ""
+		},
+		{
+			"version": "0.05.04",
+			"whenPublished": "2022-04-13 01:20:34",
+			"shortDescription": "enabled all markup and media types in outline parsing",
+			"notes": ""
 		}
 	],
 	"todos": [
+		{
+			"title": "fix bug: reload individual item goes to list"
+		},
 		{
 			"title": "customize Flashcard page"
 		},
