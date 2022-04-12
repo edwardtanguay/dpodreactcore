@@ -115,6 +115,16 @@ class OutlineTextParser extends TextParser {
 			holdTextParserLine = textParserLine;
 			i++;
 		}
+
+	}
+
+	reformatIfOneLine(r: string) {
+		if (this.textParserLines.length === 1) {
+			r = qstr.chopLeft(r, '<div class="outlineWrapper"><ul class="outline"><li>');
+			r = qstr.chopRight(r, '</li></ul></div>');
+			r = '<div class="outlineWrapper"><div class="outline oneliner">' + r + '</div></div>';
+		}
+		return r;
 	}
 
 	displayParsed() {
@@ -129,6 +139,8 @@ class OutlineTextParser extends TextParser {
 		r = qstr.replaceAll(r, 'CODEMARKER_CLOSE_UL', '&lt;/ul>');
 
 		r = '<div class="outlineWrapper">' + r + '</div>';
+
+		r = this.reformatIfOneLine(r);
 		return r;
 	}
 }

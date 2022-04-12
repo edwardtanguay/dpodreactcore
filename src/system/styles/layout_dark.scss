@@ -40,9 +40,10 @@ body {
 		}
 		code {
 			background-color: basic.$codeLineBackgroundColor;
-			color: basic.$codeLineTextColor;
+			// color: basic.$codeLineTextColor;
+			color: #bbb;
 			font-family: "Courier New", Courier, monospace;
-			font-weight: bold;
+			// font-weight: bold;
 		}
 		p {
 			line-height: 1.2rem;
@@ -53,11 +54,11 @@ body {
 			li {
 				line-height: 1.3rem;
 				list-style: disc;
-				strong {
-					font-weight: bold;
-					color: rgb(230, 215, 150);
-				}
 			}
+		}
+		strong {
+			font-weight: bold;
+			color: rgb(230, 215, 150);
 		}
 		div {
 			line-height: 1.3rem;
@@ -190,7 +191,15 @@ body {
 
 	// OUTLINE
 
-	ul.outline {
+	.oneliner {
+		margin-left: -15px !important;
+		img {
+			margin: -10px 0 -20px 0 !important;
+			padding: 0;
+		}
+	}
+
+	.outline {
 		list-style: disc;
 
 		/* smartphone */
@@ -210,22 +219,23 @@ body {
 			margin-left: -20px;
 		}
 
-		li code {
+		code {
 			// background-color: #ddd;
-			font-weight: bold;
+			// font-weight: bold;
 			font-family: "Courier New", Courier, monospace;
 			display: inline-block;
 			padding-right: 3px;
 			padding-left: 3px;
 		}
 
-		li a {
+		a {
 			color: black;
 		}
 
 		img {
 			margin: 10px 0 10px 0;
-			border: 1px solid #ddd;
+			border: 1px solid #777;
+			border-radius: 7px;
 			max-width: 100%;
 		}
 
@@ -272,6 +282,16 @@ body {
 		.video {
 			max-width: 100%;
 			margin: 10px 0 0 0;
+		}
+		span.standardOutlineButton {
+			display: inline-block;
+			padding: 0 5px;
+			font-family: "Courier New", Courier, monospace;
+			background-color: #ddd;
+			border: 1px solid #bbb;
+			border-radius: 3px;
+			font-size: 80%;
+			color: #000;
 		}
 	}
 

@@ -123,7 +123,7 @@ class TextParserLine {
 			this.sourceImageAbsolutePathAndFileName = this.sourceImageAbsolutePath + this.animationFileName;
 			this.targetImageAbsolutePathAndFileName = this.targetImageAbsolutePath + this.animationFileName;
 
-			this.animationPathAndFileName = `${this.relativePublicImageDirectory  }/${  this.animationFileName}`;
+			this.animationPathAndFileName = `${this.relativePublicImageDirectory}/${this.animationFileName}`;
 		}
 
 
@@ -213,9 +213,9 @@ class TextParserLine {
 
 	getHtmlForAnimation() {
 		if (this.animationIdCode !== '') {
-			return `<div><img class="outlineImage" src="${  this.animationPathAndFileName  }"/></div>`;
-		} 
-			return '';
+			return `<div><img class="outlineImage" src="${this.animationPathAndFileName}"/></div>`;
+		}
+		return '';
 	}
 
 	parseButtonMarkers(text: string) {
@@ -229,6 +229,10 @@ class TextParserLine {
 
 	parseForOutline() {
 		let r = this.content;
+
+		//mask for buttons
+		r = qstr.replaceAll(r, '[[', 'BUTTON-MASK-BEGIN');
+		r = qstr.replaceAll(r, ']]', 'BUTTON-MASK-END');
 
 		// if there is a markdown for a url, then don't parse for raw urls, i.e. either/or
 		if (!qstr.containsUrlMarkdown(r)) {
@@ -245,11 +249,15 @@ class TextParserLine {
 			});
 		}
 
+		//unmask for buttons
+		r = qstr.replaceAll(r, 'BUTTON-MASK-BEGIN', '[[');
+		r = qstr.replaceAll(r, 'BUTTON-MASK-END', ']]');
+
 		// TODO: make this more sophisticated, since currently it will only not parse button markup if backtick is on the line anywhere, make it that it won't parse inside code text
 		// if (!qstr.contains(this.line, '`')) {
-		if (!qstr.contains(this.line, '`') || qstr.contains(this.line, 'TAB')) {
-			r = this.parseButtonMarkers(r);
-		}
+		// if (!qstr.contains(this.line, '`') || qstr.contains(this.line, 'TAB')) {
+		r = this.parseButtonMarkers(r);
+		// }
 
 		// NOTE: a single ` caused this to hang
 		// while (r.includes("`")) {
