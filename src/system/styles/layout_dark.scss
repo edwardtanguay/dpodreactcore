@@ -192,10 +192,20 @@ body {
 	// OUTLINE
 
 	.oneliner {
-		margin-left: -15px !important;
-		img {
-			margin: -10px 0 -20px 0 !important;
-			padding: 0;
+		/* smartphone */
+		@media (max-width: 767px) {
+			margin: 5px 0 -5px -15px !important;
+			img {
+				margin: 15px -10px 0 -2px !important;
+				padding: 0;
+			}
+		}
+		/* computer */
+		@media (min-width: 768px) {
+			margin: 18px -15px 5px -1px !important;
+			img {
+				padding: 0;
+			}
 		}
 	}
 
@@ -204,7 +214,7 @@ body {
 
 		/* smartphone */
 		@media (max-width: 767px) {
-			margin: 1px 0 0 10px !important;
+			margin: 1px 0 0 10px;
 		}
 
 		/* computer */
