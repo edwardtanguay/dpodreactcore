@@ -71,11 +71,17 @@
 			"whenPublished": "2022-04-13 01:50:52",
 			"shortDescription": "fixed bug: reload individual item goes to list",
 			"notes": ""
+		},
+		{
+			"version": "0.05.06",
+			"whenPublished": "2022-04-15 11:16:50",
+			"shortDescription": "responsive margins now correct for all media types",
+			"notes": ""
 		}
 	],
 	"todos": [
 		{
-			"title": "customize Flashcard page"
+			"title": "customize interactive Flashcard page"
 		},
 		{
 			"title": "hide version info box when on version page"
