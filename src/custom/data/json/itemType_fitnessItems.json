@@ -1,0 +1,48 @@
+[
+	{
+		"day": "2022-05-08",
+		"activities": [
+			{
+				"kind": "run",
+				"kilometerDistance": 11,
+				"timedDistances": [
+					{
+						"distance": 5,
+						"time": "00:26:52"
+					}
+				],
+				"url": "https://tanguay.info/run/index.php?page=runs&idCode=run20220508"
+			}
+		]
+	},
+	{
+		"day": "2022-05-07",
+		"activities": [
+			{
+				"kind": "swim",
+				"laps": 20,
+				"location": "Sommerbad am Insulaner",
+				"description": "First swim of the year for Gisi and me, went at around 14:00 almost had the whole double-lane to ourselves, sun shining, very nice"
+			}
+		]
+	},
+	{
+		"day": "2022-05-06",
+		"activities": [
+			{
+				"kind": "run",
+				"kilometerDistance": 22,
+				"url": "https://tanguay.info/run/index.php?page=runs&idCode=run20220506kreuzberg22k"
+			}
+		]
+	},
+	{
+		"day": "2022-05-05",
+		"activities": [
+			{
+				"kind": "powerGymnastics",
+				"description": "Susanne had some [Fitness Mix music](https://www.youtube.com/watch?v=mL40wGiWbCo) for the first time which was pretty good, I found it and downloaded it onto my stick for my runs, it has intervals of 30 seconds work, 15 seconds rest."
+			}
+		]
+	}
+]
