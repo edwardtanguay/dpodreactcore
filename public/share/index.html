@@ -11,22 +11,35 @@
 	<style>
 		body {
 			font-family: monospace;
-			padding: 0 20px;
+			padding: 20px 40px;
+			background-color: #ccc;
 		}
 
-		li,p {
+		a {
+			color: navy;
+		}
+
+		li,
+		p {
 			font-size: 0.9rem;
 		}
 
 		li.level1 {
 			margin-bottom: 10px;
 		}
+
+		h2 {
+			margin-top: 30px;
+		}
 	</style>
 </head>
 
 <body>
-	<h1>Edward Tanguay's API Data Share</h1>
-	<p>Feel free to use these JSON files and images in any way you want.</p>
+	<h1>Edward Tanguay's list of realistic API data</h1>
+	<p>This is a list of API data useful for creating realistic coding examples that consume APIs.</p>
+	<p>Feel free to use this data any way you want.</p>
+
+	<h2>JSON data and images stored on this site:</h2>
 	<ul>
 		<li class="level1"><b>techItems</b> - my notes on computer languages, software, frameworks, etc.
 			<ul>
@@ -41,8 +54,41 @@
 		<li class="level1"><b>books</b> - these are books I have read or am reading
 			<ul>
 				<li><a href="books.json">http://edwardtanguay.netlify.app/share/books</a></li>
-				<li>images: http://edwardtanguay.netlify.app/share/books/(idCode).png</li>
-				<li>e.g. <a href="http://edwardtanguay.netflify.app/share/images/books/epicofgilgamesh.png">http://edwardtanguay.netflify.app/share/images/books/epicofgilgamesh.png</a></li>
+				<li>images: http://edwardtanguay.netlify.app/share/books/&lt;idCode&gt;.png</li>
+				<li>e.g. <a
+					   href="http://edwardtanguay.netlify.app/share/images/books/epicofgilgamesh.png">http://edwardtanguay.netlify.app/share/images/books/epicofgilgamesh.png</a>
+				</li>
+			</ul>
+		</li>
+		<li class="level1"><b>employees</b> - this is the Northwind employees file with corresponding images created
+			with the site <a href="https://thispersondoesnotexist.com/">thispersondoesnotexist.com</a> generated with <a
+			   href="https://edwardtanguay.netlify.app/howtos?id=489">this bash script</a>
+			<ul>
+				<li><a href="employees.json">http://edwardtanguay.netlify.app/share/employees</a></li>
+				<li>images: http://edwardtanguay.netlify.app/share/employees/employee_&lt;employeeID&gt;.jpg</li>
+				<li>e.g. <a
+					   href="http://edwardtanguay.netlify.app/share/images/employees/employee_1.png">http://edwardtanguay.netlify.app/share/images/employees/employee_1.png</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+	<h2>Other APIs and JSON files with realistic data:</h2>
+	<ul>
+		<li class="level1"><b>Gutenberg Books</b> - a searchable catalog of Gutenberg books, includes links to full text
+			of books, images, and zip files
+			<ul>
+				<li><a href="https://gutendex.com/books/?search=berlin">https://gutendex.com/books/?search=berlin</a>
+				</li>
+			</ul>
+		</li>
+		<li class="level1"><b>Northwind Database</b> - this is the 1990s sample database that was shipped with the
+			Microsoft Access database, useful for coding examples since the tables have primary and foreign keys that
+			related the data together, e.g. customers contains orders which contain products, etc.
+			<ul>
+				<li><a
+					   href="https://github.com/graphql-compose/graphql-compose-examples/tree/master/examples/northwind/data/json">https://github.com/graphql-compose/graphql-compose-examples/tree/master/examples/northwind/data/json</a>
+				</li>
 			</ul>
 		</li>
 	</ul>
