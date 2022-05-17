@@ -37,7 +37,7 @@
 	},
 	{
 		"id": 4,
-		"idCode": "bashCookbok",
+		"idCode": "bashCookbook",
 		"title": "bash Cookbook",
 		"description": "This is going to be one of my favorite books as an entry into Linux administration of my Hetzner and Digital Ocean Debian/Ubuntu cloud machines. The cookbook format is extremely practical, looking forward to it.",
 		"yearMonth": "2017-11",
