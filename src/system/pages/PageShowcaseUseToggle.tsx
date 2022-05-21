@@ -9,7 +9,7 @@ function PageShowcaseUseToggle() {
 	return (
 		<div className="page page_showcaseUseToggle">
 			<h2 className="title">Showcase: useToggle()</h2>
-			<p className="description">This shows how to use the custom effect useToggle()</p>
+			<p className="description">This shows how to use the custom hook useToggle()</p>
 			<div className="showArea">User is online: <span className="theValue">{isOnline.toString()}</span></div>
 			<div className="showArea">User is admin: <span className="theValue">{isAdmin.toString()}</span></div>
 			<div className="showArea">Project is complete: <span className="theValue">{isComplete.toString()}</span></div>
