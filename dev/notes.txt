@@ -5,7 +5,11 @@
 				- .. load all three
 				- force new url
 
-
+- documentation
+	- create item page
+		- PageFlashcards
+		- Flashcard
+		- Flashcards
 =====================================
 ITEM PAGE: ADD BACK IN
 =====================================

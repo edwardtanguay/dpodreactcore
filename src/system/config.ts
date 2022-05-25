@@ -6,6 +6,7 @@ export const getBackendPort = () => {
 
 export const getSiteMode = () => {
 	return 'live';
+	// return 'development';
 	// const siteMode = process.env.REACT_APP_SITEMODE ? process.env.REACT_APP_SITEMODE : 'production';
 	// return siteMode;
 }
