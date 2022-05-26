@@ -1,4 +1,4 @@
-import rawTechBooks from '../data/json/itemType_techBooks.json';
+import rawTechBooks from '../data/json/itemType_techBooks2.json';
 import { ITechBook } from './interfaces';
 
 const getTechBooks = () => {
