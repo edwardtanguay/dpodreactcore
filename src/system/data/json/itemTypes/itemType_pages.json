@@ -334,5 +334,19 @@
 		"extras": "",
 		"systemWhenCreated": "2021-12-29 20:30:35",
 		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": 26,
+		"idCode": "techBooks",
+		"menu": "main",
+		"title": "Tech Books",
+		"description": "",
+		"kind": "custom",
+		"environment": "frontendOnly",
+		"accessGroups": "loggedInUsers, loggedOutUsers",
+		"displayOrder": 40,
+		"extras": "",
+		"systemWhenCreated": "2022-05-26 13:43:09",
+		"systemWhoCreated": "systemUnknown"
 	}
 ]

@@ -7,9 +7,12 @@
 
 - documentation
 	- create item page
-		- PageFlashcards
-		- Flashcard
-		- Flashcards
+		- x instances.ts
+		- x model_flashcards.ts
+		- x PageFlashcards.tsx
+		- x Flashcard.tsx
+		- x Flashcards.tsx
+		- .. Site.tsx
 =====================================
 ITEM PAGE: ADD BACK IN
 =====================================

@@ -49,3 +49,21 @@ export interface IFlashcard {
 	systemWhenCreated: string;
 	systemWhoCreated: string;
 }
+
+export interface ITechBook {
+	id: number;
+	idCode: string;
+	title: string;
+	category: string;
+	description: string;
+	notes: string;
+	year: string;
+	rank: number;
+	language: string;
+	extras: string;
+	bulkSearch: string;
+	highlightedTitle: string;
+	highlightedCategory: string;
+	systemWhenCreated: string;
+	systemWhoCreated: string;
+}

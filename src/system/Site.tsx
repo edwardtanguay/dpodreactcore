@@ -3,8 +3,8 @@ import './styles/reset.scss';
 import './styles/layout_dark.scss';
 import './styles/dpod.scss';
 import PageHome from '../custom/pages/PageHome';
-import * as config from '../system/config';
-import * as qarr from '../system/qtools/qarr';
+import * as config from './config';
+import * as qarr from './qtools/qarr';
 import data_versioning from './data/json/data_versioning.json';
 
 // DYNAMIC_CODE_AREA: loadPageComponentLines
@@ -31,10 +31,14 @@ import PageShowcaseMongooseCRUD from './pages/PageShowcaseMongooseCRUD'; // ::sh
 import PageSiteVersions from './pages/PageSiteVersions'; // ::siteVersions
 import { itemPageManager } from '../custom/pages/itemPages/itemPageManager';
 import pages from './data/json/itemTypes/itemType_pages.json';
+// item pages
 import _PageHowtos from '../custom/pages/PageHowtos'; // ::howtos
 import _PageFlashcards from '../custom/pages/PageFlashcards'; // ::flashcards
-import _initialFlashcards from '../custom/models/model_flashcards';
+import _PageTechBooks from '../custom/pages/PageTechBooks'; // ::techBooks
+// item data
 import _initialHowtos from '../custom/models/model_howtos';
+import _initialFlashcards from '../custom/models/model_flashcards';
+import _initialTechBooks from '../custom/models/model_techBooks';
 import { IItem } from '../custom/models/interfaces';
 
 const currentSiteVersion = (data_versioning as any).versions[0];
@@ -65,6 +69,16 @@ const PageFlashcards = itemPageManager(
 	'Flashcards',
 	`Edward's flashcards`,
 	(title: string) => `Flashcard: ${title}`,
+	[]
+);
+
+const PageTechBooks = itemPageManager(
+	_PageTechBooks,
+	_initialTechBooks,
+	'techBooks',
+	'TechBooks',
+	`Edward's tech books`,
+	(title: string) => `TechBook: ${title}`,
 	[]
 );
 
@@ -298,6 +312,13 @@ function Site() {
 							/>
 						)}{' '}
 						{/* ::flashcards */}
+						{userHasAccess('techBooks') && (
+							<Route
+								path="/techBooks"
+								element={<PageTechBooks />}
+							/>
+						)}{' '}
+						{/* ::techBooks */}
 					</Routes>
 				</section>
 			</div>
