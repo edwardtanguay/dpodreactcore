@@ -77,9 +77,18 @@
 			"whenPublished": "2022-04-15 11:16:50",
 			"shortDescription": "responsive margins now correct for all media types",
 			"notes": ""
+		},
+		{
+			"version": "0.06.00",
+			"whenPublished": "2022-05-26 14:49:06",
+			"shortDescription": "add tech books page",
+			"notes": ""
 		}
 	],
 	"todos": [
+		{
+			"title": "add all tech books to tech books page with skim notes"
+		},
 		{
 			"title": "customize interactive Flashcard page"
 		},

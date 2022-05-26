@@ -1,5 +1,4 @@
 import { ITechBook } from '../../models/interfaces';
-import * as qdat from '../../../system/qtools/qdat';
 
 interface IProps {
 	items: ITechBook[];
@@ -17,28 +16,30 @@ export const TechBooks = (props: IProps) => {
 					{items.map((techBook: any, i: number) => {
 						return (
 							<div key={i} className="overviewItem">
-								<div className="header">
-									<span className="createDate">
-										{qdat.smartDateWithYear(
-											techBook.systemWhenCreated
-										)}
-									</span>
-								</div>
-								<div
-									key={i}
-									className="itemLinkTitle"
+								<img
 									onClick={() => displayOneItem(techBook.id)}
-								>
-									{searchText !== '' && (
-										<span
-											dangerouslySetInnerHTML={{
-												__html: techBook.highlightedTitle,
-											}}
-										></span>
-									)}
-									{searchText === '' && (
-										<>{techBook.title}</>
-									)}
+									src={`customImages/techBooks/${techBook.idCode}.jpg`}
+									alt="book"
+								/>
+								<div className="info">
+									<div className="title" onClick={() => displayOneItem(techBook.id)}>
+										{searchText !== '' && (
+											<span
+												dangerouslySetInnerHTML={{
+													__html: techBook.highlightedTitle,
+												}}
+											></span>
+										)}
+										{searchText === '' && (
+											<>{techBook.title}</>
+										)}
+									</div>
+									<div className="publishedDate" onClick={() => displayOneItem(techBook.id)}>
+										published {techBook.yearMonth}
+									</div>
+									<div className="description" onClick={() => displayOneItem(techBook.id)}>
+										{techBook.description}
+									</div>
 								</div>
 							</div>
 						);

@@ -11,16 +11,19 @@
             img {
                 height: 200px;
             }
-        
+
             .info {
                 margin-left: 20px;
+
                 .title {
                     font-size: 2rem;
                 }
+
                 .publishedDate {
                     color: rgb(155, 127, 77);
                     font-style: italic;
                 }
+
                 .description {
                     color: #ccc;
                     font-size: 1.1rem;
@@ -28,6 +31,44 @@
                     margin: 10px 0 0 0;
                     max-width: 700px;
                 }
+            }
+        }
+    }
+
+    .overviewItem {
+        display: flex;
+        padding: 20px;
+
+        img {
+            width: 150px;
+            height: fit-content;
+            cursor: pointer;
+        }
+
+        .info {
+            margin-left: 20px;
+
+            .title {
+                font-size: 2rem;
+                cursor: pointer;
+                color: #000; 
+            }
+
+            .publishedDate {
+                color: rgb(195, 143, 54);
+                font-style: italic;
+                padding: 10px 0 0 0;
+                cursor: pointer;
+            }
+
+            .description {
+                color: #ccc;
+                font-size: 1.4rem;
+                font-style: italic;
+                margin: 10px 0 0 0;
+                line-height: 1.7rem;
+                max-width: 700px;
+                cursor: pointer;
             }
         }
     }
