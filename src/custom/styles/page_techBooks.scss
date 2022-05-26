@@ -2,4 +2,33 @@
     .message {
         font-style: italic;
     }
+
+    .item {
+        .header {
+            display: flex;
+            padding: 20px;
+
+            img {
+                height: 200px;
+            }
+        
+            .info {
+                margin-left: 20px;
+                .title {
+                    font-size: 2rem;
+                }
+                .publishedDate {
+                    color: rgb(155, 127, 77);
+                    font-style: italic;
+                }
+                .description {
+                    color: #ccc;
+                    font-size: 1.1rem;
+                    font-style: italic;
+                    margin: 10px 0 0 0;
+                    max-width: 700px;
+                }
+            }
+        }
+    }
 }

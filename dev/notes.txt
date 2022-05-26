@@ -12,7 +12,7 @@
 		- x PageFlashcards.tsx
 		- x Flashcard.tsx
 		- x Flashcards.tsx
-		- .. Site.tsx
+		- x Site.tsx
 =====================================
 ITEM PAGE: ADD BACK IN
 =====================================

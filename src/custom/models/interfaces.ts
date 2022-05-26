@@ -57,7 +57,7 @@ export interface ITechBook {
 	category: string;
 	description: string;
 	notes: string;
-	year: string;
+	yearMonth: string;
 	rank: number;
 	language: string;
 	extras: string;

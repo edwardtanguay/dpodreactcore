@@ -11,7 +11,7 @@ const getTechBooks = () => {
 			title: rawTechBook.title,
 			description: rawTechBook.description,
 			notes: rawTechBook.notes,
-			year: rawTechBook.year,
+			yearMonth: rawTechBook.yearMonth,
 			rank: rawTechBook.rank,
 			language: rawTechBook.language,
 			extras: rawTechBook.extras,
