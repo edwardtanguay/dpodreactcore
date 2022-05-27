@@ -87,6 +87,9 @@
 	],
 	"todos": [
 		{
+			"title": "make tech book page responsive"
+		},
+		{
 			"title": "add all tech books to tech books page with skim notes"
 		},
 		{

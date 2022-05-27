@@ -76,7 +76,7 @@ const PageTechBooks = itemPageManager(
 	_PageTechBooks,
 	_initialTechBooks,
 	'techBooks',
-	'TechBooks',
+	'Tech Books',
 	`Edward's tech books`,
 	(title: string) => `TechBook: ${title}`,
 	[]

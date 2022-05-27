@@ -7,11 +7,19 @@ interface IProps {
 }
 
 export const ItemPageHeader = (props: IProps) => {
-	const { items, searchText, _initialItems, showAllItems , itemTypePluralTitleNotation} = props;
+	const {
+		items,
+		searchText,
+		_initialItems,
+		showAllItems,
+		itemTypePluralTitleNotation,
+	} = props;
 	return (
 		<>
 			{items.length > 1 && searchText === '' && (
-				<h2 className="title">{items.length} {itemTypePluralTitleNotation}</h2>
+				<h2 className="title">
+					{items.length} {itemTypePluralTitleNotation}
+				</h2>
 			)}
 			{items.length === 1 && searchText === '' && (
 				<h2 className="title oneOfMany">

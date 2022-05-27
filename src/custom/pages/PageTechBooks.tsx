@@ -82,7 +82,7 @@ function PageTechBooks(props: IItemPageProps) {
 					searchText={searchText}
 					_initialItems={_initialTechBooks}
 					showAllItems={showAllItems}
-					itemTypePluralTitleNotation={'TechBooks'}
+					itemTypePluralTitleNotation={'Tech Books'}
 				/>
 
 				<ItemPageSearch
