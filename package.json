@@ -32,7 +32,7 @@
 	"scripts": {
 		"start": "run-p backend appstart",
 		"appstart": "react-scripts start",
-		"backend": "./node_modules/.bin/nodemon",
+		"backend": "nodemon",
 		"backendnode": "./node_modules/.bin/ts-node --skip-project backend/server.ts",
 		"startOLD": "./dev/scripts/appstart.sh",
 		"build": "react-scripts build",
