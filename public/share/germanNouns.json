@@ -448,5 +448,159 @@
 		"article": "der",
 		"singular": "Link",
 		"plural": "die Links"
+	},
+	{
+		"article": "der",
+		"singular": "Pull-Request",
+		"plural": "die Pull-Requests"
+	},
+	{
+		"article": "der",
+		"singular": "Workflow",
+		"plural": "die Workflows"
+	},
+	{
+		"article": "der",
+		"singular": "Hals",
+		"plural": "die Hälse"
+	},
+	{
+		"article": "der",
+		"singular": "Mut",
+		"plural": "n/a"
+	},
+	{
+		"article": "das",
+		"singular": "Limit",
+		"plural": "die Limits"
+	},
+	{
+		"article": "der",
+		"singular": "Task",
+		"plural": "die Tasks"
+	},
+	{
+		"article": "das",
+		"singular": "Sofa",
+		"plural": "die Sofas"
+	},
+	{
+		"article": "das",
+		"singular": "Backend",
+		"plural": "die Backends"
+	},
+	{
+		"article": "das",
+		"singular": "Frontend",
+		"plural": "die Frontends"
+	},
+	{
+		"article": "der",
+		"singular": "Humor",
+		"plural": "n/a"
+	},
+	{
+		"article": "der",
+		"singular": "State",
+		"plural": "n/a",
+		"note": "as React application state"
+	},
+	{
+		"article": "das",
+		"singular": "Tempo",
+		"plural": "die Tempos"
+	},
+	{
+		"article": "die",
+		"singular": "Metapher",
+		"plural": "die Metaphern",
+		"note": "[meh-TAH-fah]"
+	},
+	{
+		"article": "der",
+		"singular": "Vergleich",
+		"plural": "die Vergleiche"
+	},
+	{
+		"article": "das",
+		"singular": "Budget",
+		"plural": "die Budgets",
+		"note": "[boo-JAY]"
+	},
+	{
+		"article": "der",
+		"singular": "Topf",
+		"plural": "die Töpfe"
+	},
+	{
+		"article": "das",
+		"singular": "Niveau",
+		"plural": "die Niveaus"
+	},
+	{
+		"article": "das",
+		"singular": "Feedback",
+		"plural": "n/a"
+	},
+	{
+		"article": "der",
+		"singular": "Unterstrich",
+		"plural": "die Unterstriche"
+	},
+	{
+		"article": "der",
+		"singular": "Paprika",
+		"plural": "die Paprikas",
+		"note": "Gewürz: der Paprika, Gemüse: die Paprika (Paprikaschote)"
+	},
+	{
+		"article": "die",
+		"singular": "Firewall",
+		"plural": "die Firewalls"
+	},
+	{
+		"article": "das",
+		"singular": "Gewürz",
+		"plural": "die Gewürze"
+	},
+	{
+		"article": "der",
+		"singular": "Stil",
+		"plural": "die Stile"
+	},
+	{
+		"article": "der",
+		"singular": "Hinweis",
+		"plural": "die Hinweise"
+	},
+	{
+		"article": "das",
+		"singular": "Gerüst",
+		"plural": "die Gerüste"
+	},
+	{
+		"article": "der",
+		"singular": "Fortschritt",
+		"plural": "die Fortschritte"
+	},
+	{
+		"article": "das",
+		"singular": "Indiz",
+		"plural": "die Indizen"
+	},
+	{
+		"article": "das",
+		"singular": "Indiz",
+		"plural": "die Indizien"
+	},
+	{
+		"article": "die",
+		"singular": "Domain",
+		"plural": "die Domains"
+	},
+	{
+		"article": "das",
+		"singular": "Pattern",
+		"plural": "die Patterns"
 	}
 ]
