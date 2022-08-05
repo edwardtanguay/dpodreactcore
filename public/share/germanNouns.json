@@ -602,5 +602,10 @@
 		"article": "das",
 		"singular": "Pattern",
 		"plural": "die Patterns"
+	},
+	{
+		"article": "der",
+		"singular": "Laptop",
+		"plural": "die Laptops"
 	}
 ]
