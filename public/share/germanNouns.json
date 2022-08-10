@@ -607,5 +607,10 @@
 		"article": "der",
 		"singular": "Laptop",
 		"plural": "die Laptops"
+	},
+	{
+		"article": "der",
+		"singular": "Survey",
+		"plural": "die Surveys"
 	}
 ]
