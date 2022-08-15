@@ -607,5 +607,15 @@
 		"article": "der",
 		"singular": "Survey",
 		"plural": "die Surveys"
+	},
+	{
+		"article": "der",
+		"singular": "Token",
+		"plural": "die Tokens"
+	},
+	{
+		"article": "der",
+		"singular": "Cookie",
+		"plural": "die Cookies"
 	}
 ]

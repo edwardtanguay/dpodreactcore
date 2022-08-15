@@ -47,3 +47,28 @@ https://www.youtube.com/watch?v=uRZVnIEDK-Q
 //weight
 2022-08-11
 81.9
+
+//weight
+2022-08-12
+81.4
+
+//weight
+2022-08-14
+81.2
+
+//swim
+2022-08-13
+12 laps 
+
+//run
+2022-08-13
+TODO: 12K including 5K IKEA Timed Run (27:55)
+
+//weight
+2022-08-15
+81.1
+
+//run
+2022-08-15
+TODO: 24K ...
+
