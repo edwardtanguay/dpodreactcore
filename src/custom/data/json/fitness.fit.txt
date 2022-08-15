@@ -72,3 +72,7 @@ TODO: 12K including 5K IKEA Timed Run (27:55)
 2022-08-15
 TODO: 24K ...
 
+//postRunWeight
+2022-08-15
+79.3
+
