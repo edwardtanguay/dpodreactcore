@@ -1,0 +1,106 @@
+[
+	{
+		"id": 1,
+		"idCode": "buildingMicroservices",
+		"title": "Building Microservices",
+		"description": "Seems to be a high-level abstract book how to not only implement microservices but how to get your head around the paradigm shifts involved, e.g. from request-response to event-driven patterns.",
+		"yearMonth": "2021-09",
+		"numberInStock": "4",
+		"language": "",
+		"systemWhenCreated": "2022-05-17 00:54:35",
+		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": 2,
+		"idCode": "gatsbyEcommerce",
+		"title": "Gatsby E-Commerce",
+		"description": "An interesting aspect of Gatsby: using it for e-commerce site which focuses on practical tips around this focus.",
+		"yearMonth": "2021-03",
+		"numberInStock": 15,
+		"language": "",
+		"systemWhenCreated": "2022-05-17 00:54:35",
+		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": 3,
+		"idCode": "rustWeb",
+		"title": "Rust Web Programming",
+		"description": "Looking forward to creating sites in Rust on my Debian box at Hetzner. This looks like a practical way to learn Rust in order to actually build something useful.",
+		"yearMonth": "2021-02",
+		"systemWhenCreated": "2022-05-17 00:54:35",
+		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": 4,
+		"idCode": "bashCookbook",
+		"title": "bash Cookbook",
+		"description": "This is going to be one of my favorite books as an entry into Linux administration of my Hetzner and Digital Ocean Debian/Ubuntu cloud machines. The cookbook format is extremely practical, looking forward to it.",
+		"yearMonth": "2017-11",
+		"numberInStock": "none",
+		"systemWhenCreated": "2022-05-17 00:54:35",
+		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": 5,
+		"idCode": "linuxCommandLine",
+		"title": "The Linux Command Line",
+		"notes": "This is going to be another of my entry points into Linux administration of my Hetzner and Digital Ocean Debian/Ubuntu cloud machines. This book has good reviews as the best introduction to Linux commands, very basic and structured.",
+		"yearMonth": "2019-03",
+		"numberInStock": 8,
+		"language": "",
+		"systemWhenCreated": "2022-05-17 00:54:35",
+		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": 6,
+		"idCode": "programmationShellSousLinux",
+		"title": "Programmation shell sous Unix/Linux",
+		"description": "J'ai reçu ce livre principalement parce qu'il était en français, il a l'air assez standard mais il est bon de parcourir/scanner en français et de voir les sujets qu'il couvre.",
+		"yearMonth": "2019-07",
+		"numberInStock": 2,
+		"language": "french",
+		"systemWhenCreated": "2022-05-17 00:54:35",
+		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": 7,
+		"idCode": "debianGnuLinux",
+		"title": "Debian GNU/Linux Administration du système",
+		"description": "C'est un autre livre que j'ai reçu principalement parce qu'il était en français, il a l'air assez standard mais bon à parcourir/scanner en français et voir les sujets qu'il couvre pour l'administration Linux d'une machine Debian.",
+		"yearMonth": "2017-07",
+		"language": "français",
+		"numberInStock": 1,
+		"systemWhenCreated": "2022-05-17 00:54:35",
+		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": "n/a",
+		"idCode": "practicalEnterpriseReact",
+		"title": "Practical Enterprise React",
+		"notes": "A general book on React, more practical than theoritical, learn about libraries like Apex Charts and generally what on should know as a React developer, good book to skim and scan.",
+		"yearMonth": "2021-08",
+		"systemWhenCreated": "2022-05-17 00:54:35",
+		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": 9,
+		"idCode": "javaScriptFunctional",
+		"title": "Mastering JavaScript Functional Programming",
+		"description": "As a multi-decade PHP/C# OOP programmer, the functional paradigm is new and strange to me, but fascinating at the same time. This book goes on deep dives trying to explain concepts like currying, pipelining, chaining, reducing, etc. It's a book to read again and again to let it soak in between bouts of programming experience.",
+		"yearMonth": "2020-01",
+		"numberInStock": "5",
+		"language": "",
+		"systemWhenCreated": "2022-05-17 00:54:35",
+		"systemWhoCreated": "systemUnknown"
+	},
+	{
+		"id": 10,
+		"idCode": "jumpstartJamstack",
+		"description": "Another Jamstack book but focusing particularly on Gatsby, Netlify and something called Sanity, apparently a headless CMS. Looking through the book, seeing lots of new terms, e.g. GROQ, apparently the query language for Sanity.",
+		"yearMonth": "2021-05",
+		"numberInStock": 2,
+		"language": "",
+		"systemWhenCreated": "2022-05-17 00:54:35",
+		"systemWhoCreated": "systemUnknown"
+	}
+]
