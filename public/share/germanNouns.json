@@ -617,5 +617,10 @@
 		"article": "der",
 		"singular": "Cookie",
 		"plural": "die Cookies"
+	},
+	{
+		"article": "das",
+		"singular": "Feld",
+		"plural": "die Felder"
 	}
 ]
