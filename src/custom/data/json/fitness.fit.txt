@@ -62,7 +62,8 @@ https://www.youtube.com/watch?v=uRZVnIEDK-Q
 
 //run
 2022-08-13
-TODO: 12K including 5K IKEA Timed Run (27:55)
+12K including 5K IKEA Timed Run (27:55)
+https://tanguay.info/run/index.php?page=runs&idCode=run20220813
 
 //weight
 2022-08-15
@@ -70,7 +71,7 @@ TODO: 12K including 5K IKEA Timed Run (27:55)
 
 //run
 2022-08-15
-TODO: 24K ...
+TODO: 24K Hohenzollerdamm to Steglitz Run
 
 //postRunWeight
 2022-08-15
@@ -108,3 +109,14 @@ a quick, 20-minute video with about 80% dumbbell and 20% stomach muscle exercise
 //swim
 2022-08-20
 10 laps
+
+//run
+2022-08-21
+26K Gesundbrunnen to Steglitz through Wedding, Pankow, Prenzlauer Berg
+
+//swim
+2022-08-21
+10 laps
+
+//postRunWeight
+78.1
