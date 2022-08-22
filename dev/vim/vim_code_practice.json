@@ -1,0 +1,33 @@
+[
+	{
+		"title": "Attend Final Project Presentations",
+		"activities": [
+			{
+				"kind": "activity",
+				"title": "Attend the Final Project Presentations of D03-2",
+				"outline": "[Zoom](https://us02web.zoom.us/j/82385795695?pwd=eFBRUmF1ZTJmd1ZEZXpXeDM5aE9NZz09), Kenncode: 359108"
+			}
+		]
+	},
+	{
+		"date": "2022-08-18",
+		"title": "Basic TypeScript (+BE-Assessment-II)",
+		"videos": [
+			{
+				"description": "2022-08-18-live-coding-typescript-and-data-cleansing-part1",
+				"url": "https://drive.google.com/file/d/1wxJrM3VFLJsfwi8YRiPkZoiCSUNLxnpQ"
+			},
+			{
+				"description": "2022-08-18-live-coding-typescript-and-data-cleansing-part2",
+				"url": "https://drive.google.com/file/d/1O0BSSRS8o_AmPi4uRY9ZeT5THIKdcx3Q"
+			}
+		],
+		"activities": [
+			{
+				"kind": "activity",
+				"title": "Create React Site with TypeScript: Data Cleansing mit Types, Interfaces, Enums",
+				"outline": "see this howto: [Create React Site with TypeScript: Data Cleansing mit Types, Interfaces, Enums](https://edwardtanguay.netlify.app/howtos?id=595)"
+			}
+		]
+	}
+]
