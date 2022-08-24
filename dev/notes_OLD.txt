@@ -1,3 +1,4 @@
+ // ksjdf dkjfd kf
 	===========================
 
 	const getInitialItems = () => {
@@ -35,11 +36,21 @@
 		}
 	};
 
-	const getItemsById = (id: number) => {
+	const getItemsById = (id: idTextCode) => {
 		return getItems({ idCode: '', searchText: '', id });
 	};
 
-	const setItemsByIdCode = (idCode: string) => {
+	const setItemsByIdTextCodeText = (idTextCode: string) => {
+		setSearchText('');
+		const items = getItems({ idCode, searchText: '', id: 0 });
+		setItems([...items]);
+	};
+	
+	const getItemsById = (id: number) => {
+		return getItems({ idCode: '', searchText: '', id });
+	};
+	
+	const setItemsByIdTextCodeText = (idTextCode: string) => {
 		setSearchText('');
 		const items = getItems({ idCode, searchText: '', id: 0 });
 		setItems([...items]);
