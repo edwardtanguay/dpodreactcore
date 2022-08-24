@@ -128,4 +128,7 @@ a quick, 20-minute video with about 80% dumbbell and 20% stomach muscle exercise
 //weight
 2022-08-23
 80.2
- 
+
+//weight
+2022-08-24
+80.7 
