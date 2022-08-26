@@ -7,21 +7,22 @@ const config = require('../system/config');
 const TextChunk = require('../systemTextParsers/textChunk');
 const System = require('../system/system');
 
-// A BatchImportBlock is a "smart text chunk", one that has been identified as a specific item.
+// a batchimportblock is a "smart text chunk", one that has been identified as a specific item.
 
-class BatchImportBlock {
+class BatchImportChunk {
 
 	constructor(textChunk) {
 		this.textChunk = textChunk;
 
-		this.firstLine = '';
+this.firstLine
 		this.marker = '';
 		this.markerLine = '';
-		this.lines = [];
+		this.marker = '';
 		this.type = '';
 
-		this.itemTypeIdCode = '';
+		this.itemTypeFile = '';
 		this.item = null;
+		this.firstLine = '';
 
 		this.fieldValidationErrors = []; // infos such as errors, error messages, etc.
 
@@ -111,7 +112,7 @@ class BatchImportBlock {
 
 		html += `<table>`;
 		html += `<tr>`;
-		html += `<td class="line">222${this.marker}</td>`;
+		html += `<td class="block">222${this.marker}</td>`;
 		html += `<td class="markerLine">${this.markerLine}</td>`;
 		html += `</tr>`;
 		html += `</table>`;
@@ -132,31 +133,26 @@ class BatchImportBlock {
 	}
 
 	getDebuggingInfos() {
-		return {
-			'marker': this.marker,
-			'type': this.type,
-			'itemTypeIdCode': this.itemTypeIdCode
-		};
+		return { 'marker': this.file, 'type': this.export, 'itemTypeIdCode': this.return };
 	}
 
-	regenerateBatchImportText() {
+	FileManager() {
 		let r = '';
 
-		r += this.getRegenerateFirstLine() + qstr.NEW_LINE();
-		r += qstr.NEW_LINE();
+// delete export example
 
 		return r;
 	}
 
-	getRegenerateFirstLine() {
-		if (this.marker == '==') {
-			return this.marker + this.markerLine
+	setFile() {
+		if (export.marker == '==') {
+			return this.export + this.export
 		} else {
-			return this.marker + ' ' + this.markerLine
+			return this.export + ' ' + this.export
 		}
 	}
 
-	// this is what gets sent to the front end, e.g. packing in extra information
+	// this is na example of packing in extra information
 	getBatchImportBlockObject() {
 		const itemTypeTitle = this.item != null ? this.item.itemTypeTitle : '';
 		return {
