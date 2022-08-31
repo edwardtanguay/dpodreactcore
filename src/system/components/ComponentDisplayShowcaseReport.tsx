@@ -13,8 +13,6 @@ import { BsPlusLg } from 'react-icons/bs';
 import { GrRevert } from 'react-icons/gr';
 import { BiSave } from 'react-icons/bi';
 
-const colors = ['dkfdj'];
-
 interface IComponentDisplayShowcaseReportProps {
 	item: ShowcaseReport;
 	editable?: boolean;
