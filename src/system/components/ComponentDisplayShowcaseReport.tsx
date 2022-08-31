@@ -13,6 +13,8 @@ import { BsPlusLg } from 'react-icons/bs';
 import { GrRevert } from 'react-icons/gr';
 import { BiSave } from 'react-icons/bi';
 
+const colors = ['dkfdj'];
+
 interface IComponentDisplayShowcaseReportProps {
 	item: ShowcaseReport;
 	editable?: boolean;
@@ -66,7 +68,7 @@ export const ComponentDisplayShowcaseReport = (props: IComponentDisplayShowcaseR
 	}
 
 	const handleSaveButton = () => {
-		// TODO: change to save state
+		// TODO: CHANGE TO SAVE STATE
 		setDataHasChanged(false);
 		assignFieldsFromItem();
 		setComponentState(ComponentState.Viewing);
