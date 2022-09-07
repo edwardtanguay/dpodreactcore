@@ -71,7 +71,7 @@ https://tanguay.info/run/index.php?page=runs&idCode=run20220813
 
 //run
 2022-08-15
-TODO: 24K Hohenzollerdamm to Steglitz Run
+24K Hohenzollerdamm to Steglitz Run
 
 //postRunWeight
 2022-08-15
@@ -87,7 +87,8 @@ TODO: 24K Hohenzollerdamm to Steglitz Run
 
 //run
 2022-08-17
-TODO: 5K (with bike)
+5K (with bike)
+https://tanguay.info/run/index.php?page=runs&idCode=run20220817
 
 //postRunWeight
 2022-08-17
@@ -149,6 +150,15 @@ https://www.youtube.com/watch?v=Z1LeHynYZLk
 //run
 2022-08-28
 TODO: 28K
+
+//workout
+2022-09-01
+Powergymnastik
+
+//weight
+2022-09-02
+79.3
+
 
 
 
