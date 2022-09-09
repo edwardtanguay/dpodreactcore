@@ -622,5 +622,10 @@
 		"article": "das",
 		"singular": "Feld",
 		"plural": "die Felder"
+	},
+	{
+		"article": "die",
+		"singular": "Cloud",
+		"plural": "die Clouds"
 	}
 ]
