@@ -627,5 +627,10 @@
 		"article": "die",
 		"singular": "Cloud",
 		"plural": "die Clouds"
+	},
+	{
+		"article": "die",
+		"singular": "Referenz",
+		"plural": "die Referenzen"
 	}
 ]
