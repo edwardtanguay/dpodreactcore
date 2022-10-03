@@ -632,5 +632,15 @@
 		"article": "die",
 		"singular": "Referenz",
 		"plural": "die Referenzen"
+	},
+	{
+		"article": "das",
+		"singular": "Verb",
+		"plural": "die Verben"
+	},
+	{
+		"article": "das",
+		"singular": "Nomen",
+		"plural": "die Nomen"
 	}
 ]
