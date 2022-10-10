@@ -83,6 +83,12 @@
 			"whenPublished": "2022-05-26 14:49:06",
 			"shortDescription": "added tech books page",
 			"notes": ""
+		},
+		{
+			"version": "0.06.01",
+			"whenPublished": "2022-10-10 23:21:57",
+			"shortDescription": "moved from netlify to vercel",
+			"notes": ""
 		}
 	],
 	"todos": [
