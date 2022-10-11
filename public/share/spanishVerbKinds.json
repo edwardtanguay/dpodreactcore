@@ -1,0 +1,352 @@
+[
+	{
+		"idText": "regular-ar",
+		"title": "Regular AR Verbs",
+		"rules": [
+			"for nosotros, present and preterite are the same",
+			"accents: 1-1-2-5-6-1",
+			"subjunctive is present with an e"
+		],
+		"list": [
+			{ "verb": "ayudar" },
+			{ "verb": "pasar" },
+			{
+				"verb": "intentar"
+			},
+			{
+				"verb": "echar",
+				"examples": [
+					"Le echaré un vistazo. / I will have a look at it."
+				]
+			},
+			{
+				"verb": "esperar"
+			},
+			{
+				"verb": "confirmar"
+			},
+			{
+				"verb": "matar"
+			},
+			{
+				"verb": "terminar"
+			},
+			{
+				"verb": "fascinar"
+			},
+			{
+				"verb": "planear",
+				"examples": [
+					"No planeé hacerlo. / I didn't plan on doing that.",
+					"Todo está planeado. / Everything was planned.",
+					"El consejo se reunió para planear la estrategia. / The council met to plan strategy."
+				]
+			},
+			{
+				"verb": "bajar"
+			},
+			{
+				"verb": "entrar"
+			},
+			{
+				"verb": "usar"
+			},
+			{
+				"verb": "cortar"
+			},
+			{
+				"verb": "mirar"
+			},
+			{
+				"verb": "duchar",
+				"examples": [
+					"Yo me ducho todas las mañanas. / I take a shower every morning.",
+					"No duches al gato. / Don't spray the cat."
+				]
+			},
+			{
+				"verb": "encantar",
+				"examples": [
+					"¡Me encanta la playa! / I love the beach!",
+					"La comida basura no es saludable, pero a los niños les encanta. / Junk food is unhealthy, but children love it."
+				]
+			},
+			{
+				"verb": "regalar",
+				"examples": [
+					"Mi esposa me regaló un libro. / My wife gave me a book."
+				]
+			},
+			{
+				"verb": "estudiar"
+			},
+			{
+				"verb": "visitar"
+			},
+			{
+				"verb": "lograr",
+				"examples": [
+					"Lograron sofocar el incendio. / They were able to smother the fire.",
+					"No lo lograremos. / We won't make it."
+				]
+			},
+			{
+				"verb": "girar",
+				"examples": [
+					"Deberías haber girado a la derecha. / You should have turned right.",
+					"Estoy bastante seguro de que no deberíamos haber girado a la derecha allí atrás. / I'm pretty sure we shouldn't have taken a right back there."
+				]
+			},
+			{
+				"verb": "cuidar"
+			},
+			{
+				"verb": "mejorar"
+			},
+			{
+				"verb": "apuntar"
+			},
+			{
+				"verb": "parar",
+				"examples": [
+					"No paramos para comer, así que tenemos hambre ahorita. / We did not stop to eat, therefore we are hungry right now."
+				]
+			},
+			{
+				"verb": "fallar",
+				"examples": [
+					"Me está fallando la memoria. / My memory is failing me."
+				]
+			}
+		],
+		"listOld": "quedar (remain), hablar, llevar (bring), dejar (abandon), llamar, tomar (take a drink), tratar (treat), mirar (look at), entrar, trabajar, terminar, necesitar (require), resultar, cambiar, presentar, crear, considerar, acabar (finish), ganar (gain), formar, aceptar, lograr (attain), estudiar, preguntar, gustar (please), escuchar (listen), levantar (to get up), intentar (attempt), usar, olvidar (forget), ocupar, fijar (to fasten), comprar (buy), evitar (avoid), interesar, importar, observar, imaginar, desarrollar (to develop), señalar (to indicate), preparar, faltar (to lack), acompañar, desear (desire), enseñar (to teach), representar, mandar (to give an order), asegurar (to secure), guardar, iniciar, bajar (to lower), notar, cortar (to cut), aprovechar (to take advantage of), apoyar (to support), aumentar (to increase), abandonar, expresar"
+	},
+	{
+		"idText": "irregular-ar",
+		"title": "Irregular AR Verbs",
+		"rules": [],
+		"list": [
+			{
+				"verb": "estar",
+				"rules": "present: estoy, estás, está, están, preterite: estuv-, future: estar-, subjunctive: esté, estés, esté, estén",
+				"rank": 5
+			},
+			{
+				"verb": "dedicar",
+				"rules": "c to qu before e: present: dediqué, subjunctive: dedique...",
+				"examples": [
+					"Me dediqué a terminar mi trabajo. / I dedicated myself to finishing my work."
+				]
+			},
+			{
+				"verb": "pensar",
+				"rules": "e to ie when stressed, present: pienso, piensas, ..., subjunctive: piense, pienses, ..."
+			},
+			{
+				"verb": "contar",
+				"rules": "o to ue; present: cuento, cuentas, cuenta, cuentan",
+				"examples": [
+					"Sé contar hasta cien. / I can count to one hundred.",
+					"Cuando la escuché contar su experiencia, me entraron ganas de viajar a Nueva Zelanda. / When I heard her telling of her experience, I had a desire to travel to New Zealand."
+				]
+			},
+			{
+				"verb": "sacar",
+				"rules": "c to qu; preterite: saqué; subjunctive: (all)",
+				"examples": [
+					"¿Sacaste una foto? / Did you take a photo?",
+					"Yo tendré que sacarle el diente. / I'll have to pull out a tooth."
+				]
+			},
+			{
+				"verb": "mostrar"
+			},
+			{
+				"verb": "encontrar"
+			},
+			{
+				"verb": "forzar"
+			},
+			{
+				"verb": "enviar",
+				"rules": "i to í; present: envío, envías, envía, -, -, envían; subjunctive: envíe, envíes, envíe, -, -, envían",
+				"examples": [
+					"Enviaremos la caja a su ciudad. / We'll ship the box to your city."
+				]
+			}
+		],
+		"listOld": {
+			"dar": ["dar"],
+			"preteriteYo-and-subjunctive-lluege": ["llegar"],
+			"present-subjunctive-o-to-ue-when-accented": [
+				"encontrar, contar, recordar, mostrar, demonstrar, acordar (to decide, acordarse = to remember), costar"
+			],
+			"present-subjunctive-i-to-ie-when-accented": [
+				"pensar, cerrar, negar"
+			],
+			"present-preterite-subjunctive-e-to-ie-when-accented-z-to-c-before-e": [
+				"empezar, comenzar"
+			],
+			"preteriteYo-subjunctive-z-to-c-before-e": [
+				"realizar, alcanzar (to reach, catch up), utilizar, lanzar, avanzar"
+			],
+			"preteriteYo-and-subjunctive-c-to-qu-before-e": [
+				"buscar, sacar, explicar, tocar, acercar (to approach), dedicar, indicar, significar, collocar (to locate), aplicar"
+			],
+			"preteriteYo-subjunctive-g-to-gu-before-e": [
+				"pagar, negar, obligar"
+			],
+			"preteriteYo-subjunctive-u-to-ue-and-g-to-gu-before-e": ["jugar"],
+			"preteriteYo-subjunctive-u-to-u-accent": ["continuar"],
+			"present-subjunctive-u-to-u-accent": ["actuar"],
+			"preterite-anduv": ["andar"]
+		}
+	},
+	{
+		"idText": "regular-er",
+		"title": "Regular ER Verbs",
+		"rules": [],
+		"list": [
+			{ "verb": "aprender" },
+			{ "verb": "deber" },
+			{ "verb": "comprender" },
+			{ "verb": "correr" },
+			{ "verb": "comer" },
+			{ "verb": "suceder" },
+			{ "verb": "responder" },
+			{ "verb": "vender" },
+			{ "verb": "meter" },
+			{ "verb": "pretender" },
+			{ "verb": "corresponder" },
+			{ "verb": "depender" },
+			{ "verb": "recorrer" },
+			{ "verb": "ejercer" },
+			{ "verb": "proteger" },
+			{ "verb": "beber" }
+		]
+	},
+	{
+		"idText": "irregular-er",
+		"title": "Irregular ER Verbs",
+		"rules": [],
+		"list": [
+			{
+				"verb": "ser",
+				"rules": "present: soy, eres, es, somos, sois, son; imperfect: era, eras, era, éramos, erais, eran; preterite: fui, fuiste, fue, fuimos, fuisteis, fueron; subjunctive: sea, seas, sea, seamos, seáis, sean",
+				"rank": 5
+			},
+			{
+				"verb": "hacer",
+				"rules": "present: hago, preterite: hic-/hiz-, future/conditional: har-, subjunctive: haga...",
+				"rank": 5
+			},
+			{
+				"verb": "tener",
+				"rules": "tengo, tienes, tuv-, tendr-, ten-",
+				"rank": 5
+			},
+			{
+				"verb": "haber",
+				"rules": "he, has, ha, hub-, habr-",
+				"rank": 5
+			},
+			{
+				"verb": "querer",
+				"rules": "e to ie; present: quiero...; preterite: quis-; future/conditional: querr",
+				"rank": 4.7
+			},
+			{
+				"verb": "poner",
+				"rules": "present: pongo, -, -, -, -; presentPerfect: puesto; preterite: pus-; future: pondr-; subjunctive: pong-",
+				"rank": 4.9,
+				"examples": [
+					"Ponga eso por escrito. / Put that in writing.",
+					"Ella es linda sin importar lo que se ponga. / She's beautiful regardless what she wears."
+				]
+			},
+			{
+				"verb": "componer",
+				"rules": "compongo, compongas, compus-, compondr-, compuesto/compondiendo"
+			},
+			{
+				"verb": "entender",
+				"rules": "i to ie: entiendo..."
+			},
+			{
+				"verb": "poder",
+				"rules": "o to ue: puedo, pud-, podr-, pudiendo",
+				"rank": 4.8
+			},
+			{ "verb": "llover" },
+			{ "verb": "entender" },
+			{ "verb": "leer" },
+			{ "verb": "escoger" }
+		]
+	},
+	{
+		"idText": "regular-ir",
+		"title": "Regular IR Verbs",
+		"rules": [],
+		"list": [
+			{ "verb": "vivir" },
+			{ "verb": "existir" },
+			{ "verb": "occurir" },
+			{ "verb": "permitir" },
+			{ "verb": "recibir" },
+			{ "verb": "partir" },
+			{ "verb": "cumplir" },
+			{ "verb": "decidir" },
+			{ "verb": "subir" },
+			{ "verb": "sufrir" },
+			{ "verb": "compartir" },
+			{ "verb": "consistir" },
+			{ "verb": "insistir" },
+			{ "verb": "asistir" },
+			{ "verb": "discutir" },
+			{ "verb": "definir" },
+			{ "verb": "unir" },
+			{ "verb": "coincidir" },
+			{ "verb": "distinguir" },
+			{ "verb": "admitir" },
+			{ "verb": "acudir" }
+		]
+	},
+	{
+		"idText": "irregular-ir",
+		"title": "Irregular IR Verbs",
+		"rules": [],
+		"list": [
+			{
+				"verb": "ir",
+				"rules": "present: voy, vas, va, vamos, vais, van; imperfect: iba, ibas, iba, íbamos, ibais, iban; preterite: fui, fuiste, fue, fuimos, fuisteis, fueron; subjunctive: vaya, vayas, vays, vayamos, vayáis, vayan",
+				"rank": 5
+			},
+			{
+				"verb": "escribir",
+				"rules": "escrito"
+			},
+			{
+				"verb": "introducir",
+				"rules": "introduzco, preterite: introduje, introdujo, introdujeron, subjunctive: introduzca, introduzcas, ...",
+				"examples": [
+					"Él introdujo la llave en la cerradura. / He inserted the key in the lock."
+				]
+			},
+			{
+				"verb": "sugerir",
+				"rules": "e to ie, present: sugiero..., preterite: sugirió, sugirieron, subjunctive: sugiera..."
+			},
+			{
+				"verb": "conseguir",
+				"rules": "e to i; present: consigo, consigues, consigue, consiguen; preterite: consiguió, consiguieron; subjunctive: consiga...",
+				"examples": [
+					"No consigo encontrar mi reloj. / I can't find my watch.",
+					"No sé cómo, pero lo consigo. / I don't know how, but I'll manage it.",
+					"¿Dónde consigo equipo para deportes acuáticos? / Where do I get equipment for water sports?"
+				]
+			},
+			{ "verb": "conducir" },
+			{ "verb": "venir" }
+		]
+	}
+]
