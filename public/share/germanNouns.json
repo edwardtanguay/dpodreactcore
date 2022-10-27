@@ -642,5 +642,11 @@
 		"article": "das",
 		"singular": "Nomen",
 		"plural": "die Nomen"
+	},
+	{
+		"article": "der",
+		"singular": "Framework",
+		"plural": "Frameworks"
 	}
+
 ]
