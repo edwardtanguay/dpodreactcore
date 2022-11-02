@@ -256,11 +256,6 @@
 	},
 	{
 		"article": "der",
-		"singular": "Fortschritt",
-		"plural": "die Fortschritte"
-	},
-	{
-		"article": "der",
 		"singular": "Hebel",
 		"plural": "die Hebel"
 	},
@@ -273,11 +268,6 @@
 		"article": "der",
 		"singular": "Workshop",
 		"plural": "die Workshops"
-	},
-	{
-		"article": "der",
-		"singular": "Konflikt",
-		"plural": "die Konflikte"
 	},
 	{
 		"article": "der",
@@ -533,16 +523,6 @@
 		"plural": "die Töpfe"
 	},
 	{
-		"article": "das",
-		"singular": "Niveau",
-		"plural": "die Niveaus"
-	},
-	{
-		"article": "das",
-		"singular": "Feedback",
-		"plural": "n/a"
-	},
-	{
 		"article": "der",
 		"singular": "Unterstrich",
 		"plural": "die Unterstriche"
@@ -562,11 +542,6 @@
 		"article": "das",
 		"singular": "Gewürz",
 		"plural": "die Gewürze"
-	},
-	{
-		"article": "der",
-		"singular": "Stil",
-		"plural": "die Stile"
 	},
 	{
 		"article": "der",
