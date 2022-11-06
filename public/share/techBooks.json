@@ -225,7 +225,7 @@
 		"idCode": "shellScripting",
 		"title": "Shell Scripting",
 		"description": "I bought this for my year-of-Linux to get up to speed with and fluent at programming at the shell level, useful scripts and being able to easily manipulate text.",
-		"notes": "",
+		"notes": "- chap1: background\n\t- software tools principles\n\t\t- do one thing well\n\t\t- process lines of text, not binary\n\t\t- use regular expressions\n\t\t- default to standard I/O\n\t\t- don't be chatty\n\t\t\t- no \"starting process\", \"almost done\", or \"finished processing\" messages\n\t\t- generate the same output format accepted as input\n\t\t\t- enables pipelining\n\t\t- let someone else do the hard part\n\t\t\t- use 90% other tools\n\t\t\t- map them together\n\t\t- consider the general use of tools you make\n\t\t\t- can they be tweaked to be useful for others",
 		"yearMonth": "2005-16",
 		"rank": "4.7",
 		"language": "",
