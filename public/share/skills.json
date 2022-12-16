@@ -520,5 +520,23 @@
 		"name": "PyTorch",
 		"url": "https://en.wikipedia.org/wiki/PyTorch",
 		"description": "a machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing"
+	},
+	{
+		"idCode": "codereview",
+		"name": "code review",
+		"url": "https://smartbear.com/learn/code-review/what-is-code-review",
+		"description": "the act of consciously and systematically convening with one’s fellow programmers to check each other’s code for mistakes and has been repeatedly shown to accelerate and streamline the process of software development"
+	},
+	{
+		"idCode": "pairprogramming",
+		"name": "pair programming",
+		"url": "https://en.wikipedia.org/wiki/Pair_programming",
+		"description": "technique in which two programmers work together at one workstation"
+	},
+	{
+		"idCode": "springboot",
+		"name": "Spring Boot",
+		"url": "https://spring.io/projects/spring-boot",
+		"description": "a tool that makes it easy to create stand-alone, production-grade Spring-based Applications for the Java platform"
 	}
 ]

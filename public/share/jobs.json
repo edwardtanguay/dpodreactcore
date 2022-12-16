@@ -106,5 +106,14 @@
 		"description": "\n    Die Erfüllung der Aufgaben setzt ein abgeschlossenes Studium im MINT-Bereich voraus.\n    Des Weiteren werden Kenntnisse im Bereich Machine Learning sowie fortgeschrittene Programmierkenntnisse in einer objektorientierten Sprache (bevorzugt Python) vorausgesetzt.\n    Erfahrungen mit einschlägigen Frameworks und Werkzeugen zu Machine Learning und dem Python Scientific Stack sind wünschenswert (z.B. scikit-learn, TensorFlow, PyTorch).\n    Idealerweise verfügen Sie über Erfahrungen im Bereich Software Engineering und Testen.\n    Ein hohes Qualitätsbewusstsein, eine ausgeprägte Innvoations- und Lernbereitschaft sowie Eigeninitiative zeichnet Sie und Ihren Arbeitsstil aus.\n    Als zielorientierte Persönlichkeit gehen Sie analytisch vor und lösen Problemstellungen strukturiert.\n    Sie sind ein engagierter Teamplayer, bringen sich gerne ein und sind offen für Neues.\n",
 		"skillList": "mint, machinelearning, python, oop, pythonsciencestack, scikitlearn, tensorflow, pytorch, testing",
 		"publicationDate": "2022-12-15"
+	},
+	{
+		"id": 13,
+		"title": "Entwickler React / Cloud",
+		"company": "itdesign GmbH",
+		"url": "https://www.stepstone.de/stellenangebote--Remote-Software-Developer-Entwickler-React-Cloud-m-w-d-Tuebingen-bei-Stuttgart-Zwickau-Mainz-itdesign-GmbH--8056768-inline.html?rltr=12_12_25_seorl_m_0_0_0_0_0_0",
+		"description": "Das tun wir\n\n    Im Scrum Team konzipieren wir die Architektur und implementieren Features\n    Durch Code Review und Remote Pair Programming stellen wir die Code-Qualität sicher\n    Wir deployen die Microservices des Teams\n    Wir tauschen uns täglich über Herausforderungen und technische Trends über Collaborations Tools aus und lernen voneinander und miteinander\n\nDas bist du\n\n    In den Bereichen Softwarearchitektur, Web-Applikationen oder Server-Client-Systeme fühlst du dich wohl\n    Moderne JavaScript Frameworks, z.B. React, Vue, Angular oder Backend-Technologien wie Spring Boot sind deine Leidenschaft\n    Du brauchst beim Programmieren Ruhe und kannst dich zu Hause am besten konzentrieren\n    Du willst auch remote Teil eines unschlagbaren Teams sein\n\n",
+		"skillList": "scrum, codereview, pairprogramming, microservices, react, vue, angular, springboot",
+		"publicationDate": "2022-12-16"
 	}
 ]
