@@ -124,5 +124,14 @@
 		"description": "Deine Aufgaben:\n\n    Als aktiver Teil des Entwicklungsteams arbeitest du eigenverantwortlich an Softwarelösungen\n    Technische Best Practices wie Serverless, CQRS, Microservices und Micro Frontends kennst du wie deine Westentasche und setzt mit ihnen agile Anforderungsbeschreibungen aus User Stories und Use Cases in geeignete Softwarekomponenten um\n    Deine Aufgaben erstrecken sich über den gesamten Stack einer Applikation (Angular, GrapQL, NestJS)\n    Zur automatisierten Auslieferung von Software-Artefakten, setzt du Test-Cases in Test-Code um, damit eine Ergebnissicherung der Anwendung für das Team gewährleistet ist\n\nDein Profil:\n\n    Du bringst Erfahrungen in Frontend und Backend-Entwicklung mit Javascript, HTML, Node.js, Angular, GraphQL, Tailwind mit\n    In Projektteams findest du dich schnell zurecht, da du gut organisiert bist und das interdisziplinäre Arbeiten schätzt\n    Du bist erfahren in min. einem CI/CD Werkzeug (bspw. Git Hub Actions)\n    Du hast Kenntnisse in einem IaaS-Anbieter (z.B. Azure, AWS, Google..)\n    Du hast Kenntnisse der gängigen Cloud-Anwendungsplattformen (z.B. Docker,Kubernetes)\n    Du hast ein agiles Mindset, bist kollegial und ergebnisorientiert\n",
 		"skillList": "serverless, cqrs, microservices, microfrontends, angular, graphql, nestjs, node, tailwind, cicd, githubactions, azure, aws, gcp, docker, kubernetes, agile",
 		"publicationDate": "2022-12-17"
+	},
+	{
+		"id": 15,
+		"title": "Frontend Entwickler",
+		"company": "Bertelsmann",
+		"url": "https://www.get-in-it.de/jobsuche/p204395?filter[thematic_priority]=5&filter[city][radius]=25&filter[city][city][0][lon]=13.41053&filter[city][city][0][lat]=52.52437&start=0&limit=39&ref=Jobsuche",
+		"description": "Wir suchen Dich, denn Du bist motiviert und engagiert und hast Lust gemeinsam mit uns unsere neue Lernplattform stetig weiterzuentwickeln und zu optimieren.\n\nZudem bringst Du Folgendes mit:\n\n    Ein abgeschlossenes IT-Studium (Informatik, Wirtschaftsinformatik), eine Ausbildung als Fachinformatiker (m/w/d) oder eine vergleichbare Qualifikation\n    Mindestens drei Jahre Berufserfahrung in der Umsetzung von Web-Anwendungen\n    Fundierte Kenntnisse in ReactJS, TailwindCSS oder ein anderes CSS-Framework\n    Erfahrung mit Jest, CI/CD, Docker oder Nginx sind ein Plus\n    Eine strukturierte, selbstständige und zielorientierte Arbeitsweise\n    Verhandlungssichere Deutsch- und Englischkenntnisse",
+		"skillList": "react, tailwind, jest, cicd, docker, nginx",
+		"publicationDate": "2022-12-17"
 	}
 ]
