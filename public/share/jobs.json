@@ -133,5 +133,23 @@
 		"description": "Wir suchen Dich, denn Du bist motiviert und engagiert und hast Lust gemeinsam mit uns unsere neue Lernplattform stetig weiterzuentwickeln und zu optimieren.\n\nZudem bringst Du Folgendes mit:\n\n    Ein abgeschlossenes IT-Studium (Informatik, Wirtschaftsinformatik), eine Ausbildung als Fachinformatiker (m/w/d) oder eine vergleichbare Qualifikation\n    Mindestens drei Jahre Berufserfahrung in der Umsetzung von Web-Anwendungen\n    Fundierte Kenntnisse in ReactJS, TailwindCSS oder ein anderes CSS-Framework\n    Erfahrung mit Jest, CI/CD, Docker oder Nginx sind ein Plus\n    Eine strukturierte, selbstständige und zielorientierte Arbeitsweise\n    Verhandlungssichere Deutsch- und Englischkenntnisse",
 		"skillList": "react, tailwind, jest, cicd, docker, nginx",
 		"publicationDate": "2022-12-17"
+	},
+	{
+		"id": 16,
+		"title": "Frontend Developer",
+		"company": "modis",
+		"url": "https://www.get-in-it.de/jobsuche/p207871?start=0&limit=39&ref=Jobsuche",
+		"description": "    Sie bringen ein abgeschlossenes Studium oder eine Ausbildung im Bereich der Webentwicklung mit\n    Kenntnisse in HTML, CSS, JavaScript und React zeichnen Sie aus\n    Sie verfügen über Erfahrungen mit der Anbindung von Micro-bzw. Backend-Services (unter anderem REST)\n    Auch in den Bereichen Node.js-Ökosystem und moderne Build-Prozesse kennen Sie sich aus\n    Zudem besitzen Sie Kenntnisse im Umgang mit TypeScript, Fluent UI, Docker und Java\n    Abgerundet wird Ihr Profil dadurch, dass Sie ein Teamplayer sind und sich mit Engagement im Team einbringen",
+		"skillList": "react, rest, node, typescript, fluentui, docker, java",
+		"publicationDate": "2022-12-17"
+	},
+	{
+		"id": 17,
+		"title": "Backend Developer TypeScript",
+		"company": "snapADDY GmbH",
+		"url": "https://www.stepstone.de/stellenangebote--Backend-Developer-TypeScript-NestJS-PostgreSQL-m-w-d-97070-Wuerzburg-snapADDY-GmbH--8962220-inline.html?rltr=5_5_25_seorl_m_0_0_0_0_0_0",
+		"description": "Your profile\n\n    Passion for software development in the area of APIs, Databases and Backend\n    Collaborating with other developers and departments is enjoyable for you\n    Experience with modern JavaScript and TypeScript or willingness to learn\n    Structured, analytical, and independent way of working\n    An open and friendly personality who enjoys working with colleagues as part of a team\n\nOur technologies:\n\n    Development in JavaScript and TypeScript\n    Backend: NodeJS, NestJS, TypeORM, PostgreSQL, Redis\n    Tools: GitHub with ZenHub, Slack, Github Actions, Ionic AppFlow\n    Hosting: Amazon Web Services (AWS), Lambda Functions, Kubernetes\n\nNice-to-have\n\n    Experience with Amazon Web Services (AWS)\n    Knowledge about APIs and Integrations of B2B applications like Salesforce or Microsoft Dynamics\n",
+		"skillList": "rest, typescript, node, nestjs, typeorm, postgres, redis, zenhub, githubactions, ionicappflow, aws, awslambda, kubernetes, salesforce, microsoftdynamics",
+		"publicationDate": "2022-12-17"
 	}
 ]

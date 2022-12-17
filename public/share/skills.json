@@ -568,5 +568,59 @@
 		"name": "GitHub Actions",
 		"url": "https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions",
 		"description": "a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline"
+	},
+	{
+		"idCode": "fluentui",
+		"name": "Fluent UI",
+		"url": "https://developer.microsoft.com/en-us/fluentui#/",
+		"description": "a Microsoft collection of UX frameworks for creating cross-platform apps"
+	},
+	{
+		"idCode": "typeorm",
+		"name": "TypeORM",
+		"url": "https://typeorm.io",
+		"description": "an ORM that can be run with TypeScript, connect multiple databases, and can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms "
+	},
+	{
+		"idCode": "postgres",
+		"name": "PostgreSQL",
+		"url": "https://onespace.pages.dev/techItems?id=74",
+		"description": "a robust but less popular SQL database than MySQL"
+	},
+	{
+		"idCode": "redis",
+		"name": "Redis",
+		"url": "https://onespace.pages.dev/techItems?id=81",
+		"description": "the most popular key-value database"
+	},
+	{
+		"idCode": "zenhub",
+		"name": "ZenHub",
+		"url": "https://en.everybodywiki.com/ZenHub",
+		"description": "an agile project management tool designed to help software teams organize, plan, track, and manage their work, available either inside GitHub via a browser extension or as a standalone web app"
+	},
+	{
+		"idCode": "ionicappflow",
+		"name": "Ionic Appflow",
+		"url": "https://ionic.io/docs/appflow",
+		"description": "a CI/CD platform for Ionic development teams that helps development teams continuously build and ship their Cordova, Capacitor, and React Native apps"
+	},
+	{
+		"idCode": "awslambda",
+		"name": "AWS Lambda",
+		"url": "https://onespace.pages.dev/techItems?id=270",
+		"description": "Amazon's event-driven, serverless cloud platform"
+	},
+	{
+		"idCode": "salesforce",
+		"name": "Salesforce",
+		"url": "https://en.wikipedia.org/wiki/Salesforce",
+		"description": "a cloud-based software company which provides customer relationship management (CRM) software and applications focused on sales, customer service, marketing automation, analytics, and application development"
+	},
+	{
+		"idCode": "microsoftdynamics",
+		"name": "Microsoft Dynamics",
+		"url": "https://en.wikipedia.org/wiki/Microsoft_Dynamics_365",
+		"description": "a collection of 12 applications used for enterprise resource planning (ERP) and customer relationship management (CRM) for intelligent business applications, announced by Microsoft in July 2016"
 	}
 ]
