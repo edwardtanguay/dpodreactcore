@@ -339,7 +339,7 @@
 		"idCode": "openshift",
 		"name": "OpenShift",
 		"url": "https://en.wikipedia.org/wiki/OpenShift",
-		"description": "a family of containerization software products developed by Red Hat, similar to Kubernets"
+		"description": "a family of containerization software products developed by Red Hat, similar to Kubernetes"
 	},
 	{
 		"idCode": "nunit",
