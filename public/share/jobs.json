@@ -151,5 +151,14 @@
 		"description": "Your profile\n\n    Passion for software development in the area of APIs, Databases and Backend\n    Collaborating with other developers and departments is enjoyable for you\n    Experience with modern JavaScript and TypeScript or willingness to learn\n    Structured, analytical, and independent way of working\n    An open and friendly personality who enjoys working with colleagues as part of a team\n\nOur technologies:\n\n    Development in JavaScript and TypeScript\n    Backend: NodeJS, NestJS, TypeORM, PostgreSQL, Redis\n    Tools: GitHub with ZenHub, Slack, Github Actions, Ionic AppFlow\n    Hosting: Amazon Web Services (AWS), Lambda Functions, Kubernetes\n\nNice-to-have\n\n    Experience with Amazon Web Services (AWS)\n    Knowledge about APIs and Integrations of B2B applications like Salesforce or Microsoft Dynamics\n",
 		"skillList": "rest, typescript, node, nestjs, typeorm, postgres, redis, zenhub, githubactions, ionicappflow, aws, awslambda, kubernetes, salesforce, microsoftdynamics",
 		"publicationDate": "2022-12-17"
+	},
+	{
+		"id": 18,
+		"title": "Full Stack Webentwickler",
+		"company": "Alevino",
+		"url": "https://www.stepstone.de/stellenangebote--Full-Stack-Webentwickler-m-w-d-bundesweit-Alevino--8954447-inline.html?rltr=5_5_25_seorl_m_0_0_0_0_1_0",
+		"description": "Du bist ein Vollblut-Techie (m/w/d) mit einiger Erfahrung im Bereich Webentwicklung. Ideal sind\n\n    Praktische Erfahrungen im Bereich der Frontend-Entwicklung mit modernen Webtechnologien (HTML, CSS, Javascript), SPA-Frameworks (insbesondere React.js) und Progressive Web Apps (PWAs).\n    Kenntnisse der Backend-Entwicklung in Javascript bzw. Typescript mit Node.js (z. B. mit Nest.js) und gängigen Datenbanken (insbesondere PostgreSQL und Mongo DB)\n    Vertrautheit mit einschlägigen Konzepten wie Microservice-Architekturen und REST-Schnittstellen\n    Sicherer Umgang in der Versionsverwaltung mit Git und Erfahrungen im Bereich CI/CD mit Github oder Gitlab\n    Kenntnisse von Containerisierung und dem Betrieb von Anwendungen im Cloud-Umfeld (z. B. AWS), gerne auch mit Serverless-Computing-Ansätzen.\n    Bereitschaft Betriebsverantwortung im Sinne des DevOps zu übernehmen – „You build it, you run it“",
+		"skillList": "react, pwa, typescript, node, nestjs, postgres, mongodb, rest, cicd, github, gitlab, aws, serverless, devops",
+		"publicationDate": "2022-12-17"
 	}
 ]

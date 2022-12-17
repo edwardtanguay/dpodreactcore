@@ -543,7 +543,7 @@
 		"idCode": "serverless",
 		"name": "Serverless Computing",
 		"url": "https://en.wikipedia.org/wiki/Serverless_computing",
-		"description": "in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers, which is a misnomer in the sense that servers are still used by cloud service providers to execute code for developers, however, developers of serverless applications are not concerned with capacity planning, configuration, management, maintenance, fault tolerance, or scaling of containers, VMs, or physical servers"
+		"description": "a misnomer in the sense that servers are still used by cloud service providers to execute code for developers, however, developers of serverless applications are not concerned with capacity planning, configuration, management, maintenance, fault tolerance, or scaling of containers, VMs, or physical servers"
 	},
 	{
 		"idCode": "cqrs",
@@ -622,5 +622,17 @@
 		"name": "Microsoft Dynamics",
 		"url": "https://en.wikipedia.org/wiki/Microsoft_Dynamics_365",
 		"description": "a collection of 12 applications used for enterprise resource planning (ERP) and customer relationship management (CRM) for intelligent business applications, announced by Microsoft in July 2016"
+	},
+	{
+		"idCode": "github",
+		"name": "GitHub",
+		"url": "https://onespace.pages.dev/techItems?id=145",
+		"description": "the standard platform to store, publish, and share code projects on the web"
+	},
+	{
+		"idCode": "devops",
+		"name": "DevOps",
+		"url": "https://en.wikipedia.org/wiki/DevOps",
+		"description": "set of practices that combines software development and IT operations which aims to shorten the systems development life cycle and provide continuous delivery with high software quality"
 	}
 ]
