@@ -115,5 +115,14 @@
 		"description": "Das tun wir\n\n    Im Scrum Team konzipieren wir die Architektur und implementieren Features\n    Durch Code Review und Remote Pair Programming stellen wir die Code-Qualität sicher\n    Wir deployen die Microservices des Teams\n    Wir tauschen uns täglich über Herausforderungen und technische Trends über Collaborations Tools aus und lernen voneinander und miteinander\n\nDas bist du\n\n    In den Bereichen Softwarearchitektur, Web-Applikationen oder Server-Client-Systeme fühlst du dich wohl\n    Moderne JavaScript Frameworks, z.B. React, Vue, Angular oder Backend-Technologien wie Spring Boot sind deine Leidenschaft\n    Du brauchst beim Programmieren Ruhe und kannst dich zu Hause am besten konzentrieren\n    Du willst auch remote Teil eines unschlagbaren Teams sein\n\n",
 		"skillList": "scrum, codereview, pairprogramming, microservices, react, vue, angular, springboot",
 		"publicationDate": "2022-12-16"
+	},
+	{
+		"id": 14,
+		"title": "Full Stack Developer",
+		"company": "klarsolar GmbH",
+		"url": "https://www.stepstone.de/stellenangebote--Full-Stack-Developer-m-w-d-Heidelberg-klarsolar-GmbH--8864165-inline.html?rltr=5_5_25_seorl_m_0_0_0_0_0_0",
+		"description": "Deine Aufgaben:\n\n    Als aktiver Teil des Entwicklungsteams arbeitest du eigenverantwortlich an Softwarelösungen\n    Technische Best Practices wie Serverless, CQRS, Microservices und Micro Frontends kennst du wie deine Westentasche und setzt mit ihnen agile Anforderungsbeschreibungen aus User Stories und Use Cases in geeignete Softwarekomponenten um\n    Deine Aufgaben erstrecken sich über den gesamten Stack einer Applikation (Angular, GrapQL, NestJS)\n    Zur automatisierten Auslieferung von Software-Artefakten, setzt du Test-Cases in Test-Code um, damit eine Ergebnissicherung der Anwendung für das Team gewährleistet ist\n\nDein Profil:\n\n    Du bringst Erfahrungen in Frontend und Backend-Entwicklung mit Javascript, HTML, Node.js, Angular, GraphQL, Tailwind mit\n    In Projektteams findest du dich schnell zurecht, da du gut organisiert bist und das interdisziplinäre Arbeiten schätzt\n    Du bist erfahren in min. einem CI/CD Werkzeug (bspw. Git Hub Actions)\n    Du hast Kenntnisse in einem IaaS-Anbieter (z.B. Azure, AWS, Google..)\n    Du hast Kenntnisse der gängigen Cloud-Anwendungsplattformen (z.B. Docker,Kubernetes)\n    Du hast ein agiles Mindset, bist kollegial und ergebnisorientiert\n",
+		"skillList": "serverless, cqrs, microservices, microfrontends, angular, graphql, nestjs, node, tailwind, cicd, githubactions, azure, aws, gcp, docker, kubernetes, agile",
+		"publicationDate": "2022-12-17"
 	}
 ]

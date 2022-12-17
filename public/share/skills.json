@@ -538,5 +538,35 @@
 		"name": "Spring Boot",
 		"url": "https://spring.io/projects/spring-boot",
 		"description": "a tool that makes it easy to create stand-alone, production-grade Spring-based Applications for the Java platform"
+	},
+	{
+		"idCode": "serverless",
+		"name": "Serverless Computing",
+		"url": "https://en.wikipedia.org/wiki/Serverless_computing",
+		"description": "in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers, which is a misnomer in the sense that servers are still used by cloud service providers to execute code for developers, however, developers of serverless applications are not concerned with capacity planning, configuration, management, maintenance, fault tolerance, or scaling of containers, VMs, or physical servers"
+	},
+	{
+		"idCode": "cqrs",
+		"name": "CQRS",
+		"url": "https://martinfowler.com/bliki/CQRS.html",
+		"description": "(Command Query Responsibility Singleton) the notion that you can use a different model to update information than the model you use to read information"
+	},
+	{
+		"idCode": "microfrontends",
+		"name": "microfrontends",
+		"url": "https://semaphoreci.com/blog/microfrontends",
+		"description": "what you get when you bring the microservice approach to the frontend, a frontend made of components owned by different teams that can be deployed independently"
+	},
+	{
+		"idCode": "tailwind",
+		"name": "Tailwind",
+		"url": "https://onespace.pages.dev/techItems?id=165",
+		"description": "a highly customizable, low-level, low-opinionated CSS framework"
+	},
+	{
+		"idCode": "githubactions",
+		"name": "GitHub Actions",
+		"url": "https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions",
+		"description": "a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline"
 	}
 ]
