@@ -634,5 +634,23 @@
 		"name": "DevOps",
 		"url": "https://en.wikipedia.org/wiki/DevOps",
 		"description": "set of practices that combines software development and IT operations which aims to shorten the systems development life cycle and provide continuous delivery with high software quality"
+	},
+	{
+		"idCode": "cleancode",
+		"name": "clean code",
+		"url": "https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29",
+		"description": "a set of coding principles which include: follow conventions, keep it simple, leave code cleaner than when you found it, always find the root cause"
+	},
+	{
+		"idCode": "cypress",
+		"name": "Cypress",
+		"url": "https://docs.cypress.io/guides/overview/why-cypress",
+		"description": "a testing tool that automtes and scales end-to-end testing"
+	},
+	{
+		"idCode": "openapi",
+		"name": "Open API",
+		"url": "https://en.wikipedia.org/wiki/Open_API",
+		"description": "an API that is open for use by developers with relatively few restrictions, typically without copyright restrictions"
 	}
 ]
