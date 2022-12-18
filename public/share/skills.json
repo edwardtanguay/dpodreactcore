@@ -652,5 +652,41 @@
 		"name": "Open API",
 		"url": "https://en.wikipedia.org/wiki/Open_API",
 		"description": "an API that is open for use by developers with relatively few restrictions, typically without copyright restrictions"
+	},
+	{
+		"idCode": "redux",
+		"name": "Redux",
+		"url": "https://onespace.pages.dev/techItems?id=29",
+		"description": "JavaScript library for maintaining state, used with React and Angular"
+	},
+	{
+		"idCode": "sass",
+		"name": "Sass",
+		"url": "https://onespace.pages.dev/techItems?id=163",
+		"description": "a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets"
+	},
+	{
+		"idCode": "jira",
+		"name": "Jira",
+		"url": "https://onespace.pages.dev/techItems?id=136",
+		"description": "popular bug and issue-tracking software"
+	},
+	{
+		"idCode": "confluence",
+		"name": "Confluence",
+		"url": "https://en.wikipedia.org/wiki/Confluence_(software)",
+		"description": "a web-based corporate wiki"
+	},
+	{
+		"idCode": "jenkins",
+		"name": "Jenkins",
+		"url": "https://onespace.pages.dev/techItems?id=139",
+		"description": "an older but popular build automation tool still used in many companies"
+	},
+	{
+		"idCode": "ssr",
+		"name": "SSR",
+		"url": "https://www.debugbear.com/blog/server-side-rendering",
+		"description": "in contrast to client-side rendering, server-side rendering generates static content on the server before sending it over to the user's browser, which better addresses performance and search engine optimization issues of single-page JavaScript applications"
 	}
 ]
