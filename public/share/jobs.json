@@ -178,5 +178,14 @@
 		"description": "Your Job\n\n    You contribute in developing high performance web solutions within our agile and cross-functional teams\n    You work across the entire web stack with modern web frameworks such as React, Redux, GraphQL, Node.js, SASS and TypeScript\n    You build experiences for customers by optimizing the usability and UX\n    You effectively support with browser and performance optimization\n    You successfully implement responsive designs and ensure cross-browser compatibility\n    You proactively assist with the evaluation and introduction of innovative frontend technologies\n\nYour Skills\n\n    You have at least 3 years of experience working as a Frontend Developer or in a similar role\n    You have experience / relevant background in web development with Javascript/ES6 (React)\n    You are familiar with a variety of web browsers and their compatibility issues\n    You know how to use modern development tools, such as JIRA, Confluence, Git, Jenkins\n    You have practical experience with accessibility, performance analysis and usability\n    Your knowledge of concepts like Server-Side Rendering and Progressive Web Apps is solid\n    You have excellent English skills (B2/C1), German skills are beneficial\n\n",
 		"skillList": "react, redux, graphql, node, sass, typescript, ux, jira, confluence, git, jenkins, ssr, pwa",
 		"publicationDate": "2022-12-18"
+	},
+	{
+		"id": 21,
+		"title": "TypeScript Developer",
+		"company": "meetergo GmbH",
+		"url": "https://www.stepstone.de/stellenangebote--TypeScript-Developer-m-w-d-Koeln-meetergo-GmbH--8168170-inline.html?rltr=1_1_25_seorl_m_0_0_0_0_1_0",
+		"description": "Bei uns kannst Du Deine großartigen Tech Skills voll zum Einsatz bringen. Sag uns, was Du drauf hast und wir finden gemeinsam mit Dir Deinen Best-fitting-place in unserem agilen Entwickler-Team. Mindestens mit 2 bis 3 der folgenden Technologien solltest Du Dich richtig gut auskennen:\n\n    Modernes Typescript\n    React / NextJS / Remix / Chakra UI / Material UI (Frontend)\n    React Native (Native)\n    NestJS / TypeORM / Postgres (Backend-API)\n    LiveKit (P2P-Videoplattform)\n    WebSockets / Socket.io / Redis / LiveKit SDK (Backend-Realtime-Comms)\n    AWS / Terraform / Docker / Kubernetes (Infrastruktur)\n    Nx (Monorepo)\n    Webpack / Babel / Nx (Build Tools)\n    Gitlab/Circle CI (CI)\n    Jest / React Testing Library / Testcafe / Cypress / Supertest (Testing)\n",
+		"skillList": "react, nextjs, remix, typescript, chakraui, mui, reactnative, nestjs, typeorm, postgres, livekit, socketio, redis, aws, terraform, docker, kubernetes, nx, webpack, babel, gitlab, circleci, jest, reacttestinglibrary, testcafe, cypress, supertest",
+		"publicationDate": "2022-12-20"
 	}
 ]

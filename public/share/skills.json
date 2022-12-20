@@ -645,7 +645,7 @@
 		"idCode": "cypress",
 		"name": "Cypress",
 		"url": "https://docs.cypress.io/guides/overview/why-cypress",
-		"description": "a testing tool that automtes and scales end-to-end testing"
+		"description": "a testing tool that automates and scales end-to-end testing"
 	},
 	{
 		"idCode": "openapi",
@@ -688,5 +688,77 @@
 		"name": "SSR",
 		"url": "https://www.debugbear.com/blog/server-side-rendering",
 		"description": "in contrast to client-side rendering, server-side rendering generates static content on the server before sending it over to the user's browser, which better addresses performance and search engine optimization issues of single-page JavaScript applications"
+	},
+	{
+		"idCode": "remix",
+		"name": "Remix",
+		"url": "https://remix.run/docs/en/v1",
+		"description": "a React framework used for server-side rendering (SSR) and unlike Next.js, it enables nested routing with nested layouts"
+	},
+	{
+		"idCode": "chakraui",
+		"name": "Chakra UI",
+		"url": "https://chakra-ui.com/getting-started",
+		"description": "a simple, modular and accessible component library that gives you the building blocks you need to build your React applications"
+	},
+	{
+		"idCode": "reactnative",
+		"name": "React Native",
+		"url": "https://onespace.pages.dev/techItems?id=1",
+		"description": "a popular JavaScript framework for building mobile apps"
+	},
+	{
+		"idCode": "livekit",
+		"name": "LiveKit",
+		"url": "https://docs.livekit.io",
+		"description": "an open source WebRTC project that gives you everything needed to build scalable and real-time audio, video, and data experiences in applications"
+	},
+	{
+		"idCode": "socketio",
+		"name": "Socket.IO",
+		"url": "https://onespace.pages.dev/techItems?id=386",
+		"description": "JavaScript library that enables realtime, bi-directional communication between web clients and servers"
+	},
+	{
+		"idCode": "terraform",
+		"name": "Terraform",
+		"url": "https://onespace.pages.dev/techItems?id=304",
+		"description": "infrastructure as code software tool created by HashiCorp"
+	},
+	{
+		"idCode": "nx",
+		"name": "Nx",
+		"url": "https://nx.dev",
+		"description": "a build-system tool to develop multiple full-stack applications that share code between them all in the same workspace"
+	},
+	{
+		"idCode": "babel",
+		"name": "Babel",
+		"url": "https://onespace.pages.dev/techItems?id=45",
+		"description": "a JavaScript transpiler which enables you to use higher versions of ECMAScript"
+	},
+	{
+		"idCode": "circleci",
+		"name": "CircleCI",
+		"url": "https://circleci.com/docs/about-circleci",
+		"description": "a continuous integration platform that helps ship software faster, using code that's reusable and easy to maintain"
+	},
+	{
+		"idCode": "reacttestinglibrary",
+		"name": "React Testing Library",
+		"url": "https://testing-library.com/docs/react-testing-library/intro",
+		"description": "a light-weight solution for testing React components"
+	},
+	{
+		"idCode": "testcafe",
+		"name": "TestCafe",
+		"url": "https://testcafe.io/documentation/402635/getting-started",
+		"description": "an end-to-end testing framework for web applications that runs on Node"
+	},
+	{
+		"idCode": "supertest",
+		"name": "SuperTest",
+		"url": "https://www.npmjs.com/package/supertest",
+		"description": "provides a high-level abstraction for testing HTTP and APIs"
 	}
 ]
