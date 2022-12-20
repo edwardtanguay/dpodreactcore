@@ -186,6 +186,15 @@
 		"url": "https://www.stepstone.de/stellenangebote--TypeScript-Developer-m-w-d-Koeln-meetergo-GmbH--8168170-inline.html?rltr=1_1_25_seorl_m_0_0_0_0_1_0",
 		"description": "Bei uns kannst Du Deine großartigen Tech Skills voll zum Einsatz bringen. Sag uns, was Du drauf hast und wir finden gemeinsam mit Dir Deinen Best-fitting-place in unserem agilen Entwickler-Team. Mindestens mit 2 bis 3 der folgenden Technologien solltest Du Dich richtig gut auskennen:\n\n    Modernes Typescript\n    React / NextJS / Remix / Chakra UI / Material UI (Frontend)\n    React Native (Native)\n    NestJS / TypeORM / Postgres (Backend-API)\n    LiveKit (P2P-Videoplattform)\n    WebSockets / Socket.io / Redis / LiveKit SDK (Backend-Realtime-Comms)\n    AWS / Terraform / Docker / Kubernetes (Infrastruktur)\n    Nx (Monorepo)\n    Webpack / Babel / Nx (Build Tools)\n    Gitlab/Circle CI (CI)\n    Jest / React Testing Library / Testcafe / Cypress / Supertest (Testing)\n",
 		"skillList": "react, nextjs, remix, typescript, chakraui, mui, reactnative, nestjs, typeorm, postgres, livekit, socketio, redis, aws, terraform, docker, kubernetes, nx, webpack, babel, gitlab, circleci, jest, reacttestinglibrary, testcafe, cypress, supertest",
+		"publicationDate": "2022-12-19"
+	},
+	{
+		"id": 22,
+		"title": "Softwareentwickler Frontend in DevOps",
+		"company": "Deutsche Bahen",
+		"url": "https://www.get-in-it.de/jobsuche/p174488?filter[thematic_priority]=5&filter[city][radius]=25&filter[city][city][0][lon]=13.41053&filter[city][city][0][lat]=52.52437&start=0&limit=39&ref=Jobsuche",
+		"description": "Du hast ein (Fach-)Hochschulstudium in (Wirtschafts-)Informatik oder einer vergleichbaren Fachrichtung abgeschlossen oder verfügst über eine Ausbildung im IT-Bereich\n    Du bist Experte in der Entwicklung mit JavaScript/TypeScript und React und hast Erfahrung im Umgang mit Komponentenbibliotheken wie Chakra UI\n    Automatisierte Tests, UX und Accessibility sind für dich unverzichtbar neue Technologien setzt du im Sinne der Kundenorientierung zum Wohle der Anwendenden ein\n    Du hast Lust darauf, dein Know how in für ein DevOps-Team wichtigen Themenfeldern wie Continuous Integration und Continuous Delivery auf- und auszubauen\n    Spaß an neuen Technologien, ein hohes Maß an Wissbegierde und Lernbereitschaft zeichnen dich aus und du sprichst fließend Deutsch",
+		"skillList": "typescript, react, chakraui, testing, ux, devops, cicd",
 		"publicationDate": "2022-12-20"
 	}
 ]
