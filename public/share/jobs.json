@@ -196,5 +196,14 @@
 		"description": "Du hast ein (Fach-)Hochschulstudium in (Wirtschafts-)Informatik oder einer vergleichbaren Fachrichtung abgeschlossen oder verfügst über eine Ausbildung im IT-Bereich\n    Du bist Experte in der Entwicklung mit JavaScript/TypeScript und React und hast Erfahrung im Umgang mit Komponentenbibliotheken wie Chakra UI\n    Automatisierte Tests, UX und Accessibility sind für dich unverzichtbar neue Technologien setzt du im Sinne der Kundenorientierung zum Wohle der Anwendenden ein\n    Du hast Lust darauf, dein Know how in für ein DevOps-Team wichtigen Themenfeldern wie Continuous Integration und Continuous Delivery auf- und auszubauen\n    Spaß an neuen Technologien, ein hohes Maß an Wissbegierde und Lernbereitschaft zeichnen dich aus und du sprichst fließend Deutsch",
 		"skillList": "typescript, react, chakraui, testing, ux, devops, cicd",
 		"publicationDate": "2022-12-20"
+	},
+	{
+		"id": 23,
+		"title": "Frontend-Entwickler",
+		"company": "dotSource",
+		"url": "https://www.get-in-it.de/jobsuche/p13958?filter[thematic_priority]=5&filter[city][radius]=25&filter[city][city][0][lon]=13.41053&filter[city][city][0][lat]=52.52437&start=0&limit=39&ref=Jobsuche",
+		"description": "Erfolgreiches Informatikstudium oder eine vergleichbare technische Qualifikation/Ausbildung\n    Professioneller Umgang mit Technologien, wie bspw. HTML5, CSS3 (SASS, LESS), JavaScript und Frameworks wie AngularJS, vueJS oder React\n    Gute Kenntnisse in den Bereichen Browser-Kompatibilität, Responsive Webdesign und CMS\n    Vorteilsweise Kenntnisse in User-Experience (UX) und Webdesign\n    Grundkenntnisse in Java und/oder PHP sowie in verschiedenen Template-Engines",
+		"skillList": "sass, angular, vue, react, responsive, ux, java, php",
+		"publicationDate": "2022-12-21"
 	}
 ]
