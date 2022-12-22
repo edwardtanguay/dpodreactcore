@@ -55,7 +55,7 @@
 	},
 	{
 		"id": 7,
-		"title": "Frontend Entwickler React (Typescript)",
+		"title": "Frontend Entwickler React Typescript",
 		"company": "ibi systems GmbH",
 		"url": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-React-Typescript-m-w-d-Regensburg-ibi-systems-GmbH--8924608-inline.html?rltr=2_2_25_seorl_m_0_0_0_0_1_0",
 		"description": "Deine Aufgaben\n\n    Technische Konzeption, Design und Implementierung neuer Features\n    Anpassung und kontinuierliche Optimierung bestehender Features\n    Agile Entwicklung mit Scrum und gitflow (inkl. Pull Requests)\n    Keine Scheu vor Frontend-nahen Entwicklungstätigkeiten im Backend\n    Idealerweise Umsetzung unserer UX-Designs\n\nUnser Stack\n\n    Architektur: Domain Driven Design, Microservices, Event-driven\n    Backend: .NET 6 (C#), Entity Framework Core, Hangfire, RabbitMQ\n    Frontend: React, Material UI (MUI), GraphQL (Apollo), Typescript sowie ASP.NET Web API (REST API)\n    Hosting: Docker, Kubernetes, Azure, OpenShift\n    Unit Tests mit NUnit\n    Moderne Entwicklungstools wie JetBrains Rider/WebStorm, Git und DevOps Server\n",
@@ -82,7 +82,7 @@
 	},
 	{
 		"id": 10,
-		"title": "Backend Developer - Typescript, Node.JS",
+		"title": "Backend Developer Node/Typescript",
 		"company": "Interhyp Gruppe",
 		"url": "https://www.stepstone.de/stellenangebote--Backend-Developer-Typescript-Node-JS-m-w-d-Muenchen-Interhyp-Gruppe--9006012-inline.html?rltr=2_2_25_seorl_m_0_0_0_0_0_0",
 		"description": " wir dich unbedingt brauchen, da du unsere digitalen Produkte entwickelst – mit Technologien wie z. B. Typescript, Node.JS, Express, MongoDB, Rest.\n\n… unsere Product Owner voll und ganz auf dich als kompetente*n Ansprechpartner*in zählen.\n\n… wir nicht genug von deinem Feedback zu den User Storys kriegen können und du uns dabei hilfst, ein herausragendes Produkt für unsere Kund*innen zu schaffen.\n\n… du immer und immer wieder deine eigenen Ideen einbringst, um damit Qualität, technische Verbesserungen sowie neue Features voranzutreiben.\nUnd du passt perfekt zu uns, denn...\n\n… du hast mindestens zwei Jahre relevante Erfahrung in der Arbeit mit schnell skalierenden und komplexen Systemen.\n\n… über umfassende Erfahrung mit Typescript, Node.JS verfügst du bereits und besitzt idealerweise schon praktische Erfahrung mit Express, MongoDB, Rest.\n\n… als Teamplayer schlägt dein Herz dafür, Feedback zu erhalten und zu geben, um sowohl persönlich als auch als Software Engineer (m/w/d) zu wachsen.\n\n… du handelst lösungsorientiert, übernimmst aktiv Verantwortung und stellst dich gern neuen Herausforderungen.",
@@ -190,7 +190,7 @@
 	},
 	{
 		"id": 22,
-		"title": "Softwareentwickler Frontend in DevOps",
+		"title": "Softwareentwickler Frontend DevOps",
 		"company": "Deutsche Bahn",
 		"url": "https://www.get-in-it.de/jobsuche/p174488?filter[thematic_priority]=5&filter[city][radius]=25&filter[city][city][0][lon]=13.41053&filter[city][city][0][lat]=52.52437&start=0&limit=39&ref=Jobsuche",
 		"description": "Du hast ein (Fach-)Hochschulstudium in (Wirtschafts-)Informatik oder einer vergleichbaren Fachrichtung abgeschlossen oder verfügst über eine Ausbildung im IT-Bereich\n    Du bist Experte in der Entwicklung mit JavaScript/TypeScript und React und hast Erfahrung im Umgang mit Komponentenbibliotheken wie Chakra UI\n    Automatisierte Tests, UX und Accessibility sind für dich unverzichtbar neue Technologien setzt du im Sinne der Kundenorientierung zum Wohle der Anwendenden ein\n    Du hast Lust darauf, dein Know how in für ein DevOps-Team wichtigen Themenfeldern wie Continuous Integration und Continuous Delivery auf- und auszubauen\n    Spaß an neuen Technologien, ein hohes Maß an Wissbegierde und Lernbereitschaft zeichnen dich aus und du sprichst fließend Deutsch",
