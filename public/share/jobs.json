@@ -205,5 +205,14 @@
 		"description": "Erfolgreiches Informatikstudium oder eine vergleichbare technische Qualifikation/Ausbildung\n    Professioneller Umgang mit Technologien, wie bspw. HTML5, CSS3 (SASS, LESS), JavaScript und Frameworks wie AngularJS, vueJS oder React\n    Gute Kenntnisse in den Bereichen Browser-Kompatibilität, Responsive Webdesign und CMS\n    Vorteilsweise Kenntnisse in User-Experience (UX) und Webdesign\n    Grundkenntnisse in Java und/oder PHP sowie in verschiedenen Template-Engines",
 		"skillList": "sass, angular, vue, react, responsive, ux, java, php",
 		"publicationDate": "2022-12-21"
+	},
+	{
+		"id": 24,
+		"title": "React Frontend Developer",
+		"company": "proWIN Winter GmbH",
+		"url": "https://www.stepstone.de/stellenangebote--React-Frontend-Developer-m-w-d-Illingen-proWIN-Winter-GmbH--9044500-inline.html?rltr=5_5_25_seorl_m_0_0_0_0_1_0",
+		"description": "Ihre Aufgaben\n\n    Sie planen und entwickeln Frontend Applikationen im agilen Projektumfeld unter Berücksichtigung von Best Practices und unseren Sicherheits- und Qualitätsanforderungen\n    Sie entwickeln mit Hilfe von Designrichtlinien Web- und Mobile- Applikationen eigenständig und im Team\n    Sie arbeiten mit aktuellen Frameworks und Konzepten (REST APIs, Micro Services, Responsive Webdesign, Git, npm)\n    Sie stehen im engen Austausch mit unseren UX-Designern und Product-Ownern und stimmen\n    fachliche und technische Komponenten der Architektur ab\n    Sie haben aktuelle Trends stets im Blick und setzen diese in Webtechnologien und Softwaredesigns um\n\nIhr Profil\n\n    Sie verfügen über ein Studium oder eine abgeschlossene Berufsausbildung im IT-Bereich\n    Bestenfalls besitzen Sie bereits Kenntnisse in JavaScript, Typescript, Node.js, HTML oder Sass\n    Erste Erfahrungen in der Entwicklung von Frontendsystemen (React, Piral, Material UI) sowie\n    mit Continuous Integration (GitLab CI) im Umfeld von Progressive Web Apps sind von Vorteil\n    Sie verfügen über sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift\n    Sie sind mit Herz bei der Arbeit, sind aufgeschlossen, teamfähig und arbeiten ziel- und ergebnisorientiert\n\n",
+		"skillList": "react, piral, typescript, pwa, sass, mui, rest, microservices, responsive, git, node, cicd",
+		"publicationDate": "2022-12-22"
 	}
 ]

@@ -760,5 +760,11 @@
 		"name": "SuperTest",
 		"url": "https://www.npmjs.com/package/supertest",
 		"description": "provides a high-level abstraction for testing HTTP and APIs"
+	},
+	{
+		"idCode": "piral",
+		"name": "Piral",
+		"url": "https://piral.io",
+		"description": "a framework to build portal applications that follow the microfrontends architecture"
 	}
 ]
