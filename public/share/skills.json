@@ -766,5 +766,23 @@
 		"name": "Piral",
 		"url": "https://piral.io",
 		"description": "a framework to build portal applications that follow the microfrontends architecture"
+	},
+	{
+		"idCode": "hetzner",
+		"name": "Hetzner Cloud",
+		"url": "https://www.hetzner.com/cloud",
+		"description": "a Germany cloud provider which operates data center parks in Germany, Finland and the USA"
+	},
+	{
+		"idCode": "influxdb",
+		"name": "InfluxDB",
+		"url": "https://www.influxdata.com/influxdb-pricing",
+		"description": "a time-series database (for time-stampted event data) written in Go and used for storage of e.g. Internet of Things senso data and real-time analytics"
+	},
+	{
+		"idCode": "ai",
+		"name": "AI",
+		"url": "https://rollbar.com/blog/6-ways-artificial-intelligence-improves-software-development",
+		"description": "software that enables itself to learn within a specific context in order to process data to solve tasks that otherwise require human intelligence"
 	}
 ]
