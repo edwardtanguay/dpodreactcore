@@ -784,5 +784,29 @@
 		"name": "AI",
 		"url": "https://rollbar.com/blog/6-ways-artificial-intelligence-improves-software-development",
 		"description": "software that enables itself to learn within a specific context in order to process data to solve tasks that otherwise require human intelligence"
+	},
+	{
+		"idCode": "reacthooks",
+		"name": "React Hooks",
+		"url": "https://edwardtanguay.vercel.app/howtos?id=633",
+		"description": "Hooks are a new addition in React 16.8, they let you use state and other React features without writing a class."
+	},
+	{
+		"idCode": "polymer",
+		"name": "Polymer",
+		"url": "https://onespace.pages.dev/techItems?id=88",
+		"description": "a JavaScript framework created and used by Google which embraces the Material Design ideology"
+	},
+	{
+		"idCode": "stencil",
+		"name": "Stencil",
+		"url": "https://stenciljs.com/docs/introduction",
+		"description": "a compiler that generates web components which use TypeScript, JSX, and CSS"
+	},
+	{
+		"idCode": "vite",
+		"name": "Vite",
+		"url": "https://vitejs.dev",
+		"description": "a tool to set up development starter applications for frameworks like Vue, React, Svelte and JS/DOM"
 	}
 ]
