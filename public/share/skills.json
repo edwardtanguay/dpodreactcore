@@ -808,5 +808,11 @@
 		"name": "Vite",
 		"url": "https://vitejs.dev",
 		"description": "a tool to set up development starter applications for frameworks like Vue, React, Svelte and JS/DOM"
+	},
+	{
+		"idCode": "abtests",
+		"name": "A/B tests",
+		"url": "https://en.wikipedia.org/wiki/A/B_testing",
+		"description": "the process of comparing two variations of a page element, usually by testing users' response to variant A vs. variant B and concluding which of the two variants is more effective"
 	}
 ]
