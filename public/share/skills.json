@@ -814,5 +814,23 @@
 		"name": "A/B tests",
 		"url": "https://en.wikipedia.org/wiki/A/B_testing",
 		"description": "the process of comparing two variations of a page element, usually by testing users' response to variant A vs. variant B and concluding which of the two variants is more effective"
+	},
+	{
+		"idCode": "gradle",
+		"name": "Gradle",
+		"url": "https://gradle.org",
+		"description": "a build automation tool for multi-language software development that controls the development process from compilation and packaging to testing, deployment, and publishing, supported languages include Java, Kotlin, Groovy, Scala, C/C++, and JavaScript"
+	},
+	{
+		"idCode": "d3",
+		"name": "D3.js",
+		"url": "https://d3js.org",
+		"description": "a JavaScript library for manipulating documents based on data"
+	},
+	{
+		"idCode": "projektronbcs",
+		"name": "Projektron BCS",
+		"url": "https://en.wikipedia.org/wiki/Projektron_BCS",
+		"description": "web-based project management software for planning, managing and controlling projects simultaneously, founded 2001 in Berlin"
 	}
 ]
