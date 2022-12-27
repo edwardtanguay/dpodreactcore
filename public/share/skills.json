@@ -435,13 +435,13 @@
 		"idCode": "php",
 		"name": "PHP",
 		"url": "https://onespace.pages.dev/techItems?id=52",
-		"description": "very popular and pragmatic programming language for websites"
+		"description": "a popular and pragmatic programming language for websites"
 	},
 	{
 		"idCode": "mysql",
 		"name": "MySQL",
 		"url": "https://onespace.pages.dev/techItems?id=73",
-		"description": "a very popular and widespread database for websites and applications"
+		"description": "a popular and widespread database for websites and applications"
 	},
 	{
 		"idCode": "apache",
@@ -832,5 +832,11 @@
 		"name": "Projektron BCS",
 		"url": "https://en.wikipedia.org/wiki/Projektron_BCS",
 		"description": "web-based project management software for planning, managing and controlling projects simultaneously, founded 2001 in Berlin"
+	},
+	{
+		"idCode": "svelte",
+		"name": "Svelte",
+		"url": "https://onespace.pages.dev/techItems?id=210",
+		"description": "JavaScript framework that generates code to manipulate the DOM"
 	}
 ]
