@@ -838,5 +838,17 @@
 		"name": "Svelte",
 		"url": "https://onespace.pages.dev/techItems?id=210",
 		"description": "JavaScript framework that generates code to manipulate the DOM"
+	},
+	{
+		"idCode": "tomcat",
+		"name": "Tomcat",
+		"url": "https://en.wikipedia.org/wiki/Apache_Tomcat",
+		"description": "a free and open-source Java web application server"
+	},
+	{
+		"idCode": "jboss",
+		"name": "JBoss",
+		"url": "https://en.wikipedia.org/wiki/WildFly",
+		"description": "a free and open-source Java application server developed by Red Hat that implements the Java Enterprise Edition specification, today known as WildFly"
 	}
 ]
