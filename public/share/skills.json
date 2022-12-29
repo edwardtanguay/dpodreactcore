@@ -850,5 +850,17 @@
 		"name": "JBoss",
 		"url": "https://en.wikipedia.org/wiki/WildFly",
 		"description": "a free and open-source Java application server developed by Red Hat that implements the Java Enterprise Edition specification, today known as WildFly"
+	},
+	{
+		"idCode": "mqtt",
+		"name": "MQTT",
+		"url": "https://en.wikipedia.org/wiki/MQTT",
+		"description": "a lightweight, publish-subscribe, machine to machine network protocol for Message queue/Message queuing service"
+	},
+	{
+		"idCode": "amqp",
+		"name": "AMQP",
+		"url": "https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol",
+		"description": "an open standard application layer protocol for message-oriented middleware responsible for orientation, queuing, and has both point-to-point  and publish-and-subscribe routing"
 	}
 ]
