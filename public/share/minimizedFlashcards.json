@@ -1,0 +1,2606 @@
+[
+    {
+        "back": "``` `type ls` (outputs e.g. *ls is aliased to 'ls --color=auto'*)",
+        "category": "linux",
+        "front": "find out what kind of command a command is, e.g. `ls`",
+        "id": 19,
+        "keep": null
+    },
+    {
+        "back": "echo $0",
+        "category": "linux",
+        "front": "how to find out your shell\t\t",
+        "id": 20,
+        "keep": null
+    },
+    {
+        "back": "ll\t\t",
+        "category": "linux",
+        "front": "how to get a detailed list of files in a directory",
+        "id": 21,
+        "keep": null
+    },
+    {
+        "back": "`git reset index.html`",
+        "category": "git",
+        "front": "how to unstage `index.html`, i.e. get the file back from staging area to working directory",
+        "id": 1658,
+        "keep": 1
+    },
+    {
+        "back": "git log --pretty=format:\"%h - %s - %an\" ",
+        "category": "git",
+        "front": "show simplified log \"hash - title - author\"",
+        "id": 1659,
+        "keep": null
+    },
+    {
+        "back": "git checkout -- [file]",
+        "category": "git",
+        "front": "discard changes in working directory (before add)",
+        "id": 1660,
+        "keep": null
+    },
+    {
+        "back": "git rm [file]",
+        "category": "git",
+        "front": "remove file from working directory and add deletion to staging area",
+        "id": 1661,
+        "keep": null
+    },
+    {
+        "back": "``` `git remote show origin` (you have to login)",
+        "category": "git",
+        "front": "how to find out what the master is",
+        "id": 1662,
+        "keep": null
+    },
+    {
+        "back": "git reflog",
+        "category": "git",
+        "front": "list operations made on local repository",
+        "id": 1663,
+        "keep": null
+    },
+    {
+        "back": "``` `git stash save pdf-junk`, `git stash list`, `git stash pop`, `git stash pop stash@{0}`, `get stash drop`",
+        "category": "git",
+        "front": "save local copy temporarily",
+        "id": 1664,
+        "keep": null
+    },
+    {
+        "back": "git clone https://github.com/edwardtanguay/testinfo.git test001",
+        "category": "git",
+        "front": "how to get Github project locally",
+        "id": 1665,
+        "keep": null
+    },
+    {
+        "back": "git pull, git push",
+        "category": "git",
+        "front": "how to get updates from Github code locally and copy back up",
+        "id": 1666,
+        "keep": null
+    },
+    {
+        "back": "git config --global user.name \"Hans Schmidt\"",
+        "category": "git",
+        "front": "change user name",
+        "id": 1667,
+        "keep": null
+    },
+    {
+        "back": "git push origin :issue001",
+        "category": "git",
+        "front": "delete branch on Github",
+        "id": 1668,
+        "keep": null
+    },
+    {
+        "back": "git config --global user.email \"hans@nnn.com\"",
+        "category": "git",
+        "front": "change email ",
+        "id": 1669,
+        "keep": null
+    },
+    {
+        "back": "git config --global credential.helper store",
+        "category": "git",
+        "front": "how to get git to remember your github credentials",
+        "id": 1803,
+        "keep": null
+    },
+    {
+        "back": "const numberSelected = this.categories.filter(x => x.included).length;",
+        "category": "javascript",
+        "front": "count how many items in array have property of certain value",
+        "id": 1817,
+        "keep": null
+    },
+    {
+        "back": "``` `this.categories.forEach((x) => { x.included = false; })`, but notice this only works for properties of objects, i.e. you can't change the objects themselves",
+        "category": "javascript",
+        "front": "change values of a property on each item in an array",
+        "id": 1818,
+        "keep": null
+    },
+    {
+        "back": "git commit -am \"changed header\"",
+        "category": "git",
+        "front": "how to add and commit",
+        "id": 1822,
+        "keep": null
+    },
+    {
+        "back": "git push --dry-run",
+        "category": "git",
+        "front": "how to see if there is anything to push *(if nothing, then \"Everything up-to-date\")*",
+        "id": 1826,
+        "keep": null
+    },
+    {
+        "back": "``` `cw` (change word) or `ciw` (change inner word)",
+        "category": "vim",
+        "front": "how to change the word your cursor is on",
+        "id": 1835,
+        "keep": null
+    },
+    {
+        "back": "yy p",
+        "category": "vim",
+        "front": "duplicate line",
+        "id": 1899,
+        "keep": null
+    },
+    {
+        "back": "git log --pretty=format:\"%h - %ci - %s - %an\"",
+        "category": "git",
+        "front": "how to list all commits as \"hash - date - title - author\"",
+        "id": 1928,
+        "keep": null
+    },
+    {
+        "back": "``` only categories: `select DISTINCT trim(category) from flashcards order by category`, with totals: `select category, count(*) as total from flashcards group by category order by total desc`",
+        "category": "sqlite",
+        "front": "show list of all used categories in order, then with totals",
+        "id": 2649,
+        "keep": null
+    },
+    {
+        "back": "select * from flashcards where category in ('linux', 'git', 'javascript')",
+        "category": "sqlite",
+        "front": "show all where category is one of three values",
+        "id": 2650,
+        "keep": null
+    },
+    {
+        "back": "git add -A",
+        "category": "git",
+        "front": "how to add all changes from working directory to index",
+        "id": 2651,
+        "keep": null
+    },
+    {
+        "back": "git log --oneline",
+        "category": "git",
+        "front": "list abbreviated log",
+        "id": 2652,
+        "keep": null
+    },
+    {
+        "back": "git log --oneline **then** git revert 068b100",
+        "category": "git",
+        "front": "how to undo a commit",
+        "id": 2653,
+        "keep": null
+    },
+    {
+        "back": "npm outdated",
+        "category": "npm",
+        "front": "how to find which packages need to be updated",
+        "id": 2654,
+        "keep": null
+    },
+    {
+        "back": "git push -u origin et/bugfix/clean-up-code-copy-box",
+        "category": "git",
+        "front": "how to push local branch to remote",
+        "id": 2655,
+        "keep": null
+    },
+    {
+        "back": "git config --global core.editor \"nano\" **(or \"vim\")**",
+        "category": "git",
+        "front": "how to change git editor for commits",
+        "id": 2656,
+        "keep": null
+    },
+    {
+        "back": "git log -1",
+        "category": "git",
+        "front": "only show the last commit",
+        "id": 2657,
+        "keep": null
+    },
+    {
+        "back": "git checkout -- index.html",
+        "category": "git",
+        "front": "how to discard changes to a file in working directory\t",
+        "id": 2658,
+        "keep": null
+    },
+    {
+        "back": "git rm --cached index.html\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "category": "git",
+        "front": "how to mark a file as deleted in the index ",
+        "id": 2659,
+        "keep": null
+    },
+    {
+        "back": "git ls-files --others --exclude-standard",
+        "category": "git",
+        "front": "how to see all files in working directory that are not being tracked yet",
+        "id": 2660,
+        "keep": null
+    },
+    {
+        "back": "back-tick key",
+        "category": "gimp",
+        "front": "toggle between two zooms",
+        "id": 2661,
+        "keep": null
+    },
+    {
+        "back": "ctrl-shift-j",
+        "category": "gimp",
+        "front": "fit image in window",
+        "id": 2662,
+        "keep": null
+    },
+    {
+        "back": "ctrl-shift-a",
+        "category": "gimp",
+        "front": "deselect selection",
+        "id": 2663,
+        "keep": null
+    },
+    {
+        "back": "double-click in main window area",
+        "category": "gimp",
+        "front": "open file",
+        "id": 2664,
+        "keep": null
+    },
+    {
+        "back": "git remote add origin https://github.com/edwardtanguay/nodeExpress4.git && git push -u origin master",
+        "category": "git",
+        "front": "how to set the GitHub repository for a new local directory",
+        "id": 2665,
+        "keep": null
+    },
+    {
+        "back": "git checkout -- .",
+        "category": "git",
+        "front": "how to reset all tracked files in workspace back",
+        "id": 2666,
+        "keep": null
+    },
+    {
+        "back": "git clone -b 001-two-page-base-functionality https://github.com/edwardtanguay/eleventy4.git eleventy001",
+        "category": "git",
+        "front": "how to clone a branch of a GitHub repository",
+        "id": 2667,
+        "keep": null
+    },
+    {
+        "back": "git diff --stat --cached origin/master",
+        "category": "git",
+        "front": "how to see what files I am about to push",
+        "id": 2668,
+        "keep": null
+    },
+    {
+        "back": "git merge origin/master",
+        "category": "git ",
+        "front": "how to get the latest changes from master into your branch",
+        "id": 2669,
+        "keep": null
+    },
+    {
+        "back": "type ll",
+        "category": "linux",
+        "front": "how to find out what an alias is mapped to",
+        "id": 2670,
+        "keep": null
+    },
+    {
+        "back": "git clean -fd  >>> (f = force, d = directories)",
+        "category": "git",
+        "front": "how to remove untracked files and directories in working directory, e.g. a whole bunch of log files and test directories that you created but don't want to add to the repository",
+        "id": 2671,
+        "keep": null
+    },
+    {
+        "back": "browser-sync start -s --directory --files=*/**",
+        "category": "browsersync",
+        "front": "how to browse through directory and start HTML websites on port",
+        "id": 2672,
+        "keep": null
+    },
+    {
+        "back": "``` `npm i http-server -g` (global) then e.g. `http-server -p 3333` and `localhost:3333` will use `index.html`  as default",
+        "category": "dev",
+        "front": "how to install local http server",
+        "id": 2673,
+        "keep": null
+    },
+    {
+        "back": "chmod u+x doit (chmod u-x doit)",
+        "category": "linux ",
+        "front": "how to make command executable, and remove it",
+        "id": 2674,
+        "keep": null
+    },
+    {
+        "back": "git commit *todo.txt -m \"small changes to todo file\"",
+        "category": "git",
+        "front": "how to send just one changed file from working directory all the way to local repository",
+        "id": 2676,
+        "keep": null
+    },
+    {
+        "back": "ODS Hot Keys",
+        "category": "webdev",
+        "front": "program that shows keys you are typing for tutorials and workshops",
+        "id": 2677,
+        "keep": null
+    },
+    {
+        "back": "p>lorem",
+        "category": "emmet",
+        "front": "how to produce filler text in a paragraph element",
+        "id": 2678,
+        "keep": 1
+    },
+    {
+        "back": "injects css into head of the DOM",
+        "category": "webpack",
+        "front": "what does the style-loader do?",
+        "id": 2679,
+        "keep": null
+    },
+    {
+        "back": "find systemItems -iname \"*ver*\"",
+        "category": "linux",
+        "front": "find all files in `systemItems` which have the text \"ver\" in them",
+        "id": 2680,
+        "keep": null
+    },
+    {
+        "back": "``` `find . -empty` and for specific directory: `find ./dev -empty` (notice `./`)",
+        "category": "linux",
+        "front": "find all empty files in (1) *all recursive files* and (2) in *certain directory*",
+        "id": 2681,
+        "keep": null
+    },
+    {
+        "back": " find . -iname \"*array*\"",
+        "category": "linux",
+        "front": "find all JavaScript files that have the word \"array\" in them",
+        "id": 2682,
+        "keep": null
+    },
+    {
+        "back": "find . -name \"*\" -not -path \"./node_modules/*\" | grep -i \".*item.*\\.js$\" > text.txt\t",
+        "category": "linux",
+        "front": "create a file listing all JavaScript files that have the word \"item\" in the name EXCEPT in the `node_modules` directory",
+        "id": 2683,
+        "keep": null
+    },
+    {
+        "back": "find . -iname \"*parse*\" -not -path \"./node_modules/*\"",
+        "category": "linux",
+        "front": "find all files with \"parse\" in the name EXCEPT in the directory `node_modules`",
+        "id": 2684,
+        "keep": null
+    },
+    {
+        "back": "``` `git remote -v` (-v is for verbose)",
+        "category": "git",
+        "front": "how to get the remote GitHub fetch/pull URL of a local repository",
+        "id": 2685,
+        "keep": null
+    },
+    {
+        "back": "r",
+        "category": "gimp",
+        "front": "rectangle tool",
+        "id": 2686,
+        "keep": null
+    },
+    {
+        "back": "ctrl-shift-a",
+        "category": "gimp",
+        "front": "unselect everything",
+        "id": 2687,
+        "keep": null
+    },
+    {
+        "back": "npm un babel-node",
+        "category": "npm",
+        "front": "how to uninstall an npm package, e.g. `babel-node`",
+        "id": 2688,
+        "keep": null
+    },
+    {
+        "back": "git checkout master && git merge et/feat/new-checkbox && git branch -d et/feat/new-checkbox",
+        "category": "git",
+        "front": "merge branch you are working on back into master",
+        "id": 2689,
+        "keep": null
+    },
+    {
+        "back": "``` `git checkout -b et/feat/new-checkbox` (-b = new [b]ranch)",
+        "category": "git",
+        "front": "create new branch",
+        "id": 2690,
+        "keep": null
+    },
+    {
+        "back": "git branch -d et/bugfix/clean-up-code-copy-box",
+        "category": "git",
+        "front": "how to delete a local branch",
+        "id": 2691,
+        "keep": null
+    },
+    {
+        "back": "git branch -a",
+        "category": "git",
+        "front": "show all branches, local and remote",
+        "id": 2692,
+        "keep": null
+    },
+    {
+        "back": "browser-sync start -s -f \"**/*\"",
+        "category": "browsersync",
+        "front": "what is the basic command to start browser-sync",
+        "id": 2693,
+        "keep": null
+    },
+    {
+        "back": "it means from the root of the project and avoids you having to write things like: import Component from '../../../../components/component'",
+        "category": "node",
+        "front": "what does the ampersand in `import Component from '@/components/component'` mean",
+        "id": 2694,
+        "keep": null
+    },
+    {
+        "back": "e",
+        "category": "gimp",
+        "front": "ellipse select tool",
+        "id": 2695,
+        "keep": null
+    },
+    {
+        "back": "is used to import style rules from other style sheets",
+        "category": "css",
+        "front": "what does `@import 'custom.css';` mean",
+        "id": 2696,
+        "keep": null
+    },
+    {
+        "back": "any file with any extension in any subdirectory, including the current one",
+        "category": "browsersync",
+        "front": "what do the double asterisks in `--files \"/assets/**/*.*\"` mean",
+        "id": 2697,
+        "keep": null
+    },
+    {
+        "back": "browser-sync start --config bs-config.js",
+        "category": "browsersync",
+        "front": "how to start browser-sync with a config file after you run `browser-sync init`",
+        "id": 2698,
+        "keep": null
+    },
+    {
+        "back": "browser-sync start --server --files \"**/*\" --index \"index.htm\"",
+        "category": "browsersync",
+        "front": "how to specific the main file as \"index.htm\"",
+        "id": 2699,
+        "keep": null
+    },
+    {
+        "back": "git remote prune origin",
+        "category": "git",
+        "front": "delete a remote branch that still shows with `git branch -a` but doesn't actually exist",
+        "id": 2700,
+        "keep": null
+    },
+    {
+        "back": "git log --oneline -1",
+        "category": "git",
+        "front": "get the name of the commit that is about to be pushed",
+        "id": 2701,
+        "keep": null
+    },
+    {
+        "back": "find . -iname \"*.js\" -not -path \"./node_modules/*\"",
+        "category": "git",
+        "front": "find all JavaScript files in any directory except for `node_modules`",
+        "id": 2702,
+        "keep": null
+    },
+    {
+        "back": "git clean -df && git checkout -- .",
+        "category": "git",
+        "front": "how to completely reset working directory, e.g. all new and tracked files",
+        "id": 2703,
+        "keep": null
+    },
+    {
+        "back": "dwwP",
+        "category": "vim",
+        "front": "swap words",
+        "id": 2704,
+        "keep": null
+    },
+    {
+        "back": "SHIFT-eye",
+        "category": "gimp",
+        "front": "how to hide all other layers but one",
+        "id": 2705,
+        "keep": null
+    },
+    {
+        "back": "f",
+        "category": "gimp",
+        "front": "lasso tool",
+        "id": 2706,
+        "keep": null
+    },
+    {
+        "back": "npm list -g --depth=0",
+        "category": "npm",
+        "front": "see which global packages are installed",
+        "id": 2707,
+        "keep": null
+    },
+    {
+        "back": "ALT-42",
+        "category": "windows",
+        "front": "ALT-number for asterisk",
+        "id": 2708,
+        "keep": null
+    },
+    {
+        "back": "Layer > New From Visible",
+        "category": "gimp",
+        "front": "merge all layers into new layer",
+        "id": 2709,
+        "keep": null
+    },
+    {
+        "back": "ctrl-shift-n",
+        "category": "gimp",
+        "front": "create new layer",
+        "id": 2710,
+        "keep": null
+    },
+    {
+        "back": "SHIFT-CTRL-P code: show release notes",
+        "category": "vscode",
+        "front": "how to see release notes again",
+        "id": 2711,
+        "keep": null
+    },
+    {
+        "back": "npm uninstall -g create-react-app",
+        "category": "npm",
+        "front": "how to uninstall a global package",
+        "id": 2712,
+        "keep": null
+    },
+    {
+        "back": "ctrl-, scrollToSwitchTabs",
+        "category": "vscode",
+        "front": "how to enable mouse wheel to switch tabs",
+        "id": 2713,
+        "keep": null
+    },
+    {
+        "back": "create-react-app my-app --scripts-version react-scripts@^2",
+        "category": "react",
+        "front": "how to install create-react-app with classes instead of functions",
+        "id": 2714,
+        "keep": null
+    },
+    {
+        "back": "edit > preferences > windows management > reset",
+        "category": "gimp",
+        "front": "if your menus disappear",
+        "id": 2715,
+        "keep": null
+    },
+    {
+        "back": "``` for directories: `find . -type d -iname \"q*\" -not -path \"./node_modules/*\"`, and for files: `find . -type f -iname \"q*\" -not -path \"./node_modules/*\"`",
+        "category": "linux",
+        "front": "list *only files* or *only directories* that begin with \"q\" EXCEPT FOR those in `node_modules`",
+        "id": 2716,
+        "keep": null
+    },
+    {
+        "back": "select layer > layer > crop to content",
+        "category": "gimp",
+        "front": "reduce the layer size to the content of what you drew",
+        "id": 2717,
+        "keep": null
+    },
+    {
+        "back": "<ul class=\"nav nav-pills\">\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link active\" href=\"#\">Active</a>\r\n    </li>\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href=\"#\">Link</a>\r\n    </li>\r\n</ul>",
+        "category": "bootstrap",
+        "front": "thick buttons as menu buttons",
+        "id": 2718,
+        "keep": null
+    },
+    {
+        "back": "select layer > layer > crop to content > ctrl-c > ctrl-shift-v > ctrl-e",
+        "category": "gimp",
+        "front": "save content of layer at image",
+        "id": 2719,
+        "keep": null
+    },
+    {
+        "back": "npm cache clean --force",
+        "category": "npm",
+        "front": "what to do if you get the error \"Maximum call stack size exceeded on npm install\"",
+        "id": 2720,
+        "keep": null
+    },
+    {
+        "back": "select category, count(*) as total from flashcards group by category order by total desc",
+        "category": "sqlite",
+        "front": "how to get how many records in each category",
+        "id": 2721,
+        "keep": null
+    },
+    {
+        "back": "npm update",
+        "category": "npm",
+        "front": "how to fix problems when e.g. sqlite3 can't be found ",
+        "id": 2722,
+        "keep": null
+    },
+    {
+        "back": "`user-select: none;`",
+        "category": "css",
+        "front": "how to make it so that the user can't select text",
+        "id": 2723,
+        "keep": 1
+    },
+    {
+        "back": "git log --oneline -1 && git diff --stat --cached origin/master",
+        "category": "git",
+        "front": "how to see the name of commit and its files that are about to be pushed",
+        "id": 2724,
+        "keep": null
+    },
+    {
+        "back": "find . -iname \"*item*.js\" ! -path \"./node_modules/*\" > itemFiles.txt",
+        "category": "linux",
+        "front": "create file listing all files with \"item\" in the name, but not in node_modules",
+        "id": 2725,
+        "keep": null
+    },
+    {
+        "back": "git reset HEAD testItemFiles.txt",
+        "category": "git",
+        "front": "how to pull the file `testItemFiles.txt` back from staged to workspace",
+        "id": 2726,
+        "keep": null
+    },
+    {
+        "back": "git status",
+        "category": "git",
+        "front": "how to see what files are staged",
+        "id": 2727,
+        "keep": null
+    },
+    {
+        "back": "``` `pkill -x node` (-x means to match name exactly)",
+        "category": "linux",
+        "front": "how to stop process",
+        "id": 2728,
+        "keep": null
+    },
+    {
+        "back": "``` `git diff origin/master` (it will also show local changed, i.e. the difference between local workspace and github apparently)",
+        "category": "git",
+        "front": "see what changes will be coming on next pull",
+        "id": 2729,
+        "keep": null
+    },
+    {
+        "back": "find . -type d ! -path \"./node_modules/*\" ! -path \"./.git/*\"",
+        "category": "linux",
+        "front": "find all directories except for those in `node_modules` and `.git`",
+        "id": 2730,
+        "keep": null
+    },
+    {
+        "back": "```\t`grid-template-columns: 100px 1fr 1fr;` AND `grid-template-rows: 200px;`",
+        "category": "css",
+        "front": "grid with three boxes, 100px then half/half of rest, and the row 200px high",
+        "id": 2731,
+        "keep": null
+    },
+    {
+        "back": "grid-template-columns: 100px minmax(100px, 1fr) 3fr;",
+        "category": "css",
+        "front": "grid with three boxes, 100px then 1:3 but second column may not be smaller than 100px",
+        "id": 2732,
+        "keep": null
+    },
+    {
+        "back": "``` `git clone [URL] mytest`, go to directory, `git reset --hard [HASH]`",
+        "category": "git",
+        "front": "how to clone a respository at a certain commit",
+        "id": 2733,
+        "keep": null
+    },
+    {
+        "back": "shift-click a link checkbox",
+        "category": "gimp",
+        "front": "link all layers",
+        "id": 2734,
+        "keep": null
+    },
+    {
+        "back": "shift-s",
+        "category": "gimp",
+        "front": "scale tool",
+        "id": 2735,
+        "keep": null
+    },
+    {
+        "back": "npx create-react-app reactfull --use-npm",
+        "category": "react",
+        "front": "create react app with npm",
+        "id": 2736,
+        "keep": null
+    },
+    {
+        "back": "display: grid; grid-gap: 10px; padding: 10px; grid-row-gap, grid-column-gap",
+        "category": "css",
+        "front": "base formating for a grid",
+        "id": 2737,
+        "keep": null
+    },
+    {
+        "back": "<ul class=\"navbar-nav ml-auto\">",
+        "category": "bootstrap",
+        "front": "move menu items in navbar to the right",
+        "id": 2739,
+        "keep": null
+    },
+    {
+        "back": ":%s/n49/n29/g",
+        "category": "vim",
+        "front": "search and replace in whole file",
+        "id": 2740,
+        "keep": null
+    },
+    {
+        "back": "select-by-color tool (shift-o), click, colors, hue-saturation, lightness",
+        "category": "gimp",
+        "front": "make specific color darker",
+        "id": 2741,
+        "keep": null
+    },
+    {
+        "back": "i",
+        "category": "gimp",
+        "front": "scissor select",
+        "id": 2742,
+        "keep": null
+    },
+    {
+        "back": "Bracket Pair Colorizer 2",
+        "category": "vscode",
+        "front": "how to more easily identify which brackets are matched in code",
+        "id": 2743,
+        "keep": null
+    },
+    {
+        "back": "settings > \"html attribute\" > forced-aligned",
+        "category": "vscode",
+        "front": "how to align attributes under each other",
+        "id": 2744,
+        "keep": null
+    },
+    {
+        "back": "npx babel-node src/server.js",
+        "category": "node",
+        "front": "how to start express site with babel",
+        "id": 2745,
+        "keep": null
+    },
+    {
+        "back": "``` `git reset -- */qstr.js` (note that `checkout ` doesn't always work)",
+        "category": "git",
+        "front": "how to undo changes in `qstr.js` file that is now in the workspace",
+        "id": 2746,
+        "keep": null
+    },
+    {
+        "back": "git clean -f test444.txt",
+        "category": "git",
+        "front": "remove the file `test444.txt` that you created in the workspace (e.g. you could also just `rm` it)",
+        "id": 2747,
+        "keep": null
+    },
+    {
+        "back": "git stash --include-untracked ",
+        "category": "git",
+        "front": "quick store away (no name) all files in workspace and staging area, both newly created or already in Git",
+        "id": 2748,
+        "keep": null
+    },
+    {
+        "back": "``` `git stash push --include-untracked -m \"upload_change_half_done\"` (`git stash save ...` is deprecated), `git stash list`, `git show stash@{1}`, `git show stash@{1}^2`, `git show stash@{1}^3`, `git pop stash@{1}`, `git drop stash@{2}`",
+        "category": "git",
+        "front": "temporarily store all changes out of the way to `upload_change_half_done`, list, see files, and restore",
+        "id": 2749,
+        "keep": null
+    },
+    {
+        "back": "Miranda and Haskell",
+        "category": "general",
+        "front": "two functional languages from 80s and 90s",
+        "id": 2750,
+        "keep": null
+    },
+    {
+        "back": "const { name, text } = req.body;",
+        "category": "javascript ",
+        "front": "define the two variables \"name\" and \"text\" from body \"req.body\"",
+        "id": 2751,
+        "keep": null
+    },
+    {
+        "back": "``` `find . ! -path \"./node_modules/*\" ! -path \"./.git/*\" | grep -P \"\\.e?js$\" > files.txt` (`-P` means to interpret as Perl regular expression, egrep gets an error)",
+        "category": "linux",
+        "front": "create file of all `.js` and `.ejs` files recursively except in `node_modules` and `.git`",
+        "id": 2752,
+        "keep": null
+    },
+    {
+        "back": "``` `cat > test.txt` and CTRL-C to save",
+        "category": "linux",
+        "front": "how to create a quick multi-line file called `text.txt`",
+        "id": 2753,
+        "keep": null
+    },
+    {
+        "back": "git log --pretty=format:\"%h %ci %s\" --before=\"2020-02-01\"",
+        "category": "git",
+        "front": "get list of commits at the end of January",
+        "id": 2754,
+        "keep": null
+    },
+    {
+        "back": "python -> instagram, bitbucket",
+        "category": "dev",
+        "front": "what language is django written in and what are two large projects",
+        "id": 2755,
+        "keep": null
+    },
+    {
+        "back": "Tkinter (standard) and PyQt (more professional)",
+        "category": "dev",
+        "front": "two Python GUI toolkits",
+        "id": 2756,
+        "keep": null
+    },
+    {
+        "back": "``` Pygame, 2000",
+        "category": "python",
+        "front": "cross-platform set of Python modules designed for writing video games, and when created",
+        "id": 2757,
+        "keep": null
+    },
+    {
+        "back": "``` **MATLAB** (1984, payware, training from 2018) which influenced: **Octave** (1988, free) and **Scilab** (1990, free, French)",
+        "category": "python",
+        "front": "three languages that python aimed to replace",
+        "id": 2758,
+        "keep": null
+    },
+    {
+        "back": "https://pypi.org",
+        "category": "python",
+        "front": "package index website",
+        "id": 2759,
+        "keep": null
+    },
+    {
+        "back": "git show 3fbb5d4",
+        "category": "git ",
+        "front": "how to get detailed information on a commit in the past, e.g. after you show all commits at the end of January",
+        "id": 2760,
+        "keep": null
+    },
+    {
+        "back": "hold down ALT, click on each place, and type",
+        "category": "vscode",
+        "front": "how to type the same code in two places at once",
+        "id": 2761,
+        "keep": null
+    },
+    {
+        "back": "GraphQL",
+        "category": "react",
+        "front": "what can replace the need for Redux entirely",
+        "id": 2762,
+        "keep": null
+    },
+    {
+        "back": "Heroku (Salesforce), Chief Architect Ruby",
+        "category": "people",
+        "front": "what company does Yukihiro \"Matz\" Matsumoto work for",
+        "id": 2763,
+        "keep": null
+    },
+    {
+        "back": "ul>lorem20*10",
+        "category": "emmet",
+        "front": "a ul with 10 li elements that have a lorem ipsum of 20 words each",
+        "id": 2764,
+        "keep": 1
+    },
+    {
+        "back": "numbers.slice()",
+        "category": "javascript",
+        "front": "how to get a copy of an array e.g. numbers",
+        "id": 2765,
+        "keep": null
+    },
+    {
+        "back": "numbers.sort( (a,b) => a - b);",
+        "category": "javascript",
+        "front": "how to sort integers",
+        "id": 2766,
+        "keep": null
+    },
+    {
+        "back": "const newNumbers = numbers.slice().sort( (a,b) => a - b);",
+        "category": "javascript",
+        "front": "how to sort array of numbers non-mutating to new array",
+        "id": 2767,
+        "keep": null
+    },
+    {
+        "back": "`a{go to google}`",
+        "category": "emmet",
+        "front": "easily type an `<a>` tag with `href`",
+        "id": 2768,
+        "keep": 1
+    },
+    {
+        "back": "Scala, Elm, ClojureScript, PureScript, ReasonML",
+        "category": "javascript",
+        "front": "five languages that compile to JavaScript",
+        "id": 2769,
+        "keep": null
+    },
+    {
+        "back": "`Number(String(x).split('').reverse().join(''));`",
+        "category": "JavaScript",
+        "front": "how to reverse the digits in a number?",
+        "id": 2770,
+        "keep": 1
+    },
+    {
+        "back": "String(\"00000\" + count).slice(-5);",
+        "category": "javascript",
+        "front": "how to pad a number with zeros as a string",
+        "id": 2771,
+        "keep": null
+    },
+    {
+        "back": "``` `const item = items[Math.floor(Math.random() * items.length)];` (note: add +1 for e.g. 1-10 random number)",
+        "category": "javascript",
+        "front": "get random item in array",
+        "id": 2772,
+        "keep": null
+    },
+    {
+        "back": "``` short form: `ls -d */` (slash necessary), long form: `ls -l | egrep ^d`",
+        "category": "linux",
+        "front": "how to list only directories, short and long form",
+        "id": 2774,
+        "keep": null
+    },
+    {
+        "back": "``` `ls -l | egrep -v '^d'` (-v = inverse match)",
+        "category": "linux",
+        "front": "how to list only files",
+        "id": 2775,
+        "keep": null
+    },
+    {
+        "back": "select it, [[CTRL-F2]]",
+        "category": "vscode",
+        "front": "how to change the name of numerous instances of a variable",
+        "id": 2776,
+        "keep": null
+    },
+    {
+        "back": "npm config get prefix",
+        "category": "npm",
+        "front": "how to find out the path for all global npm commands, e.g. to add to environment variables",
+        "id": 2778,
+        "keep": null
+    },
+    {
+        "back": "git diff master..et/enh/include-flashcards-in-home",
+        "category": "git",
+        "front": "How to get change differences between master and work branch",
+        "id": 2779,
+        "keep": null
+    },
+    {
+        "back": "CTRL-SHIFT-P",
+        "category": "atom",
+        "front": "get search list of all commands",
+        "id": 2780,
+        "keep": null
+    },
+    {
+        "back": "git branch",
+        "category": "git",
+        "front": "list local branches",
+        "id": 2781,
+        "keep": null
+    },
+    {
+        "back": "CTRL-B",
+        "category": "Atom",
+        "front": "search open files with keyword",
+        "id": 2782,
+        "keep": null
+    },
+    {
+        "back": "CTRL-T",
+        "category": "Atom",
+        "front": "find any file in the project fast",
+        "id": 2783,
+        "keep": null
+    },
+    {
+        "back": "``` `CTRL-K, right-arrow` then `CTRL-K, down-arrow`  or simply drag panes around ",
+        "category": "Atom",
+        "front": "open up second and third pane for same file",
+        "id": 2784,
+        "keep": null
+    },
+    {
+        "back": "CTRL-R",
+        "category": "Atom",
+        "front": "go quickly to methods in JavaScript file",
+        "id": 2785,
+        "keep": null
+    },
+    {
+        "back": "``` set: `CTRL-ALT-F2`, goto: `CTRL-F2`",
+        "category": "Atom",
+        "front": "set and go to bookmarks",
+        "id": 2786,
+        "keep": null
+    },
+    {
+        "back": "https://unsplash.com",
+        "category": "webdesign",
+        "front": "where to get free photos",
+        "id": 2787,
+        "keep": null
+    },
+    {
+        "back": "ALT-select each one, then change",
+        "category": "vscode",
+        "front": "change multiple areas of text at a time",
+        "id": 2788,
+        "keep": null
+    },
+    {
+        "back": "require('crypto').randomBytes(5).toString('hex');",
+        "category": "javascript",
+        "front": "how to produce a 10-digit random idCode, e.g. with letters (a-f) and numbers",
+        "id": 2789,
+        "keep": null
+    },
+    {
+        "back": "find . ! -path \"./node_modules/*\" ! -path \"./.git/*\" | grep -P \"\\.html?$\"",
+        "category": "linux",
+        "front": "how to list all `.htm` and `.html` files except in the directorys `node_modules` and `.git` to a file",
+        "id": 2790,
+        "keep": null
+    },
+    {
+        "back": "git show HEAD",
+        "category": "git",
+        "front": "how to see changes in files that you just committed locally",
+        "id": 2791,
+        "keep": null
+    },
+    {
+        "back": "git help ls-tree",
+        "category": "git",
+        "front": "how to get help on e.g. ls-tree",
+        "id": 2792,
+        "keep": null
+    },
+    {
+        "back": "git log --graph --decorate -30 --all --date-order --date=format:'%Y-%m-%d %H:%M:%S' --pretty=format:'%C(cyan)%h%Creset %C(black bold)%ad%Creset%C(auto)%d %s'",
+        "category": "git",
+        "front": "show extensive text-graphic display of log",
+        "id": 2793,
+        "keep": null
+    },
+    {
+        "back": "\"log\": \"git log --pretty=format:\\\"%h - %ad - %s\\\" -10 --date=format:\\\"%Y-%m-%d %H:%M:%S\\\"\"",
+        "category": "git",
+        "front": "npm script for: list last 10 commit with dates ",
+        "id": 2794,
+        "keep": null
+    },
+    {
+        "back": "git log --graph",
+        "category": "git",
+        "front": "how to show log as text graph but with infos",
+        "id": 2795,
+        "keep": null
+    },
+    {
+        "back": "``` `git log -p` (p = patch)",
+        "category": "git",
+        "front": "show all changes from past commits",
+        "id": 2796,
+        "keep": null
+    },
+    {
+        "back": "git log --graph --all --oneline --decorate",
+        "category": "git",
+        "front": "simple command to get text graph of branches in log",
+        "id": 2797,
+        "keep": null
+    },
+    {
+        "back": "`git log -3`",
+        "category": "git",
+        "front": "list the last three commits",
+        "id": 2798,
+        "keep": 1
+    },
+    {
+        "back": "``` `git ls-tree HEAD^ system/` (don't forget the / at the end)",
+        "category": "git",
+        "front": "how to see the contents of the directory `system` in the commit before the last one",
+        "id": 2799,
+        "keep": null
+    },
+    {
+        "back": "``` go to empty directory create react app in directory: `npx create-react-app .` then `npm start`",
+        "category": "react",
+        "front": "how to create and run a react app in a directory",
+        "id": 2800,
+        "keep": null
+    },
+    {
+        "back": "npm -g outdated",
+        "category": "npm",
+        "front": "how to see what global installs need to be updated",
+        "id": 2801,
+        "keep": null
+    },
+    {
+        "back": "ls -d */s*",
+        "category": "linux",
+        "front": "how to list all directories at any level that start with \"s\"",
+        "id": 2802,
+        "keep": null
+    },
+    {
+        "back": "git clean -f test444.txt",
+        "category": "git",
+        "front": "what is the git version of deleting a file (e.g. `rm test444.txt`) that you added to the workspace",
+        "id": 2803,
+        "keep": null
+    },
+    {
+        "back": "history | grep all$",
+        "category": "linux",
+        "front": "find previous command you used that ends with `all`",
+        "id": 2804,
+        "keep": null
+    },
+    {
+        "back": "`git add . && git commit -m \"second commit\"`",
+        "category": "git",
+        "front": "how to add and commit all tracked and untracked files in one line",
+        "id": 2805,
+        "keep": 1
+    },
+    {
+        "back": "git diff master..et-test-change-one-thing --color-words",
+        "category": "git",
+        "front": "how to list changes between branches and show changes on one line (easy to read)",
+        "id": 2806,
+        "keep": null
+    },
+    {
+        "back": "``` go to branch, then: `git branch -m et-test-new-name` (note: only rename branches before you start sharing them with other people), `-m` for move",
+        "category": "git",
+        "front": "how to change name of branch",
+        "id": 2807,
+        "keep": null
+    },
+    {
+        "back": "grep for */qstr.js -n",
+        "category": "linux",
+        "front": "find all lines that have \"for\" in them in a file called `qstr.js` which is somewhere in any directory, with line numbers",
+        "id": 2808,
+        "keep": null
+    },
+    {
+        "back": "grep for */qstr.js -c",
+        "category": "linux",
+        "front": "count how many times \"for\" occurs in a file called `qstr.js` that is somewhere in a directory",
+        "id": 2810,
+        "keep": null
+    },
+    {
+        "back": "grep -ri \\bname\\b qtools",
+        "category": "linux ",
+        "front": "search in all files in the directory `qtools` for the whole word `name` or `Name` (but not e.g. `firstName` or `names`)",
+        "id": 2812,
+        "keep": null
+    },
+    {
+        "back": "git reset --hard nnnnnn",
+        "category": "git",
+        "front": "how to restore to a certain commit",
+        "id": 2813,
+        "keep": null
+    },
+    {
+        "back": "``` when you want collapse several commits into one",
+        "category": "git",
+        "front": "when would you use `git reset soft`?",
+        "id": 2814,
+        "keep": null
+    },
+    {
+        "back": "Ruby and Go, respectively",
+        "category": "serverless",
+        "front": "what languages do Jekyll and Hugo run on",
+        "id": 2815,
+        "keep": null
+    },
+    {
+        "back": "``` `egrep -rn require\\(.+qsys.+\\) --exclude-dir=\"node_modules\" .` -r = recursive, -n = line numbers",
+        "category": "linux",
+        "front": "list all files in any subdirectory which has `require(...qsys...)` in them, except in node_modules",
+        "id": 2816,
+        "keep": null
+    },
+    {
+        "back": "``` `egrep -rn require\\(.+qsys.+\\) qtools` (notice that `grep` won't work)",
+        "category": "linux",
+        "front": "list all files in `qtools` which have `require(...qsys...)` in them",
+        "id": 2817,
+        "keep": null
+    },
+    {
+        "back": "egrep -rn required.+true --exclude-dir=node_modules --include=*.js --exclude=*min*",
+        "category": "linux",
+        "front": "list all files that have \"required....true\" EXCEPT in node_modules, EXCEPT the file ...min... and only in .js files",
+        "id": 2818,
+        "keep": null
+    },
+    {
+        "back": "egrep -rni \"batch.+blocks\" --exclude-dir=\"node_modules\"",
+        "category": "linux",
+        "front": "list all files in project that have e.g. `batchImportBlocks` or `batchExportBlocks`, except in node_modules",
+        "id": 2819,
+        "keep": null
+    },
+    {
+        "back": "``` `npm -g up gatsby-cli` (find out which need updating with: `npm -g outdated`)",
+        "category": "npm",
+        "front": "how to update a global package, e.g. gatsby-cli",
+        "id": 2820,
+        "keep": null
+    },
+    {
+        "back": "``` `egrep -rni \"super\\(.*id.*\\)\" --exclude-dir=node_modules` note that you need the quotation marks around the regex",
+        "category": "linux",
+        "front": "find all files that have super(..id..) in them, except in node_modules",
+        "id": 2821,
+        "keep": null
+    },
+    {
+        "back": "``` `git add *` and `git reset *`",
+        "category": "git",
+        "front": "two commands to (1) add all changes to staged, (2) take them all back",
+        "id": 2822,
+        "keep": null
+    },
+    {
+        "back": "``` `history | grep -P \"^\\s*\\d*\\s*git\"` (note egrep don't work since it doesn't have \\d apparently but [[:digit:]])",
+        "category": "linux",
+        "front": "how to list all commands in history that start with `ls`",
+        "id": 2823,
+        "keep": null
+    },
+    {
+        "back": "click start and type `winver`",
+        "category": "windows",
+        "front": "how to determine windows version, e.g. 1607, 1909, etc. \t",
+        "id": 2824,
+        "keep": null
+    },
+    {
+        "back": "git checkout -b 01_02b origin/01_02b",
+        "category": "git",
+        "front": "how to pull a remote branch down and switch to it",
+        "id": 2826,
+        "keep": null
+    },
+    {
+        "back": "http://portquiz.net:27017",
+        "category": "network",
+        "front": "how to check if your point to access e.g. port 27017",
+        "id": 2827,
+        "keep": null
+    },
+    {
+        "back": "search for `^\\s` and replace with nothing",
+        "category": "Notepad++",
+        "front": "how to remove all blank lines",
+        "id": 2828,
+        "keep": null
+    },
+    {
+        "back": "(run windows cmd as administrator)\r\nnetstat -ano | findstr :3001\r\n(shows LISTENING NNNNN)\r\ntaskkill /PID NNNN /F",
+        "category": "windows",
+        "front": "how to kill a process listening to a port",
+        "id": 2829,
+        "keep": null
+    },
+    {
+        "back": "const Header = ({ title }) => { \r\n\treturn (",
+        "category": "React",
+        "front": "what is the syntax of a function component",
+        "id": 2830,
+        "keep": null
+    },
+    {
+        "back": "``` include the statement `debugger;` in the text",
+        "category": "developerPanel",
+        "front": "how debug through code",
+        "id": 2831,
+        "keep": null
+    },
+    {
+        "back": "class Header extends React.Component { \r\n\trender() {",
+        "category": "React",
+        "front": "what is the syntax of a class component",
+        "id": 2832,
+        "keep": null
+    },
+    {
+        "back": "git checkout head .",
+        "category": "git ",
+        "front": "if you've deleted files to workspace, how can you get them back",
+        "id": 2833,
+        "keep": null
+    },
+    {
+        "back": "``` `find public -mindepth 1 -delete` then `git checkout head public`",
+        "category": "git",
+        "front": "delete all files from directory (`public`) to workspace, then pull them back from workspace",
+        "id": 2834,
+        "keep": null
+    },
+    {
+        "back": "find dist -mindepth 1 -delete",
+        "category": "linux",
+        "front": "delete all files recursively in a directory (e.g. `dist`) without deleting the directory",
+        "id": 2835,
+        "keep": null
+    },
+    {
+        "back": "[[ctrl-,]], alwaysShowRepositories, check it",
+        "category": "vscode",
+        "front": "how to make the respository name always appear",
+        "id": 2836,
+        "keep": null
+    },
+    {
+        "back": "`git commit --amend -m \"get jquery test to work\"",
+        "category": "git",
+        "front": "rename the commit message you just committed",
+        "id": 2837,
+        "keep": null
+    },
+    {
+        "back": "CTRL-SHIFT-C",
+        "category": "vscode",
+        "front": "open command line window in project directory",
+        "id": 2838,
+        "keep": null
+    },
+    {
+        "back": "``` `ctrl-`, `scrollToSwitchTabs`, then mouse wheel on tabs",
+        "category": "vscode",
+        "front": "flip between tabs easily",
+        "id": 2839,
+        "keep": null
+    },
+    {
+        "back": "Dries Buytaert, 2001",
+        "category": "php",
+        "front": "who wrote Drupal and when",
+        "id": 2840,
+        "keep": null
+    },
+    {
+        "back": "CakePHP",
+        "category": "php",
+        "front": "which framework was inspired by Ruby on Rails",
+        "id": 2841,
+        "keep": null
+    },
+    {
+        "back": "CakePHP",
+        "category": "php",
+        "front": "which framework was started by a Polish programmer",
+        "id": 2842,
+        "keep": null
+    },
+    {
+        "back": "``` `months.splice(1, 0, 'Feb');` (insert before position 1, and delete nothing)",
+        "category": "javascript",
+        "front": "How to insert \"February\" in array: `const months = ['Jan', 'March', 'April', 'June'];`\t",
+        "id": 2843,
+        "keep": null
+    },
+    {
+        "back": "``` `const result = months.splice(4,1,'May');` (insert before position 4, and delete 1, return \"nnn\")",
+        "category": "javascript",
+        "front": "How to replace \"nnn\" with \"May\" in array: `const months = ['Jan', 'February', 'March', 'April', 'nnn', 'June'];`",
+        "id": 2844,
+        "keep": null
+    },
+    {
+        "back": "in environment variables, copy the the contents of `NODE_PATH` to `PATH`, e.g. `C:\\Users\\ADMIN\\AppData\\Roaming\\npm`\t",
+        "category": "npm",
+        "front": "if globally installed npm packages are not found at the command line",
+        "id": 2845,
+        "keep": null
+    },
+    {
+        "back": "^(?!http).*",
+        "category": "regex",
+        "front": "all lines that do not start with `http`",
+        "id": 2846,
+        "keep": null
+    },
+    {
+        "back": "``` `locate systemClasses` (this works quite well to find anything on Ubuntu) ",
+        "category": "linux",
+        "front": "how to find a directory anywhere on the system, e.g. `systemClasses`, or even part of a file e.g. `.list`",
+        "id": 2847,
+        "keep": null
+    },
+    {
+        "back": "``` `locate *.h` or `find / -name *.h` (both work well)",
+        "category": "linux",
+        "front": "how to find all `.h` files on system",
+        "id": 2848,
+        "keep": null
+    },
+    {
+        "back": "``` only directories: `ls -al | grep ^d`, only files: `ls -al | grep ^d -v` (-v means inverse)",
+        "category": "linux",
+        "front": "how to list **only directories** or **only files** in a directory",
+        "id": 2849,
+        "keep": null
+    },
+    {
+        "back": "``` `egrep -rni \"action_.{5,7}Item\" --exclude-dir=node_modules` (`-r` recursive, `-n` line number, `-i` case-insensitive)",
+        "category": "linux",
+        "front": "find all files recursively (except in `node_modules`) which have e.g. `action_deleteItem` or `action_getPageItemInfo` in them",
+        "id": 2850,
+        "keep": null
+    },
+    {
+        "back": "``` `background: linear-gradient(30deg, lighten($table_head_col, 40%) 10%, $table_head_col 100%);` (note you can change `$table_head_col` and both colors will change)",
+        "category": "sass",
+        "front": "how to have two colors in an e.g. H1 gradient be based on one color, one lighter than the other",
+        "id": 2851,
+        "keep": null
+    },
+    {
+        "back": "``` tested on Ubuntu, works well, change to Berlin: `sudo timedatectl set-timezone Europe/Berlin`, and then to London: `sudo timedatectl set-timezone Europe/London` ",
+        "category": "linux",
+        "front": "how to change timezone to Berlin (or London)",
+        "id": 2852,
+        "keep": null
+    },
+    {
+        "back": "``` [Cacti](https://en.wikipedia.org/wiki/Cacti_(software)) (2001, cross-platform), Ngios, Prometheus, New Relic, Splunk, PagerDuty",
+        "category": "linux",
+        "front": "six tools for aggregating logs of a fleet of servers",
+        "id": 2853,
+        "keep": null
+    },
+    {
+        "back": "``` `cat /var/log/syslog | grep DHCP` or `cat /var/log/syslog | grep Berlin`",
+        "category": "linux",
+        "front": "how to search system logs for \"DHCP\" or \"Berlin\" to see when timezone was changed to Berlin",
+        "id": 2854,
+        "keep": null
+    },
+    {
+        "back": "`man ps | grep -- -h`",
+        "category": "linux",
+        "front": "how to grep a man page",
+        "id": 2855,
+        "keep": null
+    },
+    {
+        "back": "=TEXT(I18;\"MMMM\")",
+        "category": "excel",
+        "front": "how to show month name of date",
+        "id": 2861,
+        "keep": null
+    },
+    {
+        "back": "``` `=FINDEN(M18;J18)` (returns the position, starting with 1)",
+        "category": "excel",
+        "front": "how to find out if the text in one cell is in another cell",
+        "id": 2862,
+        "keep": null
+    },
+    {
+        "back": "Private Sub UserForm_Initialize()\r\n\tMe.Caption = \"Opened at \" & Time()\r\nEnd Sub",
+        "category": "vba",
+        "front": "change form caption upon opening",
+        "id": 2863,
+        "keep": null
+    },
+    {
+        "back": "in VBA editor, *Tools > Options > Automatic Syntax Checking*",
+        "category": "vba",
+        "front": "turn off syntax check",
+        "id": 2864,
+        "keep": null
+    },
+    {
+        "back": "Option Explicit",
+        "category": "vba",
+        "front": "force variables to be defined",
+        "id": 2865,
+        "keep": null
+    },
+    {
+        "back": "press and hold down CTRL-F4",
+        "category": "vba",
+        "front": "how to close all code windows",
+        "id": 2866,
+        "keep": null
+    },
+    {
+        "back": "always use `Set`",
+        "category": "vba",
+        "front": "what do you have to remember about assigning objects",
+        "id": 2867,
+        "keep": null
+    },
+    {
+        "back": "``` `strAddress = ActiveCell.CurrentRegion.Address` will return e.g. `$A$1$:C$15`",
+        "category": "Excel VBA",
+        "front": "How to select current region (boundaried table)",
+        "id": 2868,
+        "keep": null
+    },
+    {
+        "back": "CTRL-SHIFT-8",
+        "category": "Excel",
+        "front": "select current table",
+        "id": 2869,
+        "keep": null
+    },
+    {
+        "back": "`=VALUE(F3)`",
+        "category": "Google Sheets",
+        "front": "how to convert string to number",
+        "id": 2870,
+        "keep": 1
+    },
+    {
+        "back": "ALT-Enter",
+        "category": "vscode",
+        "front": "in middle of line, enter line below and type",
+        "id": 2871,
+        "keep": null
+    },
+    {
+        "back": "```App.css: `Body {background-image: url(\"./images/background.jpg\");}`, and put image in /src/images/background.jpg, this also works in build",
+        "category": "react",
+        "front": "how to set a background image in React",
+        "id": 2872,
+        "keep": null
+    },
+    {
+        "back": "````lorem100` for 100 words of Lorem ipsum text",
+        "category": "emmet",
+        "front": "How to produce a long Lorem ipsum Latin-like filler text",
+        "id": 2873,
+        "keep": null
+    },
+    {
+        "back": "keep in pan mode then use the mouse roller for zoom and orbit",
+        "category": "sketchup",
+        "front": "how to best navigate",
+        "id": 2874,
+        "keep": null
+    },
+    {
+        "back": "`var expresion2 = /[^01]/;`\r\n`console.log(expresion2.test('1010100100110001'));` \r\nNote that this returns true if there is anything other than a 0 or 1, i.e. true if not binary.",
+        "category": "regex",
+        "front": "Check if a number is binary",
+        "id": 2875,
+        "keep": null
+    },
+    {
+        "back": "**Shift-ALT**, click-drag down, type the text which appears in multiple lines, then to end **Shift-ALT**-click again",
+        "category": "Notepad++",
+        "front": "create vertical cursor to type the same text into numerous lines",
+        "id": 2876,
+        "keep": 1
+    },
+    {
+        "back": "Shift-ALT, click-drag\t\t",
+        "category": "vscode",
+        "front": "create vertical cursor to type the same text into numerous lines",
+        "id": 2877,
+        "keep": null
+    },
+    {
+        "back": "ul>li*5>{This is test #$ of the list.}",
+        "category": "emmet",
+        "front": "make a UL/LI list with text that has an incrementing number",
+        "id": 2878,
+        "keep": null
+    },
+    {
+        "back": "``` `u` and [[CTRL-r]]",
+        "category": "vim",
+        "front": "undo and redo",
+        "id": 2879,
+        "keep": null
+    },
+    {
+        "back": "gUU",
+        "category": "vim",
+        "front": "change current line to uppercase regardless where the cursor is on line",
+        "id": 2880,
+        "keep": null
+    },
+    {
+        "back": "guu",
+        "category": "vim",
+        "front": "change current line to lowercase regardless where the cursor is on line",
+        "id": 2881,
+        "keep": null
+    },
+    {
+        "back": "~",
+        "category": "vim",
+        "front": "toggle upper/lower case of character",
+        "id": 2882,
+        "keep": null
+    },
+    {
+        "back": "``` `i` and `a`",
+        "category": "vim",
+        "front": "insert before cursor / insert after cursor",
+        "id": 2883,
+        "keep": null
+    },
+    {
+        "back": "o",
+        "category": "vim",
+        "front": "start typing in line below current line",
+        "id": 2884,
+        "keep": null
+    },
+    {
+        "back": "c3w",
+        "category": "vim",
+        "front": "change three words",
+        "id": 2885,
+        "keep": null
+    },
+    {
+        "back": "c$",
+        "category": "vim",
+        "front": "change text from the cursor to the end of the line",
+        "id": 2886,
+        "keep": null
+    },
+    {
+        "back": "c0",
+        "category": "vim",
+        "front": "change text from the cursor to the beginning of the line",
+        "id": 2887,
+        "keep": null
+    },
+    {
+        "back": "``` `gi` absolute beginning of line, `I` begging of text in line (after tabs)",
+        "category": "vim",
+        "front": "insert at beginning of line",
+        "id": 2888,
+        "keep": null
+    },
+    {
+        "back": "O",
+        "category": "vim",
+        "front": "start typing in line above current line",
+        "id": 2889,
+        "keep": null
+    },
+    {
+        "back": "ZZ",
+        "category": "vim",
+        "front": "save and exit",
+        "id": 2890,
+        "keep": null
+    },
+    {
+        "back": "``` [[CTRL-PageUp]] and [[CTRL-PageDown]]",
+        "category": "vscode",
+        "front": "move to next tab with keyboard",
+        "id": 2891,
+        "keep": null
+    },
+    {
+        "back": "wq! backupChanges.txt",
+        "category": "vim",
+        "front": "write changes to another file and quit (leaving original file unchanged)",
+        "id": 2892,
+        "keep": null
+    },
+    {
+        "back": "ZQ",
+        "category": "vim",
+        "front": "forget changes and exit",
+        "id": 2893,
+        "keep": null
+    },
+    {
+        "back": "d3w",
+        "category": "vim",
+        "front": "delete three words",
+        "id": 2894,
+        "keep": null
+    },
+    {
+        "back": ".",
+        "category": "vim",
+        "front": "repeat last command",
+        "id": 2895,
+        "keep": null
+    },
+    {
+        "back": "``` `C` and `D`",
+        "category": "vim",
+        "front": "change or delete to the end of the line",
+        "id": 2896,
+        "keep": null
+    },
+    {
+        "back": "X",
+        "category": "vim",
+        "front": "delete backwards",
+        "id": 2897,
+        "keep": null
+    },
+    {
+        "back": "``` `0` or `^`",
+        "category": "vim",
+        "front": "go to first position or character in line",
+        "id": 2898,
+        "keep": null
+    },
+    {
+        "back": "`P` for paste before current character, `p` for paste after current character",
+        "category": "vim",
+        "front": "two ways to paste after delete or yank",
+        "id": 2899,
+        "keep": null
+    },
+    {
+        "back": "`:22` or `22` [[shift-g]]",
+        "category": "vim",
+        "front": "goto line 22",
+        "id": 2900,
+        "keep": null
+    },
+    {
+        "back": "`dd k P`",
+        "category": "vim",
+        "front": "move line up",
+        "id": 2901,
+        "keep": null
+    },
+    {
+        "back": "`xp`",
+        "category": "vim",
+        "front": "swap two letters",
+        "id": 2902,
+        "keep": null
+    },
+    {
+        "back": "`dd p`",
+        "category": "vim",
+        "front": "move line down",
+        "id": 2903,
+        "keep": null
+    },
+    {
+        "back": "`n` and `N`",
+        "category": "vim",
+        "front": "repeat search forward and backward",
+        "id": 2904,
+        "keep": null
+    },
+    {
+        "back": "`d)`",
+        "category": "vim",
+        "front": "delete sentence",
+        "id": 2905,
+        "keep": null
+    },
+    {
+        "back": "`\"a yy` then `\"a P`",
+        "category": "vim",
+        "front": "yank to register a, then paste from register a ",
+        "id": 2906,
+        "keep": null
+    },
+    {
+        "back": "[[CTRL-V]] `6jllc* `",
+        "category": "vim",
+        "front": "change all hypens to stars at beginning of lines",
+        "id": 2907,
+        "keep": null
+    },
+    {
+        "back": "`d/, and`",
+        "category": "vim",
+        "front": "delete everything up to \", and\"",
+        "id": 2908,
+        "keep": null
+    },
+    {
+        "back": "`\"*p`",
+        "category": "vim",
+        "front": "paste from Windows clipboard",
+        "id": 2909,
+        "keep": null
+    },
+    {
+        "back": "`c/how`",
+        "category": "vim",
+        "front": "change everything up to the word \"how\"",
+        "id": 2910,
+        "keep": null
+    },
+    {
+        "back": ":%s/old/new/gc",
+        "category": "vim",
+        "front": "search and replace globally and confirm each one",
+        "id": 2911,
+        "keep": null
+    },
+    {
+        "back": "`ma` and `'a` or `mb` and `'b` ",
+        "category": "vim",
+        "front": "create and go to bookmark",
+        "id": 2912,
+        "keep": null
+    },
+    {
+        "back": "`}` and `{`",
+        "category": "vim",
+        "front": "move one code block at a time",
+        "id": 2913,
+        "keep": null
+    },
+    {
+        "back": "`\\`\\`` (back-tick, back-tick)",
+        "category": "vim",
+        "front": "go back to last position",
+        "id": 2914,
+        "keep": null
+    },
+    {
+        "back": "`\\`.` (back-tick .)",
+        "category": "vim",
+        "front": "go back to last edit",
+        "id": 2915,
+        "keep": null
+    },
+    {
+        "back": "`:new testing.txt` (if it exist, it will open it)",
+        "category": "vim",
+        "front": "create new file in second window",
+        "id": 2916,
+        "keep": null
+    },
+    {
+        "back": "`:ls`, find number, then `:b 3`",
+        "category": "vim",
+        "front": "if you have many buffers open, how to list and go to one quickly",
+        "id": 2917,
+        "keep": null
+    },
+    {
+        "back": "`:r ` [[TAB]] and select (note there is a space after \"r\")",
+        "category": "vim",
+        "front": "insert a file at the cursor",
+        "id": 2918,
+        "keep": null
+    },
+    {
+        "back": "`:e!`",
+        "category": "vim",
+        "front": "discard all changes to a file",
+        "id": 2919,
+        "keep": null
+    },
+    {
+        "back": "`:split` then toggle with [[CTRL-W]][[CTRL-W]], and close with [[CTRL-W]][[C]]",
+        "category": "vim",
+        "front": "break screen into two and toggle between them",
+        "id": 2920,
+        "keep": null
+    },
+    {
+        "back": "`:e.` then `/` to search",
+        "category": "vim",
+        "front": "how to search for a file and open it",
+        "id": 2921,
+        "keep": null
+    },
+    {
+        "back": "`:e pageHome.tsx`, `:bn`/`:bp` buffer next/previous, `:bc` buffer close",
+        "category": "vim",
+        "front": "open a new file in new buffer",
+        "id": 2922,
+        "keep": null
+    },
+    {
+        "back": "[[CTRL-G]] look at bottom line",
+        "category": "vim",
+        "front": "get info on file",
+        "id": 2923,
+        "keep": null
+    },
+    {
+        "back": "`!ls -al`",
+        "category": "vim",
+        "front": "run a terminal command from inside vim",
+        "id": 2924,
+        "keep": null
+    },
+    {
+        "back": "`:abb _imprea import React, { Component } from 'react';` then to execute `_imprea` [[ENTER]], and to not execute [[CTRL-V]]",
+        "category": "vim",
+        "front": "create abbreviation",
+        "id": 2925,
+        "keep": null
+    },
+    {
+        "back": "`:se nu` and `:se nonu`",
+        "category": "vim",
+        "front": "turn line numbers on and off",
+        "id": 2926,
+        "keep": null
+    },
+    {
+        "back": "list (arrays), tuple (fixed arrays), set (unordered, no multiples, add but not change), dictionary (like JSON)",
+        "category": "python",
+        "front": "what are the four collection types",
+        "id": 2927,
+        "keep": null
+    },
+    {
+        "back": "`:sh` and `exit`",
+        "category": "vim",
+        "front": "escape to the shell and back",
+        "id": 2928,
+        "keep": null
+    },
+    {
+        "back": "`ls -d a*` or `ls -ald a*`",
+        "category": "linux",
+        "front": "list all files that start with a",
+        "id": 2929,
+        "keep": null
+    },
+    {
+        "back": "[[CTRL-SHIFT-C]]",
+        "category": "linux",
+        "front": "copy selected text in terminal",
+        "id": 2930,
+        "keep": null
+    },
+    {
+        "back": "[[CTRL-A]] and [[CTRL-E]]",
+        "category": "linux",
+        "front": "move to beginning and end of line",
+        "id": 2931,
+        "keep": null
+    },
+    {
+        "back": "apropos copy",
+        "category": "linux",
+        "front": "how to find the command that has to do with copying",
+        "id": 2932,
+        "keep": null
+    },
+    {
+        "back": "[[CTRL-T]]",
+        "category": "linux",
+        "front": "transpose characters at cursor",
+        "id": 2933,
+        "keep": null
+    },
+    {
+        "back": "`cat /etc/*release` or `hotnamectl` and `uname -a` (all) and `uptime` and `df -h` (space available, human readable), `free` (memory), ",
+        "category": "linux",
+        "front": "how to find out release and other infos of system",
+        "id": 2934,
+        "keep": null
+    },
+    {
+        "back": " `gt` and `gT`",
+        "category": "vim",
+        "front": "VSCODE: move to next and previous tab",
+        "id": 2935,
+        "keep": null
+    },
+    {
+        "back": "`const timeStamp = Math.floor(new Date() / 1000);` e.g. `1607439748`",
+        "category": "javascript",
+        "front": "how to get timestamp in seconds",
+        "id": 2936,
+        "keep": null
+    },
+    {
+        "back": "`\"_dd`",
+        "category": "vim",
+        "front": "delete to a register (so that you save what is in your main register)",
+        "id": 2937,
+        "keep": null
+    },
+    {
+        "back": "`yiw` then `viwp`",
+        "category": "vim",
+        "front": "replace word with yank content",
+        "id": 2938,
+        "keep": null
+    },
+    {
+        "back": "`J`",
+        "category": "vim",
+        "front": "bring next line up to current line",
+        "id": 2940,
+        "keep": null
+    },
+    {
+        "back": "put `/* eslint react/sort-comp: 0 */` on first line",
+        "category": "react",
+        "front": "how to disable eslint sort-comp for a specific page",
+        "id": 2941,
+        "keep": null
+    },
+    {
+        "back": "before the code to be measured: `console.time('books route')` and after the code to be measured: `console.timeEnd('books route')` (the text **books route** has to be identify in both statements)",
+        "category": "JavaScript",
+        "front": "how to measure time in console",
+        "id": 2942,
+        "keep": 1
+    },
+    {
+        "back": "select with [[CTRL-V]], then `:` and add `s/\"/'/g`",
+        "category": "vim",
+        "front": "search and replace in selection",
+        "id": 2943,
+        "keep": null
+    },
+    {
+        "back": "`npm i -g npm@latest` (Mine went from 6.14.8 to 6.14.11)",
+        "category": "npm",
+        "front": "update npm to latest version",
+        "id": 2944,
+        "keep": null
+    },
+    {
+        "back": "settings cog wheel on right, Panel Layout: auto or vertical",
+        "category": "chrome developer tools",
+        "front": "How to get the styles window to appear on the right instead of the bottom",
+        "id": 2945,
+        "keep": null
+    },
+    {
+        "back": "`npm i concurrently`\r\n`\"startapp\": \"node_modules/.bin/nodemon server.js\",`\r\n`\"start\": \"concurrently \\\"gulp\\\" \\\"npm run startapp\\\"`",
+        "category": "node",
+        "front": "how to run multiple commands in npm scripts",
+        "id": 2946,
+        "keep": null
+    },
+    {
+        "back": "```\r\nconst fsp = require('fs').promises;\r\n\r\nfsp.copyFile('copyfile.js', 'copyfile.js.bak')\r\n\t.then(() => console.log('file is copied'))\r\n\t.catch(() => console.log('error occured'));\r\n\r\nconsole.log('execution continues')\r\n```",
+        "category": "node ",
+        "front": "copy a file in node with promises",
+        "id": 2947,
+        "keep": null
+    },
+    {
+        "back": "`git ls-files`",
+        "category": "git",
+        "front": "list all files in local repository",
+        "id": 2948,
+        "keep": null
+    },
+    {
+        "back": "you do `git push --force` and everyone else does `git reset --hard origin/main`",
+        "category": "git",
+        "front": "what if someone commits bad code and you need to force your version onto the remote repository",
+        "id": 2949,
+        "keep": null
+    },
+    {
+        "back": "```\r\ngit commit -m \"Something terribly misguided\"\r\ngit reset HEAD~\r\n(edit files as necessary)\r\ngit add .\r\ngit commit -c ORIG_HEAD\r\n```",
+        "category": "git",
+        "front": "how to undo and fix a bad commit, recommitting with same name",
+        "id": 2950,
+        "keep": null
+    },
+    {
+        "back": "`cp -R ../gitadv333_files/. .`",
+        "category": "linux",
+        "front": "copy all files and sub-directories from another directory to current directory",
+        "id": 2951,
+        "keep": null
+    },
+    {
+        "back": "`git branch -r -d origin/devel`*",
+        "category": "git",
+        "front": "how to delete an origin/master branch that is hanging around locally",
+        "id": 2952,
+        "keep": null
+    },
+    {
+        "back": "`find . -type d -name .git -exec rm -rf {} \\;`",
+        "category": "linux",
+        "front": "how to delete all .git directories in all sub-directories",
+        "id": 2953,
+        "keep": null
+    },
+    {
+        "back": "- add to *.vimrc* files (or on Windows: *C:\\Users\\ADMIN\\_vimrc*)\r\n\t--------------------------\r\n\tset nobackup\r\n\tset noswapfile\r\n\tset noundofile\r\n\t--------------------------",
+        "category": "vim",
+        "front": "How to get vim stop leaving swap file residue in the directories",
+        "id": 2954,
+        "keep": null
+    },
+    {
+        "back": "`find . -regextype posix-extended -regex '.*\\.(png|jpg)$'`",
+        "category": "linux",
+        "front": "list all png and jpg files in directory and all directories below",
+        "id": 2955,
+        "keep": null
+    },
+    {
+        "back": "CTRL-A, CTRL-E, CTRL-F, CTRL-B, CTRL-U",
+        "category": "linux",
+        "front": "navigate on command line",
+        "id": 2956,
+        "keep": null
+    },
+    {
+        "back": "`git diff --cached --stat | wc -l`",
+        "category": "linux",
+        "front": "get number of staged files e.g. if you included node_modules",
+        "id": 2957,
+        "keep": null
+    },
+    {
+        "back": "make sure you have commited changed in your branches, go to main, `git branch --no-merged`",
+        "category": "git",
+        "front": "see if there are any unmerged branches",
+        "id": 2958,
+        "keep": null
+    },
+    {
+        "back": "`\"ayw` and `\"aP`",
+        "category": "vim",
+        "front": "put word in register then paste",
+        "id": 2963,
+        "keep": null
+    },
+    {
+        "back": "`:reg`",
+        "category": "vim",
+        "front": "see what you have copied",
+        "id": 2964,
+        "keep": null
+    },
+    {
+        "back": "`qa` to record macro in register a; `q` to end; `@a` to run macro a; `11@a` to run macro a 11 times",
+        "category": "vim",
+        "front": "macro basics",
+        "id": 2965,
+        "keep": null
+    },
+    {
+        "back": "`s`",
+        "category": "vim",
+        "front": "delete current character and start typing",
+        "id": 2966,
+        "keep": null
+    },
+    {
+        "back": "`align-items: center`;`justify-items: center`;or both: `place-items: center center`",
+        "category": "css",
+        "front": "place content in center of grid boxes",
+        "id": 2967,
+        "keep": null
+    },
+    {
+        "back": "`yy, vP`",
+        "category": "vim",
+        "front": "replace line with another",
+        "id": 2968,
+        "keep": null
+    },
+    {
+        "back": "`{todos.length > 0 && toDoItems}`",
+        "category": "jsx",
+        "front": "how to do a conditional in React JSX",
+        "id": 2969,
+        "keep": null
+    },
+    {
+        "back": "ver: veo ves ve vemos veis ven",
+        "category": "spanish",
+        "front": "present tense to see",
+        "id": 2970,
+        "keep": null
+    },
+    {
+        "back": "const [first, second, third] = [\"James\", \"Axel\", \"Henri\"];\r\nconsole.log(first, second, third)",
+        "category": "es6",
+        "front": "how to destructure an array into variables",
+        "id": 2971,
+        "keep": null
+    },
+    {
+        "back": "`<p className={props.highlight === \"true\" ? \"highlight\" : \"normal\"}>test</p>`",
+        "category": "react",
+        "front": "how to create a dynamic class ",
+        "id": 2972,
+        "keep": null
+    },
+    {
+        "back": "- `npm i react-icons`\r\n- `import { FaStar } from 'react-icons/fa';`\r\n- `<FaStar color={selected ? 'yellow' : '#888'} />`",
+        "category": "react",
+        "front": "install react icons",
+        "id": 2973,
+        "keep": null
+    },
+    {
+        "back": "`gd`",
+        "category": "vim",
+        "front": "go to local definition of variable",
+        "id": 2974,
+        "keep": null
+    },
+    {
+        "back": "`%`",
+        "category": "vim",
+        "front": "move to matching character (default supported pairs: '()', '{}', '[]' ",
+        "id": 2975,
+        "keep": null
+    },
+    {
+        "back": "`C`",
+        "category": "vim",
+        "front": "change to the end of the line",
+        "id": 2976,
+        "keep": null
+    },
+    {
+        "back": "`CTRL-a` and `CTRL-x`",
+        "category": "vim",
+        "front": "increment/decrement number under cursor",
+        "id": 2977,
+        "keep": null
+    },
+    {
+        "back": "`cc`",
+        "category": "vim",
+        "front": "replace entire line",
+        "id": 2978,
+        "keep": null
+    },
+    {
+        "back": "`:tabfirst` and `:tablast` and `:tabclose`",
+        "category": "vim",
+        "front": "go to first or last tab, and close tab",
+        "id": 2979,
+        "keep": null
+    },
+    {
+        "back": "`:tabclose`",
+        "category": "vim",
+        "front": "close tab",
+        "id": 2980,
+        "keep": null
+    },
+    {
+        "back": "backward: `#`, forward: `*`",
+        "category": "vim",
+        "front": "search back and forth for text under cursor",
+        "id": 2981,
+        "keep": null
+    },
+    {
+        "back": "`1GVG` (VSCode CTRL-V then works)",
+        "category": "vim",
+        "front": "select whole document",
+        "id": 2982,
+        "keep": null
+    },
+    {
+        "back": "`R`",
+        "category": "vim",
+        "front": "overwrite characters",
+        "id": 2983,
+        "keep": null
+    },
+    {
+        "back": "`dG`",
+        "category": "vim",
+        "front": "delete to end of file",
+        "id": 2984,
+        "keep": null
+    },
+    {
+        "back": "`*`",
+        "category": "vim",
+        "front": "search for word under cursor",
+        "id": 2985,
+        "keep": null
+    },
+    {
+        "back": "`/20(19|20)`",
+        "category": "vim",
+        "front": "search for 2019 or 2029",
+        "id": 2986,
+        "keep": null
+    },
+    {
+        "back": "```\r\n\t&:before {\r\n\t\tcontent: ' ';\r\n\t\twhite-space: pre;\r\n\t}\r\n```",
+        "category": "css",
+        "front": "how to add space in front of text",
+        "id": 2987,
+        "keep": null
+    },
+    {
+        "back": "`touch report{001..015}.txt`",
+        "category": "linux",
+        "front": "create report001.txt, report002.txt, etc. to 015",
+        "id": 2989,
+        "keep": null
+    },
+    {
+        "back": "`tree -L 2 /home`",
+        "category": "linux",
+        "front": "list files two levels deep",
+        "id": 2990,
+        "keep": null
+    },
+    {
+        "back": "`less /etc/passwd | grep et` and available are here: `cat /etc/shells` (or `grep et: /etc/passwd`)",
+        "category": "linux",
+        "front": "how to find your shell ",
+        "id": 2991,
+        "keep": null
+    },
+    {
+        "back": "`lsb_release -a`\t",
+        "category": "ubuntu",
+        "front": "get Ubuntu version",
+        "id": 2992,
+        "keep": null
+    },
+    {
+        "back": "git branch <branch name> => neuen branch erstellen\r\ngit push -u origin <branch name> => neuen branch zu github pushen",
+        "category": "git",
+        "front": "push a local branch to the repository",
+        "id": 2994,
+        "keep": null
+    },
+    {
+        "back": "git reset --hard <commit-hash>\r\ngit push -f origin master",
+        "category": "git",
+        "front": "how to reset the remote repository to a certain commit",
+        "id": 2995,
+        "keep": null
+    },
+    {
+        "back": "`git config --global pull.rebase true`",
+        "category": "git",
+        "front": "how to convert commits from merge rebase, e.g. for repositories where each member checks in files in their own directories",
+        "id": 2996,
+        "keep": null
+    },
+    {
+        "back": "git revert 3321844",
+        "category": "git",
+        "front": "how to revert to a specfic hash",
+        "id": 2997,
+        "keep": null
+    },
+    {
+        "back": "git reset --hard <hash>\r\ngit push --force ",
+        "category": "git",
+        "front": "how to remove a commit from a remote repository",
+        "id": 2998,
+        "keep": null
+    },
+    {
+        "back": "node\r\nrequire('crypto').randomBytes(64).toString('hex')",
+        "category": "linux",
+        "front": "how to get a random list of characters",
+        "id": 2999,
+        "keep": null
+    },
+    {
+        "back": "`git branch | grep -v \"dev\" | xargs git branch -D`",
+        "category": "git",
+        "front": "delete all local branches except dev",
+        "id": 3000,
+        "keep": 1
+    },
+    {
+        "back": "`mkdir -p .github/workflows`",
+        "category": "linux",
+        "front": "how to make a deep directory, i.e. create parent directories",
+        "id": 3001,
+        "keep": null
+    },
+    {
+        "back": "- [[CTRL-,]] (settings)\r\n- search for `Scm Diff Decorations` \r\n- change **SCM: Diff Decorations Gutter Width**",
+        "category": "vscode",
+        "front": "how to increase the width of the line that shows changes in a file",
+        "id": 3002,
+        "keep": null
+    },
+    {
+        "back": "[[CTRL-F]] and search#gif#thefindterm",
+        "category": "vscode",
+        "front": "how to search text in the terminal",
+        "id": 3003,
+        "keep": null
+    },
+    {
+        "back": "##test88383",
+        "category": "test",
+        "front": "This is a test front with image",
+        "id": 3004,
+        "keep": null
+    },
+    {
+        "back": "an open-source tool that can build static HTML websites using popular frontend JavaScript frameworks (React, Vue, Svelte), while loading fully interactive components as needed @@dsTXcSeAZq8\t\t\t\t",
+        "category": "newTech",
+        "front": "What is Astro",
+        "id": 3005,
+        "keep": null
+    },
+    {
+        "back": "- one\r\n\t- 111\r\n\t- 111111\r\n- two\r\n\t- 222\r\n\t- 222222",
+        "category": "test",
+        "front": "This is a test of an outline",
+        "id": 3006,
+        "keep": null
+    },
+    {
+        "back": "This is an example of the line above the image on a one-liner:##test88383",
+        "category": "test",
+        "front": "This is a test front with one line and image",
+        "id": 3007,
+        "keep": null
+    },
+    {
+        "back": "`git log dev..origin/dev`",
+        "category": "linux",
+        "front": "how to see what commits you are about to pull from GitHub",
+        "id": 3008,
+        "keep": null
+    },
+    {
+        "back": "CTRL-ALT left and right",
+        "category": "ubuntu",
+        "front": "how to switch between desktop workspace",
+        "id": 3009,
+        "keep": null
+    },
+    {
+        "back": "ctrl-alt-t",
+        "category": "linux",
+        "front": "bring up terminal",
+        "id": 3010,
+        "keep": null
+    },
+    {
+        "back": "sudo apt --fix-broken install\r\nsudo apt-get -f install",
+        "category": "linux",
+        "front": "how to fix a broken install on Ubuntu",
+        "id": 3011,
+        "keep": null
+    },
+    {
+        "back": "socket = io(import.meta.env.VITE_SOCKET_ENDPOINT);",
+        "category": "vite",
+        "front": "if process.env doesn't work on a Vite React site, what should you use to access environment variables",
+        "id": 3012,
+        "keep": null
+    },
+    {
+        "back": "git rm -r --cached node_modules",
+        "category": "git",
+        "front": "if having problem with node_modules",
+        "id": 3013,
+        "keep": null
+    },
+    {
+        "back": "sudo add-apt-repository -y ppa:git-core/ppa\r\nsudo apt-get update\r\nsudo apt-get install git -y",
+        "category": "git",
+        "front": "How to upgrade Git on Ubuntu",
+        "id": 3014,
+        "keep": null
+    },
+    {
+        "back": "ls -ltr",
+        "category": "linux",
+        "front": "sort the file names in the last modification time in reverse order.",
+        "id": 3015,
+        "keep": null
+    },
+    {
+        "back": "- `chsh -s /bin/bash`\r\n- then log out and back in",
+        "category": "linux",
+        "front": "how to change shell to bash",
+        "id": 3016,
+        "keep": null
+    }
+]
