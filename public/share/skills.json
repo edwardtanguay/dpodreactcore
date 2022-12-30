@@ -862,5 +862,23 @@
 		"name": "AMQP",
 		"url": "https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol",
 		"description": "an open standard application layer protocol for message-oriented middleware responsible for orientation, queuing, and has both point-to-point  and publish-and-subscribe routing"
+	},
+	{
+		"idCode": "maven",
+		"name": "Maven",
+		"url": "https://en.wikipedia.org/wiki/Apache_Maven",
+		"description": "a build automation tool used primarily for Java projects which can also be used to build and manage projects written in C#, Ruby, and Scala"
+	},
+	{
+		"idCode": "mariadb",
+		"name": "MariaDB",
+		"url": "https://onespace.pages.dev/techItems?id=171",
+		"description": "a community-developed, commercially supported fork of MySQL"
+	},
+	{
+		"idCode": "gitlabci",
+		"name": "Gitlab CI",
+		"url": "https://www.harness.io/blog/what-is-gitlab-ci",
+		"description": "an feature of GitLab which provides build automation, test automation, pipeline config management, artifact storage, and pipeline security"
 	}
 ]

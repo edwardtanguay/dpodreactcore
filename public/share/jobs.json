@@ -277,5 +277,14 @@
 		"description": "Was erwartet Dich?\n\n    Du entwickelst neue und bereits bestehende Webapplikationen und Mobile Apps für unsere Maschinen und deren Umfeld weiter\n    Du setzt innovative Features und eigene Ideen in direkter Zusammenarbeit mit den UI-/UX-Experten um\n    Du begleitest den gesamten Entwicklungsprozess von der Anforderungsanalyse über die Konzepterstellung bis zur Realisierung\n\nWas sollten Sie mitbringen?\n\n    Du verfügst über ein abgeschlossenes Studium der Informatik (FH/Uni) oder mehrjährige Berufserfahrung in der Web-Entwicklung\n    Du bringst fundierte Kenntnisse in diversen Web-Technologien (React, Node.js, TypeScript) mit\n    Du hast idealerweise Erfahrung in der Konzeption und Entwicklung von APIs (OpenAPI, REST)\n    Du besitzt Kenntnisse mit Kommunikationsprotokollen wie MQTT und AMQP\n    Du hast bereits Erfahrungen im Umgang mit Datenbanksystemen (SQL/noSQL)\n    Du hast gute Englischkenntnisse in Wort und Schrift",
 		"skillList": "react, node, typescript, rest, openapi, sql, nosql, mqtt, amqp, ux",
 		"publicationDate": "2022-12-29"
+	},
+	{
+		"id": 32,
+		"title": "Fullstack Entwickler NodeJS/React",
+		"company": "Austin Fraser",
+		"url": "https://www.xing.com/jobs/berlin-fullstack-entwickler-nodejs-react-deu-95176136?paging_context=search&search_query%5Bkeywords%5D=sql%20react&search_query%5Blimit%5D=20&search_query%5Boffset%5D=0&ijt=jb_18",
+		"description": "Aufgaben\n\n    Du wirst Teil eines agilen Scrum Teams indem du neue Anwendungen konzipierst und eine Komponenten-Bibliothek aufbaust und erweiterst\n\n    Du evaluierst und erprobst neue Technologien und Frameworks\n\n    Mit deinem Entwicklungsteam die zentralen Internetauftritte für rund 50 Millionen Kund:innen weiterentwickeln\n\nProfil\n\n    Du bist ideenreich, lernst gerne neues dazu, hast Spaß an agiler Entwicklung, Code Reviews und eine Clean Code Mentalität\n\n    vertraut mit Technologien wie Java, JavaScript, HTML und CSS und gängigen Frameworks - Spring Boot, Maven/Gradle, ReactJS\n\n    Du sprichst Deutsch Verhandlungssicher in Wort und Schrift\n\n    Umgang mit SQL Datenbanken wie MySQL oder MariaDB Einsetzung von Software-Entwurfsmustern\n\n    Interesse an CI/CD (GitLabCI), Kubernetes und Docker\n\n    Mindestens 3 Jahre Berufserfahrung",
+		"skillList": "react, node, java, springboot, maven, gradle, mysql, mariadb, cicd, gitlabci, kubernetes, docker, cleancode",
+		"publicationDate": "2022-12-30"
 	}
 ]
