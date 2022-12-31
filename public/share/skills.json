@@ -880,5 +880,29 @@
 		"name": "Gitlab CI",
 		"url": "https://www.harness.io/blog/what-is-gitlab-ci",
 		"description": "an feature of GitLab which provides build automation, test automation, pipeline config management, artifact storage, and pipeline security"
+	},
+	{
+		"idCode": "fastapi",
+		"name": "FastAPI",
+		"url": "https://fastapi.tiangolo.com",
+		"description": "a modern, fast, web framework for building APIs with Python"
+	},
+	{
+		"idCode": "go",
+		"name": "Go",
+		"url": "https://onespace.pages.dev/techItems?id=94",
+		"description": "a language created by Google that resembles C but with object-oriented features"
+	},
+	{
+		"idCode": "eks",
+		"name": "EKS",
+		"url": "https://onespace.pages.dev/techItems?id=324",
+		"description": "AWS's container platform (Elastic Kubernetes Service)"
+	},
+	{
+		"idCode": "pythonqt",
+		"name": "Python/Qt",
+		"url": "https://doc.qt.io/qtforpython",
+		"description": "a Python library that enables developers to use Python to write Qt applications"
 	}
 ]
