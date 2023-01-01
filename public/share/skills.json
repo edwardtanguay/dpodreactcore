@@ -904,5 +904,11 @@
 		"name": "Python/Qt",
 		"url": "https://doc.qt.io/qtforpython",
 		"description": "a Python library that enables developers to use Python to write Qt applications"
+	},
+	{
+		"idCode": "hibernate",
+		"name": "Hibernate",
+		"url": "https://en.wikipedia.org/wiki/Hibernate_(framework)",
+		"description": "the leading ORM for Java which provides mapping from the OOP model in Java to the table model in databases like MySQL and Postgres"
 	}
 ]
