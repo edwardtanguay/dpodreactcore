@@ -934,5 +934,23 @@
 		"name": "LaTeX",
 		"url": "https://en.wikipedia.org/wiki/LaTeX",
 		"description": "a software system for document preparation in which the writer uses plain text as opposed to formatted text found in WYSIWYG word processors, widely used in academia"
+	},
+	{
+		"idCode": "bigdata",
+		"name": "big data",
+		"url": "https://en.wikipedia.org/wiki/Big_data",
+		"description": "the processing of data sets too large and complex to be dealt with by traditional databases"
+	},
+	{
+		"idCode": "datalake",
+		"name": "data lake",
+		"url": "https://en.wikipedia.org/wiki/Data_lake",
+		"description": "a repository of data stored in its raw format such as object blobs (binary large objects, e.g. images or audio) or other various files, usually consisting of both (1) raw copies of system data, sensor data or social data, plus (2) transformed data used for tasks such as reporting, visualization, advanced analytics and machine learning"
+	},
+	{
+		"idCode": "datapipelines",
+		"name": "data pipelines",
+		"url": "https://hazelcast.com/glossary/data-pipeline",
+		"description": "a series of data processing steps in which each step delivers an output that is the input for the next step"
 	}
 ]
