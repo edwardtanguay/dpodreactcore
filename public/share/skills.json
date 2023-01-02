@@ -910,5 +910,29 @@
 		"name": "Hibernate",
 		"url": "https://en.wikipedia.org/wiki/Hibernate_(framework)",
 		"description": "the leading ORM for Java which provides mapping from the OOP model in Java to the table model in databases like MySQL and Postgres"
+	},
+	{
+		"idCode": "linuxadmin",
+		"name": "Linux Admin",
+		"url": "https://en.wikiversity.org/wiki/Linux_Administration",
+		"description": "skills including installing and managing a usually online Linux machine, basic commands, devices and filesystems, shells and scripting, user interfaces, administrative tasks, system services, networking fundamentals, and security"
+	},
+	{
+		"idCode": "sqlite",
+		"name": "SQLite",
+		"url": "https://en.wikipedia.org/wiki/SQLite",
+		"description": "a small database engine written in the C programming language, not an app but merely a library which developers embed in theri apps, hence it belongs to the family of embedded databases"
+	},
+	{
+		"idCode": "zend",
+		"name": "Zend",
+		"url": "https://onespace.pages.dev/techItems?id=184",
+		"description": "popular, corporate-ownded PHP framework created in 2006"
+	},
+	{
+		"idCode": "latex",
+		"name": "LaTeX",
+		"url": "https://en.wikipedia.org/wiki/LaTeX",
+		"description": "a software system for document preparation in which the writer uses plain text as opposed to formatted text found in WYSIWYG word processors, widely used in academia"
 	}
 ]
