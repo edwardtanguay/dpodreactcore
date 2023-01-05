@@ -952,5 +952,11 @@
 		"name": "data pipelines",
 		"url": "https://hazelcast.com/glossary/data-pipeline",
 		"description": "a series of data processing steps in which each step delivers an output that is the input for the next step"
+	},
+	{
+		"idCode": "kafka",
+		"name": "Kafka",
+		"url": "https://onespace.pages.dev/techItems?id=277",
+		"description": "open-source stream-processing software platform developed by the Apache Software Foundation"
 	}
 ]
