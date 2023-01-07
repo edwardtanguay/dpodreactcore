@@ -958,5 +958,17 @@
 		"name": "Kafka",
 		"url": "https://onespace.pages.dev/techItems?id=277",
 		"description": "open-source stream-processing software platform developed by the Apache Software Foundation"
+	},
+	{
+		"idCode": "bitbucket",
+		"name": "Bitbucket",
+		"url": "https://onespace.pages.dev/techItems?id=144",
+		"description": "the second most popular version control hosting service, originally hosted Mercurial since 2008 but hosts Git since 2011, owned by Atlassian who owns Jira"
+	},
+	{
+		"idCode": "fabric8",
+		"name": "fabric8",
+		"url": "https://fabric8.io",
+		"description": "a now discontinued open source DevOps and Integration Platform which works with Kubernetes or OpenShift environment and provides Continuous Delivery"
 	}
 ]

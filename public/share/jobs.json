@@ -349,5 +349,14 @@
 		"description": "Ihr Aufgabenbereich\n\nFür den Unterstützung unser IT-Abteilung suchen wir ab sofort einen motivierten und engagierten Backend Entwickler (m/w/d) für unseren Standort in Hamburg.\n\n    Unterstützung des Entwicklungsteams im Rahmen einer betriebsinternen Softwareentwicklung\n    Zusammenarbeit mit den Mitarbeitern des IT- und Energiehandels\n    Pflege von bestehenden Systemkomponenten\n\nIhr berufliches Know-how\n\n    Abgeschlossenes Studium der Informatik o.ä.\n    Erfahrung mit Javascript/Typescript / Node.js\n    Wünschenswert sind Erfahrungen mit MongoDB und relationalen Datenbanken sowie mit Amazon Web Services\n    Begrüßt werden Berufserfahrung in der Industrie\n    Schnelle Auffassungsgabe, hohe Eigeninitiative und Kreativität\n    Selbstständige Arbeitsweise, ausgeprägte Teamfähigkeit, Zuverlässigkeit, Belastbarkeit, Eigenmotivation\n\n",
 		"skillList": "typescript, node, mongodb, aws",
 		"publicationDate": "2023-01-06"
+	},
+	{
+		"id": 40,
+		"title": "Full Stack Developer",
+		"company": "StayFriends GmbH",
+		"url": "https://www.stepstone.de/stellenangebote--Full-Stack-Developer-m-w-d-Berlin-StayFriends-GmbH--9076913-inline.html?rltr=15_15_25_seorl_m_0_0_0_0_1_0",
+		"description": "Deine Aufgaben\n\n    Du konzipierst, implementierst und entwickelst eigenverantwortlich moderne Web-Applikationen in Frontend und Backend\n    Du entwickelst neue Features sowie Testing und Code Reviews\n    Du wartest und hältst unsere Plattform lebensfreunde.de instand\n    Du entwickelst mit Java und Angular\n    Du bist in einem14-tägigen Sprint-Zyklus mit ausführlichem Deployment, damit unsere User Deine Ergebnisse sehen und nutzen können\n\nDas ist unser Technologiestack\n\nJava Spring Boot\n\n    Angular 6+ / JavaScript\n    HTML5 / CSS3 / SASS\n    SQL / MySQL / NoSQL - MongoDB\n    JIRA\n    Bitbucket\n    Jenkins\n    Kubernetes / Fabric8 / Docker\n\nSo bist Du\n\n    Du hast ein erfolgreich abgeschlossenes Studium, eine abgeschlossene Ausbildung im Informatikbereich oder einschlägige Berufserfahrung\n    Du verfügst über fundierte Erfahrungen als JavaScript- / AngularJS Entwickler (m/w)\n    Du hast sehr gute HTML5 und CSS3 Kenntnisse für mehrere Browser\n    Du besitzt gute Kenntnisse der objektorientierten Programmierung mit Java\n    Idealerweise hast Du bereits Erfahrungen in der Frontend-Entwicklung für mobile Endgeräte (Responsive Design)\n    Idealerweise hast Du ebenfalls bereits Kenntnisse im Umgang mit Web Services (REST, Microservice Architectur, CQRS)\n    Du bist offen für agile Arbeitsmethoden",
+		"skillList": "angular, java, sql, mysql, nosql, mongodb, springboot, rest, oop, responsive, sass, jira, bitbucket, jenkins, kubernetes, fabric8, docker,  microservices, cqrs",
+		"publicationDate": "2023-01-07"
 	}
 ]
