@@ -988,5 +988,11 @@
 		"name": "functional programming",
 		"url": "https://en.wikipedia.org/wiki/Functional_programming",
 		"description": "a programming paradigm where programs are constructed by applying and composing functions, where functions can be passed as arguments and returned from other functions just as any other data type can"
+	},
+	{
+		"idCode": "openui5",
+		"name": "OpenUI5",
+		"url": "https://en.wikipedia.org/wiki/OpenUI5",
+		"description": "a JavaScript application framework maintained by SAP designed to build cross-platform, responsive, enterprise-ready applications"
 	}
 ]
