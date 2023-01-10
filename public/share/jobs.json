@@ -383,7 +383,7 @@
 		"company": "ESE Engineering und Software-Entwicklung GmbH",
 		"url": "https://www.stepstone.de/stellenangebote--Softwareentwickler-Go-Golang-m-w-d-Braunschweig-und-Hannover-ESE-Engineering-und-Software-Entwicklung-GmbH--6029808-inline.html?rltr=3_3_25_seorl_m_0_0_0_0_1_0",
 		"description": "Was Du bei uns machst\n\nStarte bei uns als Go-Entwickler und wirke bei der Digitalisierung von Vertriebsplattformen von der Entscheidungsfindung über die Planung bis hin zu Programmierung und Test mit.\n\n    Programmierung und Test von Backend Systemen\n    Eigenverantwortliche Umsetzung funktionaler Anforderungen\n    Selbstständige Weiterentwicklung und Optimierung bestehender Systeme\n    Aufbau und Anbindung neuer Systeme an die bestehende IT-Landschaft\n    Analyse und Behebung von Software-Fehlern\n    Unterstützung bei der Entscheidungsfindung und Entwicklungsprozessplanung\n\nWann Du zu uns passt\n\n    Abgeschlossenes Informatikstudium oder eine vergleichbare abgeschlossene Ausbildung\n    Erste Berufserfahrung in der Entwicklung mit Go / Golang sowie in der Schnittstellenprogrammierung\n    Erfahren in der Arbeit mit gängigen Datenbanken (z.B. MongoDB, CouchDB) und MySQL\n    Kenntnisse in der Programmiersprache C#/.Net wünschenswert\n    Erste Erfahrungen in der Frontend Entwicklung und Frameworks wie z.B. Spring, Angular, React von Vorteil\n    Hohe Team- und Kommunikationsfähigkeit sowie Freude am agilen Arbeiten\n    Deutsch fließend und Englisch sehr gut in Wort und Schrift\n\n",
-		"skillList": "testing, go, mongodb, couchdb, mysql, csharp, dotnet, springboot, angular, react",
+		"skillList": "go, mongodb, couchdb, mysql, react, angular, csharp, dotnet, springboot, testing",
 		"publicationDate": "2023-01-10"
 	}
 ]
