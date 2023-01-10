@@ -994,5 +994,11 @@
 		"name": "OpenUI5",
 		"url": "https://en.wikipedia.org/wiki/OpenUI5",
 		"description": "a JavaScript application framework maintained by SAP designed to build cross-platform, responsive, enterprise-ready applications"
+	},
+	{
+		"idCode": "couchdb",
+		"name": "CouchDB",
+		"url": "https://onespace.pages.dev/techItems?id=78",
+		"description": "a NoSQL document database, less popular than MongoDB"
 	}
 ]
