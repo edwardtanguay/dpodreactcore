@@ -388,11 +388,20 @@
 	},
 	{
 		"id": 44,
-		"title": "Werkstudent Software Development ",
+		"title": "Werkstudent Software Development",
 		"company": "abl solutions GmbH",
 		"url": "https://www.stepstone.de/stellenangebote--Werkstudent-Software-Development-m-w-d-Nuernberg-abl-solutions-GmbH--9093672-inline.html?rltr=17_17_25_seorl_m_0_0_0_0_1_0",
 		"description": "Deine Aufgaben\n\nUnsere \"Success-Story made in Nürnberg\" geht weiter! Deshalb suchen wir Kolleginnen und Kollegen, die sich in einer zukunftssicheren Branche persönlich sowie beruflich gemeinsam mit uns weiterentwickeln möchten. Du hast Lust, mit uns neue Verbindungen zu schaffen, die die Welt vernetzen? Dann suchen wir dich als Verstärkung unseres Teams in Nürnberg als Werkstudent (m/w/d) Software Development.\n\nDas wartet auf dich:\n\nDu unterstützt unsere Abteilung Solutions & Marketing sowohl im operativen als auch im administrativen Tagesgeschäft.\n\n    Du arbeitest als vollwertiger Teil eines erfahrenen Teams im Bereich Software Development\n    Du bist an der Entwicklung herausragender Lösungen für unsere Kunden beteiligt\n    Du arbeitest mit den Programmiersprachen node.js, React, React Native, Python, Java\n    Du erhältst einen Einblick in verschiedene Technologien wie Postgres, MongoDB, Google Cloud, Kafka, etc.\n    Du kannst Kenntnisse in Software Engineering Methoden mit DDD, TDD, BDD, Microservices, DevOps und System Administration, etc. aufbauen\n\nDein Profil\n\nDas bringst du mit:\n\n    Du studierst Informatik, Wirtschaftsinformatik oder ein ähnliches relevantes Fachgebiet (Bachelor oder Master)\n    Du stehst während der Vorlesungszeit ab sofort für 20 Stunden/ Woche für uns zur Verfügung\n    Wenn du bereits erste Erfahrung in der IT/im Software Development hast, ist das ein Pluspunkt\n    Du bringst Organisationsgeschick, Kommunikationsstärke sowie technisches Verständnis mit\n    Du bist sicher im Umgang mit MS-Office-Anwendungen\n    Du verfügst über gute Englischkenntnisse und sehr gute Deutschkenntnisse in Wort und Schrift\n    Ob selbstständig oder gemeinsam im Team: Du arbeitest organisiert, sorgfältig und verantwortungsbewusst\n    Integrität und Diskretion im Umgang mit sensiblen Daten runden dein Profil ab\n",
 		"skillList": "node, react, reactnative, python, java, postgres, mongodb, googlecloud, kafka, ddd, tdd, bdd, microservices, devops, linuxadmin",
 		"publicationDate": "2023-01-11"
+	},
+	{
+		"id": 45,
+		"title": "IT-Entwickler",
+		"company": "Stadtwerke Herne AG",
+		"url": "https://www.stepstone.de/stellenangebote--Developer-IT-Entwickler-m-w-d-Herne-Stadtwerke-Herne-AG--8987505-inline.html?rltr=23_23_25_seorl_m_0_0_0_0_0_0",
+		"description": "Deine Aufgaben\n\n    Weiterentwicklung unserer Open-Source-Datenplattform auf FIWARE Basis\n    Konzeption und Entwicklung von neuen Anwendungen\n    Gemeinsame Entwicklung von Forschungsprojekten oder Proof of concepts in internationalen Teams und mit Hochschulen\n    Test und Dokumentation unserer Anwendungen\n    Pflege und Optimierung von bestehenden Anwendungen\n\nUnsere Anforderungen an Dich\n\n    Abgeschlossene fachbezogene 3-jährige Ausbildung und Zusatzausbildung oder abgeschlossenes fachbezogenes Hochschulstudium\n    Gute Kenntnisse in der Anwendungsentwicklung mit modernen Programmiersprachen wie z.B. Python\n    Gute Kenntnisse im Bereich Webentwicklung und IoT, z.B. Javascript oder MQTT\n    Gute Kenntnisse im Umgang mit relationalen oder NoSQL-Datenbanken, z.B. MySQL oder MongoDB\n    Kenntnisse im Bereich Web-Frameworks und Schnittstellentechnologien, wie z.B. REST\n    Grundkenntnisse in den Bereichen Linux, Kubernetes und Docker\n    Sichere Kommunikation in Englisch\n    Team- und Kritikfähigkeit\n    Hands-on-Mentalität\n\n",
+		"skillList": "python, iot, mqtt, mysql, mongodb, react, angular, vue, rest, linuxadmin, testing, docker, kubernetes",
+		"publicationDate": "2023-01-12"
 	}
 ]
