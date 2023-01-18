@@ -457,5 +457,14 @@
 		"description": "Was erwartet dich?\n\n    Du verantwortest die objektorientierte Programmierung von Webanwendungen\n    Du kümmerst dich um die Betreuung und Weiterentwicklungen von bestehenden Projekten\n    Du trägst die Verantwortung von Datenbankmodellierungen mit MongoDB\n    Du bindest REST Schnittstellen an und entwickelst jene weiter\n\nWas solltest du mitbringen?\n\n    Du konntest bereits Erfahrung mit objektorientierter Programmierung sammeln\n    Du hast Erfahrungen mit der Erstellung und Integration von RESTful APIs\n    Du verfügst über gute Kenntnisse in Node.js, MongoDB, Express, React und State Management (Redux oder Mobx)\n    Du hast optional Erfahrung mit Service Worker APIs, Nest.js, Docker, Kubernetes und TypeScript",
 		"skillList": "node, react, typescript, mongodb, express, rest, redux, mobx, nestjs, docker, kubernetes",
 		"publicationDate": "2023-01-18"
+	},
+	{
+		"id": 52,
+		"title": "React.js-Entwickler",
+		"company": "comspace",
+		"url": "https://www.get-in-it.de/jobsuche/p210633",
+		"description": "Deine Aufgaben\n\n    Du entwickelst komplexe und performante React.js-Frontends für unsere vorranging Next.js-basierenden Web-Applikationen.\n    Neue Projekte gestaltest du von Beginn an mit und berätst technologisch das Team und unsere Kunden.\n    Außerhalb von Projektaufgaben nutzt du deine Zeit um fachlich up-to-date zu bleiben. Dabei unterstützen wir dich selbstverständlich mit den notwendigen Schulungen.\n    Dein Wissen über Frontend-Development, Tools und Best-Practices teilst du mit deinem Team und engagierst Dich im Rahmen von internen Tech-Sessions, CoPs, Open Spaces und Pair-Programming.\n\nDeine Stärken\n\n    Du verfügst über mehrjährige praktische Erfahrung in der professionellen Softwareentwicklung mit React.js, JavaScript/TypeScript, REST und GrapQL.\n    Du weißt, wie man Business-Logiken in Node.js umsetzt und hattest idealerweise schon Berührungspunkte mit einem headless CMS wie z.B. Contentful oder Storyblok.\n    Du hast den notwendigen technologischen Blick über den Tellerrand, um dich souverän in einem crossfunktionalen Fullstack-Environment zu orientieren.",
+		"skillList": "react, nextjs, typescript, rest, graphql, node, headlesscms, contentful, storyblok",
+		"publicationDate": "2023-01-19"
 	}
 ]

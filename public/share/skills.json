@@ -1042,5 +1042,23 @@
 		"name": "MobX",
 		"url": "https://mobx.js.org",
 		"description": "an alternative state management tools which is a good alternative to Redux giving the same functionality with less code to write"
+	},
+	{
+		"idCode": "headlesscms",
+		"name": "headless CMS",
+		"url": "https://en.wikipedia.org/wiki/Headless_content_management_system",
+		"description": "a back end-only web content management system that acts primarily as a content repository accessible via an API or GraphQL"
+	},
+	{
+		"idCode": "contentful",
+		"name": "Contentful",
+		"url": "https://www.contentful.com",
+		"description": "a content management system (CMS) that allows developers to create, manage, and distribute digital content across multiple platforms and devices"
+	},
+	{
+		"idCode": "storyblok",
+		"name": "Storyblok",
+		"url": "https://www.storyblok.com",
+		"description": "a headless content management system that focuses on creating better content experiences for users"
 	}
 ]
