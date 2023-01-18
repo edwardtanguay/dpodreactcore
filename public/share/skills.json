@@ -1036,5 +1036,11 @@
 		"name": "SAAS",
 		"url": "https://en.wikipedia.org/wiki/Software_as_a_service",
 		"description": "(Software as a service) a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted"
+	},
+	{
+		"idCode": "mobx",
+		"name": "MobX",
+		"url": "https://mobx.js.org",
+		"description": "an alternative state management tools which is a good alternative to Redux giving the same functionality with less code to write"
 	}
 ]

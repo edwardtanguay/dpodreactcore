@@ -448,5 +448,14 @@
 		"description": "Diese Aufgaben erwarten Sie:\n\n    Entwicklung von webbasierten Konfigurations- und Steuerungsoberflächen für unsere Produkte\n    Frontend-Entwicklung mit React und TypeScript\n    Entwicklung automatisierter Frontend-Tests\n    Arbeit in einem Scrum-Team unter Verwendung moderner Softwaretools und Programmbibliotheken\n\nDas bringen Sie mit:\n\n    Aktives Studium der (Medien-)Informatik oder vergleichbar (aktuell immatrikuliert und das Studium noch nicht abgeschlossen)\n    Erfahrung im Umgang mit React oder vergleichbaren Webframeworks, JavaScript/TypeScript, CSS\n    Erfahrungen mit GraphQL und Apollo Client von Vorteil\n    Sehr gute bis gute bisherige Studienleistung\n    Strukturierte und selbstständige Arbeitsweise sowie eine schnelle Auffassungsgabe\n    Ausgeprägte Teamfähigkeit und gute Sprachkenntnisse in Deutsch und Englisch\n",
 		"skillList": "react, typescript, testing, graphql, apollo",
 		"publicationDate": "2023-01-17"
+	},
+	{
+		"id": 51,
+		"title": "Fullstack Web Entwickler",
+		"company": "CFMmedia GmbH",
+		"url": "https://www.xing.com/jobs/seligenstadt-fullstack-web-entwickler-node-js-react-mongodb-express-96175268?paging_context=search&search_query%5Bkeywords%5D=mongodb&search_query%5Blimit%5D=20&search_query%5Boffset%5D=0&ijt=jb_18",
+		"description": "Was erwartet dich?\n\n    Du verantwortest die objektorientierte Programmierung von Webanwendungen\n    Du kümmerst dich um die Betreuung und Weiterentwicklungen von bestehenden Projekten\n    Du trägst die Verantwortung von Datenbankmodellierungen mit MongoDB\n    Du bindest REST Schnittstellen an und entwickelst jene weiter\n\nWas solltest du mitbringen?\n\n    Du konntest bereits Erfahrung mit objektorientierter Programmierung sammeln\n    Du hast Erfahrungen mit der Erstellung und Integration von RESTful APIs\n    Du verfügst über gute Kenntnisse in Node.js, MongoDB, Express, React und State Management (Redux oder Mobx)\n    Du hast optional Erfahrung mit Service Worker APIs, Nest.js, Docker, Kubernetes und TypeScript",
+		"skillList": "node, react, typescript, mongodb, express, rest, redux, mobx, nestjs, docker, kubernetes",
+		"publicationDate": "2023-01-18"
 	}
 ]
