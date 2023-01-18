@@ -1045,7 +1045,7 @@
 	},
 	{
 		"idCode": "headlesscms",
-		"name": "headless CMS",
+		"name": "Headless CMS",
 		"url": "https://en.wikipedia.org/wiki/Headless_content_management_system",
 		"description": "a back end-only web content management system that acts primarily as a content repository accessible via an API or GraphQL"
 	},
