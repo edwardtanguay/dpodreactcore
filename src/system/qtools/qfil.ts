@@ -105,3 +105,29 @@ export const getFileNamesInDirectory = (directory: string) => {
     }
     return fileNames;
 }
+
+/**
+ * creates a file, with optional date stamp
+ *
+ * writeFile('output/report.txt', reportText, {withDateStamp: true});
+ *
+ * creates file: report-2023-01-20.txt
+ */
+export const writeTheFile = (pathAndFileName:string, content: string, config = {withDateStamp: false}) => {
+
+	let newPathAndFileName = pathAndFileName;
+
+	if (config.withDateStamp) {
+		const dateStamp = new Intl.DateTimeFormat('fr-CA', {
+			year: 'numeric',
+			month: '2-digit',
+			day: '2-digit'
+		}).format(Date.now());
+
+		// we assume that the file has only one period before the extention
+		const parts = pathAndFileName.split('.');
+		newPathAndFileName = `${parts[0]}-${dateStamp}.${parts[1]}`;
+	}
+
+	fs.writeFileSync(newPathAndFileName, content);
+};
