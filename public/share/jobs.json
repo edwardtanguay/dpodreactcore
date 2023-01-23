@@ -466,5 +466,32 @@
 		"description": "Deine Aufgaben\n\n    Du entwickelst komplexe und performante React.js-Frontends für unsere vorranging Next.js-basierenden Web-Applikationen.\n    Neue Projekte gestaltest du von Beginn an mit und berätst technologisch das Team und unsere Kunden.\n    Außerhalb von Projektaufgaben nutzt du deine Zeit um fachlich up-to-date zu bleiben. Dabei unterstützen wir dich selbstverständlich mit den notwendigen Schulungen.\n    Dein Wissen über Frontend-Development, Tools und Best-Practices teilst du mit deinem Team und engagierst Dich im Rahmen von internen Tech-Sessions, CoPs, Open Spaces und Pair-Programming.\n\nDeine Stärken\n\n    Du verfügst über mehrjährige praktische Erfahrung in der professionellen Softwareentwicklung mit React.js, JavaScript/TypeScript, REST und GrapQL.\n    Du weißt, wie man Business-Logiken in Node.js umsetzt und hattest idealerweise schon Berührungspunkte mit einem headless CMS wie z.B. Contentful oder Storyblok.\n    Du hast den notwendigen technologischen Blick über den Tellerrand, um dich souverän in einem crossfunktionalen Fullstack-Environment zu orientieren.",
 		"skillList": "react, nextjs, typescript, rest, graphql, node, headlesscms, contentful, storyblok",
 		"publicationDate": "2023-01-19"
+	},
+	{
+		"id": 53,
+		"title": "React Entwickler",
+		"company": "brainbits",
+		"url": "https://www.get-in-it.de/jobsuche/p193468",
+		"description": "Deine Aufgaben:\n\n    Entwicklung feiner Webanwendungen und Features für die Kunden\n    Anforderungsmanagement im Scrum-Team\n    agile Entwicklung, Unit und Functional Testing, Deployment\n    Anbindung externer APIs, enge Zusammenarbeit mit dem Backend\n    regelmäßige Reviews mit Kunden und Product Owner\n    Refinements und technische Bewertung der User Stories\n    Support bei Incidents\n\nDu:\n\n    jonglierst leidenschaftlich gern mit React\n    beherrschst semantisches HTML\n    hast JavaScript oder gar Typescript und Node.js auf dem Kasten\n    zauberst gern mit CSS, SCSS usw.\n    bist vertraut mit Unit-/Functional-Tests (Jest, Testing Library u.ä.)\n    nutzt Versionsverwaltungssysteme (Git) und Build-Tools (z.B. Webpack)\n    virtualisierst virtuos mit Docker\n    hast großen Spaß an Pair Programming und dergleichen\n    liebst agile Methoden und Teamwork\n    bist serviceorientiert und kommunizierst gern",
+		"skillList": "react, typescript, node, sass, testing, jest, git, webpack, docker, cicd",
+		"publicationDate": "2023-01-20"
+	},
+	{
+		"id": 54,
+		"title": "Full Stack Web-Developer",
+		"company": "IT-Labs",
+		"url": "https://www.get-in-it.de/jobsuche/p210389",
+		"description": "Aufgaben\n\n    Mit- und Weiterentwicklung unserer Alberta® Produktpalette\n    Verantwortung für Projekte und Features\n    Architektur-Konzeption\n    Erfahrungen in Scrum-Meetings einbringen\n\nUnsere Technologien:\n\n    Entwicklung in TypeScript\n    Web und Apps: Angular, Ionic/Cordova\n    Backend: Node.js, FeathersJS\n    Datenbank: MongoDB, SQLite\n    Tools: Git, AzureDevOps, Ionic AppFlow, Kubernetes\n\nQualifikation\n\n    Mehrjährige Berufserfahrung in der Entwicklung größerer Web-Anwendungen (Angular, React o. ä. mit JavaScript/TypeScript und HTML5/CSS)\n    Erfahrungen im Umgang mit REST-APIs und Microservices-Architekturen (Node.js)\n    Datenbank Know-how (SQL, noSQL)\n    Affinität zu Clean Code und Unit-Testing\n    Agiles Mindset",
+		"skillList": "react, typescript, angular, node, ioniccordova, feathersjs, rest, mongodb, sqlite, cleancode, testing, azure, kubernetes",
+		"publicationDate": "2023-01-21"
+	},
+	{
+		"id": 55,
+		"title": "Praktikum Frontend Web Development",
+		"company": "BASF",
+		"url": "https://www.get-in-it.de/jobsuche/p208539",
+		"description": "AUFGABEN\n\nUnser interdisziplinäres Team treibt die digitale Transformation an zwei unserer größten Produktionsstandorte voran. Wir begleiten Digitalisierungs-Projekte von der Ideenfindung über die ersten Prototypen bis hin zur Inbetriebnahme. Dabei verwenden wir ein breites Spektrum moderner Methoden aus agiler Softwareentwicklung, Data Science, Machine Learning, Statistik und wissenschaftlichem Rechnen, und setzen dabei auf flache Hierarchien.\n\n    Sie werden Teil unseres Teams und treiben gemeinsam mit uns innovative Projekte zur Digitalisierung von Produktion und Infrastruktur voran.\n    Sie arbeiten eng mit Kolleg:innen und einem fachübergreifenden Experten-Netzwerk zusammen. Die Arbeitsschwerpunkte richten sich dabei nach Ihren Interessen und Fähigkeiten.\n    Mögliche Themenbereiche sind z.B. Design & Implementierung von User Interfaces, Datenmanagement in Single Page Applications, Implementierung von Backends oder die Anbindung von internen & externen APIs und Datenbanken.\n    Ihnen steht unser GitLab-Server sowie unsere Azure-basierte Cloudplattform zur Verfügung.\n    Bei beiderseitigem Interesse ist im Anschluss an das Praktikum eine Abschlussarbeit oder Werkstudententätigkeit möglich.\n\nQUALIFIKATIONEN\n\n    fortgeschrittenes Bachelorstudium (mindestens 4. Semester) oder Masterstudium im Bereich (Wirtschafts-)Informatik, Naturwissenschaften, Ingenieurwissenschaften oder verwandten Disziplinen\n    überdurchschnittliche Ergebnisse im Studium\n    Spaß an der Visualisierung von Daten, eigenverantwortliche Einarbeitung in neue Themen\n    gute Kenntnisse in Javascript/Typescript, CSS, HTML, Python\n    von Vorteil: Erfahrungen mit Frontend-Frameworks (Vue/Nuxt), Backend-Frameworks (FastAPI, Flask), Datenaustausch über REST-APIs oder Softwareentwicklung im Team (git)\n    Lust etwas zu bewegen und greifbare Ergebnisse zu schaffen, die direkt bei Kunden und Partnern eingesetzt werden",
+		"skillList": "vue, nuxt, python, fastapi, flask, rest, git, typescript, mint, azure, gitlab",
+		"publicationDate": "2023-01-22"
 	}
 ]

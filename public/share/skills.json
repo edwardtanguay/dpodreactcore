@@ -1047,7 +1047,7 @@
 		"idCode": "headlesscms",
 		"name": "Headless CMS",
 		"url": "https://en.wikipedia.org/wiki/Headless_content_management_system",
-		"description": "a back end-only web content management system that acts primarily as a content repository accessible via an API or GraphQL"
+		"description": "a backend-only web content management system that acts primarily as a content repository accessible via an API or GraphQL"
 	},
 	{
 		"idCode": "contentful",
@@ -1060,5 +1060,29 @@
 		"name": "Storyblok",
 		"url": "https://www.storyblok.com",
 		"description": "a headless content management system that focuses on creating better content experiences for users"
+	},
+	{
+		"idCode": "ioniccordova",
+		"name": "Ionic/Cordova",
+		"url": "https://onespace.pages.dev/techItems?id=24",
+		"description": "allows you to build hybrid mobile apps with CSS, HTML and JavaScript"
+	},
+	{
+		"idCode": "feathersjs",
+		"name": "FeathersJS",
+		"url": "https://feathersjs.com",
+		"description": "an API and real-time application network"
+	},
+	{
+		"idCode": "nuxt",
+		"name": "Nuxt.js",
+		"url": "https://onespace.pages.dev/techItems?id=218",
+		"description": "a web framework that extends Vue.js for server-rendering and static sites"
+	},
+	{
+		"idCode": "flask",
+		"name": "Flask",
+		"url": "https://flask.palletsprojects.com/en/2.2.x",
+		"description": "a micro web framework written in Python"
 	}
 ]
