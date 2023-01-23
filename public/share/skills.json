@@ -1084,5 +1084,17 @@
 		"name": "Flask",
 		"url": "https://flask.palletsprojects.com/en/2.2.x",
 		"description": "a micro web framework written in Python"
+	},
+	{
+		"idCode": "blazor",
+		"name": "Blazor",
+		"url": "https://www.openxcell.com/blog/blazor-vs-angular",
+		"description": "a web framework like Angular but instead of using TypeScript, you use C# and the template markup syntax Razor"
+	},
+	{
+		"idCode": "websockets",
+		"name": "Websockets",
+		"url": "https://onespace.pages.dev/techItems?id=385 ",
+		"description": "communications protocol that enables communication channels over TCP"
 	}
 ]
