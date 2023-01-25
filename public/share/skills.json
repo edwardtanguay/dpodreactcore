@@ -451,7 +451,7 @@
 	},
 	{
 		"idCode": "nginx",
-		"name": "nginx",
+		"name": "Nginx",
 		"url": "https://onespace.pages.dev/techItems?id=193",
 		"description": "a fast web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache"
 	},
