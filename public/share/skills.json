@@ -1094,7 +1094,12 @@
 	{
 		"idCode": "websockets",
 		"name": "Websockets",
-		"url": "https://onespace.pages.dev/techItems?id=385 ",
-		"description": "communications protocol that enables communication channels over TCP"
+		"url": "https://onespace.pages.dev/techItems?id=385 "
+	},
+	{
+		"idCode": "rubyonrails",
+		"name": "Ruby on Rails",
+		"url": "https://onespace.pages.dev/techItems?id=130",
+		"description": "an older web application framework with useful framework paradigms worth learning"
 	}
 ]
