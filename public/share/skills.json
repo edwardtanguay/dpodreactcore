@@ -1101,5 +1101,17 @@
 		"name": "Ruby on Rails",
 		"url": "https://onespace.pages.dev/techItems?id=130",
 		"description": "an older web application framework with useful framework paradigms worth learning"
+	},
+	{
+		"idCode": "laravel",
+		"name": "Laravel",
+		"url": "https://onespace.pages.dev/techItems?id=179",
+		"description": "PHP framework released 2013 now most popular PHP framework"
+	},
+	{
+		"idCode": "yii",
+		"name": "Yii PHP Framework",
+		"url": "https://www.yiiframework.com",
+		"description": "an open source, object-oriented, component-based MVC PHP web application framework"
 	}
 ]
