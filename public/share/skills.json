@@ -1119,5 +1119,11 @@
 		"name": "Karma",
 		"url": "https://karma-runner.github.io",
 		"description": "A JavaScript testing tool that is primarily designed for low-level unit testing"
+	},
+	{
+		"idCode": "nativescript",
+		"name": "NativeScript",
+		"url": "https://onespace.pages.dev/techItems?id=221",
+		"description": "framework to develop mobile apps on the Apple iOS and Android platforms"
 	}
 ]

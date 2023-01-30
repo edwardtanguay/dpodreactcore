@@ -565,5 +565,14 @@
 		"description": "Deine Aufgaben\n\nDie Programmierung von Benutzeroberflächen mit Webtechnologien weckt dein Interesse? Bei uns bist du als Teil eines unserer agilen Softwareentwicklungsteam für die eigenverantwortliche Konzeption, Gestaltung und Umsetzung von Web- oder Desktopanwendungen zuständig, die unsere Kund:innen begeistern. Klingt gut? Dann werde Teil der msg DAVID Familie und übernimm die folgenden Aufgaben:\n\n    Entwicklung von webbasierten Anwendungen unter Einsatz moderner Frontendtechnologien in einem agilen Entwicklungsteam\n    Design und Implementierung von grafischen Benutzeroberflächen in Zusammenarbeit mit unserem UX-Team\n    Konzeption, Pflege sowie Weiterentwicklung von Architektur und Design\n    Abschätzung und Evaluierung von Kunden- und Produktanforderungen\n    Einsatz und Erweiterung unseres Technologiestacks\n\nDein Profil\n\n    Du bringst mehrjährige Berufserfahrung mit den gängigen Webtechnologien und Frameworks (wie bspw. Javascript/Typescript, Angular, React, Vue.js, HTML5 oder CSS3) mit\n    Du besitzt Kenntnisse im Umgang mit Schnittstellen, wie bspw. REST oder GraphQL\n    Idealerweise bringst du auch Erfahrung in der Frontend-​Testautomatisierung (z.B. Jasmine/Karma) mit\n    Du hast Spaß und Interesse an der Gestaltung von Benutzeroberflächen, Usability, sowie ein hohes Maß an Qualitätsbewusstsein\n    Du kommunizierst sicher in Deutsch und Englisch",
 		"skillList": "react, angular, vue, typescript, rest, graphql, testing, jasmine, karma",
 		"publicationDate": "2023-01-30"
+	},
+	{
+		"id": 64,
+		"title": "Frontend Software Engineer",
+		"company": "Prodyna",
+		"url": "https://www.get-in-it.de/jobsuche/p29490",
+		"description": "Deine Aufgaben\n\n    Du designst und entwickelst moderne Webapplikationen in einem agilen Umfeld\n    Zudem übernimmst du das Deployment der Applikationen in der Cloud\n    Du unterstützt bei technologisch herausfordernden Projekten, bist Teil eines agilen Teams und übernimmst Verantwortung für deinen Aufgabenbereich\n    Abschließend arbeitest du mit unseren Communication Designern, Software Engineers und Ansprechpartnern auf Kundenseite zusammen\n\nDein Profil\n\n    Du hast erste Erfahrung in der Frontend Entwicklung und kennst dich mit Technologien wie JavaScript, TypeScript sowie Angular, React und Vue.js aus\n    Du bist in der Lage Vorgaben vom UX/UI Team umzusetzen\n    Du kennst dich mit der Integration von (REST) Schnittstellen in Frontends aus\n    Du kannst dich in Deutsch und Englisch fließend verständigen und findest Dich in agilen Teams zurecht\n    Nice-to-have: Du kennst dich mit React Native, Ionic, Cordova, Nativescript und/oder Flutter aus",
+		"skillList": "react, angular, vue, typescript, rest, reactnative, ioniccordova, nativescript, flutter",
+		"publicationDate": "2023-01-31"
 	}
 ]
