@@ -1125,5 +1125,11 @@
 		"name": "NativeScript",
 		"url": "https://onespace.pages.dev/techItems?id=221",
 		"description": "framework to develop mobile apps on the Apple iOS and Android platforms"
+	},
+	{
+		"idCode": "objectivec",
+		"name": "Objective-C",
+		"url": "https://onespace.pages.dev/techItems?id=93",
+		"description": "a language necessary for programming Apple devices"
 	}
 ]
