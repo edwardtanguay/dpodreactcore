@@ -1131,5 +1131,11 @@
 		"name": "Objective-C",
 		"url": "https://onespace.pages.dev/techItems?id=93",
 		"description": "a language necessary for programming Apple devices"
+	},
+	{
+		"idCode": "grunt",
+		"name": "Grunt",
+		"url": "https://onespace.pages.dev/techItems?id=10",
+		"description": "an old (2012) JavaScript task runner, used to automatically perform frequent tasks such as minification, compilation, unit testing, and linting, older than Gulp (2017)"
 	}
 ]
