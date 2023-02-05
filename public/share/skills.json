@@ -1137,5 +1137,17 @@
 		"name": "Grunt",
 		"url": "https://onespace.pages.dev/techItems?id=10",
 		"description": "an old (2012) JavaScript task runner, used to automatically perform frequent tasks such as minification, compilation, unit testing, and linting, older than Gulp (2017)"
+	},
+	{
+		"idCode": "symfony",
+		"name": "Symfony",
+		"url": "https://onespace.pages.dev/techItems?id=180",
+		"description": "a popular PHP framework created in 2007, today second in popularity behind Laravel"
+	},
+	{
+		"idCode": "twig",
+		"name": "Twig",
+		"url": "https://twig.symfony.com/doc",
+		"description": "a template engine for PHP"
 	}
 ]
