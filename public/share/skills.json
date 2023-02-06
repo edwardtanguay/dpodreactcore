@@ -1149,5 +1149,23 @@
 		"name": "Twig",
 		"url": "https://twig.symfony.com/doc",
 		"description": "a template engine for PHP"
+	},
+	{
+		"idCode": "svn",
+		"name": "SVN",
+		"url": "https://en.wikipedia.org/wiki/Apache_Subversion",
+		"description": "an older software versioning system (2000) used before Git became popular"
+	},
+	{
+		"idCode": "monorepos",
+		"name": "monorepos",
+		"url": "https://monorepo.tools/#what-is-a-monorepo",
+		"description": "single repositories that contain multiple distinct projects, with well-defined relationships"
+	},
+	{
+		"idCode": "scala",
+		"name": "Scala",
+		"url": "https://onespace.pages.dev/techItems?id=119",
+		"description": "a Java-like language with more functional features"
 	}
 ]
