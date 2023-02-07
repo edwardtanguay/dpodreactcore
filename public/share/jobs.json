@@ -644,7 +644,7 @@
 		"company": "queo GmbH",
 		"url": "https://www.get-in-it.de/jobsuche/p48704",
 		"description": "Deine Aufgaben und Projekte\n\n    Konzeption und Umsetzung anspruchsvoller Webclient-Anwendungen für Individualsoftware auf Basis von Angular, React oder Vue.js\n    Erstellung und Umsetzung von Schnittstellenbeschreibungen und Integrationskonzepten in Zusammenarbeit mit unseren Java- und C#-Fachbereichen\n    Qualitätssicherung der Ergebnisse durch automatisierte Modul- und Oberflächentests sowie regelmäßige Code Reviews\n    perspektivisch Verantwortung für den Aufbau des Fachbereichs FrontEnd-Entwicklung bei queo/software\n\nDeine Stärken\n\n    Know-how aus dem abgeschlossenen Studium der Informatik bzw. vergleichbarer Studiengänge oder mehrjährige Berufserfahrung im Frontend Development\n    Kenntnisse in den Bereichen HTML/HTML5, CSS und JavaScript\n    praktische Erfahrung in der Entwicklung automatisierter Tests\n    Erfahrungen mit CSS Frameworks (Bootstrap, Material Design) und JavaScript Frameworks (Angular, React und/oder Vue.js) wünschenswert\n    Erfahrungen in der Konzeption, Architektur und Entwicklung von FrontEnds verteilter Web-Anwendungen von Vorteil\n    Erfahrungen in der Konzeption von microservice- und serviceorientierten Architekturen wünschenswert\n    Teamgeist und Freude an gegenseitiger Unterstützung\n    sehr gute Deutschkenntnisse",
-		"skillList": "react, vue, angular, bootstrap, mui, testing, java, csharp,",
+		"skillList": "react, vue, angular, bootstrap, mui, testing, java, csharp",
 		"publicationDate": "2023-02-08"
 	}
 ]
