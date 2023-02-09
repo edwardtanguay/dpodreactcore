@@ -644,7 +644,16 @@
 		"company": "queo GmbH",
 		"url": "https://www.get-in-it.de/jobsuche/p48704",
 		"description": "Deine Aufgaben und Projekte\n\n    Konzeption und Umsetzung anspruchsvoller Webclient-Anwendungen für Individualsoftware auf Basis von Angular, React oder Vue.js\n    Erstellung und Umsetzung von Schnittstellenbeschreibungen und Integrationskonzepten in Zusammenarbeit mit unseren Java- und C#-Fachbereichen\n    Qualitätssicherung der Ergebnisse durch automatisierte Modul- und Oberflächentests sowie regelmäßige Code Reviews\n    perspektivisch Verantwortung für den Aufbau des Fachbereichs FrontEnd-Entwicklung bei queo/software\n\nDeine Stärken\n\n    Know-how aus dem abgeschlossenen Studium der Informatik bzw. vergleichbarer Studiengänge oder mehrjährige Berufserfahrung im Frontend Development\n    Kenntnisse in den Bereichen HTML/HTML5, CSS und JavaScript\n    praktische Erfahrung in der Entwicklung automatisierter Tests\n    Erfahrungen mit CSS Frameworks (Bootstrap, Material Design) und JavaScript Frameworks (Angular, React und/oder Vue.js) wünschenswert\n    Erfahrungen in der Konzeption, Architektur und Entwicklung von FrontEnds verteilter Web-Anwendungen von Vorteil\n    Erfahrungen in der Konzeption von microservice- und serviceorientierten Architekturen wünschenswert\n    Teamgeist und Freude an gegenseitiger Unterstützung\n    sehr gute Deutschkenntnisse",
-		"skillList": "react, vue, angular, bootstrap, mui, testing, java, csharp",
+		"skillList": "react, vue, angular, bootstrap, mui, testing, java, csharp, microservices",
 		"publicationDate": "2023-02-08"
+	},
+	{
+		"id": 73,
+		"title": "Full Stack Developer",
+		"company": "Örag Rechtsschutzversicherungs-AG",
+		"url": "https://www.stepstone.de/stellenangebote--Full-Stack-Developer-m-w-d-inhouse-mit-Schwerpunkt-Javascript-Typescript-Duesseldorf-OERAG-Rechtsschutzversicherungs-AG--8715220-inline.html?rltr=1_1_25_seorl_m_0_0_0_0_1_0",
+		"description": "Das erwartet Sie bei uns:\n\n    Agile Entwicklung neuer Anwendungen unter Verwendung von Managed Services auf Basis moderner Cloud-Technologien \n    Mitarbeit an Serverless/Event-driven -Konzepten und -Architekturen unter Berücksichtigung aktueller, cloud-native Entwicklungs-Standards \n    Umsetzung von responsivem Mobile-first Webdesign\n\n    Frontend-Entwicklung auf der Basis moderner JavaScript- und TypeScript- Frameworks/Plattformen\n\nDas bringen Sie mit:\n\n    Erfolgreich abgeschlossenes Studium (Wirtschaftsinformatik, Informatik, Wirtschaftsingenieurwesen) oder vergleichbare technische Ausbildung mit Berufserfahrung\n    Kenntnisse bei der Verwendung von managed Services in einer public Cloud\n    Gute Kenntnisse moderner Cloud-Technologien und -Standards\n    Kenntnisse in der Backend-Entwicklung mit node.js\n    Moderne Testing Mentalität und Erfahrung im Test Driven Development\n    Expertise bei der Erstellung von responsiven Web-UIs auf Basis von Javascript-Frameworks\n    Agiles Mindset, hohes Qualitätsbewusstsein, Teamplayerqualitäten und Freude daran, Know-how mit Kollegen zu teilen\n    Hohe Motivation an persönlicher Weiterentwicklung und Spaß daran, neue Technologien kennen zu lernen\n    Ausgeprägtes Abstraktionsvermögen, strukturierte Denkweise\n    Sehr gute Deutsch-Kenntnisse in Wort und Schrift, Englisch-Kenntnisse runden ihr Profil ab\n\n",
+		"skillList": "react, vue, angular, typescript, node, cloud, tdd",
+		"publicationDate": "2023-02-09"
 	}
 ]
