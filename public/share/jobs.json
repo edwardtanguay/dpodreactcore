@@ -664,5 +664,14 @@
 		"description": "Was dich bei uns erwartet:\n\n    Du arbeitest als Software Engineer Frontend (m/w/d) in der Konzeption und Umsetzung von Frontendkomponenten für unserer Kund:innen.\n    Bei unseren internen Projekten zündest du für neue Ideen und Technologien, fürs Tüfteln, Lernen und Ausprobieren.\n    Du arbeitest im Team mit anderen Kolleg:innen und Kund:innen und spielst Ideen-Ping-Pong mit unseren Mediendesigner:innen und UI/UX Expert:innen.\n    Dabei lebst du mit uns in einer stark ausgeprägten Feedbackkultur und übernimmst auch gern die Betreuung von weniger erfahrenen Kolleg:innen.\n\nWas wir von dir erwarten:\n\n    Du hast mehrjährige Berufserfahrungen in der Softwareentwicklung gesammelt und kannst ein abgeschlossenes Hochschulstudium (Informatik, Wirtschaftsinformatik, Naturwissenschaften) oder eine vergleichbare Ausbildung nachweisen.\n    Du hast tiefere Kenntnisse in der Javascript/TypeScript Welt und kennst die Komponenten, Libraries und Frameworks dieses Ökosystems wie jQuery, Angular, React oder vue.js, bist vertraut mit node.js, npm und hast keine Angst vor (S)CSS oder SASS/LESS.\n    Optimalerweise hast du schon Berührungspunkte mit CI/CD Abläufen und Frontend Testing gehabt in Form von Jenkins, ESLint, Github/Gitlab CI, Cypress, Jest o. ä. Vielleicht kannst du auch schon Wissen über Cloud Entwicklung und Deployment vorweisen.\n    Du bist kundenorientiert, trägst gerne Verantwortung und dich zeichnen proaktives Informations- und Kommunikationsverhalten und Begeisterungsfähigkeit aus.\n    Du überzeugst durch eine strukturierte Arbeitsweise und selbstständiges Arbeiten.",
 		"skillList": "react, angular, vue, typescript, jquery, node, sass, cicd, jenkins, gitlab, cypress, jest, cloud",
 		"publicationDate": "2023-02-10"
+	},
+	{
+		"id": 75,
+		"title": "R&D Frontend Software Entwickler",
+		"company": "IBM Deutschland GmbH",
+		"url": "https://www.get-in-it.de/jobsuche/p214686",
+		"description": "Required Technical and Professional Expertise\n\n    Strong JavaScript knowledge for both front-end and back-end development\n    Experience in one of the UI frameworks: React, Angular, or Vue\n    Proficient in HTML/CSS\n    Creative thinker\n    Possesses excellent communication and collaboration skills\n    Good English and German Skills required\n\nPreferred Technical and Professional Expertise\n\n    Foundation skills in micro frontend development, build and integration (Next.js, webpack, babel, etc.)\n    Knowledge how to use a design system in UI development\n    Writing automated tests using Jest, Puppeteer/Playwright, or similar libraries\n    Cloud development, CI/CD, DevOps\n    IBM Cloud Pak for Data",
+		"skillList": "react, angular, vue, nextjs, webpack, babel, jest, puppeteer, playwright, cloud, cicd, devops",
+		"publicationDate": "2023-02-11"
 	}
 ]

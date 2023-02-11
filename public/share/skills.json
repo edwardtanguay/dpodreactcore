@@ -1167,5 +1167,17 @@
 		"name": "Scala",
 		"url": "https://onespace.pages.dev/techItems?id=119",
 		"description": "a Java-like language with more functional features"
+	},
+	{
+		"idCode": "puppeteer",
+		"name": "Puppeteer",
+		"url": "https://www.npmjs.com/package/puppeteer",
+		"description": "a Node.js library that enables you to control a Chromium browser programatically"
+	},
+	{
+		"idCode": "playwright",
+		"name": "Playwright",
+		"url": "https://playwright.dev",
+		"description": "an end-to-end testing tool similar to Cypress"
 	}
 ]
