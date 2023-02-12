@@ -673,5 +673,14 @@
 		"description": "Required Technical and Professional Expertise\n\n    Strong JavaScript knowledge for both front-end and back-end development\n    Experience in one of the UI frameworks: React, Angular, or Vue\n    Proficient in HTML/CSS\n    Creative thinker\n    Possesses excellent communication and collaboration skills\n    Good English and German Skills required\n\nPreferred Technical and Professional Expertise\n\n    Foundation skills in micro frontend development, build and integration (Next.js, webpack, babel, etc.)\n    Knowledge how to use a design system in UI development\n    Writing automated tests using Jest, Puppeteer/Playwright, or similar libraries\n    Cloud development, CI/CD, DevOps\n    IBM Cloud Pak for Data",
 		"skillList": "react, angular, vue, nextjs, webpack, babel, jest, puppeteer, playwright, cloud, cicd, devops",
 		"publicationDate": "2023-02-11"
+	},
+	{
+		"id": 76,
+		"title": "Frontend Developer",
+		"company": "OBI next",
+		"url": "https://www.get-in-it.de/jobsuche/p184980",
+		"description": "Deine Aufgaben\n\n    Du konzipierst und implementierst anspruchsvolle, skalierbare und kundenzentrierte Frontendkomponenten mit modernen Javascript-Frameworks wie vue.js oder React\n    Du erarbeitest skalierbare, zielführende und nachhaltige Softwarearchitekturen zur Operationalisierung komplexer Customer Journeys\n    Du verknüpfst die einzelnen Komponenten unseres Ökosystems zu einer ganzheitlichen und nachhaltigen Gesamtlösung\n    Du begleitest die Produktentwicklung von der Lösungsfindung, über das Release bis hin zum kontinuierlichen Betrieb im ständigen Austausch mit deinem Product Manager oder Product Owner\n    Du hast Spaß an der engen Zusammenarbeit in einem cross-funktionalen Team mit Pairprogramming, Code Reviews und teilst proaktiv dein Wissen und deine Erfahrung (z.B. über Coding Dojos oder Tech Talks ins Team)\n\nDein Profil\n\n    Du hast mehrjährige Berufserfahrung in der Frontend-Entwicklung webbasierter, skalierbarer Systeme und Anwendungen\n    Du hast ein gutes Gespür für Responsive Design unter Berücksichtigung von Geschwindigkeit und Bedienbarkeit\n    Du verfügst über gute Kenntnisse in aktuellen Technologien (z. B. React, Angular und Vue) und konntest bereits erste Erfahrungen bei der Anbindung von Microservices mit Rest sammeln\n    Du hast idealerweise bereits (grundlegende) Kenntnisse in der Entwicklung und der Verzahnung von Self-Contained-Systems sammeln können\n    Du schaust gern über den Tellerrand und bist neben der reinen Frontend-Entwicklung/-Architektur auch an weiteren Themenbereichen (z.B. Backend, DevOps, Prozessoptimierung,…) interessiert",
+		"skillList": "react, angular, vue, rest, microservices, devops",
+		"publicationDate": "2023-02-12"
 	}
 ]
