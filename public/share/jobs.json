@@ -700,5 +700,14 @@
 		"description": "Ihre Aufgaben\n\n    Sie entwickeln moderne Web Applikationen und innovative App Lösungen\n    Als begeisterter Fullstack - Entwickler, der sich in der Javascript Welt zu Hause fühlt, unterstützen sie sowohl im Front- als auch im Backend\n    Gemeinsam mit ihren agilen Teamkollegen integrieren sie neue Anwendungen in die bestehende Architektur\n    Zudem entwickeln sie bestehende Anwendungen weiter und konzipieren moderne Web-Applikationen\n    Die Optimierung der Anwendungen für die Performance und UI/UX werden gemeinsam mit Ihnen und unseren Fachteams weiterentwickelt\n\nIhr Profil\n\n    Sie haben ein Studium oder eine Berufsausbildung im Bereich Informatik, Elektrotechnik, Mathematik oder Physik absolviert. Aber auch motivierte Quereinsteiger mit guten Programmierkenntnissen sind bei uns willkommen\n    Sie verfügen über Kenntnisse von JavaScript, HTML 5 und CSS 3 sowie Erfahrung mit mindestens einem aktuellen JS-Framework (Angular, React) oder mit Node.js, sowie mit git\n    Ihre ausgeprägte Begeisterung für moderne Webanwendungen, Spaß an der Arbeit in agilen Projekten, technische Affinität und Teamfähigkeit zeichnen Sie aus",
 		"skillList": "react, angular, node, ux",
 		"publicationDate": "2023-02-14"
+	},
+	{
+		"id": 79,
+		"title": "Softwareentwickler",
+		"company": "Verband der Ersatzkasse",
+		"url": "https://www.stepstone.de/stellenangebote--Softwareentwickler-C-VBA-m-w-d-Berlin-Verband-der-Ersatzkassen-e-V-vdek--9166503-inline.html?rltr=1_1_25_seorl_m_0_0_0_0_0_0",
+		"description": "Das sind Ihre Aufgaben\n\n    Weiterentwicklung unserer Software zur Unterstützung von Krankenhaus­budget­verhandlungen\n    Programmierung in C# auf Basis des .NET Frameworks sowie der dazugehörigen Excel-Module in VBA\n    Begleitung des gesamten Prozesses von der Anforderung über die Entwicklung bis hin zur Qualitätssicherung\n    Unterstützung bei der Durchführung der Anforderungsanalyse, Erstellung von Fachkonzepten und Dokumentationen\n    Zusammenarbeit und Abstimmung mit den Mitgliedskassen des vdek\n\nWas Sie mitbringen\n\n    Sie haben ein erfolgreich abgeschlossenes Studium im Bereich Informatik, Wirtschafts- oder Medizininformatik oder eine vergleichbare Qualifikation.\n    Sie haben fundierte Kenntnisse in der Programmierung unter C# und VBA und verfügen über Erfahrung in SQL.\n    Sie bringen Erfahrungen im Bereich der Softwarearchitektur und einen sicheren Umgang mit MS Visual Studio, Microsoft Excel und GIT mit.\n    Sie haben die Bereitschaft, sich in gesundheitsökonomische Fragestellungen einzuarbeiten.\n    Sie verfügen über eine analytische, strukturierte und selbstständige Arbeitsweise und zeichnen sich durch Teamgeist aus.\n\n",
+		"skillList": "csharp, vba, visualstudio, sql",
+		"publicationDate": "2023-02-15"
 	}
 ]

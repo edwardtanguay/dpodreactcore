@@ -1179,5 +1179,17 @@
 		"name": "Playwright",
 		"url": "https://playwright.dev",
 		"description": "an end-to-end testing tool similar to Cypress"
+	},
+	{
+		"idCode": "vba",
+		"name": "VBA",
+		"url": "https://onespace.pages.dev/techItems?id=103",
+		"description": "Visual Basic for Applications, a simple language still used to program business analysist and statistic applications in Excel"
+	},
+	{
+		"idCode": "visualstudio",
+		"name": "Visual Studio",
+		"url": "https://onespace.pages.dev/techItems?id=59",
+		"description": "the default coding editor for .NET technologies"
 	}
 ]
