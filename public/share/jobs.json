@@ -709,5 +709,14 @@
 		"description": "Das sind Ihre Aufgaben\n\n    Weiterentwicklung unserer Software zur Unterstützung von Krankenhaus­budget­verhandlungen\n    Programmierung in C# auf Basis des .NET Frameworks sowie der dazugehörigen Excel-Module in VBA\n    Begleitung des gesamten Prozesses von der Anforderung über die Entwicklung bis hin zur Qualitätssicherung\n    Unterstützung bei der Durchführung der Anforderungsanalyse, Erstellung von Fachkonzepten und Dokumentationen\n    Zusammenarbeit und Abstimmung mit den Mitgliedskassen des vdek\n\nWas Sie mitbringen\n\n    Sie haben ein erfolgreich abgeschlossenes Studium im Bereich Informatik, Wirtschafts- oder Medizininformatik oder eine vergleichbare Qualifikation.\n    Sie haben fundierte Kenntnisse in der Programmierung unter C# und VBA und verfügen über Erfahrung in SQL.\n    Sie bringen Erfahrungen im Bereich der Softwarearchitektur und einen sicheren Umgang mit MS Visual Studio, Microsoft Excel und GIT mit.\n    Sie haben die Bereitschaft, sich in gesundheitsökonomische Fragestellungen einzuarbeiten.\n    Sie verfügen über eine analytische, strukturierte und selbstständige Arbeitsweise und zeichnen sich durch Teamgeist aus.\n\n",
 		"skillList": "csharp, vba, visualstudio, sql",
 		"publicationDate": "2023-02-15"
+	},
+	{
+		"id": 80,
+		"title": "Software Engineer",
+		"company": "Reply Deutschland SE",
+		"url": "https://www.get-in-it.de/jobsuche/p142823",
+		"description": "Aufgaben\n\n    Als Teil unseres agilen Teams entwickelst du Web-Anwendungen mit JavaScript/Typescript und React oder anderen modernen Web Frameworks wie Angular oder Vue\n    Dabei ist UI und UX Design nicht fester Bestandteil deines Jobs, aber du bist mit dem Thema vertraut\n    Du nimmst an regelmäßigen Meetings mit deinem Team und dem Kunden teil und lernst die Requirements und Restriktionen des Kunden kennen und verstehen\n    Du beschäftigst dich gerne mit neuen Technologien und beim Start eines neuen Projektes bringst du deine Ideen aktiv ein\n    Zusammen mit deinem Ansprechpartner arbeitest du in regelmäßigen Abständen ein T-Shape Profil aus, dass dir hilft dich gezielt weiter zu entwickeln\n\nQualifikationen\n\n    Wir freuen uns auf dein erfolgreich abgeschlossenen Studium in der (Wirtschafts-) Informatik, Mathematik oder einer ähnlichen Fachrichtung\n    Solides Java-Script Wissen ist die Basis und idealerweise bist du auch mit Typescript vertraut\n    Du beherrscht nicht nur React, sondern auch das Ökosystem mit gängigen Ergänzungen wie Redux\n    Praktische Erfahrung mit agilen Entwicklungsmethoden wie Scrum, Kanban, XP, TDD sind von Vorteil\n    Gute Kommunikations- und Präsentationsfähigkeiten in Deutsch und Englisch runden dein Profil ab",
+		"skillList": "react, angular, vue, typescript, redux, tdd",
+		"publicationDate": "2023-02-16"
 	}
 ]
