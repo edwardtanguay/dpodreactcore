@@ -718,5 +718,14 @@
 		"description": "Aufgaben\n\n    Als Teil unseres agilen Teams entwickelst du Web-Anwendungen mit JavaScript/Typescript und React oder anderen modernen Web Frameworks wie Angular oder Vue\n    Dabei ist UI und UX Design nicht fester Bestandteil deines Jobs, aber du bist mit dem Thema vertraut\n    Du nimmst an regelmäßigen Meetings mit deinem Team und dem Kunden teil und lernst die Requirements und Restriktionen des Kunden kennen und verstehen\n    Du beschäftigst dich gerne mit neuen Technologien und beim Start eines neuen Projektes bringst du deine Ideen aktiv ein\n    Zusammen mit deinem Ansprechpartner arbeitest du in regelmäßigen Abständen ein T-Shape Profil aus, dass dir hilft dich gezielt weiter zu entwickeln\n\nQualifikationen\n\n    Wir freuen uns auf dein erfolgreich abgeschlossenen Studium in der (Wirtschafts-) Informatik, Mathematik oder einer ähnlichen Fachrichtung\n    Solides Java-Script Wissen ist die Basis und idealerweise bist du auch mit Typescript vertraut\n    Du beherrscht nicht nur React, sondern auch das Ökosystem mit gängigen Ergänzungen wie Redux\n    Praktische Erfahrung mit agilen Entwicklungsmethoden wie Scrum, Kanban, XP, TDD sind von Vorteil\n    Gute Kommunikations- und Präsentationsfähigkeiten in Deutsch und Englisch runden dein Profil ab",
 		"skillList": "react, angular, vue, typescript, redux, tdd",
 		"publicationDate": "2023-02-16"
+	},
+	{
+		"id": 81,
+		"title": "Full Stack Entwickler",
+		"company": "Haufe Group",
+		"url": "https://www.jobware.de/job/full-stack-entwickler-in-java-javascript-react-w-d-m.1091145885.html",
+		"description": "\nWas du mitbringen solltest:\n\n    Du hast bereits mehrere Jahre Erfahrung mit Java und JavaScript, aber vor Allem hast Du Spaß an der Entwicklung und Konzeption sowohl im Backend als auch im Frontend\n    Du kennst dich mit REST-Schnittstellen/Public APIs, AWS, Spring, Angular, Node.JS und Docker aus\n    Du brennst für agile Softwareentwicklung nach Scrum und kannst dich in unserer iterativen Vorgehensweise gut zurecht finden\n    Teamwork, Verantwortung übernehmen und Anpacken sind für Dich selbstverständlich\n    Du beherrscht die Deutsche Sprache in Wort und Schrift\n\n",
+		"skillList": "react, angular, node, rest, java, springboot, aws, docker",
+		"publicationDate": "2023-02-17"
 	}
 ]
