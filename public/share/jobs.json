@@ -727,5 +727,14 @@
 		"description": "\nWas du mitbringen solltest:\n\n    Du hast bereits mehrere Jahre Erfahrung mit Java und JavaScript, aber vor Allem hast Du Spaß an der Entwicklung und Konzeption sowohl im Backend als auch im Frontend\n    Du kennst dich mit REST-Schnittstellen/Public APIs, AWS, Spring, Angular, Node.JS und Docker aus\n    Du brennst für agile Softwareentwicklung nach Scrum und kannst dich in unserer iterativen Vorgehensweise gut zurecht finden\n    Teamwork, Verantwortung übernehmen und Anpacken sind für Dich selbstverständlich\n    Du beherrscht die Deutsche Sprache in Wort und Schrift\n\n",
 		"skillList": "react, angular, node, rest, java, springboot, aws, docker",
 		"publicationDate": "2023-02-17"
+	},
+	{
+		"id": 82,
+		"title": "Frontend Developer",
+		"company": "Seitenbau GmbH",
+		"url": "https://www.jobware.de/job/frontend-developer-m-w-d-konstanz-oder-remote.1094716065.html",
+		"description": "Deine Aufgaben\n\n    Als Bestandteil eines crossfunktio­nalen Teams arbeitest du Hand in Hand mit Designer*innen und Backend Entwickler*innen\n    Du entwickelst und konzeptionierst webbasierte Benutzeroberflächen mit modernen Web­technologien für den öffentlichen Sektor\n    Mit deinen Ideen erweiterst du kontinuierlich unseren Frontend-Stack\n    Du führst Code Reviews im Team durch und arbeitest im Pair Programming, um die Qualität zu verbessern und Know-How zu verteilen\n\nDas bringst du mit\n\n    Praktische Erfahrungen mit den Technologien React, Typescript, HTML5, CSS\n    Erfahrung in Unit- und Systemtests mit Technologien wie Jest, Karma, Cypress\n    Eine Affinität für Usability und Barrierefreiheit\n    Spaß am Arbeiten im Team und Erfahrung mit agilen Methoden\n    Gute Deutschkenntnisse\n\n",
+		"skillList": "react, typescript, jest, karma, cypress",
+		"publicationDate": "2023-02-18"
 	}
 ]
