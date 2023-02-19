@@ -736,5 +736,14 @@
 		"description": "Deine Aufgaben\n\n    Als Bestandteil eines crossfunktio­nalen Teams arbeitest du Hand in Hand mit Designer*innen und Backend Entwickler*innen\n    Du entwickelst und konzeptionierst webbasierte Benutzeroberflächen mit modernen Web­technologien für den öffentlichen Sektor\n    Mit deinen Ideen erweiterst du kontinuierlich unseren Frontend-Stack\n    Du führst Code Reviews im Team durch und arbeitest im Pair Programming, um die Qualität zu verbessern und Know-How zu verteilen\n\nDas bringst du mit\n\n    Praktische Erfahrungen mit den Technologien React, Typescript, HTML5, CSS\n    Erfahrung in Unit- und Systemtests mit Technologien wie Jest, Karma, Cypress\n    Eine Affinität für Usability und Barrierefreiheit\n    Spaß am Arbeiten im Team und Erfahrung mit agilen Methoden\n    Gute Deutschkenntnisse\n\n",
 		"skillList": "react, typescript, jest, karma, cypress",
 		"publicationDate": "2023-02-18"
+	},
+	{
+		"id": 83,
+		"title": "Frontend Entwickler",
+		"company": "Sybit GmbH",
+		"url": "https://www.get-in-it.de/jobsuche/p105648",
+		"description": "Dein Wirkungsbereich\n\n    Innerhalb unseres interdisziplinären Scrum-Teams entwickelst du Weblösungen testgetrieben und komponentenorientiert\n    Du baust Frontend-Technologie-Stacks auf und entwickelst diese weiter\n    Dein Projektteam unterstützt du beratend in der Auswahl der Frontend-Technologie\n    Du entwirfst Software-Architekturen für Web-Applikationen\n    In enger Zusammenarbeit mit UX-Expert*innen entwickelst du webbasierte User Interfaces,Pattern Libraries und Styleguides\n\nDein Talent\n\n    Du hast bereits Erfahrung mit der Umsetzung von Single-Page-Applications unter Verwendung komponentenorientierter Frameworks wie Vue, Angular oder React\n    JavaScript, HTML5, CSS3 beherrschst du vollumfänglich und nutzt sie um performante, cross-browser kompatible Webseiten zu entwickeln\n    Du verfügst über gute Kenntnisse in den Themenbereichen Usability, Accessibility und Performance\n    Du bist überzeugend und kommunikationsstark – sowohl in Deutsch als auch in Englisch\n    Deine Fähigkeiten möchtest du in unserem interdisziplinären Projektteam vertiefen und dein Wissen mit anderen teilen",
+		"skillList": "react, angular, vue, typescript",
+		"publicationDate": "2023-02-19"
 	}
 ]
