@@ -993,7 +993,7 @@
 		"idCode": "openui5",
 		"name": "OpenUI5",
 		"url": "https://en.wikipedia.org/wiki/OpenUI5",
-		"description": "a JavaScript application framework maintained by SAP designed to build cross-platform, responsive, enterprise-ready applications"
+		"description": "a JavaScript framework and UI library created by SAP, OpenUI5 is the open-source version of SAPUI5"
 	},
 	{
 		"idCode": "couchdb",
@@ -1196,12 +1196,6 @@
 		"idCode": "sapui5",
 		"name": "SAPUI5",
 		"url": "https://community.sap.com/topics/ui5",
-		"description": "JavaScript framework and UI library created by SAP"
-	},
-	{
-		"idCode": "openui5",
-		"name": "OpenUI5",
-		"url": "https://openui5.org",
-		"description": "a JavaScript framework and UI library created by SAP, OPENUI5 is the open-source version of SAPUI5"
+		"description": "a JavaScript framework and UI library created by SAP which has proprietary features and hence is not open-source as is OpenUI5 which is the same framework but without the propreitary features"
 	}
 ]
