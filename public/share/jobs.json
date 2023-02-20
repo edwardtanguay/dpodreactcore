@@ -745,5 +745,14 @@
 		"description": "Dein Wirkungsbereich\n\n    Innerhalb unseres interdisziplinären Scrum-Teams entwickelst du Weblösungen testgetrieben und komponentenorientiert\n    Du baust Frontend-Technologie-Stacks auf und entwickelst diese weiter\n    Dein Projektteam unterstützt du beratend in der Auswahl der Frontend-Technologie\n    Du entwirfst Software-Architekturen für Web-Applikationen\n    In enger Zusammenarbeit mit UX-Expert*innen entwickelst du webbasierte User Interfaces,Pattern Libraries und Styleguides\n\nDein Talent\n\n    Du hast bereits Erfahrung mit der Umsetzung von Single-Page-Applications unter Verwendung komponentenorientierter Frameworks wie Vue, Angular oder React\n    JavaScript, HTML5, CSS3 beherrschst du vollumfänglich und nutzt sie um performante, cross-browser kompatible Webseiten zu entwickeln\n    Du verfügst über gute Kenntnisse in den Themenbereichen Usability, Accessibility und Performance\n    Du bist überzeugend und kommunikationsstark – sowohl in Deutsch als auch in Englisch\n    Deine Fähigkeiten möchtest du in unserem interdisziplinären Projektteam vertiefen und dein Wissen mit anderen teilen",
 		"skillList": "react, angular, vue, typescript",
 		"publicationDate": "2023-02-19"
+	},
+	{
+		"id": 84,
+		"title": "Web / Frontend Entwickler",
+		"company": "UNIORG Gruppe",
+		"url": "https://www.jobware.de/job/web-frontend-entwickler-w-m-d.913427475.html",
+		"description": "\nIhre Aufgaben\n\n    Konzeption und Umsetzung von modernen, responsiven UI/UX-Designs\n    Eigenständige Programmierung moderner Webapplikationen in SAPUI5 und SAP Fiori Elements\n    Mitarbeit an der Neuentwicklung von Software-Systemen mit Schwerpunkt Frontend unter Anwendung moderner Web-Technologien\n    Planung, Programmierung und Durchführung von Testläufen\n    Weiterentwicklung und Optimierung bestehender Produkte\n\nIhr Profil\n\n    Ein (Fach-) Hochschulstudium (z.B. Informatik, Wirtschaftsinformatik) oder eine vergleichbare Ausbildung mit entsprechender Berufserfahrung\n    Fundierte Kenntnisse in klassischen und modernen Webtechnologien (z.B. Vue.JS, Node.JS, TypeScript/JavaScript, Angular, React, SAPUI5 / OpenUI5)\n    Erfahrung in der Gestaltung und Entwicklung moderner Frontends (UI/UX)\n    Begeisterung für aktuelle technologische Trends rund um die Web-Entwicklung\n    Teamfähigkeit, Motivation, Eigenverantwortung und Zuverlässigkeit\n    Sehr gute Deutsch- und Englischkenntnisse\n\n",
+		"skillList": "react, vue, angular, typescript, node, openui5, sapui5",
+		"publicationDate": "2023-02-20"
 	}
 ]
