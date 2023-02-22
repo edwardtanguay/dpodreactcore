@@ -772,5 +772,14 @@
 		"description": "Stellenbeschreibung\n\n    Mitwirkung bei der Konzeption von Webanwendungen mit modernen Frameworks in agilen Scrum-Teams\n    Evaluierung und Einführung innovativer Frontend-Technologien\n    Definition und Pflege technischer Qualitätsstandards in der Software-Entwicklung\n    Zusammenarbeit mit den jeweiligen Teams aus Backend, Frontend und Design\n\nQualifikationen\n\n    Abgeschlossenes Studium der Informatik oder eine vergleichbare Qualifikation \n    Relevante Erfahrung in Frontendentwicklung von Webanwendungen und Applikationen mit React und JavaScript/TypeScript\n    Routinierter Umgang mit Microservices, Docker und Kubernetes sowie Kenntnisse mit UI/UX-Frameworks\n    Sehr gute Deutsch- und Englischkenntnisse\n",
 		"skillList": "react, typescript, microservices, docker, kubernetes, ux",
 		"publicationDate": "2023-02-22"
+	},
+	{
+		"id": 87,
+		"title": "Software Engineer Frontend",
+		"company": "Limebit GmbH",
+		"url": "https://www.xing.com/jobs/berlin-software-engineer-frontend-full-stack-react-typescript-97364792",
+		"description": "Aufgaben\n\nZu Deiner Rolle\n\nDie Gestaltung deiner Aufgaben bei Limebit gehen wir zusammen an. Abhängig von deinen Erfahrungen und deinen Interessen werden wir dich in folgenden Bereichen einsetzen:\n\n    Softwaredevelopment & Consulting in Kund:innenprojekten\n    Projektmanagement für interne & externe Projekte\n\nAufgaben/Arbeitsbereiche für die ersten 6 Monate bei uns\n\nFür das erste Halbjahr 2023 stehen bereits 2 konkrete Projekte an, an denen du mitwirken wirst:\n\n    Relaunch der Partei-Website einer Partei des deutschen Bundestags (NextJs, TypeScript, GraphQL)\n    Entwicklung einer Suchmaschine für Hilfsmittel-Produkte im Sanitätshaus (Remix, TypeScript, Algolia, Postgres, Prisma)\n\nAußerdem wird es ein drittes, ggf. externes Projekt geben bei dem Du komplett eigenständig als Software Engineer von Limebit beim Kunden arbeitest.\nQualifikation\n\nDinge, bei denen du das Team unterstützt\n\n    Software Development mit React, TypeScript, NodeJs, Tailwind, NextJs, Remix\n    Software Engineering mit typischen Tools (Git, GitFlow, GitHub, GitLab, Jira)\n    Deployment & Hosting (Vercel, Netlify, DigitalOcean, ggf. AWS)\n    Aufsetzen von CI/CD Pipelines\n\nDinge, bei denen du vom Team unterstützt wirst\n\n    ggf. Aufbau von AWS Infrastruktur\n    CI/CD Pipelines für Python/Machine Learning Projekte\n    Ggf. Einarbeitung in Python (falls du hier interesse hast)",
+		"skillList": "react, typescript, nextjs, node, graphql, remix, algolia, postgres, prisma, tailwind, git, gitflow, github, gitlab, jira, vercel, netlify, digitalocean, aws, cicd, python, machinelearning",
+		"publicationDate": "2023-02-23"
 	}
 ]

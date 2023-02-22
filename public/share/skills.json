@@ -1197,5 +1197,35 @@
 		"name": "SAPUI5",
 		"url": "https://community.sap.com/topics/ui5",
 		"description": "a JavaScript framework and UI library created by SAP which has proprietary features and hence is not open-source as is OpenUI5 which is the same framework but without the propreitary features"
+	},
+	{
+		"idCode": "algolia",
+		"name": "Algolia",
+		"url": "https://www.algolia.com",
+		"description": "a search as a service product offering web search across a client's website using an externally hosted search engine"
+	},
+	{
+		"idCode": "prisma",
+		"name": "Prisma",
+		"url": "https://www.prisma.io",
+		"description": "Node.js and TypeScript ORM for Postgres, MySQL, SQLite, AWS Aurora, Microsoft SQL Server, MongoDB and CockroachDB"
+	},
+	{
+		"idCode": "vercel",
+		"name": "Vercel",
+		"url": "https://vercel.com",
+		"description": "cloud hosting provider that maintains Next.js and connects to GitHub repositories for seamless deployment"
+	},
+	{
+		"idCode": "netlify",
+		"name": "Netlify",
+		"url": "https://netlify.com",
+		"description": "cloud hosting provider that owns Gatsby and connects to GitHub repositories for seamless deployment"
+	},
+	{
+		"idCode": "digitalocean",
+		"name": "DigitalOcean",
+		"url": "https://digitalocean.com",
+		"description": "an cloud service provider where you can host Linux machines for under $10 per month"
 	}
 ]
