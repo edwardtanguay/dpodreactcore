@@ -781,5 +781,14 @@
 		"description": "Aufgaben\n\nZu Deiner Rolle\n\nDie Gestaltung deiner Aufgaben bei Limebit gehen wir zusammen an. Abhängig von deinen Erfahrungen und deinen Interessen werden wir dich in folgenden Bereichen einsetzen:\n\n    Softwaredevelopment & Consulting in Kund:innenprojekten\n    Projektmanagement für interne & externe Projekte\n\nAufgaben/Arbeitsbereiche für die ersten 6 Monate bei uns\n\nFür das erste Halbjahr 2023 stehen bereits 2 konkrete Projekte an, an denen du mitwirken wirst:\n\n    Relaunch der Partei-Website einer Partei des deutschen Bundestags (NextJs, TypeScript, GraphQL)\n    Entwicklung einer Suchmaschine für Hilfsmittel-Produkte im Sanitätshaus (Remix, TypeScript, Algolia, Postgres, Prisma)\n\nAußerdem wird es ein drittes, ggf. externes Projekt geben bei dem Du komplett eigenständig als Software Engineer von Limebit beim Kunden arbeitest.\nQualifikation\n\nDinge, bei denen du das Team unterstützt\n\n    Software Development mit React, TypeScript, NodeJs, Tailwind, NextJs, Remix\n    Software Engineering mit typischen Tools (Git, GitFlow, GitHub, GitLab, Jira)\n    Deployment & Hosting (Vercel, Netlify, DigitalOcean, ggf. AWS)\n    Aufsetzen von CI/CD Pipelines\n\nDinge, bei denen du vom Team unterstützt wirst\n\n    ggf. Aufbau von AWS Infrastruktur\n    CI/CD Pipelines für Python/Machine Learning Projekte\n    Ggf. Einarbeitung in Python (falls du hier interesse hast)",
 		"skillList": "react, typescript, nextjs, node, graphql, remix, algolia, postgres, prisma, tailwind, git, gitflow, github, gitlab, jira, vercel, netlify, digitalocean, aws, cicd, python, machinelearning",
 		"publicationDate": "2023-02-23"
+	},
+	{
+		"id": 88,
+		"title": "Frontend Developer",
+		"company": "Dualis GmbH",
+		"url": "https://www.get-in-it.de/jobsuche/p215803",
+		"description": "Deine Aufgaben\n\n    Du entwirfst und implementierst neue Funktionen für unsere GANTTPLAN Web-Applikation mit Vue.js\n    Zum Abruf und der Aufbereitung von Daten entwickelst du mit dem Backend Team die REST-API Schnittstellen\n    Du bringst deine Ideen ein, um unsere Software für die Nutzer ständig zu optimieren\n    Du bearbeitest das Feedback sowie die Wünsche der Kunden, sodass Lösungen für alle Anwendenden bereitgestellt werden (3rd Level Support)\n    Codereviews mit Kollegen und Softwaretests gehören zu deinem Arbeitsalltag\n\nDeine Kenntnisse\n\n    Du hast Erfahrung mit HTML5, CSS und JavaScript sowie aktuellen Frontend Frameworks (z.B. Vue.js, React, Angular)\n    Die Gestaltung von modernen und intuitiven Benutzeroberflächen bereitet dir Freude\n    Die Kommunikation im Team erfolgt auf Deutsch und ist für dich problemlos möglich (Niveau B2)",
+		"skillList": "vue, react, angular, rest",
+		"publicationDate": "2023-02-24"
 	}
 ]

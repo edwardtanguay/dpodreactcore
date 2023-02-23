@@ -1208,7 +1208,7 @@
 		"idCode": "prisma",
 		"name": "Prisma",
 		"url": "https://www.prisma.io",
-		"description": "Node.js and TypeScript ORM for Postgres, MySQL, SQLite, AWS Aurora, Microsoft SQL Server, MongoDB and CockroachDB"
+		"description": "Node.js and TypeScript ORM for Postgres, MySQL, SQLite, AWS Aurora, Azure SQL, Microsoft SQL Server, MongoDB and CockroachDB"
 	},
 	{
 		"idCode": "vercel",
