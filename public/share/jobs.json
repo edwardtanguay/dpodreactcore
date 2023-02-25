@@ -790,5 +790,14 @@
 		"description": "Deine Aufgaben\n\n    Du entwirfst und implementierst neue Funktionen für unsere GANTTPLAN Web-Applikation mit Vue.js\n    Zum Abruf und der Aufbereitung von Daten entwickelst du mit dem Backend Team die REST-API Schnittstellen\n    Du bringst deine Ideen ein, um unsere Software für die Nutzer ständig zu optimieren\n    Du bearbeitest das Feedback sowie die Wünsche der Kunden, sodass Lösungen für alle Anwendenden bereitgestellt werden (3rd Level Support)\n    Codereviews mit Kollegen und Softwaretests gehören zu deinem Arbeitsalltag\n\nDeine Kenntnisse\n\n    Du hast Erfahrung mit HTML5, CSS und JavaScript sowie aktuellen Frontend Frameworks (z.B. Vue.js, React, Angular)\n    Die Gestaltung von modernen und intuitiven Benutzeroberflächen bereitet dir Freude\n    Die Kommunikation im Team erfolgt auf Deutsch und ist für dich problemlos möglich (Niveau B2)",
 		"skillList": "vue, react, angular, rest",
 		"publicationDate": "2023-02-24"
+	},
+	{
+		"id": 89,
+		"title": "Frontend Developer",
+		"company": "snapADDY GmbH",
+		"url": "https://www.stepstone.de/stellenangebote--Frontend-Developer-TypeScript-Angular-Ionic-m-w-d-Wuerzburg-snapADDY-GmbH--8962222-inline.html?rltr=7_7_25_seorl_m_0_0_0_0_0_0",
+		"description": "Your daily doing will involve\n\n    Developing our snapADDY products based on browser extensions, mobile apps, and web apps.\n    Diverse responsibilities including mobile app development with Ionic Web Apps in Angular based on Web Components\n    As part of our agile team, you are in charge of your own tasks and responsibilities\n\nYour profile\n\n    Knowledge of modern software development in the web application field\n    Previous experience with web app frameworks (such as Angular, React, or Vue)\n    Knowledge of the most important technologies used by us or an interest to learn style\n    An open and friendly personality who enjoys working with colleagues as a part of the team\n\nOur technologies\n\n    Development in JavaScript and TypeScript\n    Web and apps: Angular, Ionic, Cordova, Web Extensions\n    Backend: NodeJS, NestJS, TypeORM, PostgreSQL, Redis\n    Tools: GitHub with ZenHub, Slack, Github Actoons, Ionic AppFlow\n    Hosting: Amazon Web Services (AWS), Lambda Functions, Kubernetes\n\nNice-to-have\n\n    Experience with Amazon Web Services (AWS)\n    Knowledge about APIs and Integrations of B2B applications like Salesforce or Microsoft Dynamics\n",
+		"skillList": "angular, react, vue, typescript, ioniccordova, ionicappflow, node, nestjs, typeorm, postgres, redis, github, zenhub, githubactions, aws, awslambda, docker, kubernetes",
+		"publicationDate": "2023-02-25"
 	}
 ]
