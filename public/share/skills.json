@@ -1227,5 +1227,11 @@
 		"name": "DigitalOcean",
 		"url": "https://digitalocean.com",
 		"description": "an cloud service provider where you can host Linux machines for under $10 per month"
+	},
+	{
+		"idCode": "tableau",
+		"name": "Tableau",
+		"url": "https://en.wikipedia.org/wiki/Tableau_Software",
+		"description": "data visualization software created in 2003 acquired by Salesforce in 2019"
 	}
 ]
