@@ -783,7 +783,7 @@
 		"idCode": "ai",
 		"name": "AI",
 		"url": "https://rollbar.com/blog/6-ways-artificial-intelligence-improves-software-development",
-		"description": "software that enables itself to learn within a specific context in order to process data to solve tasks that otherwise require human intelligence"
+		"description": "software that is able to learn by itself within a specific context in order to process data to solve tasks that otherwise require human intelligence"
 	},
 	{
 		"idCode": "reacthooks",
