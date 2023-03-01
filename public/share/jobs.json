@@ -826,5 +826,14 @@
 		"description": "\nDAS SIND DEINE AUFGABEN:\n\nDu wirst sowohl bei der Entwick­lung bestehender Services wie der DataScience Toolbox als auch bei der Konzeption weiterer statmath und ifm Produkte mit­wirken.\n\nFolgende Aufgaben über­nimmst du konkret:\n\n    Über­nahme der Schnitt­stellen­funktion zwischen dem UI/UX Team sowie dem Backendteam\n    Design und Entwick­lung von Microservices-Produkte mit Angular 10 (Update auf Angular 14 erfolgt zeitnah) unter Verwen­dung von TypeScript\n    Entwick­lung neuer Ideen für KI-basierte Software­produkte\n    Durch­führung von Code Reviews sowie Pair-Program­mierung\n\nDAS BRINGST DU MIT:\n\n    Praktische Berufs­erfahrung als Entwickler (m/w/d) mit Schwer­punkt Angular, alternativ React\n    Gute Kennt­nisse im Umgang mit TypeScript, JavaScript, HTML5 und CSS3\n    Nice to have: Du hast Spaß an Usability und der Gestal­tung von Bedienungs­konzepten (UX)\n    Mindestens gute Deutsch- und gute Englisch­kennt­nisse\n\n",
 		"skillList": "angular, react, typescript, microservices, ai, ux",
 		"publicationDate": "2023-02-28"
+	},
+	{
+		"id": 93,
+		"title": "Praktikum Webentwicklung",
+		"company": "Trox Technik",
+		"url": "https://www.jobware.de/job/werkstudententaetigkeit-praktikum-webentwicklung-react.901787085.html",
+		"description": "Ihr Profil:\n\n    Erfahrung im Umgang mit React oder vergleichbaren Webframeworks, Javascript/TypeScript, CSS\n    Erfahrungen mit GraphQL und Apollo Client von Vorteil\n    Studium der (Medien-) Informatik oder vergleichbares\n    Sehr gute bis gute bisherige Studienleistung\n    Strukturierte und selbstständige Arbeitsweise, eine schnelle Auffassungsgabe\n    Ausgeprägte Teamfähigkeit, gute Sprachkenntnisse in deutsch und englisch\n    Aktuell immatrikuliert und das Studium ist noch nicht abgeschlossen \n\nIhre Aufgaben:\n\n    Entwicklung von webbasierten Konfigurations- und Steuerungsoberflächen für unsere Produkte\n    Frontend-Entwicklung mit React und TypeScript\n    Entwicklung automatisierter Frontend-Tests\n    Arbeit in einem SCRUM-Team unter Verwendung moderner Softwaretools und Programmbibliotheken\n",
+		"skillList": "react, typescript, graphql, apollo, testing",
+		"publicationDate": "2023-03-01"
 	}
 ]
