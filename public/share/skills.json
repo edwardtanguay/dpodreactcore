@@ -1233,5 +1233,17 @@
 		"name": "Tableau",
 		"url": "https://en.wikipedia.org/wiki/Tableau_Software",
 		"description": "data visualization software created in 2003 acquired by Salesforce in 2019"
+	},
+	{
+		"idCode": "vuetify",
+		"name": "Vuetify",
+		"url": "https://vuetifyjs.com",
+		"description": "a Material-UI component framework for Vue"
+	},
+	{
+		"idCode": "quasar",
+		"name": "Quasar",
+		"url": "https://quasar.dev",
+		"description": "a front-end framework powered by Vue used to build responsive SPAs, SSR apps, PWAs, mobile apps, and Electron apps, all with the same code base"
 	}
 ]

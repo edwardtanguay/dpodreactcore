@@ -835,5 +835,14 @@
 		"description": "Ihr Profil:\n\n    Erfahrung im Umgang mit React oder vergleichbaren Webframeworks, Javascript/TypeScript, CSS\n    Erfahrungen mit GraphQL und Apollo Client von Vorteil\n    Studium der (Medien-) Informatik oder vergleichbares\n    Sehr gute bis gute bisherige Studienleistung\n    Strukturierte und selbstständige Arbeitsweise, eine schnelle Auffassungsgabe\n    Ausgeprägte Teamfähigkeit, gute Sprachkenntnisse in deutsch und englisch\n    Aktuell immatrikuliert und das Studium ist noch nicht abgeschlossen \n\nIhre Aufgaben:\n\n    Entwicklung von webbasierten Konfigurations- und Steuerungsoberflächen für unsere Produkte\n    Frontend-Entwicklung mit React und TypeScript\n    Entwicklung automatisierter Frontend-Tests\n    Arbeit in einem SCRUM-Team unter Verwendung moderner Softwaretools und Programmbibliotheken\n",
 		"skillList": "react, typescript, graphql, apollo, testing",
 		"publicationDate": "2023-03-01"
+	},
+	{
+		"id": 94,
+		"title": "Frontend Entwickler Vue",
+		"company": "msg life ag",
+		"url": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-Vue-m-w-d-Hamburg-Koeln-Leinfelden-Echterdingen-bei-Stuttgart-Muenchen-deutschlandweit-msg-life-ag--9219833-inline.html?rltr=4_4_25_seorl_m_0_0_0_0_1_0",
+		"description": "Deine Aufgaben\n\n    Du bist Teil unseres Developer Teams und entwickelst attraktive und zielgruppenorientierte Web-Frontends für unsere Software\n    Dabei nutzt Du moderne Architekturansätze (Single Page Applications) und Technologien (HTML5, TypeScript, CSS)\n    Du implementierst Web-Frontends und orientierst Dich dabei an unserem UX/UI-Designkonzept\n    Du konzipierst Frameworks und Komponentenbibliotheken für die Frontend-Entwicklung und setzt diese um\n    Du entwickelst automatisierte End-2-End-Tests\n\nDeine Qualifikation\n\n    Idealerweise ein Studium der Informatik, einer verwandten Fachrichtung oder eine vergleichbare Qualifikation im IT-Bereich\n    Sehr gute Kenntnisse aktueller Web-Technologien, Frameworks (Vue) und Komponentenbibliotheken (z.B. Vuetify, Quasar)\n    Zusätzlich idealerweise Kenntnisse einschlägiger Test Tools und Testing Libraries (z.B. Cypress)\n    Gute deutsche und englische Sprachkenntnisse für ein internationales Aufgabenumfeld",
+		"skillList": "vue, vuetify, quasar, cypress, testing, ux",
+		"publicationDate": "2023-03-02"
 	}
 ]
