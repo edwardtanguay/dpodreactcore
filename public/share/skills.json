@@ -1245,5 +1245,17 @@
 		"name": "Quasar",
 		"url": "https://quasar.dev",
 		"description": "a front-end framework powered by Vue used to build responsive SPAs, SSR apps, PWAs, mobile apps, and Electron apps, all with the same code base"
+	},
+	{
+		"idCode": "mssql",
+		"name": "Microsoft SQL Server",
+		"url": "https://de.wikipedia.org/wiki/Microsoft_SQL_Server",
+		"description": "an SQL server developed in 1989 which serves as the standard database for .NET projects"
+	},
+	{
+		"idCode": "artifactory",
+		"name": "Artifactory",
+		"url": "https://www.jfrog.com/confluence/display/RTF",
+		"description": "a universal repository manager supporting most major packaging formats, build tools and CI servers"
 	}
 ]
