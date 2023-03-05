@@ -869,7 +869,16 @@
 		"company": "Jungwild GmbH",
 		"url": "https://www.xing.com/jobs/koeln-frontend-developer-react-vue-js-97844648?paging_context=search&search_query%5Bkeywords%5D=vue.js&search_query%5Blimit%5D=20&search_query%5Boffset%5D=0&ijt=jb_18",
 		"description": "Das könnten deine Aufgaben sein:\n\n    Du entwickelst User Interfaces und (mobile) Applikationen auf Basis von modernen JavaScript Frameworks, wie Vue.js oder React\n    Du konzipierst, entwickelst und implementierst performante Web Applikationen\n    Du arbeitest an einer optimalen Nutzerfreundlichkeit und einer stimmigen Oberfläche\n    Du begeisterst dich für State-of-the-Art Technologien und du bringst Tech Innovationen aktiv in die Produktlandschaft unseres Kunden ein\n    Zu deinem Alltag gehören zudem performante Codes sowie die Durchführung von Code Reviews \n\nDas bringst du mit:\n\n    Ein abgeschlossenes Studium oder eine abgeschlossene Berufsausbildung in einem relevanten Bereich\n    Erste Berufserfahrung als Frontend Developer (m/w/d)\n    Du bringst Kenntnisse im Umgang mit JavaScript Frameworks wie React oder Vue.js mit\n    Agile Entwicklungsumgebungen sind wir nicht nichts Neues\n    Gute Deutsch- und Englischkenntnisse runden dein Profil ab ",
-		"skillList": "vue, react",
+		"skillList": "react, vue",
 		"publicationDate": "2023-03-05"
+	},
+	{
+		"id": 98,
+		"title": "Frontend Entwickler IoT (Vue)",
+		"company": "grandcentrix GmbH (Vodafone)",
+		"url": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-IoT-Vue-mit-Homeoffice-in-Voll-oder-Teilzeit-gn-Koeln-Dortmund-Duesseldorf-Essen-Duisburg-Bochum-Wuppertal-Neuss-Bonn-Koblenz-Aachen-Hagen-grandcentrix-GmbH-a-Vodafone-Company--9150006-inline.html?rltr=5_5_25_seorl_m_1_0_0_0_1_0",
+		"description": "Das bringt der Job\n\n    Erstelle erstklassige Single-Page-Webanwendungen (SPA) für unsere innovativen IoT-Produkte (z.B. Smart Metering oder Tracking)\n    Dabei bestimmst du den langfristigen Produkterfolg im agilen Arbeitsumfeld maßgeblich mit\n    Durch permanente Code-Reviews stellen wir eine hohe Qualität sicher – hierbei gibst du deine Expertise weiter und profitierst von Feedback\n    Als wichtiger Teil eines crossfunktionalen Teams hast du nicht nur dein Feature, sondern das große Ganze im Blick\n    In enger Zusammenarbeit mit Schnittstellen zu unseren UX/UI-Designern hast du einen großen Einfluss auf das Look & Feel unseres smarten Produktportfolios\n\nDas bringst du mit\n\n    Mindestens 5 Jahre Entwicklungserfahrung mit Typescript und Vue.js – Know-how mit E2E-Tests sind ein Pluspunkt\n    Eine gute User Experience ist dir wichtig und du hast ein Auge für ansprechendes Design\n    Gerne tauschst du dich im Team aus, arbeitest jedoch auch für dich und besorgst dir selbstständig fehlende Informationen\n    Neue Technologien reizen dich – du strebst danach, dich stetig weiterzuentwickeln\n    Pinia, Vite, Vitest und Cypress kennst du und hast diese im Optimalfall bereits verwendet\n",
+		"skillList": "vue, typescript, pinia, vite, vitest, cypress, testing",
+		"publicationDate": "2023-03-06"
 	}
 ]

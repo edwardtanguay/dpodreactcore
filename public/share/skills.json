@@ -1257,5 +1257,17 @@
 		"name": "Artifactory",
 		"url": "https://www.jfrog.com/confluence/display/RTF",
 		"description": "a universal repository manager supporting most major packaging formats, build tools and CI servers"
+	},
+	{
+		"idCode": "pinia",
+		"name": "Pinia",
+		"url": "https://pinia.vuejs.org",
+		"description": "a state management tool for Vue.js created in 2019, now recommended by the Vue.js core team"
+	},
+	{
+		"idCode": "vitest",
+		"name": "Vitest",
+		"url": "https://vitest.dev",
+		"description": "a test runner much like Jest that natively supports TypeScript, created in 2020 by Evan You, creator of Vue.js"
 	}
 ]
