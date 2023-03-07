@@ -880,5 +880,14 @@
 		"description": "Das bringt der Job\n\n    Erstelle erstklassige Single-Page-Webanwendungen (SPA) für unsere innovativen IoT-Produkte (z.B. Smart Metering oder Tracking)\n    Dabei bestimmst du den langfristigen Produkterfolg im agilen Arbeitsumfeld maßgeblich mit\n    Durch permanente Code-Reviews stellen wir eine hohe Qualität sicher – hierbei gibst du deine Expertise weiter und profitierst von Feedback\n    Als wichtiger Teil eines crossfunktionalen Teams hast du nicht nur dein Feature, sondern das große Ganze im Blick\n    In enger Zusammenarbeit mit Schnittstellen zu unseren UX/UI-Designern hast du einen großen Einfluss auf das Look & Feel unseres smarten Produktportfolios\n\nDas bringst du mit\n\n    Mindestens 5 Jahre Entwicklungserfahrung mit Typescript und Vue.js – Know-how mit E2E-Tests sind ein Pluspunkt\n    Eine gute User Experience ist dir wichtig und du hast ein Auge für ansprechendes Design\n    Gerne tauschst du dich im Team aus, arbeitest jedoch auch für dich und besorgst dir selbstständig fehlende Informationen\n    Neue Technologien reizen dich – du strebst danach, dich stetig weiterzuentwickeln\n    Pinia, Vite, Vitest und Cypress kennst du und hast diese im Optimalfall bereits verwendet\n",
 		"skillList": "vue, typescript, pinia, vite, vitest, cypress, testing",
 		"publicationDate": "2023-03-06"
+	},
+	{
+		"id": 99,
+		"title": "Frontend Developer Vue.js",
+		"company": "Audiocation GmbH",
+		"url": "https://www.xing.com/jobs/lippstadt-frontend-developer-vue-js-98057392?paging_context=search&search_query%5Bkeywords%5D=vue.js&search_query%5Blimit%5D=20&search_query%5Boffset%5D=0&ijt=jb_18",
+		"description": "Aufgaben\n\n    Entwicklung und Betreuung eines Lernplattform-Frontends auf Basis von Vue.js mit gemeinsamer Codebasis für Web, Android und iOS.\n    Umsetzung eines modernen, responsiven und benutzerfreundlichen UI/UX-Designs unter Einhaltung von Webstandards.\n    Kontinuierliche Erweiterung des Funktionsumfangs und Optimierung der Benutzerfreundlichkeit.\n    Zusammenarbeit mit dem Backend-Programmierung bei der Integration von APIs und Microservices.\n    Evtl. Weiterentwicklung bestehender interner Applikationen (Basis: C#).\n\nQualifikation\n\n    Abgeschlossener Studienabschluss in Informatik oder eine vergleichbare Ausbildung.\n    Einschlägige, mehrjährige Projekterfahrung in der Entwicklung von modernen Webanwendungen sowie der Verwendung von Web Frameworks – idealerweise Vue.js und Cordova (wünschenswert).\n    Sehr gute Kenntnisse in HTML, CSS, TypeScript / JavaScript, Vue.js und C# (wünschenswert).\n    Verständnis von User-Centered Design und Accessibility.\n    Grundlegende Erfahrung im Bereich Continous Integration / Delivery.\n    Team- und Kommunikationsfähigkeit.\n    Gute Deutsch- und grundlegende Englischkenntnisse.",
+		"skillList": "vue, typescript, csharp, accessibility, cicd",
+		"publicationDate": "2023-03-07"
 	}
 ]

@@ -1265,6 +1265,12 @@
 		"description": "a state management tool for Vue.js created in 2019, now recommended by the Vue.js core team"
 	},
 	{
+		"idCode": "accessibility",
+		"name": "Web accessibility",
+		"url": "https://en.wikipedia.org/wiki/Web_accessibility",
+		"description": "the inclusive practice of ensuring there are no barriers that prevent interaction by people with physical disabilities"
+	},
+	{
 		"idCode": "vitest",
 		"name": "Vitest",
 		"url": "https://vitest.dev",
