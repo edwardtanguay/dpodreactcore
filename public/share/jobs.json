@@ -898,5 +898,14 @@
 		"description": "Tasks\n\n    Implement features for our mobile app on iOS and Android using React Native\n    Implement data visualizations using d3.js\n    Implement communication to the backend using GraphQL and REST\n    Communicate with our UX team regarding new features\n    Communicate with our backend team regarding API implementations\n\nRequirements\n\n    Fluent in English or German\n    Minimum 3 years experience as Frontend Developer, developing visually appealing frontend website architecture, including translating ready-made designs from UX team into frontend code.\n    Strong experience with GitHub and GitHub Actions\n    Solid experience as a member of agile teams like SCRUM / Kanban\n    Excellent coding skills and experience with Test Driven Development.\n    Drive to develop highly readable and maintainable code.\n    Experience with cross-platform app development (iOS and Android).\n    Strong React Native, Typescript, JavaScript, CSS, and HTML knowledge.\n\nNice to have:\n\n    d3.js experience\n    Apple HealthKit experience\n    Experience with AWS (Amplify, AppSync etc.)\n    Experience with Fastlane and AppStore Connect\n    Previous participation in healthcare, wearable projects.\n    Proven track-record of open-source contributions",
 		"skillList": "reactnative, typescript, d3, graphql, rest, github, githubactions, aws",
 		"publicationDate": "2023-03-08"
+	},
+	{
+		"id": 101,
+		"title": "Frontend Developer",
+		"company": "babymarket.de GmbH",
+		"url": "https://www.stepstone.de/stellenangebote--Frontend-Developer-m-w-d-Bochum-babymarkt-de-GmbH--9260045-inline.html?rltr=8_8_25_seorl_m_0_0_0_0_0_0",
+		"description": "Deine Aufgaben\n\n    Zusammenarbeit in einem agilen Team\n    Technische Weiter- & Neuentwicklung von unserem Shop-Frontend\n    Evaluierung und Einsatzplanung neuer Technologien  \n    Entwicklung und Betreuung unserer automatisierten CI/CD Pipelines\n    Unterstützung und Beratung unserer Fachabteilungen im Bereich UX/UI\n\nDas bringst du mit\n\n    Du hast Erfahrung mit aktuellen Technologien im Bereich der Frontend-Webentwicklung\n    Du bist sicher im Umgang mit HTML5, CSS3 und Javascript sowie mindestens einem JS-Framework wie Vue.js oder React\n    Du hast bereits Erfahrungen mit TypeScript sammeln können und kannst somit unsere Komponenten typisiert weiter- und neu entwickeln\n    Du hattest erste Gehversuche mit React Native oder Flutter\n    Du hast ein gutes Gespür für UX/UI\n    Du hast Lust darauf, neue Technologien kennenzulernen, dich kreativ an unserer Frontend-Architektur einzubringen und dich stetig weiterzuentwickeln\n    Scrum, Sprint und Story Points sind nicht nur Buzzwords für dich\n",
+		"skillList": "vue, react, typescript, reactnative, flutter, ux",
+		"publicationDate": "2023-03-09"
 	}
 ]
