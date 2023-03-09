@@ -902,7 +902,7 @@
 	{
 		"id": 101,
 		"title": "Frontend Developer",
-		"company": "babymarket.de GmbH",
+		"company": "babymarkt.de GmbH",
 		"url": "https://www.stepstone.de/stellenangebote--Frontend-Developer-m-w-d-Bochum-babymarkt-de-GmbH--9260045-inline.html?rltr=8_8_25_seorl_m_0_0_0_0_0_0",
 		"description": "Deine Aufgaben\n\n    Zusammenarbeit in einem agilen Team\n    Technische Weiter- & Neuentwicklung von unserem Shop-Frontend\n    Evaluierung und Einsatzplanung neuer Technologien  \n    Entwicklung und Betreuung unserer automatisierten CI/CD Pipelines\n    Unterstützung und Beratung unserer Fachabteilungen im Bereich UX/UI\n\nDas bringst du mit\n\n    Du hast Erfahrung mit aktuellen Technologien im Bereich der Frontend-Webentwicklung\n    Du bist sicher im Umgang mit HTML5, CSS3 und Javascript sowie mindestens einem JS-Framework wie Vue.js oder React\n    Du hast bereits Erfahrungen mit TypeScript sammeln können und kannst somit unsere Komponenten typisiert weiter- und neu entwickeln\n    Du hattest erste Gehversuche mit React Native oder Flutter\n    Du hast ein gutes Gespür für UX/UI\n    Du hast Lust darauf, neue Technologien kennenzulernen, dich kreativ an unserer Frontend-Architektur einzubringen und dich stetig weiterzuentwickeln\n    Scrum, Sprint und Story Points sind nicht nur Buzzwords für dich\n",
 		"skillList": "vue, react, typescript, reactnative, flutter, ux",
