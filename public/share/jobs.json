@@ -916,5 +916,14 @@
 		"description": "Ihre Aufgaben:\n\n    Konzeption, Programmierung und Pflege web-basierter Software-Lösungen und Anwendungen\n    Definition der technischen Anforderungen zur Erstellung von Web-Applikationen und Web-Oberflächen\n    Erstellung von User-Interface-Konzepten für diverse Endgeräte\n    Erstellung von Backend-Architekturen und deren Implementierung\n    Testen und Dokumentieren von Software-Lösungen und Anwendungen\n    Mitgestaltung der Entwicklungsprozesse und -richtlinien\n    Unterstützung bei Projektmanagementtätigkeiten und Erstellung von Statusberichten\n    Mitarbeit bei der Erarbeitung und Präsentation von Projektergebnissen für unsere Kunden\n\nIhr Profil\n\n    Ein abgeschlossenes Studium der Informatik, Elektrotechnik oder eine vergleichbare Qualifikation\n    Fundierte Programmiererfahrung in Python und objektorientierter Programmierung\n    Kenntnisse im Umgang mit JavaScript Framework (z.B. Angular, React)\n    Detailliertes Verständnis des http-Protokolls und damit verwandter Technologien wie CORS, TLS, Loadbalancer oder Reverse Proxies\n    Erfahrung im Umgang mit relationalen Datenbanken, Docker, Git und Linux\n    Umfassende Erfahrungen mit dem REST-Architektur-Stil sowie GraphQL von Vorteil\n    Kenntnisse der Prinzipien agiler Softwareentwicklung und Test-Driven Development\n    Grundkenntnisse gängiger Maschinenkommunikationsprotokolle (OPC UA, Modbus, TCP, MQTT)\n    Fließende Deutsch- und Englischkenntnisse in Wort und Schrift\n\n",
 		"skillList": "react, angular, python, oop, mysql, docker, git, linuxadmin, rest, graphql, mqtt",
 		"publicationDate": "2023-03-10"
+	},
+	{
+		"id": 103,
+		"title": "React Frontend Entwickler",
+		"company": "Alten GmbH",
+		"url": "https://www.jobware.de/job/react-frontend-entwickler-m-w-d.1081152065.html",
+		"description": "Stellenbeschreibung\n\n    Entwicklung des Frontends unter Einsatz von Technologien wie React, Redux, GraphQL, TypeScript, Node.js & SASS\n    Mitwirkung bei der Konzeption von Webanwendungen mit modernen Frameworks in agilen Scrum-Teams\n    Evaluierung und Einführung innovativer Frontend-Technologien\n    Definition und Pflege von technischen Qualitätsstandards in der Software-Entwicklung\n    Zusammenarbeit mit den jeweiligen Teams aus Backend, Frontend und Design\n\nQualifikationen\n\n    Abgeschlossenes Studium der Informatik oder ein vergleichbarer Studiengang (Wirtschaftsinformatik oder Mathematik)\n    Relevante Erfahrung in Frontendentwicklung von Webanwendungen oder Applikationen mit React, JavaScript/TypeScript, Angular\n    Kenntnisse im Umgang mit Microservices, Docker und Kubernetes\n    Erfahrung mit UI/UX-Frameworks\n    Sehr gute Deutsch- und Englischkenntnisse\n",
+		"skillList": "react, angular, typescript, redux, sass, graphql, node, microservices, docker, kubernetes, ux",
+		"publicationDate": "2023-03-11"
 	}
 ]
