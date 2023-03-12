@@ -925,5 +925,14 @@
 		"description": "Stellenbeschreibung\n\n    Entwicklung des Frontends unter Einsatz von Technologien wie React, Redux, GraphQL, TypeScript, Node.js & SASS\n    Mitwirkung bei der Konzeption von Webanwendungen mit modernen Frameworks in agilen Scrum-Teams\n    Evaluierung und Einführung innovativer Frontend-Technologien\n    Definition und Pflege von technischen Qualitätsstandards in der Software-Entwicklung\n    Zusammenarbeit mit den jeweiligen Teams aus Backend, Frontend und Design\n\nQualifikationen\n\n    Abgeschlossenes Studium der Informatik oder ein vergleichbarer Studiengang (Wirtschaftsinformatik oder Mathematik)\n    Relevante Erfahrung in Frontendentwicklung von Webanwendungen oder Applikationen mit React, JavaScript/TypeScript, Angular\n    Kenntnisse im Umgang mit Microservices, Docker und Kubernetes\n    Erfahrung mit UI/UX-Frameworks\n    Sehr gute Deutsch- und Englischkenntnisse\n",
 		"skillList": "react, angular, typescript, redux, sass, graphql, node, microservices, docker, kubernetes, ux",
 		"publicationDate": "2023-03-11"
+	},
+	{
+		"id": 104,
+		"title": "Entwicklung React",
+		"company": "pooliestudios GmbH",
+		"url": "https://www.xing.com/jobs/koeln-entwicklung-react-97994623?paging_context=search&search_query%5Bkeywords%5D=react%20docker&search_query%5Blimit%5D=20&search_query%5Boffset%5D=0&ijt=jb_18",
+		"description": "Aufgaben\n\nAls React-EntwicklerIn (m/w/d) schreibst du skalierbare und performante Lösungen für spannende Web- und App-Projekte. Dein Fokus liegt dabei auf der Umsetzung und Weiterentwicklung. Gerne auch Remote/im Homeoffice.\n\nUnser Tech-Stack: je nach Projekt Symfony, WordPress oder Shopware mit MySQL, Elasticsearch, MongoDB und/oder Redis. Frontend-Entwicklung in Saas, Vanilla JS und/oder React. Entwicklung in Docker-Containern mit CI/CD, automatisierten Tests und Deployments mit GitLab.\nQualifikation\n\n    Sehr gute Kenntnisse in React, HTML, CSS und JavaScript\n    Vielleicht auch schon ein Projekt in React Native umgesetzt\n    Kenntnisse in PHP sind von Vorteil\n    Interesse an Continuous Integration und Deployment\n    Tiefes Interesse an technologischen Entwicklungen\n    Analytisches und konzeptionelles Denken\n    Selbstständiges und lösungsorientiertes Arbeiten",
+		"skillList": "react, reactnative, sass, php, symfony, wordpress, mysql, elasticsearch, mongodb, redis, docker, gitlab, cicd",
+		"publicationDate": "2023-03-12"
 	}
 ]

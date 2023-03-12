@@ -1275,5 +1275,17 @@
 		"name": "Vitest",
 		"url": "https://vitest.dev",
 		"description": "a test runner much like Jest that natively supports TypeScript, created in 2020 by Evan You, creator of Vue.js"
+	},
+	{
+		"idCode": "elasticsearch",
+		"name": "Elasticsearch",
+		"url": "https://onespace.pages.dev/techItems?id=170",
+		"description": "a search engine and NOSQL database based on the Lucene library"
+	},
+	{
+		"idCode": "wordpress",
+		"name": "Wordpress",
+		"url": "https://onespace.pages.dev/techItems?id=187",
+		"description": "most popular content management system written in PHP"
 	}
 ]
