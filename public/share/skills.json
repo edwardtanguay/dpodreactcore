@@ -1287,5 +1287,11 @@
 		"name": "Wordpress",
 		"url": "https://onespace.pages.dev/techItems?id=187",
 		"description": "most popular content management system written in PHP"
+	},
+	{
+		"idCode": "django",
+		"name": "Django",
+		"url": "https://onespace.pages.dev/techItems?id=132",
+		"description": "a Python-based web framework created in 2005"
 	}
 ]
