@@ -1293,5 +1293,41 @@
 		"name": "Django",
 		"url": "https://onespace.pages.dev/techItems?id=132",
 		"description": "a Python-based web framework created in 2005"
+	},
+	{
+		"idCode": "ansible",
+		"name": "Ansible",
+		"url": "https://en.wikipedia.org/wiki/Ansible_(software)",
+		"description": "a suite of tools that enables infrastructure as code including provisioning, configuration management and deployment"
+	},
+	{
+		"idCode": "prometheus",
+		"name": "Prometheus",
+		"url": "https://en.wikipedia.org/wiki/Prometheus_(software)",
+		"description": "event monitoring and alerting software and time-series database written in Go which helps identify bottlenecks and optimize performance"
+	},
+	{
+		"idCode": "grafana",
+		"name": "Grafana",
+		"url": "https://en.wikipedia.org/wiki/Grafana",
+		"description": "an analytics and interactive visualization tool that helps devops visualize and analyze system data in real-time"
+	},
+	{
+		"idCode": "datadog",
+		"name": "Datadog",
+		"url": "https://en.wikipedia.org/wiki/Datadog",
+		"description": "an observability service for cloud-scale applications, providing monitoring of servers, databases, tools, and services"
+	},
+	{
+		"idCode": "hadoop",
+		"name": "Hadoop",
+		"url": "https://en.wikipedia.org/wiki/Datadog",
+		"description": "a collection of utilities that uses a network of computers to solve problems such as data crunching and computation"
+	},
+	{
+		"idCode": "spark",
+		"name": "Apache Spark",
+		"url": "https://en.wikipedia.org/wiki/Apache_Spark",
+		"description": "analytics engine for large-scale data processing. Spark provides an interface for programming clusters with fault tolerance and data parallelism (multiple processors that work on data at once)"
 	}
 ]

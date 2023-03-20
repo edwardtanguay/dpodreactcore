@@ -970,5 +970,14 @@
 		"description": "Diese Herausforderungen übernehmen Sie\n\n    Sie entwickeln gemeinsam in einem bestehenden Team Applikationen in C#/.NET\n    Agile Softwareentwicklungsmethoden wie z. B. SCRUM unterstützen Sie dabei\n    Im Team lösen Sie komplexe und spannende Entwicklungsaufgaben sowohl im Frontend als auch im Backend\n    Außerdem erstellen Sie Testfälle und führen automatisierte Softwaretests durch (Unit-Tests)\n    Ihr eingesetztes Tech-Stack umfasst dabei unter anderem: C# .NET, .NET Core, JavaScript, TypeScript, React, Angular, HTML, CSS, Azure, Docker, Kubernetes\nDas bringen Sie mit\n\n    Sie haben ein Studium der Fachrichtung Informatik oder eine Ausbildung zum Fachinformatiker Anwendungsentwicklung erfolgreich abgeschlossen\n    Erste Erfahrung in der Softwareentwicklung unter Einsatz von Microsoft-Technologien (.NET, C#) konnten Sie bereits sammeln\n    Daneben begeistern Sie sich für neue Technologien\n    Eine zielorientierte und selbstständige Arbeitsweise zeichnet Sie aus\n    Berufseinsteiger mit praktischer Erfahrung im Rahmen von Praktika oder Abschlussarbeiten sind ebenfalls willkommen\n",
 		"skillList": "csharp, dotnet, react, angular, typescript, azure, docker, kubernetes, testing",
 		"publicationDate": "2023-03-16"
+	},
+	{
+		"id": 109,
+		"title": "DevOps Developer",
+		"company": "Caiz Development GmbH",
+		"url": "https://www.xing.com/jobs/frankfurt-main-devops-developer-98348602?paging_context=search&search_query%5Bkeywords%5D=devops&search_query%5Blimit%5D=20&search_query%5Boffset%5D=0&ijt=jb_18",
+		"description": "DevOps Engineer Requirements:\n\n    Degree in computer science, software engineering, or an adjacent field.\n    Should have worked/used/implemented AWS\n    Should have worked with Docker & Kubernetes(kubernetes is currently optional, given we are finding direction so we will stick services on cloud)\n    Should have previously worked with dev teams, this is to ensure that they can communicate and comprehend the needs of devs\n    Should have worked with DMZ architecture\n    Oversee security vulnerabilities in code using open-source/paid tools\n    Oversee Domain security and help protect against domain squatters. (optional)\n    Develop a dos risk mitigation strategy for our infrastructure and implement it to ensure safety.\n    Familiarity with ansible, prometheus, grafana, DataDog, Jenkins.\n    Huge bonus if you worked with setting up Hadoop and Spark.",
+		"skillList": "docker, kubernetes, aws, ansible, prometheus, grafana, datadog, jenkins, hadoop, spark",
+		"publicationDate": "2023-03-17"
 	}
 ]
