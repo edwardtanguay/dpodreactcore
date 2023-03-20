@@ -979,5 +979,32 @@
 		"description": "DevOps Engineer Requirements:\n\n    Degree in computer science, software engineering, or an adjacent field.\n    Should have worked/used/implemented AWS\n    Should have worked with Docker & Kubernetes(kubernetes is currently optional, given we are finding direction so we will stick services on cloud)\n    Should have previously worked with dev teams, this is to ensure that they can communicate and comprehend the needs of devs\n    Should have worked with DMZ architecture\n    Oversee security vulnerabilities in code using open-source/paid tools\n    Oversee Domain security and help protect against domain squatters. (optional)\n    Develop a dos risk mitigation strategy for our infrastructure and implement it to ensure safety.\n    Familiarity with ansible, prometheus, grafana, DataDog, Jenkins.\n    Huge bonus if you worked with setting up Hadoop and Spark.",
 		"skillList": "docker, kubernetes, aws, ansible, prometheus, grafana, datadog, jenkins, hadoop, spark",
 		"publicationDate": "2023-03-17"
+	},
+	{
+		"id": 111,
+		"title": "DevOps Entwickler",
+		"company": "Techniker Krankenkasse",
+		"url": "https://www.jobware.de/job/devops-entwickler-m-w-d.1129695005.html",
+		"description": "\nIhre Aufgaben\n\n    Maßgeschneiderte Web- und Java-Anwendungen in Zusammenarbeit mit internen Kundinnen und Kunden entwerfen sowie implementieren\n    Entwicklungs- und Deployment-Prozesse im Sinne von Continuous Integration und Continuous Deployment (CI/CD) weiterentwickeln sowie automatisieren\n    Prozesse zur Inbetriebnahme von Software konzipieren und realisieren\n    Technische Optimierungen selbstorganisiert im Team umsetzen\n    Geeignete neue Technologien identifizieren und einbringen\n    Nach agilen Methoden arbeiten\n\nIhr Profil\n\n    Abgeschlossenes Studium der (Wirtschafts-)Informatik oder eine Berufsausbildung mit dem Schwerpunkt IT\n    Mehrere Jahre Berufserfahrung im Einsatz von Apache Maven, Jenkins Pipelines, Kubernetes (OpenShift) und Docker im Linux-Umfeld\n    Gute Kenntnisse in Java und React\n    Freude an komplexen Herausforderungen und wirkungsvollen Lösungen\n    Eine schnelle Auffassungsgabe mit einem Blick für das Wesentliche\n\n",
+		"skillList": "react, java, cicd, maven, jenkins, docker, kubernetes, openshift",
+		"publicationDate": "2023-03-18"
+	},
+	{
+		"id": 112,
+		"title": "DevOps Entwickler",
+		"company": "Bosch Gruppe",
+		"url": "https://www.stepstone.de/stellenangebote--DevOps-Entwickler-w-m-div-Koeln-Berlin-Stuttgart-Muenchen-Immenstadt-Home-Office-Bosch-Gruppe--9257289-inline.html?rltr=33_8_25_seorl_m_0_0_0_0_1_0",
+		"description": "Aufgaben\n\n    Sie arbeiten in einem dynamischen und agilen Team innerhalb eines Unternehmens-Startups und fokussieren sich dabei auf die Entwicklung von Softwarelösungen, die solide Industriepartnerschaften und Kooperationen ermöglichen.\n    Sie begleiten die Implementierung kundenorientierter Hybrid-Cloud-Lösungen.\n    Weiterhin schaffen Sie die Verbindung zwischen realer Herausforderung im Management von Gebäude-Portfolios mit einem Framework von Softwarelösungen. Dabei transformieren Sie Schritt-für-Schritt die Geschäftsdynamik in der Immobilienbranche.\n    Um Problemstellungen der institutionellen Immobilienwirtschaft durch den Aufbau von Softwarelösungen zu lösen, entwickeln Sie in Zusammenarbeit mit den Kolleg:innen Verfahren und Ansätze in einem B2B-Geschäftskontext für eine nachhaltigere und effizientere Zukunft schrittweise neu.\n\nProfil\n\n    Ausbildung: abgeschlossenes Studium in den Bereichen Informatik, Informationstechnik, Wirtschaftsinformatik oder eine vergleichbare Qualifikation.\n    Persönlichkeit und Arbeitsweise: ausgeprägte Kommunikations- und Überzeugungsfähigkeiten.\n    Erfahrungen und Know-how: mehrjährige Erfahrungen in komplexen IT-Infrastrukturumgebungen. Zudem Berufserfahrung in Automatisierungs- und CI/CD-Technologien (z.B. Azure DevOps ist von Vorteil, Jenkins, GitHub/Lab, Docker, Kubernetes). Weiterhin Erfahrung in der Anwendungsentwicklung (z.B. Java und Spring sind von Vorteil).\n    Qualifikation: Kenntnisse von Infrastructure as Code Tools (z.B. ARM, Terraform, Ansible). Des Weiteren Kenntnisse in Build-Systemen (z.B. Gradle ist von Vorteil, Maven). Kenntnisse in der Nutzung, Bereitstellung und Überwachung von Public Clouds, insbesondere Azure ADX und ADT sind wünschenswert.\n    Begeisterung: für Automatisierung und die Arbeit mit Cloud-Infrastrukturen.\n    Bereitschaft: für das Erlernen von Cloud-Sicherheit (z.B. Netzwerk, Firewall).\n    Sprachen: verhandlungssichere Englischkenntnisse in Wort und Schrift.",
+		"skillList": "cicd, azure, jenkins, github, gitlab, docker, kubernetes, java, springboot, arm, terraform, ansible, gradle, maven",
+		"publicationDate": "2023-03-19"
+	},
+	{
+		"id": 113,
+		"title": "Softwareentwickler DevOps",
+		"company": "IVU Traffic Technologies AG",
+		"url": "https://www.stepstone.de/stellenangebote--Softwareentwickler-DevOps-m-w-d-fuer-OEPNV-Software-Berlin-IVU-Traffic-Technologies-AG--9232639-inline.html?rltr=4_4_25_seorl_m_0_0_0_0_1_0",
+		"description": "Als DevOps-Entwickler (m/w/d)\n\n    implementieren und betreiben Sie unsere Integrations­mechanismen in enger Zusammenarbeit mit unseren Entwicklungs- und Projektteams\n    evaluieren Sie neue Technologien und Systeme und übernehmen diese in die Produktion\n    automatisieren Sie Systeme, Infrastrukturen und Prozesse mit Automatisierungstools und Skripten\n\nWir freuen uns auf Kollegen (m/w/d)\n\n    die Informatik oder ein verwandtes Fach studiert haben und bei ihrer Arbeit konzeptionell und analytisch vorgehen\n    die Lust auf Umgebungen und Technologien wie Terraform, Kubernetes, Puppet, Jenkins, Docker oder ähnliche haben und sich in Windows sowie Linux zu Hause fühlen\n    die offen sind, eine schnelle Auffassungsgabe haben und anpacken können",
+		"skillList": "docker, kubernetes, jenkins, terraform, puppet",
+		"publicationDate": "2023-03-20"
 	}
 ]

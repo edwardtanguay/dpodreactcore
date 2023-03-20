@@ -723,7 +723,7 @@
 		"idCode": "terraform",
 		"name": "Terraform",
 		"url": "https://onespace.pages.dev/techItems?id=304",
-		"description": "infrastructure as code software tool created by HashiCorp"
+		"description": "infrastructure as code tool created by HashiCorp"
 	},
 	{
 		"idCode": "nx",
@@ -1329,5 +1329,17 @@
 		"name": "Apache Spark",
 		"url": "https://en.wikipedia.org/wiki/Apache_Spark",
 		"description": "analytics engine for large-scale data processing. Spark provides an interface for programming clusters with fault tolerance and data parallelism (multiple processors that work on data at once)"
+	},
+	{
+		"idCode": "arm",
+		"name": "ARM (Azure Resource Manager)",
+		"url": "https://www.varonis.com/blog/arm-template",
+		"description": "Microsoft's deployment and management service for Azure, used to create, update, and delete Azure resources"
+	},
+	{
+		"idCode": "puppet",
+		"name": "Puppet",
+		"url": "https://en.wikipedia.org/wiki/Puppet_(software)",
+		"description": "a configuration management tool that automates the deployment and management of software and systems"
 	}
 ]
