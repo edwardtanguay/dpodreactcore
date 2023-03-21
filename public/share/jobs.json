@@ -1006,5 +1006,14 @@
 		"description": "Als DevOps-Entwickler (m/w/d)\n\n    implementieren und betreiben Sie unsere Integrations­mechanismen in enger Zusammenarbeit mit unseren Entwicklungs- und Projektteams\n    evaluieren Sie neue Technologien und Systeme und übernehmen diese in die Produktion\n    automatisieren Sie Systeme, Infrastrukturen und Prozesse mit Automatisierungstools und Skripten\n\nWir freuen uns auf Kollegen (m/w/d)\n\n    die Informatik oder ein verwandtes Fach studiert haben und bei ihrer Arbeit konzeptionell und analytisch vorgehen\n    die Lust auf Umgebungen und Technologien wie Terraform, Kubernetes, Puppet, Jenkins, Docker oder ähnliche haben und sich in Windows sowie Linux zu Hause fühlen\n    die offen sind, eine schnelle Auffassungsgabe haben und anpacken können",
 		"skillList": "docker, kubernetes, jenkins, terraform, puppet",
 		"publicationDate": "2023-03-20"
+	},
+	{
+		"id": 114,
+		"title": "Softwareentwickler DevOps",
+		"company": "freenet DLS GmbH",
+		"url": "https://www.stepstone.de/stellenangebote--Softwareentwickler-w-m-d-DevOps-Cloud-Plattform-Buedelsdorf-freenet-DLS-GmbH--9332326-inline.html?rltr=17_17_25_seorl_m_0_0_0_0_1_0",
+		"description": "DEINE AUFGABEN\n\n    Du erstellst und pflegst moderne Microservices für innovative Telekommunikationsprodukte in unserem agilen Umfeld\n    Die Auswahl und der Einsatz geeigneter Serverless-Technologien, Tools und Frameworks gehören ebenfalls zu Deinem Verantwortungsbereich\n    Du entwickelst neue Produktideen und erweiterst bestehende Produkte zusammen mit Kollegen aus der App-Entwicklung, dem Produktmanagement und weiteren IT-Teams\n    Durch Unit Tests, Code Reviews, Continuous Integration und automatisierte Deployments sorgst Du für Verlässlichkeit\n    Du übernimmst schnell Verantwortung für Deine Mircoservices – das Team unterstützt Dich tatkräftig beim Training on the Job\n\nDEIN PROFIL\n\n    Du hast ein Studium der Informatik abgeschlossen, eine vergleichbare Qualifikation erworben oder bist Quereinsteiger und hast bereits Programmiererfahrung\n    Idealerweise verfügst Du über sehr gute Kenntnisse in JavaScript, TypeScript und AWS sowie Verständnis gängiger Entwurfsmuster und Vorgehensweisen\n    Deine Leidenschaft für guten Code und Erfahrung mit aktuellen Tools und Frameworks (z. B. AWS Lambda, Dynamo DB, node.js, GitHub, Jira, MS Teams) ergänzen Dein Profil\n    Wenn Du über gute Deutschkenntnisse in Wort und Schrift verfügst, erleichtert es die Kommunikation innerhalb des Teams, Englisch hilft im Austausch mit Partnern\n    Eigenverantwortung, Zuverlässigkeit und Hilfsbereitschaft, ausgeprägte Team- und Kommunikationsfähigkeit sowie Hands-on-Mentalität bringst Du mit\n\n",
+		"skillList": "typescript, aws, awslambda, dynamodb, node, github, jira",
+		"publicationDate": "2023-03-21"
 	}
 ]
