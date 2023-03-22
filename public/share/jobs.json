@@ -1024,5 +1024,14 @@
 		"description": "Ihre Aufgaben\n\nAls Software Engineer DevOps / Linux sind Sie erster Ansprechpartner bei Neu- und Weiterentwicklungen der Kubernetes Systeme. Sie stellen einen zuverlässigen Betrieb der Plattform sicher, führen regelmäßige Updates durch, treiben die Automatisierung voran und achten dabei stets auf die Anforderungen aus den Bereichen IT-Security, Datenschutz und Complience. Sie sind erster Ansprechpartner bei aufkommenden Anwenderfragen zu oben genannten Themen.\n\n    Übernahme der technischen Verantwortung für die Kubernetes Plattform der EBZ Gruppe\n    Pflege und Wartung der Plattformen Kubernets und Gitlab\n    Eigenverantwortliche Weiterentwicklung und Optimierung der Plattformen\n    Automatisierung von Plattformprozessen\n    Mitarbeit an verschiedenen IT-Projekten deutschlandweit und weltweit\n\nIhr Profil\n\n    Abgeschlossene Hochschulstudium im Studiengang Informatik, Wirtschaftsinformatik oder eine vergleichbare Berufsausbildung mit entsprechender Berufserfahrung\n    Fundierte Kubernetes und Gitlab (inkl. Gitlab CI/CD) Kenntnisse\n    Gute Kenntnisse in der Administration von Linux Systemen\n    Idealerweise Kenntnisse im Umgang mit C# Blazor, Python, Helm und Terraform\n    Grundlagen des IT Projektmanagements sind wünschenswert\n    Gute Englischkenntnisse\n",
 		"skillList": "gitlab, cicd, linuxadmin, blazor, python, helm, terraform",
 		"publicationDate": "2023-03-22"
+	},
+	{
+		"id": 116,
+		"title": "Junior DevOps Engineer",
+		"company": "Einhell Germany AG",
+		"url": "https://www.wearedevelopers.com/en/companies/2955/einhell-germany-ag/29190/junior-devops-engineer-m-w-d-2635372897",
+		"description": "Requirements\n\n    Studium der Informatik oder adäquater akademischer Background mit mehrjähriger Berufserfahrung\n    Erfahrung im Bereich der Planung und des Betriebs mit Container-Technologien und Continous-Integration-Systeme\n    Configuration Management und Infrastructure Management (Ansible, Terraform)\n    Erfahrung im Bereich Software-Entwicklung und Design größerer Software-Systeme\n    Sicherer Umgang mit Linux und Git\n    Sehr gute Deutsch- und Englischkenntnisse\n    Bereitschaft, sich ständig umfassend weiterzubilden\n    Aufgeschlossenheit, gute Kommunikationsfähigkeit und Offenheit\n\nScope of Work\n\n    Planung und Betrieb leistungsfähiger Web- und Application-Infrastruktur\n    Weiterentwicklung der Automatisierung in Build & Release-Prozessen\n    Umsetzung von Projekten im Rahmen der Cyber-Ssicherheit\n    Optimierung des Monitorings und Ableitung geeigneter Maßnahmen\n    Selbstständige Umsetzung von Projekten und Teilprojekten\n    Mitwirkung bei der Evaluation von Technologien und Trends zur kontinuierlichen Optimierung der Systemlandschaft",
+		"skillList": "ansible, terraform, linuxadmin, git",
+		"publicationDate": "2023-03-23"
 	}
 ]
