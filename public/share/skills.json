@@ -1341,5 +1341,11 @@
 		"name": "Puppet",
 		"url": "https://en.wikipedia.org/wiki/Puppet_(software)",
 		"description": "a configuration management tool that automates the deployment and management of software and systems"
+	},
+	{
+		"idCode": "helm",
+		"name": "Helm",
+		"url": "https://helm.sh",
+		"description": "a free, open-source software that helps devops manage, deploy and version control their applications on Kubernetes clusters"
 	}
 ]
