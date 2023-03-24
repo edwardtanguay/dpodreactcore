@@ -1347,5 +1347,11 @@
 		"name": "Helm",
 		"url": "https://helm.sh",
 		"description": "a free, open-source software that helps devops manage, deploy and version control their applications on Kubernetes clusters"
+	},
+	{
+		"idCode": "salt",
+		"name": "Salt",
+		"url": "https://docs.saltproject.io/en/getstarted/index.html",
+		"description": "an open-source configuration management and automation software tool used to manage and provision servers, cloud resources, and software applications"
 	}
 ]

@@ -1033,5 +1033,14 @@
 		"description": "Requirements\n\n    Studium der Informatik oder adäquater akademischer Background mit mehrjähriger Berufserfahrung\n    Erfahrung im Bereich der Planung und des Betriebs mit Container-Technologien und Continous-Integration-Systeme\n    Configuration Management und Infrastructure Management (Ansible, Terraform)\n    Erfahrung im Bereich Software-Entwicklung und Design größerer Software-Systeme\n    Sicherer Umgang mit Linux und Git\n    Sehr gute Deutsch- und Englischkenntnisse\n    Bereitschaft, sich ständig umfassend weiterzubilden\n    Aufgeschlossenheit, gute Kommunikationsfähigkeit und Offenheit\n\nScope of Work\n\n    Planung und Betrieb leistungsfähiger Web- und Application-Infrastruktur\n    Weiterentwicklung der Automatisierung in Build & Release-Prozessen\n    Umsetzung von Projekten im Rahmen der Cyber-Ssicherheit\n    Optimierung des Monitorings und Ableitung geeigneter Maßnahmen\n    Selbstständige Umsetzung von Projekten und Teilprojekten\n    Mitwirkung bei der Evaluation von Technologien und Trends zur kontinuierlichen Optimierung der Systemlandschaft",
 		"skillList": "ansible, terraform, linuxadmin, git",
 		"publicationDate": "2023-03-23"
+	},
+	{
+		"id": 117,
+		"title": "DevOps Engineer",
+		"company": "Siticom GMBH",
+		"url": "https://www.wearedevelopers.com/en/companies/2887/siticom/28445/devops-engineer-m-w-d-all-seniority-levels-3869750829",
+		"description": "Requirements\n\n    Experience with deployment and orchestration-technologies such as Jenkins, Docker, Kubernetes, Salt, Ansible, GIT.\n    Experience with RESTful web-services, API's and in API handling\n    Good knowledge of working with Linux servers in network environments\n    Experience with virtualization solutions\n\nScope of Work\n\n    Further development of Continuous Integration (CI) and Continuous Delivery (CD) automation\n    Provision and creation of software packages for test and production systems\n    Close cooperation with the development and operations teams of our customers\n    Building automated infrastructures with Terraform and Ansible\n    Investigate, test, and evaluate new tools and approaches in the DevOps environment",
+		"skillList": "jenkins, docker, kubernetes, salt, terraform, ansible, git, rest, cicd",
+		"publicationDate": "2023-03-24"
 	}
 ]
