@@ -1042,5 +1042,32 @@
 		"description": "Requirements\n\n    Experience with deployment and orchestration-technologies such as Jenkins, Docker, Kubernetes, Salt, Ansible, GIT.\n    Experience with RESTful web-services, API's and in API handling\n    Good knowledge of working with Linux servers in network environments\n    Experience with virtualization solutions\n\nScope of Work\n\n    Further development of Continuous Integration (CI) and Continuous Delivery (CD) automation\n    Provision and creation of software packages for test and production systems\n    Close cooperation with the development and operations teams of our customers\n    Building automated infrastructures with Terraform and Ansible\n    Investigate, test, and evaluate new tools and approaches in the DevOps environment",
 		"skillList": "jenkins, docker, kubernetes, salt, terraform, ansible, git, rest, cicd",
 		"publicationDate": "2023-03-24"
+	},
+	{
+		"id": 118,
+		"title": "Full Stack Webentwickler",
+		"company": "EDAG",
+		"url": "https://www.get-in-it.de/jobsuche/p215910",
+		"description": "Daran werden Sie wachsen:\n\n    Entwurf und Entwicklung von innovativen Web-Applikationen\n    Frontend-Entwicklung auf Grundlage von Frameworks wie Angular oder React\n    Backend-Entwicklung aus Basis von node.js\n    Durchführung von Design- sowie Code-Reviews\n    Erstellung automatisierter Entwicklertests und fachlicher Regressionstests\n    Zusammenarbeit in einem agilen, internationalen Entwicklungsteam\n\nDamit bringen Sie uns voran:\n\n    Abgeschlossenes Studium der Informatik oder eine vergleichbare Qualifikation\n    Relevante Berufserfahrung in der Full Stack Webentwicklung\n    Kenntnisse in Web-Technologien wie HTML5, CSS, JavaScript, Typescript sowie Frameworks wie Angular oder React\n    Erfahrungen mit SQL und NoSQL Datenbanken\n    Erfahrungen mit CI/CD Technologien\n    Erste Kenntnisse in Cloudtechnologien\n    Spaß an der Arbeit in agilen Projektteams\n    Fließende Deutsch- und gute Englischkenntnisse",
+		"skillList": "react, angular, typescript, sql, nosql, cicd, cloud",
+		"publicationDate": "2023-03-25"
+	},
+	{
+		"id": 119,
+		"title": "Full Stack Web-Entwickler",
+		"company": "Brother Internationale Industriemaschinen GmbH",
+		"url": "https://www.wearedevelopers.com/en/companies/2970/brotherdigital/29378/full-stack-web-entwickler-in-react-python-248047795",
+		"description": "Requirements\n\n    Du bist zuständig für die ständige Weiterentwicklung unserer interaktiven Single-Page-Applikationen mit React oder Angular und bist für die Erweiterung neuer Module und Layouts bestehender Webapplikationen verantwortlich\n    Du setzt komplexe und anspruchsvolle responsive UX-Designs als erfahrener Software-Entwickler/in um\n    Du hältst dich eigenverantwortlich über neue Technologien auf dem Laufenden\n    Du konzipierst und entwickelst nach der SCRUM Methode\n    Du arbeitest eng mit verschiedenen Teammitgliedern wie Softwarearchitekten, Entwicklern, Designern und anderen Experten zusammen\n\nScope of Work\n\n    Backend-Erfahrung in der Technologie Python und in der aws Serverless Umgebung\n    Javascript Framework React\n    Objektorientierte- und funktionale Programmierung\n    Gründlichkeit und strukturiert, DRY-Prinzip\n    REST-Api Schnittstellen\n    Versionskontrolle und Umgang mit Git\n    HTML5, SCSS/LESS und JavaScript (ES6)",
+		"skillList": "react, python, oop, functionalprogramming, rest, git, sass",
+		"publicationDate": "2023-03-26"
+	},
+	{
+		"id": 120,
+		"title": "Frontend API Entwickler",
+		"company": "Zander Gruppe",
+		"url": "https://www.wearedevelopers.com/en/companies/2807/zander-gruppe/27831/frontend-api-entwickler-m-w-d-4294053313",
+		"description": "Requirements\n\nErfahrung als Frontend/Api-Entwickler(in) in mindestens folgenden Programmiersprachen & Systemen:\n\n    Angular/Typescript\n    JavaScript\n    PHP\n    HTML\n    CSS\n    nodejs\n    git\n    CI/CD\n    Docker\n    Linux\n    Apache\n    Nginx\n\n\nSocial Skills:\n\n    Hohe Kunden- und Serviceorientierung sowie Kommunikationsstärke\n    Sicheres Deutsch in Wort und Schrift\n    Bereitschaft und Fähigkeit, Verantwortung zu übernehmen und jeden Tag Neues hinzuzulernen\n    Bereitschaft und Fähigkeit, Unbekanntes und neues zu erforschen und analysieren\n    Selbständiges arbeiten\n    Freundlichkeit und Hilfsbereitschaft\n    Teamplayer Fähigkeiten. Du teilst gerne Dein Wissen, legst Wert auf ein respektvolles Miteinander\n    Nachhaltiges und wirtschaftliches Denken und Handeln",
+		"skillList": "angular, typescript, php, node, git, cicd, docker, linuxadmin, apache, nginx",
+		"publicationDate": "2023-03-27"
 	}
 ]
