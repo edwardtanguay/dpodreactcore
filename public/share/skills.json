@@ -1353,5 +1353,11 @@
 		"name": "Salt",
 		"url": "https://docs.saltproject.io/en/getstarted/index.html",
 		"description": "an open-source configuration management and automation software tool used to manage and provision servers, cloud resources, and software applications"
+	},
+	{
+		"idCode": "vmwaretanzu",
+		"name": "VMware Tanzu",
+		"url": "https://tanzu.vmware.com/tanzu",
+		"description": "a suite of products and solutions that allow its customers to build, run, and manage Kubernetes-controlled, container-based applications"
 	}
 ]
