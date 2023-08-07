@@ -1094,7 +1094,8 @@
 	{
 		"idCode": "websockets",
 		"name": "Websockets",
-		"url": "https://onespace.pages.dev/techItems?id=385 "
+		"url": "https://onespace.pages.dev/techItems?id=385",
+		"description": "a communication protocol that provides communication channels over a single, long-lived connection between a web browser and a server"
 	},
 	{
 		"idCode": "rubyonrails",
@@ -1364,7 +1365,7 @@
 		"idCode": "cvs",
 		"name": "CVS",
 		"url": "https://en.wikipedia.org/wiki/Concurrent_Versions_System",
-		"description": "a very old revision control system, its latest relesase in 2008"
+		"description": "a very old revision control system, its latest release in 2008"
 	},
 	{
 		"idCode": "canvas",
