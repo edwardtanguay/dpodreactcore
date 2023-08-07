@@ -1359,5 +1359,23 @@
 		"name": "VMware Tanzu",
 		"url": "https://tanzu.vmware.com/tanzu",
 		"description": "a suite of products and solutions that allow its customers to build, run, and manage Kubernetes-controlled, container-based applications"
+	},
+	{
+		"idCode": "cvs",
+		"name": "CVS",
+		"url": "https://en.wikipedia.org/wiki/Concurrent_Versions_System",
+		"description": "a very old revision control system, its latest relesase in 2008"
+	},
+	{
+		"idCode": "canvas",
+		"name": "HTML Canvas",
+		"url": "https://www.w3schools.com/graphics/canvas_intro.asp",
+		"description": "an HTML5 feature that allows you to draw and render graphics, such as lines, shapes, images, and text, dynamically using JavaScript"
+	},
+	{
+		"idCode": "qt",
+		"name": "Qt",
+		"url": "https://en.wikipedia.org/wiki/Qt_(software)",
+		"description": "an old cross-platform application development framework created in 1990"
 	}
 ]
