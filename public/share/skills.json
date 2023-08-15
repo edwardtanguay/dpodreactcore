@@ -1378,5 +1378,11 @@
 		"name": "Qt",
 		"url": "https://en.wikipedia.org/wiki/Qt_(software)",
 		"description": "an old cross-platform application development framework created in 1990"
+	},
+	{
+		"idCode": "oracle",
+		"name": "Oracle",
+		"url": "https://onespace.pages.dev/techItems?id=259",
+		"description": "an older, expensive SQL-based database created in 1979 used mainly for large data warehousing projects"
 	}
 ]
