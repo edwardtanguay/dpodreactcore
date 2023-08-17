@@ -1384,5 +1384,11 @@
 		"name": "Oracle",
 		"url": "https://onespace.pages.dev/techItems?id=259",
 		"description": "an older, expensive SQL-based database created in 1979 used mainly for large data warehousing projects"
+	},
+	{
+		"idCode": "seo",
+		"name": "SEO",
+		"url": "https://en.wikipedia.org/wiki/Search_engine_optimization",
+		"description": "the practice of enhancing a website's visibility and ranking on search engines like Google"
 	}
 ]
