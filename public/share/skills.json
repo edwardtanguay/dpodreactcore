@@ -1390,5 +1390,11 @@
 		"name": "SEO",
 		"url": "https://en.wikipedia.org/wiki/Search_engine_optimization",
 		"description": "the practice of enhancing a website's visibility and ranking on search engines like Google"
+	},
+	{
+		"idCode": "gatsby",
+		"name": "Gatsby",
+		"url": "https://www.gatsbyjs.com",
+		"description": "static site generator build on React and GraphQL, now owned by Netlify"
 	}
 ]
