@@ -459,7 +459,7 @@
 		"idCode": "webpack",
 		"name": "Webpack",
 		"url": "https://onespace.pages.dev/techItems?id=55",
-		"description": "the most popular JavaScript module bundler"
+		"description": "an older, slower but popular web bundler"
 	},
 	{
 		"idCode": "webstorm",
