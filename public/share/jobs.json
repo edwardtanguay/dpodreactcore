@@ -1168,5 +1168,14 @@
 		"description": "Deine Aufgaben\n\n    Sie bringen Ihre eigenen Ideen, Erfahrungen und Technologien zur Weiterentwicklung des Webportals mit TypeScript und den gängigen Frameworks React, Vue.js, Node.js oder Angular ein\n    E-Commerce Anwendungen werden von Ihnen konzipiert, implementiert und Features umgesetzt\n    Sie sind Teil eines agilen Teams und stimmen sich eng mit dem Frontend und Projektmanagement ab \n    Um die Codequalität stets hochzuhalten, werden Softwaretests von Ihnen geschrieben\n\nDein Profil\n\n    Einschlägige Berufserfahrung in TypeScript und den Frameworks React, Vue.js, Node.js oder Angular\n    Von Vorteil sind Kenntnisse mit Git, Cloud- und Docker\n    Gute Deutschkenntnisse für die Kommunikation im Team runden Ihr Profil ab\n",
 		"skillList": "react, vue, angular, typescript, node, testing, git, docker, cloud",
 		"publicationDate": "2023-08-22"
+	},
+	{
+		"id": 132,
+		"title": "Softwareentwickler",
+		"company": "Murrelektronik GmbH",
+		"url": "https://www.stepstone.de/stellenangebote--Softwareentwickler-m-w-d-Holzmaden-Oppenweiler-Murrelektronik-GmbH--9899575-inline.html?rltr=24_24_25_seorl_m_0_0_0_0_0_0",
+		"description": "Ihr neuer Job\n\n    Sie entwickeln Softwarelösungen für die Inbetriebnahme, den Betrieb und die Diagnose von Systemen, vorzugsweise im Maschinen- und Anlagenbau\n    Sie entwerfen, entwickeln und warten die Applikationen im Bereich Frontend oder Backend\n    Sie übernehmen die Pflege und Verbesserung der Entwicklerwerkzeuge (Toolmanagement)\n\nIhr Profil\n\n    Abgeschlossene Ausbildung im Bereich Fachinformatik/Elektrotechnik/Mechatronik oder Studium der Fachrichtung Elektrotechnik, Informatik oder eine vergleichbare Qualifikation\n    Erfahrungen bei der Durchführung und Mitarbeit in Software-Entwicklungsprojekten\n    Strukturierte, analytische Denkweise\n    Gute Kenntnisse in Hochsprachen (C/C++, C#, JavaScript,TypeScript)\n    Gute Kenntnisse in mindestens einem der folgenden Bereiche:\n        Kenntnisse in Frontendentwicklung und Webtechnologien (Node.js, JavaScript, TypeScript, React, HTML, CSS)\n        Entwurf und Entwicklung Web-Schnittstellen REST, WebSockets o.ä.\n    Wünschenswerte Kenntnisse:\n        Umgang mit IloT-Protkollen (OPC UA, MQTT, AMQP)\n        Programmierung von Endgeräten mit dem Betriebssystem IOS / Android\n        Umgang mit Cloud Plattformen (z.B. Azure, AWS)\n\nIhr Mehrwert\n\n    Wir bieten Ihnen Raum für Ihre Ideen in einem innovativen, internationalen Familienunternehmen\n    Eine von Anfang an auf Sie abgestimmte Einarbeitung, individuelle Schulungsmöglichkeiten und eine langfristige Perspektive zur eigenen beruflichen Weiterentwicklung\n    Freuen Sie sich auch auf flexible Arbeitszeitgestaltung, attraktive Gesundheitsmaßnahmen und Mitarbeiterangebote\n",
+		"skillList": "react, typescript, node, c, cplusplus, rest, websockets, mqtt, amqp, flutter, reactnative, azure, aws",
+		"publicationDate": "2023-08-23"
 	}
 ]
