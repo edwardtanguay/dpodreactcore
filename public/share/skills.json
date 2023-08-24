@@ -1396,5 +1396,11 @@
 		"name": "Gatsby",
 		"url": "https://www.gatsbyjs.com",
 		"description": "static site generator build on React and GraphQL, now owned by Netlify"
+	},
+	{
+		"idCode": "rust",
+		"name": "Rust",
+		"url": "https://www.rust-lang.org",
+		"description": "a newer lower-level language like C++ with better memory safety"
 	}
 ]
