@@ -101,6 +101,7 @@ function Site() {
 					<div className="headerAndNav">
 						<div className="topHeader">
 							<h1 className="siteTitle">Edward Tanguay</h1>
+							<h2 style={{color: 'red', marginLeft: '1rem'}}> Please use my newer tech site at: <a href="https://tanguay-eu.vercel.app/howtos">tanguay-eu.vercel.app</a></h2>
 						</div>
 						<nav>
 							<div className="pageLinks">
