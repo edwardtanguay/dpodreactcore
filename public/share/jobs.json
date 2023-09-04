@@ -1204,5 +1204,14 @@
 		"description": "\nWas erwartet dich?\n\n    Du entwickelst und wartest die bestehende Code-Basis weiter\n    Du setzt Herstelleranforderungen um\n    Du stimmst Fachkonzepte mit dem Produktmanagement ab\n    Du erstellst Code-Beschreibungen\n\nWas solltest du mitbringen?\n\n    Du hast eine abgeschlossene Ausbildung zum Fachinformatiker (m/w/d) mit Fachrichtung Anwendungsentwicklung oder eine vergleichbare/höherwertige Ausbildung\n    Du hast Erfahrungen im Erzeugen und Warten von Programm-Code\n    Du interessierst dich für und hast Erfahrungen mit Webentwicklung (Javascript, TypeScript, HTML, CSS, React)\n    Du verfügst über gute Englischkenntnisse\n    Du bist teamfähig, engagiert und kommunikativ\n    Du hast die Fähigkeit, selbständig zu arbeiten und auch unter Zeitdruck logische Problemlösungen zu finden\n\nWas bieten wir dir?\n\n    Eine unbefristete Anstellung\n    Eine umfassende Einarbeitung und gute Entwicklungsmöglichkeiten innerhalb des Unternehmens\n    Viele attraktive Sozialleistungen (u. a. Vermögenswirksame Leistungen, Mitgliedschaft im Fitnessstudio, JobRad etc.)\n    Eine gute Work-Life-Balance\n    Eine Unternehmenskultur, in der der gemeinsame Erfolg sowie Kommunikation und ein kollegialer Umgang wichtig ist\n    32,5 Urlaubstage pro Jahr\n\n",
 		"skillList": "react, typescript",
 		"publicationDate": "2023-08-30"
+	},
+	{
+		"id": 136,
+		"title": "Web-Entwickler",
+		"company": "ORBiT Software GmbH",
+		"url": "https://www.jobware.de/job/web-entwickler-m-w-d.1270962055.html",
+		"description": "\nDeine Aufgaben\n\n    Du entwickelst und konzipierst für unsere Kunden neue Anwendungen auf Basis moderner Web-Technologien.\n    Du engagierst dich in allen Phasen der Softwareentwicklung von der Analyse bis zur Auslieferung.\n    Du unterstützt bei der Integration in komplexe Systemumgebungen.\n\nDein Profil\n\n    Du hast mehrjährige Erfahrung mit aktuellen Web-Technologien und gängigen JavaScript-Frameworks (vorzugsweise Angular oder React).\n    Du gehst mit mindestens einer objektorientierten Programmiersprache (vorzugsweise TypeScript oder C#) sicher und routiniert um.\n    Das Arbeiten nach agilen Methoden ist dir vertraut.\n\n",
+		"skillList": "React, Angular, TypeScript, csharp",
+		"publicationDate": "2023-09-04"
 	}
 ]
