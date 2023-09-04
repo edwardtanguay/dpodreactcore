@@ -1211,7 +1211,7 @@
 		"company": "ORBiT Software GmbH",
 		"url": "https://www.jobware.de/job/web-entwickler-m-w-d.1270962055.html",
 		"description": "\nDeine Aufgaben\n\n    Du entwickelst und konzipierst für unsere Kunden neue Anwendungen auf Basis moderner Web-Technologien.\n    Du engagierst dich in allen Phasen der Softwareentwicklung von der Analyse bis zur Auslieferung.\n    Du unterstützt bei der Integration in komplexe Systemumgebungen.\n\nDein Profil\n\n    Du hast mehrjährige Erfahrung mit aktuellen Web-Technologien und gängigen JavaScript-Frameworks (vorzugsweise Angular oder React).\n    Du gehst mit mindestens einer objektorientierten Programmiersprache (vorzugsweise TypeScript oder C#) sicher und routiniert um.\n    Das Arbeiten nach agilen Methoden ist dir vertraut.\n\n",
-		"skillList": "React, Angular, TypeScript, csharp",
+		"skillList": "react, angular, typeScript, csharp",
 		"publicationDate": "2023-09-04"
 	}
 ]
