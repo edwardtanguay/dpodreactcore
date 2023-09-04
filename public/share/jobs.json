@@ -1213,5 +1213,14 @@
 		"description": "\nDeine Aufgaben\n\n    Du entwickelst und konzipierst für unsere Kunden neue Anwendungen auf Basis moderner Web-Technologien.\n    Du engagierst dich in allen Phasen der Softwareentwicklung von der Analyse bis zur Auslieferung.\n    Du unterstützt bei der Integration in komplexe Systemumgebungen.\n\nDein Profil\n\n    Du hast mehrjährige Erfahrung mit aktuellen Web-Technologien und gängigen JavaScript-Frameworks (vorzugsweise Angular oder React).\n    Du gehst mit mindestens einer objektorientierten Programmiersprache (vorzugsweise TypeScript oder C#) sicher und routiniert um.\n    Das Arbeiten nach agilen Methoden ist dir vertraut.\n\n",
 		"skillList": "react, angular, typeScript, csharp",
 		"publicationDate": "2023-09-04"
+	},
+	{
+		"id": 137,
+		"title": "Junior Full-Stack-Entwickler",
+		"company": "AUEL EDV-Beratung GmbH",
+		"url": "https://www.stepstone.de/stellenangebote--Junior-Full-Stack-Entwickler-Java-React-AngularJS-m-w-d-vor-Ort-oder-hybrid-Braunschweig-AUEL-EDV-Beratung-GmbH--4006293-inline.html",
+		"description": "Deine Aufgaben:\n\n    Arbeit in agilen Teams mit individuellen fachlichen Aufgabenstellungen aus den verschiedenen Branchen\n    Neu- und Weiterentwicklung mehrschichtiger Anwendungen auf der Basis von AngularJS / React / Java / Datenbanken / Blockchain\n    Mitarbeit bei der Konzeption und dem Entwurf individueller Softwarelösungen\n    Durchführen interner Modultests\n\nDein Profil:\n\n    Kenntnisse in einer Programmiersprache\n    Optionale Kenntnisse in React, Javascript, AngularJS, Java\n    Optional Kenntnisse in relationalen Datenbanken\n    Ausgeprägte Kundenorientierung und hohes Verantwortungsbewusstsein\n    Gute Deutschkenntnisse\n\nWir bieten:\n\n    Spannende verantwortungsvolle Aufgaben\n    Ein hervorragendes Arbeitsklima in einem professionellen Team\n    Gute Weiterbildungsmöglichkeiten und attraktive Karrierechancen\n    Eine faire und leistungsgerechte Vergütung\n    Vereinbarung von Beruf und Familie (flexible Arbeitszeiten)\n    Betreuungszuschuß für Ihre Kinder max. 200,00 € pro Monat pro Kind\n    Firmenzuschuss für das Job-Ticket Deutschland\n    Firmenzuschuss für das Fitness/Freizeit Angebot\n    Regelmäßiger Firmensport, wie z.B. Badminton, Squash, Fußball, Ski- und Snowboardfahren\n",
+		"skillList": "react, angular, typescript, java, sql, blockchain, testing",
+		"publicationDate": "2023-09-05"
 	}
 ]
