@@ -1402,5 +1402,29 @@
 		"name": "Rust",
 		"url": "https://www.rust-lang.org",
 		"description": "a newer lower-level language like C++ with better memory safety"
+	},
+	{
+		"idCode": "couchbase",
+		"name": "Couchbase",
+		"url": "https://www.couchbase.com/comparing-couchbase-vs-couchdb",
+		"description": "also known as Membase, and different than CouchDB, this is an open-source, distributed, multi-model NoSQL document-oriented database software package optimized for interactive applications"
+	},
+	{
+		"idCode": "bigquery",
+		"name": "BigQuery",
+		"url": "https://cloud.google.com/bigquery",
+		"description": "fully managed and serverless data warehouse and analytics platform provided by Google Cloud"
+	},
+	{
+		"idCode": "graphite",
+		"name": "Graphite",
+		"url": "",
+		"description": "a monitoring tool that runs equally well on cheap hardware or Cloud infrastructure, teams use Graphite to track the performance of their websites, applications, business services, and networked servers"
+	},
+	{
+		"idCode": "grafana",
+		"name": "Grafana",
+		"url": "https://grafana.com",
+		"description": "open-source analytics and monitoring platform that is commonly used for visualizing time-series data"
 	}
 ]
