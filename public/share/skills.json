@@ -1426,5 +1426,53 @@
 		"name": "Grafana",
 		"url": "https://grafana.com",
 		"description": "open-source analytics and monitoring platform that is commonly used for visualizing time-series data"
+	},
+	{
+		"idCode": "emotion",
+		"name": "Emotion",
+		"url": "https://emotion.sh/docs/introduction",
+		"description": "a library designed for writing css styles with JavaScript"
+	},
+	{
+		"idCode": "percy",
+		"name": "Percy",
+		"url": "https://percy.io",
+		"description": "visual testing as a service which integrates workflows to get an insight into product changes"
+	},
+	{
+		"idCode": "speedcurve",
+		"name": "SpeedCurve",
+		"url": "https://www.speedcurve.com",
+		"description": "tools to visualize how users experience the speed of your website to identify and fix performance issues"
+	},
+	{
+		"idCode": "varnish",
+		"name": "Varnish",
+		"url": "https://www.varnish-software.com",
+		"description": "content delivery software"
+	},
+	{
+		"idCode": "cloudfront",
+		"name": "Cloudfront",
+		"url": "https://aws.amazon.com/de/cloudfront",
+		"description": "Amazon's CDN (content delivery service) which caches and stores copies of content in edge locations around the world"
+	},
+	{
+		"idCode": "s3",
+		"name": "S3",
+		"url": "https://aws.amazon.com/de/s3",
+		"description": "Amazon's scalable and durable cloud storage service aber to store and retrieve any amount of data on the web"
+	},
+	{
+		"idCode": "sns",
+		"name": "SNS",
+		"url": "https://aws.amazon.com/de/sns",
+		"description": "Amazon's Simple Notification Service, a managed messaging service that sends messages to a distributed set of recipients in a publish-subscribe model"
+	},
+	{
+		"idCode": "cognito",
+		"name": "Cognito",
+		"url": "https://aws.amazon.com/de/cognito",
+		"description": "Amazon's managed identity and access management service which simplifies and secures user idenity management"
 	}
 ]
