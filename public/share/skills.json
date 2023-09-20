@@ -1474,5 +1474,29 @@
 		"name": "Cognito",
 		"url": "https://aws.amazon.com/de/cognito",
 		"description": "Amazon's managed identity and access management service which simplifies and secures user idenity management"
+	},
+	{
+		"idCode": "adobexd",
+		"name": "Adobe XD",
+		"url": "https://helpx.adobe.com/support/xd.html#troubleshooting",
+		"description": "a vector design tool for web and mobile applications, creates user interfaces for mobile and web apps, however now in maintenance mode"
+	},
+	{
+		"idCode": "sketch",
+		"name": "Sketch",
+		"url": "https://en.wikipedia.org/wiki/Sketch_(software)",
+		"description": "a vector graphics editor for macOS primarily used for user interface and user experience design of websites and mobile apps"
+	},
+	{
+		"idCode": "figma",
+		"name": "Figma",
+		"url": "https://www.figma.com",
+		"description": "design and prototyping tool used in the field of user interface (UI) and user experience (UX) design"
+	},
+	{
+		"idCode": "antdesign",
+		"name": "Ant-Design",
+		"url": "https://ant.design",
+		"description": "design system and UI framework primarily used for building web and mobile applications"
 	}
 ]
