@@ -1498,5 +1498,11 @@
 		"name": "Ant-Design",
 		"url": "https://ant.design",
 		"description": "design system and UI framework primarily used for building web and mobile applications"
+	},
+	{
+		"idCode": "groovy",
+		"name": "Groovy",
+		"url": "https://groovy-lang.org",
+		"description": "optionally typed and dynamic language for the Java platform"
 	}
 ]
