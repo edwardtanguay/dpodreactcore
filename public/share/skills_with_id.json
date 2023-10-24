@@ -1,0 +1,1759 @@
+[
+  {
+    "idCode": "angular",
+    "name": "Angular",
+    "url": "https://onespace.pages.dev/techItems?id=36",
+    "description": "together with React and Vue.js one of the three most popular JavaScript frameworks",
+    "id": 1
+  },
+  {
+    "idCode": "cicd",
+    "name": "CI/CD",
+    "url": "https://about.gitlab.com/topics/ci-cd",
+    "description": "the combined practices of continuous integration (CI) and continuous deployment (CD)",
+    "id": 2
+  },
+  {
+    "idCode": "react",
+    "name": "React",
+    "url": "https://onespace.pages.dev/techItems?id=2",
+    "description": "currently the most popular front-end JavaScript framework along with Vue and Angular",
+    "id": 3
+  },
+  {
+    "idCode": "swagger",
+    "name": "Swagger",
+    "url": "https://en.wikipedia.org/wiki/Swagger_(software)",
+    "description": "a suite of tools for API developers created in 2011",
+    "id": 4
+  },
+  {
+    "idCode": "rest",
+    "name": "REST",
+    "url": "https://en.wikipedia.org/wiki/Representational_state_transfer",
+    "description": "a way to make services on a web available to software and other websites",
+    "id": 5
+  },
+  {
+    "idCode": "gitlab",
+    "name": "GitLab",
+    "url": "https://onespace.pages.dev/techItems?id=140",
+    "description": "a popular tool to organize the lifecyle of software development - a local GitHub",
+    "id": 6
+  },
+  {
+    "idCode": "ux",
+    "name": "UI/UX",
+    "url": "https://en.wikipedia.org/wiki/User_experience",
+    "description": "how a user interacts with and experiences a software application including the person's perceptions of utility, ease of use, and efficiency",
+    "id": 7
+  },
+  {
+    "idCode": "testing",
+    "name": "Testing",
+    "url": "https://wanago.io/2018/08/27/testing-javascript-tutorial-types-of-tests-of-unit-testing-with-jest",
+    "description": "1. unit tests, 2. integration tests, 3. end-to-end tests",
+    "id": 8
+  },
+  {
+    "idCode": "bootstrap",
+    "name": "Bootstrap",
+    "url": "https://onespace.pages.dev/techItems?id=25",
+    "description": "a ubiquitous CSS framework that simplifies website design",
+    "id": 9
+  },
+  {
+    "idCode": "styledcomponents",
+    "name": "styled-components",
+    "url": "https://styled-components.com",
+    "description": "the best bits of ES6 and CSS to style your React app components without stress",
+    "id": 10
+  },
+  {
+    "idCode": "storybook",
+    "name": "Storybook",
+    "url": "https://storybook.js.org/docs/react/get-started/introduction",
+    "description": "a tool for UI development that makes development faster and easier by isolating components",
+    "id": 11
+  },
+  {
+    "idCode": "fusebox",
+    "name": "FuseBox",
+    "url": "https://auth0.com/blog/introducing-fusebox-an-alternative-to-webpack",
+    "description": "module bundler that is simple to configure but has enough features to be a valid alternative to WebPack",
+    "id": 12
+  },
+  {
+    "idCode": "jasmine",
+    "name": "Jasmine",
+    "url": "https://onespace.pages.dev/techItems?id=174",
+    "description": "an open-source testing framework for JavaScript",
+    "id": 13
+  },
+  {
+    "idCode": "hotjar",
+    "name": "Hotjar",
+    "url": "https://www.hotjar.com/web-app-design",
+    "description": "a software tool to track users",
+    "id": 14
+  },
+  {
+    "idCode": "piwik",
+    "name": "Piwik",
+    "url": "https://piwik.pro",
+    "description": "a tool to track a customer's behavior across websites and apps",
+    "id": 15
+  },
+  {
+    "idCode": "typescript",
+    "name": "TypeScript",
+    "url": "https://onespace.pages.dev/techItems?id=35",
+    "description": "in larger applications, the preferred way to program in JavaScript",
+    "id": 16
+  },
+  {
+    "idCode": "jest",
+    "name": "Jest",
+    "url": "https://onespace.pages.dev/techItems?id=19",
+    "description": "a JavaScript testing framework like Mocha, but simpler",
+    "id": 17
+  },
+  {
+    "idCode": "git",
+    "name": "Git",
+    "url": "https://onespace.pages.dev/techItems?id=12",
+    "description": "the most-used revision control system today",
+    "id": 18
+  },
+  {
+    "idCode": "nextjs",
+    "name": "Next.js",
+    "url": "https://onespace.pages.dev/techItems?id=219",
+    "description": "a React framework that enables server-side rendering",
+    "id": 19
+  },
+  {
+    "idCode": "nestjs",
+    "name": "NestJS",
+    "url": "https://onespace.pages.dev/techItems?id=217",
+    "description": "a Node.js framework for building efficient, reliable and scalable server-side applications",
+    "id": 20
+  },
+  {
+    "idCode": "responsive",
+    "name": "Responsive web design",
+    "url": "https://en.wikipedia.org/wiki/Responsive_web_design",
+    "description": "an approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size to ensure usability and satisfaction",
+    "id": 21
+  },
+  {
+    "idCode": "pwa",
+    "name": "PWA",
+    "url": "https://onespace.pages.dev/techItems?id=306",
+    "description": "Progressive Web App - application software delivered through the web",
+    "id": 22
+  },
+  {
+    "idCode": "html",
+    "name": "HTML",
+    "url": "https://onespace.pages.dev/techItems?id=32",
+    "description": "the markup language that serves as the basis of websites",
+    "id": 23
+  },
+  {
+    "idCode": "css",
+    "name": "CSS",
+    "url": "https://onespace.pages.dev/techItems?id=33",
+    "description": "the language used to style websites and a standard tool for web development",
+    "id": 24
+  },
+  {
+    "idCode": "javascript",
+    "name": "JavaScript",
+    "url": "https://onespace.pages.dev/techItems?id=34",
+    "description": "the main scripting language of the Web",
+    "id": 25
+  },
+  {
+    "idCode": "mocha",
+    "name": "Mocha",
+    "url": "https://onespace.pages.dev/techItems?id=18",
+    "description": "one of the most popular JavaScript testing frameworks",
+    "id": 26
+  },
+  {
+    "idCode": "vue",
+    "name": "Vue.js",
+    "url": "https://onespace.pages.dev/techItems?id=37",
+    "description": "can easily be used to enhance existing applications as well as to create new applications",
+    "id": 27
+  },
+  {
+    "idCode": "mvc",
+    "name": "MVC",
+    "url": "https://onespace.pages.dev/techItems?id=39",
+    "description": "an architectural pattern commonly used particularly in web development",
+    "id": 28
+  },
+  {
+    "idCode": "c",
+    "name": "C",
+    "url": "https://onespace.pages.dev/techItems?id=92",
+    "description": "low-level language used to program everything from hardware devices to operating systems",
+    "id": 29
+  },
+  {
+    "idCode": "cplusplus",
+    "name": "C++",
+    "url": "https://onespace.pages.dev/techItems?id=57",
+    "description": "low-level language for writing applications",
+    "id": 30
+  },
+  {
+    "idCode": "java",
+    "name": "Java",
+    "url": "https://onespace.pages.dev/techItems?id=44",
+    "description": "a popular and ubiquitous OOP programming language",
+    "id": 31
+  },
+  {
+    "idCode": "csharp",
+    "name": "C#",
+    "url": "https://onespace.pages.dev/techItems?id=91",
+    "description": "the standard OOP language on the .NET platform",
+    "id": 32
+  },
+  {
+    "idCode": "mvvm",
+    "name": "MVVM",
+    "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel",
+    "description": "a pattern like MVC but with a View Model, gave rise to JavaScript frameworks",
+    "id": 33
+  },
+  {
+    "idCode": "azure",
+    "name": "Azure",
+    "url": "https://onespace.pages.dev/techItems?id=314",
+    "description": "a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services",
+    "id": 34
+  },
+  {
+    "idCode": "aws",
+    "name": "AWS",
+    "url": "https://onespace.pages.dev/techItems?id=253",
+    "description": "a subsidiary of Amazon that provides on-demand cloud computing platforms",
+    "id": 35
+  },
+  {
+    "idCode": "gcp",
+    "name": "GCP",
+    "url": "https://en.wikipedia.org/wiki/Google_Cloud_Platform",
+    "description": "a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail and YouTube",
+    "id": 36
+  },
+  {
+    "idCode": "sql",
+    "name": "SQL",
+    "url": "https://onespace.pages.dev/techItems?id=31",
+    "description": "the standard language you use to get data from relational databases",
+    "id": 37
+  },
+  {
+    "idCode": "nosql",
+    "name": "NoSQL",
+    "url": "https://onespace.pages.dev/techItems?id=77",
+    "description": "a type of non-table database used with big data",
+    "id": 38
+  },
+  {
+    "idCode": "sap",
+    "name": "SAP",
+    "url": "https://en.wikipedia.org/wiki/SAP",
+    "description": "a German software company and world's leading enterprise resource planning (ERP) software vendor",
+    "id": 39
+  },
+  {
+    "idCode": "xml",
+    "name": "XML",
+    "url": "https://onespace.pages.dev/techItems?id=141",
+    "description": "markup language for defining and transmitting data and documents",
+    "id": 40
+  },
+  {
+    "idCode": "json",
+    "name": "JSON",
+    "url": "https://onespace.pages.dev/techItems?id=142",
+    "description": "a popular standard for storing and transmitting information and data objects, particularly in JavaScript",
+    "id": 41
+  },
+  {
+    "idCode": "agile",
+    "name": "Agile",
+    "url": "https://en.wikipedia.org/wiki/Agile_software_development",
+    "description": "a philosophy of software developer which includes adaptive planning, evolutionary development, early delivery, continual improvement, and flexible responses to changes in requirements, capacity, and understanding of the problems to be solved",
+    "id": 42
+  },
+  {
+    "idCode": "scrum",
+    "name": "scrum",
+    "url": "https://en.wikipedia.org/wiki/Scrum_(software_development)",
+    "description": "a framework for project management designed for teams of ten or fewer members who break their work into goals that can be completed within time-boxed iterations, called sprints, no longer than one month and most commonly two weeks",
+    "id": 43
+  },
+  {
+    "idCode": "gitflow",
+    "name": "Gitflow",
+    "url": "https://georgestocker.com/2020/03/04/please-stop-recommending-git-flow",
+    "description": "a branching and merging methodology popularized by the blog post \"A Successful Git branching model\", older, seems overly complicated and controversial",
+    "id": 44
+  },
+  {
+    "idCode": "domaindrivendesign",
+    "name": "Domain-Driven Design",
+    "url": "https://en.wikipedia.org/wiki/Domain-driven_design",
+    "description": "a software design approach focused on modeling software to match a domain according to input from that domain's experts",
+    "id": 45
+  },
+  {
+    "idCode": "microservices",
+    "name": "microservices",
+    "url": "https://en.wikipedia.org/wiki/Microservices",
+    "description": "an architectural pattern that arranges an application as a collection of loosely-coupled, fine-grained services, communicating through lightweight protocols, one goal being that teams can develop and deploy their services independently of others",
+    "id": 46
+  },
+  {
+    "idCode": "dotnet",
+    "name": ".NET",
+    "url": "https://onespace.pages.dev/techItems?id=41",
+    "description": "the main Windows development framework since 2001",
+    "id": 47
+  },
+  {
+    "idCode": "entityframework",
+    "name": "Entity Framework",
+    "url": "https://onespace.pages.dev/techItems?id=40",
+    "description": "object-relational mapping (ORM) framework for .NET",
+    "id": 48
+  },
+  {
+    "idCode": "hangfire",
+    "name": "Hangfire",
+    "url": "https://www.hangfire.io",
+    "description": "easy way to perform background processing in .NET and .NET Core applications",
+    "id": 49
+  },
+  {
+    "idCode": "rabbitmq",
+    "name": "RabbitMQ",
+    "url": "https://onespace.pages.dev/techItems?id=351",
+    "description": "message-broker software that originally implemented AMQP",
+    "id": 50
+  },
+  {
+    "idCode": "mui",
+    "name": "MUI",
+    "url": "https://mui.com",
+    "description": "Material UI - React components for faster and easier web development",
+    "id": 51
+  },
+  {
+    "idCode": "graphql",
+    "name": "GraphQL",
+    "url": "https://onespace.pages.dev/techItems?id=54",
+    "description": "a newer and more robust alternative to REST",
+    "id": 52
+  },
+  {
+    "idCode": "apollo",
+    "name": "Apollo",
+    "url": "https://onespace.pages.dev/techItems?id=64",
+    "description": "the most popular GraphQL client",
+    "id": 53
+  },
+  {
+    "idCode": "aspnet",
+    "name": "ASP.NET",
+    "url": "https://en.wikipedia.org/wiki/ASP.NET",
+    "description": "the Microsoft .NET standard approach for developing websites",
+    "id": 54
+  },
+  {
+    "idCode": "docker",
+    "name": "Docker",
+    "url": "https://onespace.pages.dev/techItems?id=138",
+    "description": "a software virtualization solution that allows each application to run in a separate container",
+    "id": 55
+  },
+  {
+    "idCode": "kubernetes",
+    "name": "Kubernetes",
+    "url": "https://onespace.pages.dev/techItems?id=9",
+    "description": "platform used for large-scale application automation including Docker",
+    "id": 56
+  },
+  {
+    "idCode": "openshift",
+    "name": "OpenShift",
+    "url": "https://en.wikipedia.org/wiki/OpenShift",
+    "description": "a family of containerization software products developed by Red Hat, similar to Kubernetes",
+    "id": 57
+  },
+  {
+    "idCode": "nunit",
+    "name": "NUnit",
+    "url": "https://en.wikipedia.org/wiki/NUnit",
+    "description": "an open-source unit testing framework for the .NET Framework and Mono",
+    "id": 58
+  },
+  {
+    "idCode": "rider",
+    "name": "Rider",
+    "url": "https://www.jetbrains.com/rider",
+    "description": "a cross-platform IDE for .NET by JetBrains",
+    "id": 59
+  },
+  {
+    "idCode": "devopserver",
+    "name": "DevOps Server",
+    "url": "https://azure.microsoft.com/en-us/products/devops/server",
+    "description": "an Azure tool to share code, track work, and ship software using integrated software delivery tools, hosted on-premises",
+    "id": 60
+  },
+  {
+    "idCode": "mongodb",
+    "name": "MongoDB",
+    "url": "https://onespace.pages.dev/techItems?id=79",
+    "description": "the most popular NoSQL document store database",
+    "id": 61
+  },
+  {
+    "idCode": "cloud",
+    "name": "cloud computing",
+    "url": "https://en.wikipedia.org/wiki/Cloud_computing",
+    "description": "on-demand and scalable availability of computer system resources, usually AWS, Azure or Google Cloud Platform",
+    "id": 62
+  },
+  {
+    "idCode": "kotlin",
+    "name": "Kotlin",
+    "url": "https://onespace.pages.dev/techItems?id=7",
+    "description": "Google's new Java language",
+    "id": 63
+  },
+  {
+    "idCode": "swift",
+    "name": "Swift",
+    "url": "https://en.wikipedia.org/wiki/Swift_(programming_language)",
+    "description": "Apple's general-purpose, multi-paradigm, compiled programming language, developed as a replacement for Apple's earlier programming language Objective-C",
+    "id": 64
+  },
+  {
+    "idCode": "jetpackcompose",
+    "name": "Jetpack Compose",
+    "url": "https://developer.android.com/jetpack/compose",
+    "description": "Android's recommended modern toolkit for building native UI",
+    "id": 65
+  },
+  {
+    "idCode": "firebase",
+    "name": "Firebase",
+    "url": "https://onespace.pages.dev/techItems?id=268",
+    "description": "a platform developed by Google for creating mobile and web applications",
+    "id": 66
+  },
+  {
+    "idCode": "flutter",
+    "name": "Flutter",
+    "url": "https://onespace.pages.dev/techItems?id=267",
+    "description": "Google's software development kit for mobile apps",
+    "id": 67
+  },
+  {
+    "idCode": "dart",
+    "name": "Dart",
+    "url": "https://onespace.pages.dev/techItems?id=95",
+    "description": "a Google replacement for JavaScript which transpiles to JavaScript",
+    "id": 68
+  },
+  {
+    "idCode": "node",
+    "name": "Node",
+    "url": "https://onespace.pages.dev/techItems?id=28",
+    "description": "central JavaScript technology for web backend and application development",
+    "id": 69
+  },
+  {
+    "idCode": "express",
+    "name": "Express",
+    "url": "https://onespace.pages.dev/techItems?id=159",
+    "description": "a web application framework for Node.js and the de facto Node standard for building web applications and APIs",
+    "id": 70
+  },
+  {
+    "idCode": "magento",
+    "name": "Magento",
+    "url": "https://onespace.pages.dev/techItems?id=181",
+    "description": "an e-commerce PHP framework created in 2008, now owned by Adobe",
+    "id": 71
+  },
+  {
+    "idCode": "jquery",
+    "name": "JQuery",
+    "url": "https://onespace.pages.dev/techItems?id=48",
+    "description": "a useful and popular but older JavaScript library",
+    "id": 72
+  },
+  {
+    "idCode": "php",
+    "name": "PHP",
+    "url": "https://onespace.pages.dev/techItems?id=52",
+    "description": "a popular and pragmatic programming language for websites",
+    "id": 73
+  },
+  {
+    "idCode": "mysql",
+    "name": "MySQL",
+    "url": "https://onespace.pages.dev/techItems?id=73",
+    "description": "a popular and widespread database for websites and applications",
+    "id": 74
+  },
+  {
+    "idCode": "apache",
+    "name": "Apache",
+    "url": "https://onespace.pages.dev/techItems?id=192",
+    "description": "a old, classic and popular web server from the 90s",
+    "id": 75
+  },
+  {
+    "idCode": "nginx",
+    "name": "Nginx",
+    "url": "https://onespace.pages.dev/techItems?id=193",
+    "description": "a fast web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache",
+    "id": 76
+  },
+  {
+    "idCode": "webpack",
+    "name": "Webpack",
+    "url": "https://onespace.pages.dev/techItems?id=55",
+    "description": "an older, slower but popular web bundler",
+    "id": 77
+  },
+  {
+    "idCode": "webstorm",
+    "name": "WebStorm",
+    "url": "https://www.jetbrains.com/webstorm",
+    "description": "an integrated development environment for JavaScript and related technologies",
+    "id": 78
+  },
+  {
+    "idCode": "rollup",
+    "name": "Rollup",
+    "url": "https://onespace.pages.dev/techItems?id=143",
+    "description": "the second most popular module bundler for JavaScript",
+    "id": 79
+  },
+  {
+    "idCode": "mint",
+    "name": "MINT",
+    "url": "https://de.wikipedia.org/wiki/MINT-F%C3%A4cher",
+    "description": "Bezeichnung von und Studienfächern aus den Bereichen Mathematik, Informatik, Naturwissenschaft und Technik, auf Englisch STEM (Science, Technology, Engineering, Mathematics)",
+    "id": 80
+  },
+  {
+    "idCode": "machinelearning",
+    "name": "machine learning",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "description": "a part of artificial intelligence, ML algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so",
+    "id": 81
+  },
+  {
+    "idCode": "python",
+    "name": "Python",
+    "url": "https://onespace.pages.dev/techItems?id=5",
+    "description": "an older but pragmatic language and increasingly popular today used widely by scientists and mathematicians",
+    "id": 82
+  },
+  {
+    "idCode": "pythonsciencestack",
+    "name": "Python Science Stack",
+    "url": "https://developer.fedoraproject.org/tech/languages/python/scipy.html",
+    "description": "a set of libraries for scientific computation and visualization including Python, NumPy, SciPy, matplotlib, IPython, pandas, SymPy and Jupyter Notebook",
+    "id": 83
+  },
+  {
+    "idCode": "scikitlearn",
+    "name": "scikit-learn",
+    "url": "https://scikit-learn.org/stable",
+    "description": "a set of simple and efficient tools for predictive data analysis built on NumPy, SciPy and matplotlib",
+    "id": 84
+  },
+  {
+    "idCode": "oop",
+    "name": "OOP",
+    "url": "https://en.wikipedia.org/wiki/Object-oriented_programming",
+    "description": "(Object-Oriented Programming) a programming paradigm based on the concept of objects, which can contain data and code, the data is in the form of properties and the code is in the form of methods, contrast with functional programming",
+    "id": 85
+  },
+  {
+    "idCode": "tensorflow",
+    "name": "Tensorflow",
+    "url": "https://onespace.pages.dev/techItems?id=235",
+    "description": "Google Brain's second-generation system focus on training and inference of deep neural networks",
+    "id": 86
+  },
+  {
+    "idCode": "pytorch",
+    "name": "PyTorch",
+    "url": "https://en.wikipedia.org/wiki/PyTorch",
+    "description": "a machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing",
+    "id": 87
+  },
+  {
+    "idCode": "codereview",
+    "name": "code review",
+    "url": "https://smartbear.com/learn/code-review/what-is-code-review",
+    "description": "the act of consciously and systematically convening with one’s fellow programmers to check each other’s code for mistakes and has been repeatedly shown to accelerate and streamline the process of software development",
+    "id": 88
+  },
+  {
+    "idCode": "pairprogramming",
+    "name": "pair programming",
+    "url": "https://en.wikipedia.org/wiki/Pair_programming",
+    "description": "technique in which two programmers work together at one workstation",
+    "id": 89
+  },
+  {
+    "idCode": "springboot",
+    "name": "Spring Boot",
+    "url": "https://spring.io/projects/spring-boot",
+    "description": "a tool that makes it easy to create stand-alone, production-grade Spring-based Applications for the Java platform",
+    "id": 90
+  },
+  {
+    "idCode": "serverless",
+    "name": "Serverless Computing",
+    "url": "https://en.wikipedia.org/wiki/Serverless_computing",
+    "description": "a misnomer in the sense that servers are still used by cloud service providers to execute code for developers, however, developers of serverless applications are not concerned with capacity planning, configuration, management, maintenance, fault tolerance, or scaling of containers, VMs, or physical servers",
+    "id": 91
+  },
+  {
+    "idCode": "cqrs",
+    "name": "CQRS",
+    "url": "https://martinfowler.com/bliki/CQRS.html",
+    "description": "(Command Query Responsibility Singleton) the notion that you can use a different model to update information than the model you use to read information",
+    "id": 92
+  },
+  {
+    "idCode": "microfrontends",
+    "name": "microfrontends",
+    "url": "https://semaphoreci.com/blog/microfrontends",
+    "description": "what you get when you bring the microservice approach to the frontend, a frontend made of components owned by different teams that can be deployed independently",
+    "id": 93
+  },
+  {
+    "idCode": "tailwind",
+    "name": "Tailwind",
+    "url": "https://onespace.pages.dev/techItems?id=165",
+    "description": "a highly customizable, low-level, low-opinionated CSS framework",
+    "id": 94
+  },
+  {
+    "idCode": "githubactions",
+    "name": "GitHub Actions",
+    "url": "https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions",
+    "description": "a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline",
+    "id": 95
+  },
+  {
+    "idCode": "fluentui",
+    "name": "Fluent UI",
+    "url": "https://developer.microsoft.com/en-us/fluentui#/",
+    "description": "a Microsoft collection of UX frameworks for creating cross-platform apps",
+    "id": 96
+  },
+  {
+    "idCode": "typeorm",
+    "name": "TypeORM",
+    "url": "https://typeorm.io",
+    "description": "an ORM that can be run with TypeScript, connect multiple databases, and can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms ",
+    "id": 97
+  },
+  {
+    "idCode": "postgres",
+    "name": "PostgreSQL",
+    "url": "https://onespace.pages.dev/techItems?id=74",
+    "description": "a robust but less popular SQL database than MySQL",
+    "id": 98
+  },
+  {
+    "idCode": "redis",
+    "name": "Redis",
+    "url": "https://onespace.pages.dev/techItems?id=81",
+    "description": "the most popular key-value database",
+    "id": 99
+  },
+  {
+    "idCode": "zenhub",
+    "name": "ZenHub",
+    "url": "https://en.everybodywiki.com/ZenHub",
+    "description": "an agile project management tool designed to help software teams organize, plan, track, and manage their work, available either inside GitHub via a browser extension or as a standalone web app",
+    "id": 100
+  },
+  {
+    "idCode": "ionicappflow",
+    "name": "Ionic Appflow",
+    "url": "https://ionic.io/docs/appflow",
+    "description": "a CI/CD platform for Ionic development teams that helps development teams continuously build and ship their Cordova, Capacitor, and React Native apps",
+    "id": 101
+  },
+  {
+    "idCode": "awslambda",
+    "name": "AWS Lambda",
+    "url": "https://onespace.pages.dev/techItems?id=270",
+    "description": "Amazon's event-driven, serverless cloud platform",
+    "id": 102
+  },
+  {
+    "idCode": "salesforce",
+    "name": "Salesforce",
+    "url": "https://en.wikipedia.org/wiki/Salesforce",
+    "description": "a cloud-based software company which provides customer relationship management (CRM) software and applications focused on sales, customer service, marketing automation, analytics, and application development",
+    "id": 103
+  },
+  {
+    "idCode": "microsoftdynamics",
+    "name": "Microsoft Dynamics",
+    "url": "https://en.wikipedia.org/wiki/Microsoft_Dynamics_365",
+    "description": "a collection of 12 applications used for enterprise resource planning (ERP) and customer relationship management (CRM) for intelligent business applications, announced by Microsoft in July 2016",
+    "id": 104
+  },
+  {
+    "idCode": "github",
+    "name": "GitHub",
+    "url": "https://onespace.pages.dev/techItems?id=145",
+    "description": "the standard platform to store, publish, and share code projects on the web",
+    "id": 105
+  },
+  {
+    "idCode": "devops",
+    "name": "DevOps",
+    "url": "https://en.wikipedia.org/wiki/DevOps",
+    "description": "set of practices that combines software development and IT operations which aims to shorten the systems development life cycle and provide continuous delivery with high software quality",
+    "id": 106
+  },
+  {
+    "idCode": "cleancode",
+    "name": "clean code",
+    "url": "https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29",
+    "description": "a set of coding principles which include: follow conventions, keep it simple, leave code cleaner than when you found it, always find the root cause",
+    "id": 107
+  },
+  {
+    "idCode": "cypress",
+    "name": "Cypress",
+    "url": "https://docs.cypress.io/guides/overview/why-cypress",
+    "description": "a testing tool that automates and scales end-to-end testing",
+    "id": 108
+  },
+  {
+    "idCode": "openapi",
+    "name": "Open API",
+    "url": "https://en.wikipedia.org/wiki/Open_API",
+    "description": "an API that is open for use by developers with relatively few restrictions, typically without copyright restrictions",
+    "id": 109
+  },
+  {
+    "idCode": "redux",
+    "name": "Redux",
+    "url": "https://onespace.pages.dev/techItems?id=29",
+    "description": "JavaScript library for maintaining state, used with React and Angular",
+    "id": 110
+  },
+  {
+    "idCode": "sass",
+    "name": "Sass",
+    "url": "https://onespace.pages.dev/techItems?id=163",
+    "description": "a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets",
+    "id": 111
+  },
+  {
+    "idCode": "jira",
+    "name": "Jira",
+    "url": "https://onespace.pages.dev/techItems?id=136",
+    "description": "popular bug and issue-tracking software",
+    "id": 112
+  },
+  {
+    "idCode": "confluence",
+    "name": "Confluence",
+    "url": "https://en.wikipedia.org/wiki/Confluence_(software)",
+    "description": "a web-based corporate wiki",
+    "id": 113
+  },
+  {
+    "idCode": "jenkins",
+    "name": "Jenkins",
+    "url": "https://onespace.pages.dev/techItems?id=139",
+    "description": "an older but popular build automation tool still used in many companies",
+    "id": 114
+  },
+  {
+    "idCode": "ssr",
+    "name": "SSR",
+    "url": "https://www.debugbear.com/blog/server-side-rendering",
+    "description": "in contrast to client-side rendering, server-side rendering generates static content on the server before sending it over to the user's browser, which better addresses performance and search engine optimization issues of single-page JavaScript applications",
+    "id": 115
+  },
+  {
+    "idCode": "remix",
+    "name": "Remix",
+    "url": "https://remix.run/docs/en/v1",
+    "description": "a React framework used for server-side rendering (SSR) and unlike Next.js, it enables nested routing with nested layouts",
+    "id": 116
+  },
+  {
+    "idCode": "chakraui",
+    "name": "Chakra UI",
+    "url": "https://chakra-ui.com/getting-started",
+    "description": "a simple, modular and accessible component library that gives you the building blocks you need to build your React applications",
+    "id": 117
+  },
+  {
+    "idCode": "reactnative",
+    "name": "React Native",
+    "url": "https://onespace.pages.dev/techItems?id=1",
+    "description": "a popular JavaScript framework for building mobile apps",
+    "id": 118
+  },
+  {
+    "idCode": "livekit",
+    "name": "LiveKit",
+    "url": "https://docs.livekit.io",
+    "description": "an open source WebRTC project that gives you everything needed to build scalable and real-time audio, video, and data experiences in applications",
+    "id": 119
+  },
+  {
+    "idCode": "socketio",
+    "name": "Socket.IO",
+    "url": "https://onespace.pages.dev/techItems?id=386",
+    "description": "JavaScript library that enables realtime, bi-directional communication between web clients and servers",
+    "id": 120
+  },
+  {
+    "idCode": "terraform",
+    "name": "Terraform",
+    "url": "https://onespace.pages.dev/techItems?id=304",
+    "description": "infrastructure as code tool created by HashiCorp",
+    "id": 121
+  },
+  {
+    "idCode": "nx",
+    "name": "Nx",
+    "url": "https://nx.dev",
+    "description": "a build-system tool to develop multiple full-stack applications that share code between them all in the same workspace",
+    "id": 122
+  },
+  {
+    "idCode": "babel",
+    "name": "Babel",
+    "url": "https://onespace.pages.dev/techItems?id=45",
+    "description": "a JavaScript transpiler which enables you to use higher versions of ECMAScript",
+    "id": 123
+  },
+  {
+    "idCode": "circleci",
+    "name": "CircleCI",
+    "url": "https://circleci.com/docs/about-circleci",
+    "description": "a continuous integration platform that helps ship software faster, using code that's reusable and easy to maintain",
+    "id": 124
+  },
+  {
+    "idCode": "reacttestinglibrary",
+    "name": "React Testing Library",
+    "url": "https://testing-library.com/docs/react-testing-library/intro",
+    "description": "a light-weight solution for testing React components",
+    "id": 125
+  },
+  {
+    "idCode": "testcafe",
+    "name": "TestCafe",
+    "url": "https://testcafe.io/documentation/402635/getting-started",
+    "description": "an end-to-end testing framework for web applications that runs on Node",
+    "id": 126
+  },
+  {
+    "idCode": "supertest",
+    "name": "SuperTest",
+    "url": "https://www.npmjs.com/package/supertest",
+    "description": "provides a high-level abstraction for testing HTTP and APIs",
+    "id": 127
+  },
+  {
+    "idCode": "piral",
+    "name": "Piral",
+    "url": "https://piral.io",
+    "description": "a framework to build portal applications that follow the microfrontends architecture",
+    "id": 128
+  },
+  {
+    "idCode": "hetzner",
+    "name": "Hetzner Cloud",
+    "url": "https://www.hetzner.com/cloud",
+    "description": "a Germany cloud provider which operates data center parks in Germany, Finland and the USA",
+    "id": 129
+  },
+  {
+    "idCode": "influxdb",
+    "name": "InfluxDB",
+    "url": "https://www.influxdata.com/influxdb-pricing",
+    "description": "a time-series database (for time-stampted event data) written in Go and used for storage of e.g. Internet of Things senso data and real-time analytics",
+    "id": 130
+  },
+  {
+    "idCode": "ai",
+    "name": "AI",
+    "url": "https://rollbar.com/blog/6-ways-artificial-intelligence-improves-software-development",
+    "description": "software that is able to learn by itself within a specific context in order to process data to solve tasks that otherwise require human intelligence",
+    "id": 131
+  },
+  {
+    "idCode": "reacthooks",
+    "name": "React Hooks",
+    "url": "https://edwardtanguay.vercel.app/howtos?id=633",
+    "description": "Hooks are a new addition in React 16.8, they let you use state and other React features without writing a class.",
+    "id": 132
+  },
+  {
+    "idCode": "polymer",
+    "name": "Polymer",
+    "url": "https://onespace.pages.dev/techItems?id=88",
+    "description": "a JavaScript framework created and used by Google which embraces the Material Design ideology",
+    "id": 133
+  },
+  {
+    "idCode": "stencil",
+    "name": "Stencil",
+    "url": "https://stenciljs.com/docs/introduction",
+    "description": "a compiler that generates web components which use TypeScript, JSX, and CSS",
+    "id": 134
+  },
+  {
+    "idCode": "vite",
+    "name": "Vite",
+    "url": "https://vitejs.dev",
+    "description": "a tool to set up development starter applications for frameworks like Vue, React, Svelte and JS/DOM",
+    "id": 135
+  },
+  {
+    "idCode": "abtests",
+    "name": "A/B tests",
+    "url": "https://en.wikipedia.org/wiki/A/B_testing",
+    "description": "the process of comparing two variations of a page element, usually by testing users' response to variant A vs. variant B and concluding which of the two variants is more effective",
+    "id": 136
+  },
+  {
+    "idCode": "gradle",
+    "name": "Gradle",
+    "url": "https://gradle.org",
+    "description": "a build automation tool for multi-language software development that controls the development process from compilation and packaging to testing, deployment, and publishing, supported languages include Java, Kotlin, Groovy, Scala, C/C++, and JavaScript",
+    "id": 137
+  },
+  {
+    "idCode": "d3",
+    "name": "D3.js",
+    "url": "https://d3js.org",
+    "description": "a JavaScript library for manipulating documents based on data",
+    "id": 138
+  },
+  {
+    "idCode": "projektronbcs",
+    "name": "Projektron BCS",
+    "url": "https://en.wikipedia.org/wiki/Projektron_BCS",
+    "description": "web-based project management software for planning, managing and controlling projects simultaneously, founded 2001 in Berlin",
+    "id": 139
+  },
+  {
+    "idCode": "svelte",
+    "name": "Svelte",
+    "url": "https://onespace.pages.dev/techItems?id=210",
+    "description": "JavaScript framework that generates code to manipulate the DOM",
+    "id": 140
+  },
+  {
+    "idCode": "tomcat",
+    "name": "Tomcat",
+    "url": "https://en.wikipedia.org/wiki/Apache_Tomcat",
+    "description": "a free and open-source Java web application server",
+    "id": 141
+  },
+  {
+    "idCode": "jboss",
+    "name": "JBoss",
+    "url": "https://en.wikipedia.org/wiki/WildFly",
+    "description": "a free and open-source Java application server developed by Red Hat that implements the Java Enterprise Edition specification, today known as WildFly",
+    "id": 142
+  },
+  {
+    "idCode": "mqtt",
+    "name": "MQTT",
+    "url": "https://en.wikipedia.org/wiki/MQTT",
+    "description": "a lightweight, publish-subscribe, machine to machine network protocol for Message queue/Message queuing service",
+    "id": 143
+  },
+  {
+    "idCode": "amqp",
+    "name": "AMQP",
+    "url": "https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol",
+    "description": "an open standard application layer protocol for message-oriented middleware responsible for orientation, queuing, and has both point-to-point  and publish-and-subscribe routing",
+    "id": 144
+  },
+  {
+    "idCode": "maven",
+    "name": "Maven",
+    "url": "https://en.wikipedia.org/wiki/Apache_Maven",
+    "description": "a build automation tool used primarily for Java projects which can also be used to build and manage projects written in C#, Ruby, and Scala",
+    "id": 145
+  },
+  {
+    "idCode": "mariadb",
+    "name": "MariaDB",
+    "url": "https://onespace.pages.dev/techItems?id=171",
+    "description": "a community-developed, commercially supported fork of MySQL",
+    "id": 146
+  },
+  {
+    "idCode": "gitlabci",
+    "name": "Gitlab CI",
+    "url": "https://www.harness.io/blog/what-is-gitlab-ci",
+    "description": "an feature of GitLab which provides build automation, test automation, pipeline config management, artifact storage, and pipeline security",
+    "id": 147
+  },
+  {
+    "idCode": "fastapi",
+    "name": "FastAPI",
+    "url": "https://fastapi.tiangolo.com",
+    "description": "a modern, fast, web framework for building APIs with Python",
+    "id": 148
+  },
+  {
+    "idCode": "go",
+    "name": "Go",
+    "url": "https://onespace.pages.dev/techItems?id=94",
+    "description": "a language created by Google that resembles C but with object-oriented features",
+    "id": 149
+  },
+  {
+    "idCode": "eks",
+    "name": "EKS",
+    "url": "https://onespace.pages.dev/techItems?id=324",
+    "description": "AWS's container platform (Elastic Kubernetes Service)",
+    "id": 150
+  },
+  {
+    "idCode": "pythonqt",
+    "name": "Python/Qt",
+    "url": "https://doc.qt.io/qtforpython",
+    "description": "a Python library that enables developers to use Python to write Qt applications",
+    "id": 151
+  },
+  {
+    "idCode": "hibernate",
+    "name": "Hibernate",
+    "url": "https://en.wikipedia.org/wiki/Hibernate_(framework)",
+    "description": "the leading ORM for Java which provides mapping from the OOP model in Java to the table model in databases like MySQL and Postgres",
+    "id": 152
+  },
+  {
+    "idCode": "linuxadmin",
+    "name": "Linux Admin",
+    "url": "https://en.wikiversity.org/wiki/Linux_Administration",
+    "description": "skills including installing and managing a usually online Linux machine, basic commands, devices and filesystems, shells and scripting, user interfaces, administrative tasks, system services, networking fundamentals, and security",
+    "id": 153
+  },
+  {
+    "idCode": "sqlite",
+    "name": "SQLite",
+    "url": "https://en.wikipedia.org/wiki/SQLite",
+    "description": "a small database engine written in the C programming language, not an app but merely a library which developers embed in theri apps, hence it belongs to the family of embedded databases",
+    "id": 154
+  },
+  {
+    "idCode": "zend",
+    "name": "Zend",
+    "url": "https://onespace.pages.dev/techItems?id=184",
+    "description": "popular, corporate-ownded PHP framework created in 2006",
+    "id": 155
+  },
+  {
+    "idCode": "latex",
+    "name": "LaTeX",
+    "url": "https://en.wikipedia.org/wiki/LaTeX",
+    "description": "a software system for document preparation in which the writer uses plain text as opposed to formatted text found in WYSIWYG word processors, widely used in academia",
+    "id": 156
+  },
+  {
+    "idCode": "bigdata",
+    "name": "big data",
+    "url": "https://en.wikipedia.org/wiki/Big_data",
+    "description": "the processing of data sets too large and complex to be dealt with by traditional databases",
+    "id": 157
+  },
+  {
+    "idCode": "datalake",
+    "name": "data lake",
+    "url": "https://en.wikipedia.org/wiki/Data_lake",
+    "description": "a repository of data stored in its raw format such as object blobs (binary large objects, e.g. images or audio) or other various files, usually consisting of both (1) raw copies of system data, sensor data or social data, plus (2) transformed data used for tasks such as reporting, visualization, advanced analytics and machine learning",
+    "id": 158
+  },
+  {
+    "idCode": "datapipelines",
+    "name": "data pipelines",
+    "url": "https://hazelcast.com/glossary/data-pipeline",
+    "description": "a series of data processing steps in which each step delivers an output that is the input for the next step",
+    "id": 159
+  },
+  {
+    "idCode": "kafka",
+    "name": "Kafka",
+    "url": "https://onespace.pages.dev/techItems?id=277",
+    "description": "open-source stream-processing software platform developed by the Apache Software Foundation",
+    "id": 160
+  },
+  {
+    "idCode": "bitbucket",
+    "name": "Bitbucket",
+    "url": "https://onespace.pages.dev/techItems?id=144",
+    "description": "the second most popular version control hosting service, originally hosted Mercurial since 2008 but hosts Git since 2011, owned by Atlassian who owns Jira",
+    "id": 161
+  },
+  {
+    "idCode": "fabric8",
+    "name": "fabric8",
+    "url": "https://fabric8.io",
+    "description": "a now discontinued open source DevOps and Integration Platform which works with Kubernetes or OpenShift environment and provides Continuous Delivery",
+    "id": 162
+  },
+  {
+    "idCode": "dynamodb",
+    "name": "DynamoDB",
+    "url": "https://onespace.pages.dev/techItems?id=262",
+    "description": "Amazon's NoSQL cloud database service",
+    "id": 163
+  },
+  {
+    "idCode": "tdd",
+    "name": "Test-driven development (TDD)",
+    "url": "https://en.wikipedia.org/wiki/Test-driven_development",
+    "description": "a software development process relying on software requirements being converted to test cases before software is fully developed",
+    "id": 164
+  },
+  {
+    "idCode": "functionalprogramming",
+    "name": "functional programming",
+    "url": "https://en.wikipedia.org/wiki/Functional_programming",
+    "description": "a programming paradigm where programs are constructed by applying and composing functions, where functions can be passed as arguments and returned from other functions just as any other data type can",
+    "id": 165
+  },
+  {
+    "idCode": "openui5",
+    "name": "OpenUI5",
+    "url": "https://en.wikipedia.org/wiki/OpenUI5",
+    "description": "a JavaScript framework and UI library created by SAP, OpenUI5 is the open-source version of SAPUI5",
+    "id": 166
+  },
+  {
+    "idCode": "couchdb",
+    "name": "CouchDB",
+    "url": "https://onespace.pages.dev/techItems?id=78",
+    "description": "a NoSQL document database, less popular than MongoDB",
+    "id": 167
+  },
+  {
+    "idCode": "googlecloud",
+    "name": "Google Cloud Platform",
+    "url": "https://en.wikipedia.org/wiki/Google_Cloud_Platform",
+    "description": "suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products",
+    "id": 168
+  },
+  {
+    "idCode": "bdd",
+    "name": "Behavior-Driven Development (BDD)",
+    "url": "https://en.wikipedia.org/wiki/Behavior-driven_development",
+    "description": "an agile software development process that encourages collaboration among developers, quality assurance experts, and customer representatives in a software project, using conversation and concrete examples to formalize a shared understanding of how the application should behave",
+    "id": 169
+  },
+  {
+    "idCode": "ddd",
+    "name": "Domain-Driven Design (DDD)",
+    "url": "https://en.wikipedia.org/wiki/Domain-driven_design",
+    "description": "an approach to software design that focuses on modeling software to match a domain according to input from that domain's experts",
+    "id": 170
+  },
+  {
+    "idCode": "iot",
+    "name": "Internet of Things (IoT)",
+    "url": "https://en.wikipedia.org/wiki/Internet_of_things",
+    "description": "physical objects with sensors, processing ability, software and other technologies that connect and exchange data with other devices and systems over the Internet ",
+    "id": 171
+  },
+  {
+    "idCode": "blockchain",
+    "name": "Blockchain",
+    "url": "https://en.wikipedia.org/wiki/Blockchain",
+    "description": " a distributed ledger with growing lists of records (blocks) that are securely linked together via cryptographic hashes",
+    "id": 172
+  },
+  {
+    "idCode": "saas",
+    "name": "SAAS",
+    "url": "https://en.wikipedia.org/wiki/Software_as_a_service",
+    "description": "(Software as a service) a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted",
+    "id": 173
+  },
+  {
+    "idCode": "mobx",
+    "name": "MobX",
+    "url": "https://mobx.js.org",
+    "description": "an alternative state management tools which is a good alternative to Redux giving the same functionality with less code to write",
+    "id": 174
+  },
+  {
+    "idCode": "headlesscms",
+    "name": "Headless CMS",
+    "url": "https://en.wikipedia.org/wiki/Headless_content_management_system",
+    "description": "a backend-only web content management system that acts primarily as a content repository accessible via an API or GraphQL",
+    "id": 175
+  },
+  {
+    "idCode": "contentful",
+    "name": "Contentful",
+    "url": "https://www.contentful.com",
+    "description": "a content management system (CMS) that allows developers to create, manage, and distribute digital content across multiple platforms and devices",
+    "id": 176
+  },
+  {
+    "idCode": "storyblok",
+    "name": "Storyblok",
+    "url": "https://www.storyblok.com",
+    "description": "a headless content management system that focuses on creating better content experiences for users",
+    "id": 177
+  },
+  {
+    "idCode": "ioniccordova",
+    "name": "Ionic/Cordova",
+    "url": "https://onespace.pages.dev/techItems?id=24",
+    "description": "allows you to build hybrid mobile apps with CSS, HTML and JavaScript",
+    "id": 178
+  },
+  {
+    "idCode": "feathersjs",
+    "name": "FeathersJS",
+    "url": "https://feathersjs.com",
+    "description": "an API and real-time application network",
+    "id": 179
+  },
+  {
+    "idCode": "nuxt",
+    "name": "Nuxt.js",
+    "url": "https://onespace.pages.dev/techItems?id=218",
+    "description": "a web framework that extends Vue.js for server-rendering and static sites",
+    "id": 180
+  },
+  {
+    "idCode": "flask",
+    "name": "Flask",
+    "url": "https://flask.palletsprojects.com/en/2.2.x",
+    "description": "a micro web framework written in Python",
+    "id": 181
+  },
+  {
+    "idCode": "blazor",
+    "name": "Blazor",
+    "url": "https://www.openxcell.com/blog/blazor-vs-angular",
+    "description": "a web framework like Angular but instead of using TypeScript, you use C# and the template markup syntax Razor",
+    "id": 182
+  },
+  {
+    "idCode": "websockets",
+    "name": "Websockets",
+    "url": "https://onespace.pages.dev/techItems?id=385",
+    "description": "a communication protocol that provides communication channels over a single, long-lived connection between a web browser and a server",
+    "id": 183
+  },
+  {
+    "idCode": "rubyonrails",
+    "name": "Ruby on Rails",
+    "url": "https://onespace.pages.dev/techItems?id=130",
+    "description": "an older web application framework with useful framework paradigms worth learning",
+    "id": 184
+  },
+  {
+    "idCode": "laravel",
+    "name": "Laravel",
+    "url": "https://onespace.pages.dev/techItems?id=179",
+    "description": "PHP framework released 2013 now most popular PHP framework",
+    "id": 185
+  },
+  {
+    "idCode": "yii",
+    "name": "Yii PHP Framework",
+    "url": "https://www.yiiframework.com",
+    "description": "an open source, object-oriented, component-based MVC PHP web application framework",
+    "id": 186
+  },
+  {
+    "idCode": "karma",
+    "name": "Karma",
+    "url": "https://karma-runner.github.io",
+    "description": "A JavaScript testing tool that is primarily designed for low-level unit testing",
+    "id": 187
+  },
+  {
+    "idCode": "nativescript",
+    "name": "NativeScript",
+    "url": "https://onespace.pages.dev/techItems?id=221",
+    "description": "framework to develop mobile apps on the Apple iOS and Android platforms",
+    "id": 188
+  },
+  {
+    "idCode": "objectivec",
+    "name": "Objective-C",
+    "url": "https://onespace.pages.dev/techItems?id=93",
+    "description": "a language necessary for programming Apple devices",
+    "id": 189
+  },
+  {
+    "idCode": "grunt",
+    "name": "Grunt",
+    "url": "https://onespace.pages.dev/techItems?id=10",
+    "description": "an old (2012) JavaScript task runner, used to automatically perform frequent tasks such as minification, compilation, unit testing, and linting, older than Gulp (2017)",
+    "id": 190
+  },
+  {
+    "idCode": "symfony",
+    "name": "Symfony",
+    "url": "https://onespace.pages.dev/techItems?id=180",
+    "description": "a popular PHP framework created in 2007, today second in popularity behind Laravel",
+    "id": 191
+  },
+  {
+    "idCode": "twig",
+    "name": "Twig",
+    "url": "https://twig.symfony.com/doc",
+    "description": "a template engine for PHP",
+    "id": 192
+  },
+  {
+    "idCode": "svn",
+    "name": "SVN",
+    "url": "https://en.wikipedia.org/wiki/Apache_Subversion",
+    "description": "an older software versioning system (2000) used before Git became popular",
+    "id": 193
+  },
+  {
+    "idCode": "monorepos",
+    "name": "monorepos",
+    "url": "https://monorepo.tools/#what-is-a-monorepo",
+    "description": "single repositories that contain multiple distinct projects, with well-defined relationships",
+    "id": 194
+  },
+  {
+    "idCode": "scala",
+    "name": "Scala",
+    "url": "https://onespace.pages.dev/techItems?id=119",
+    "description": "a Java-like language with more functional features",
+    "id": 195
+  },
+  {
+    "idCode": "puppeteer",
+    "name": "Puppeteer",
+    "url": "https://www.npmjs.com/package/puppeteer",
+    "description": "a Node.js library that enables you to control a Chromium browser programatically",
+    "id": 196
+  },
+  {
+    "idCode": "playwright",
+    "name": "Playwright",
+    "url": "https://playwright.dev",
+    "description": "an end-to-end testing tool similar to Cypress",
+    "id": 197
+  },
+  {
+    "idCode": "vba",
+    "name": "VBA",
+    "url": "https://onespace.pages.dev/techItems?id=103",
+    "description": "Visual Basic for Applications, a simple language still used to program business analysist and statistic applications in Excel",
+    "id": 198
+  },
+  {
+    "idCode": "visualstudio",
+    "name": "Visual Studio",
+    "url": "https://onespace.pages.dev/techItems?id=59",
+    "description": "the default coding editor for .NET technologies",
+    "id": 199
+  },
+  {
+    "idCode": "sapui5",
+    "name": "SAPUI5",
+    "url": "https://community.sap.com/topics/ui5",
+    "description": "a JavaScript framework and UI library created by SAP which has proprietary features and hence is not open-source as is OpenUI5 which is the same framework but without the propreitary features",
+    "id": 200
+  },
+  {
+    "idCode": "algolia",
+    "name": "Algolia",
+    "url": "https://www.algolia.com",
+    "description": "a search as a service product offering web search across a client's website using an externally hosted search engine",
+    "id": 201
+  },
+  {
+    "idCode": "prisma",
+    "name": "Prisma",
+    "url": "https://www.prisma.io",
+    "description": "Node.js and TypeScript ORM for Postgres, MySQL, SQLite, AWS Aurora, Azure SQL, Microsoft SQL Server, MongoDB and CockroachDB",
+    "id": 202
+  },
+  {
+    "idCode": "vercel",
+    "name": "Vercel",
+    "url": "https://vercel.com",
+    "description": "cloud hosting provider that maintains Next.js and connects to GitHub repositories for seamless deployment",
+    "id": 203
+  },
+  {
+    "idCode": "netlify",
+    "name": "Netlify",
+    "url": "https://netlify.com",
+    "description": "cloud hosting provider that owns Gatsby and connects to GitHub repositories for seamless deployment",
+    "id": 204
+  },
+  {
+    "idCode": "digitalocean",
+    "name": "DigitalOcean",
+    "url": "https://digitalocean.com",
+    "description": "an cloud service provider where you can host Linux machines for under $10 per month",
+    "id": 205
+  },
+  {
+    "idCode": "tableau",
+    "name": "Tableau",
+    "url": "https://en.wikipedia.org/wiki/Tableau_Software",
+    "description": "data visualization software created in 2003 acquired by Salesforce in 2019",
+    "id": 206
+  },
+  {
+    "idCode": "vuetify",
+    "name": "Vuetify",
+    "url": "https://vuetifyjs.com",
+    "description": "a Material-UI component framework for Vue",
+    "id": 207
+  },
+  {
+    "idCode": "quasar",
+    "name": "Quasar",
+    "url": "https://quasar.dev",
+    "description": "a front-end framework powered by Vue used to build responsive SPAs, SSR apps, PWAs, mobile apps, and Electron apps, all with the same code base",
+    "id": 208
+  },
+  {
+    "idCode": "mssql",
+    "name": "Microsoft SQL Server",
+    "url": "https://de.wikipedia.org/wiki/Microsoft_SQL_Server",
+    "description": "an SQL server developed in 1989 which serves as the standard database for .NET projects",
+    "id": 209
+  },
+  {
+    "idCode": "artifactory",
+    "name": "Artifactory",
+    "url": "https://www.jfrog.com/confluence/display/RTF",
+    "description": "a universal repository manager supporting most major packaging formats, build tools and CI servers",
+    "id": 210
+  },
+  {
+    "idCode": "pinia",
+    "name": "Pinia",
+    "url": "https://pinia.vuejs.org",
+    "description": "a state management tool for Vue.js created in 2019, now recommended by the Vue.js core team",
+    "id": 211
+  },
+  {
+    "idCode": "accessibility",
+    "name": "Web accessibility",
+    "url": "https://en.wikipedia.org/wiki/Web_accessibility",
+    "description": "the inclusive practice of ensuring there are no barriers that prevent interaction by people with physical disabilities",
+    "id": 212
+  },
+  {
+    "idCode": "vitest",
+    "name": "Vitest",
+    "url": "https://vitest.dev",
+    "description": "a test runner much like Jest that natively supports TypeScript, created in 2020 by Evan You, creator of Vue.js",
+    "id": 213
+  },
+  {
+    "idCode": "elasticsearch",
+    "name": "Elasticsearch",
+    "url": "https://onespace.pages.dev/techItems?id=170",
+    "description": "a search engine and NOSQL database based on the Lucene library",
+    "id": 214
+  },
+  {
+    "idCode": "wordpress",
+    "name": "Wordpress",
+    "url": "https://onespace.pages.dev/techItems?id=187",
+    "description": "most popular content management system written in PHP",
+    "id": 215
+  },
+  {
+    "idCode": "django",
+    "name": "Django",
+    "url": "https://onespace.pages.dev/techItems?id=132",
+    "description": "a Python-based web framework created in 2005",
+    "id": 216
+  },
+  {
+    "idCode": "ansible",
+    "name": "Ansible",
+    "url": "https://en.wikipedia.org/wiki/Ansible_(software)",
+    "description": "a suite of tools that enables infrastructure as code including provisioning, configuration management and deployment",
+    "id": 217
+  },
+  {
+    "idCode": "prometheus",
+    "name": "Prometheus",
+    "url": "https://en.wikipedia.org/wiki/Prometheus_(software)",
+    "description": "event monitoring and alerting software and time-series database written in Go which helps identify bottlenecks and optimize performance",
+    "id": 218
+  },
+  {
+    "idCode": "grafana",
+    "name": "Grafana",
+    "url": "https://en.wikipedia.org/wiki/Grafana",
+    "description": "an analytics and interactive visualization tool that helps devops visualize and analyze system data in real-time",
+    "id": 219
+  },
+  {
+    "idCode": "datadog",
+    "name": "Datadog",
+    "url": "https://en.wikipedia.org/wiki/Datadog",
+    "description": "an observability service for cloud-scale applications, providing monitoring of servers, databases, tools, and services",
+    "id": 220
+  },
+  {
+    "idCode": "hadoop",
+    "name": "Hadoop",
+    "url": "https://en.wikipedia.org/wiki/Datadog",
+    "description": "a collection of utilities that uses a network of computers to solve problems such as data crunching and computation",
+    "id": 221
+  },
+  {
+    "idCode": "spark",
+    "name": "Apache Spark",
+    "url": "https://en.wikipedia.org/wiki/Apache_Spark",
+    "description": "analytics engine for large-scale data processing. Spark provides an interface for programming clusters with fault tolerance and data parallelism (multiple processors that work on data at once)",
+    "id": 222
+  },
+  {
+    "idCode": "arm",
+    "name": "ARM (Azure Resource Manager)",
+    "url": "https://www.varonis.com/blog/arm-template",
+    "description": "Microsoft's deployment and management service for Azure, used to create, update, and delete Azure resources",
+    "id": 223
+  },
+  {
+    "idCode": "puppet",
+    "name": "Puppet",
+    "url": "https://en.wikipedia.org/wiki/Puppet_(software)",
+    "description": "a configuration management tool that automates the deployment and management of software and systems",
+    "id": 224
+  },
+  {
+    "idCode": "helm",
+    "name": "Helm",
+    "url": "https://helm.sh",
+    "description": "a free, open-source software that helps devops manage, deploy and version control their applications on Kubernetes clusters",
+    "id": 225
+  },
+  {
+    "idCode": "salt",
+    "name": "Salt",
+    "url": "https://docs.saltproject.io/en/getstarted/index.html",
+    "description": "an open-source configuration management and automation software tool used to manage and provision servers, cloud resources, and software applications",
+    "id": 226
+  },
+  {
+    "idCode": "vmwaretanzu",
+    "name": "VMware Tanzu",
+    "url": "https://tanzu.vmware.com/tanzu",
+    "description": "a suite of products and solutions that allow its customers to build, run, and manage Kubernetes-controlled, container-based applications",
+    "id": 227
+  },
+  {
+    "idCode": "cvs",
+    "name": "CVS",
+    "url": "https://en.wikipedia.org/wiki/Concurrent_Versions_System",
+    "description": "a very old revision control system, its latest release in 2008",
+    "id": 228
+  },
+  {
+    "idCode": "canvas",
+    "name": "HTML Canvas",
+    "url": "https://www.w3schools.com/graphics/canvas_intro.asp",
+    "description": "an HTML5 feature that allows you to draw and render graphics, such as lines, shapes, images, and text, dynamically using JavaScript",
+    "id": 229
+  },
+  {
+    "idCode": "qt",
+    "name": "Qt",
+    "url": "https://en.wikipedia.org/wiki/Qt_(software)",
+    "description": "an old cross-platform application development framework created in 1990",
+    "id": 230
+  },
+  {
+    "idCode": "oracle",
+    "name": "Oracle",
+    "url": "https://onespace.pages.dev/techItems?id=259",
+    "description": "an older, expensive SQL-based database created in 1979 used mainly for large data warehousing projects",
+    "id": 231
+  },
+  {
+    "idCode": "seo",
+    "name": "SEO",
+    "url": "https://en.wikipedia.org/wiki/Search_engine_optimization",
+    "description": "the practice of enhancing a website's visibility and ranking on search engines like Google",
+    "id": 232
+  },
+  {
+    "idCode": "gatsby",
+    "name": "Gatsby",
+    "url": "https://www.gatsbyjs.com",
+    "description": "static site generator build on React and GraphQL, now owned by Netlify",
+    "id": 233
+  },
+  {
+    "idCode": "rust",
+    "name": "Rust",
+    "url": "https://www.rust-lang.org",
+    "description": "a newer lower-level language like C++ with better memory safety",
+    "id": 234
+  },
+  {
+    "idCode": "couchbase",
+    "name": "Couchbase",
+    "url": "https://www.couchbase.com/comparing-couchbase-vs-couchdb",
+    "description": "also known as Membase, and different than CouchDB, this is an open-source, distributed, multi-model NoSQL document-oriented database software package optimized for interactive applications",
+    "id": 235
+  },
+  {
+    "idCode": "bigquery",
+    "name": "BigQuery",
+    "url": "https://cloud.google.com/bigquery",
+    "description": "fully managed and serverless data warehouse and analytics platform provided by Google Cloud",
+    "id": 236
+  },
+  {
+    "idCode": "graphite",
+    "name": "Graphite",
+    "url": "",
+    "description": "a monitoring tool that runs equally well on cheap hardware or Cloud infrastructure, teams use Graphite to track the performance of their websites, applications, business services, and networked servers",
+    "id": 237
+  },
+  {
+    "idCode": "grafana",
+    "name": "Grafana",
+    "url": "https://grafana.com",
+    "description": "open-source analytics and monitoring platform that is commonly used for visualizing time-series data",
+    "id": 238
+  },
+  {
+    "idCode": "emotion",
+    "name": "Emotion",
+    "url": "https://emotion.sh/docs/introduction",
+    "description": "a library designed for writing css styles with JavaScript",
+    "id": 239
+  },
+  {
+    "idCode": "percy",
+    "name": "Percy",
+    "url": "https://percy.io",
+    "description": "visual testing as a service which integrates workflows to get an insight into product changes",
+    "id": 240
+  },
+  {
+    "idCode": "speedcurve",
+    "name": "SpeedCurve",
+    "url": "https://www.speedcurve.com",
+    "description": "tools to visualize how users experience the speed of your website to identify and fix performance issues",
+    "id": 241
+  },
+  {
+    "idCode": "varnish",
+    "name": "Varnish",
+    "url": "https://www.varnish-software.com",
+    "description": "content delivery software",
+    "id": 242
+  },
+  {
+    "idCode": "cloudfront",
+    "name": "Cloudfront",
+    "url": "https://aws.amazon.com/de/cloudfront",
+    "description": "Amazon's CDN (content delivery service) which caches and stores copies of content in edge locations around the world",
+    "id": 243
+  },
+  {
+    "idCode": "s3",
+    "name": "S3",
+    "url": "https://aws.amazon.com/de/s3",
+    "description": "Amazon's scalable and durable cloud storage service aber to store and retrieve any amount of data on the web",
+    "id": 244
+  },
+  {
+    "idCode": "sns",
+    "name": "SNS",
+    "url": "https://aws.amazon.com/de/sns",
+    "description": "Amazon's Simple Notification Service, a managed messaging service that sends messages to a distributed set of recipients in a publish-subscribe model",
+    "id": 245
+  },
+  {
+    "idCode": "cognito",
+    "name": "Cognito",
+    "url": "https://aws.amazon.com/de/cognito",
+    "description": "Amazon's managed identity and access management service which simplifies and secures user idenity management",
+    "id": 246
+  },
+  {
+    "idCode": "adobexd",
+    "name": "Adobe XD",
+    "url": "https://helpx.adobe.com/support/xd.html#troubleshooting",
+    "description": "a vector design tool for web and mobile applications, creates user interfaces for mobile and web apps, however now in maintenance mode",
+    "id": 247
+  },
+  {
+    "idCode": "sketch",
+    "name": "Sketch",
+    "url": "https://en.wikipedia.org/wiki/Sketch_(software)",
+    "description": "a vector graphics editor for macOS primarily used for user interface and user experience design of websites and mobile apps",
+    "id": 248
+  },
+  {
+    "idCode": "figma",
+    "name": "Figma",
+    "url": "https://www.figma.com",
+    "description": "design and prototyping tool used in the field of user interface (UI) and user experience (UX) design",
+    "id": 249
+  },
+  {
+    "idCode": "antdesign",
+    "name": "Ant-Design",
+    "url": "https://ant.design",
+    "description": "design system and UI framework primarily used for building web and mobile applications",
+    "id": 250
+  },
+  {
+    "idCode": "groovy",
+    "name": "Groovy",
+    "url": "https://groovy-lang.org",
+    "description": "optionally typed and dynamic language for the Java platform",
+    "id": 251
+  }
+]
