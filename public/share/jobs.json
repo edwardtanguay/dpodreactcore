@@ -1337,7 +1337,7 @@
 		"company": "FERCHAU GmbH",
 		"url": "https://www.stepstone.de/stellenangebote--Full-Stack-Developer-m-w-d-Webanwendung-Saarbruecken-FERCHAU-GmbH--9069139-inline.html",
 		"description": "Deine Aufgaben\nIhr Aufgabengebiet\n\n    Full Stack Software Development von Webanwendungen basierend auf modernen Frameworks wie bspw. React.js und Spring oder Angular\n    Programmierung von internen und externen Schnittstellen\n    Optimierung der Benutzerfreundlichkeit und technischen Prozesse\n    Entwicklung in einem agilen Arbeitsumfeld \n\nDas nächste Level beginnt hier\n\n    Unbefristeter Arbeitsvertrag\n    Fachliche und persönliche Weiterentwicklungsmöglichkeiten\n    Ankommen und sich wohlfühlen mit unserem Onboarding-Programm\n    Mehr als der BAP, wir bieten Sonderurlaub, Kindergartenzuschuss, Jubiläumszuwendungen u. v. m. \n\nDein Profil\nWomit Sie uns überzeugen\n\n    Erfolgreich abgeschlossenes Studium oder Ausbildung in der Informatik oder vergleichbare Qualifikation\n    Erste Berufserfahrung in der Frontend- und Backend-Entwicklung\n    Sicherer Umgang mit Webtechnologien wie HTML, CSS, JavaScript, PHP und MySQL\n    Idealerweise Kenntnisse in Node.js, Gulp.js oder Angular\n    Gute Deutsch- und Englischkenntnisse in Wort und Schrift \n\n",
-		"skillList": "react, angular, springboot, php, mysql, node, gulp",
+		"skillList": "node, mysql, php, react, angular, springboot",
 		"publicationDate": "2024-01-03"
 	}
 ]
