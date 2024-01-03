@@ -1330,5 +1330,14 @@
 		"description": "Ihre Aufgaben:\n\n    Aktive Verbesserung und Weiter­entwicklung unserer haus­eigenen ERP-Software mit dem Stack: Node.js, Express.js, Angular und TypeScript\n    Anwendersupport und Schulungen\n    Betreuung, Pflege und Erweiterung unserer SQL-Daten­banken\n    Betreuung und aktive Weiter­entwicklung des Projekt­teams\n\nIhr Profil:\n\n    Mehrjährige Berufserfahrung in der Software­entwicklung mit JavaScript-Webtechnologien\n    Sehr gute Englisch­kenntnisse\n    Kenntnisse in den Bereichen Git, CI, Deployment und Docker\n    Gute Kenntnisse in SQL werden voraus­gesetzt\n    Schnelle Auffassungsgabe, analytisches Denken, Flexibilität, Team­fähigkeit und saubere Arbeits­weise\n\nDarauf dürfen Sie sich freuen:\n\nNeben einem unbefristeten Arbeits­verhältnis, einer Jahres­sonder­zahlung, vermögens­wirksamen Leistungen und weiteren Zusatz­leistungen, wie einem Kinder­garten­zuschuss, dürfen Sie sich auf viel­fältige und interessante Heraus­forderungen in Ihrem Arbeits­alltag freuen.\n\nRegelmäßige Firmenevents, Betriebs­arzt mit Vorsorge­untersuchungen sowie kostenlose Parkplätze sind inbegriffen.\n\nEs erwartet Sie ein Team, welches Sie herz­lich aufnimmt und hilfs­bereit zur Seite steht.",
 		"skillList": "node, express, angular, typescript, sql, git, cicd, devops, docker",
 		"publicationDate": "2024-01-02"
+	},
+	{
+		"id": 150,
+		"title": "Full Stack Developer Webanwendung",
+		"company": "FERCHAU GmbH",
+		"url": "https://www.stepstone.de/stellenangebote--Full-Stack-Developer-m-w-d-Webanwendung-Saarbruecken-FERCHAU-GmbH--9069139-inline.html",
+		"description": "Deine Aufgaben\nIhr Aufgabengebiet\n\n    Full Stack Software Development von Webanwendungen basierend auf modernen Frameworks wie bspw. React.js und Spring oder Angular\n    Programmierung von internen und externen Schnittstellen\n    Optimierung der Benutzerfreundlichkeit und technischen Prozesse\n    Entwicklung in einem agilen Arbeitsumfeld \n\nDas nächste Level beginnt hier\n\n    Unbefristeter Arbeitsvertrag\n    Fachliche und persönliche Weiterentwicklungsmöglichkeiten\n    Ankommen und sich wohlfühlen mit unserem Onboarding-Programm\n    Mehr als der BAP, wir bieten Sonderurlaub, Kindergartenzuschuss, Jubiläumszuwendungen u. v. m. \n\nDein Profil\nWomit Sie uns überzeugen\n\n    Erfolgreich abgeschlossenes Studium oder Ausbildung in der Informatik oder vergleichbare Qualifikation\n    Erste Berufserfahrung in der Frontend- und Backend-Entwicklung\n    Sicherer Umgang mit Webtechnologien wie HTML, CSS, JavaScript, PHP und MySQL\n    Idealerweise Kenntnisse in Node.js, Gulp.js oder Angular\n    Gute Deutsch- und Englischkenntnisse in Wort und Schrift \n\n",
+		"skillList": "react, angular, springboot, php, mysql, node, gulp",
+		"publicationDate": "2024-01-03"
 	}
 ]
