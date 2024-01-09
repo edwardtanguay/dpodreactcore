@@ -1510,5 +1510,11 @@
 		"name": "Capacitor",
 		"url": "https://capacitorjs.com",
 		"description": "an open source native runtime for building Web Native apps. Create cross-platform iOS, Android, and Progressive Web Apps with JavaScript, HTML, and CSS"
+	},
+	{
+		"idCode": "pubsub",
+		"name": "Google Pub/Sub",
+		"url": "https://cloud.google.com/pubsub",
+		"description": "a messaging service that enables asynchronous communication between applications, allowing them to exchange real-time data reliably and at scale"
 	}
 ]
