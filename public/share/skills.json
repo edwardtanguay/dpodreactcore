@@ -1504,5 +1504,11 @@
 		"name": "Groovy",
 		"url": "https://groovy-lang.org",
 		"description": "optionally typed and dynamic language for the Java platform"
+	},
+	{
+		"idCode": "capacitor",
+		"name": "Capacitor",
+		"url": "https://capacitorjs.com",
+		"description": "an open source native runtime for building Web Native apps. Create cross-platform iOS, Android, and Progressive Web Apps with JavaScript, HTML, and CSS"
 	}
 ]
