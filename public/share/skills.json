@@ -1521,7 +1521,7 @@
 		"idCode": "grpc",
 		"name": "gRPC",
 		"url": "https://grpc.io",
-		"description": "an open-source, high-performance framework for building efficient and scalable distributed systems, facilitating communication between services using a language-agnostic binary protocol"
+		"description": "an open-source framework for building scalable distributed systems, facilitating communication between services using a language-agnostic binary protocol"
 	},
 	{
 		"idCode": "solid",
