@@ -1527,6 +1527,6 @@
 		"idCode": "solid",
 		"name": "SOLID principles",
 		"url": "https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design",
-		"description": "SOLID is an acronym for the first five object-oriented design principles by Robert Martin: 1. each class has (S)ingle responsibility, 2. software entities should be (O) to extension by closed for modification, 3. you should be able to replace superclass with a sublass according to the (L)iskov Subsitution Principle, 4. a class should be no forced to implement (I)nterfaces it does not use, 5. abstractions should not depend on details; details should depend on abstractions, according to the (D)ependency Inversion Principle"
+		"description": "SOLID is an acronym for the first five object-oriented design principles by Robert Martin: 1. each class has (S)ingle responsibility, 2. software entities should be (O) to extension by closed for modification, 3. you should be able to replace superclass with a subclass according to the (L)iskov Subsitution Principle, 4. a class should be no forced to implement (I)nterfaces it does not use, 5. abstractions should not depend on details; details should depend on abstractions, according to the (D)ependency Inversion Principle"
 	}
 ]
