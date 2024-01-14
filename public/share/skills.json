@@ -1528,5 +1528,17 @@
 		"name": "SOLID principles",
 		"url": "https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design",
 		"description": "SOLID is an acronym for the first five object-oriented design principles by Robert Martin: 1. each class has (S)ingle responsibility, 2. software entities should be (O) to extension by closed for modification, 3. you should be able to replace superclass with a subclass according to the (L)iskov Subsitution Principle, 4. a class should be no forced to implement (I)nterfaces it does not use, 5. abstractions should not depend on details; details should depend on abstractions, according to the (D)ependency Inversion Principle"
+	},
+	{
+		"idCode": "cloudnative",
+		"name": "Cloud-Native",
+		"url": "https://en.wikipedia.org/wiki/Cloud-native_computing",
+		"description": "an approach in software development that utilizes cloud computing to build applications in modern, dynamic environments such as public, private, and hybrid clouds with technologies such as containers, microservices, serverless functions, cloud native processors and immutable infrastructure"
+	},
+	{
+		"idCode": "awscodepipeline",
+		"name": "AWS CodePipeline",
+		"url": "https://aws.amazon.com/de/codepipeline",
+		"description": "a fully managed continuous integration and continuous delivery (CI/CD) platform that automates the build, test, and deployment phases of your release process, facilitating efficient application delivery in the cloud"
 	}
 ]
