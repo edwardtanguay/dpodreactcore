@@ -1540,5 +1540,11 @@
 		"name": "AWS CodePipeline",
 		"url": "https://aws.amazon.com/de/codepipeline",
 		"description": "a fully managed continuous integration and continuous delivery (CI/CD) platform that automates the build, test, and deployment phases of your release process, facilitating efficient application delivery in the cloud"
+	},
+	{
+		"idCode": "soap",
+		"name": "SOAP",
+		"url": "https://en.wikipedia.org/wiki/SOAP",
+		"description": "Simple Object Access Protocol, created 1998, was a protocol for exchanging structured information in web services, using XML as its message format, to facilitate communication between disparate systems over the internet, less used today as REST and GraphQL are often considered more lightweight and simpler alternatives to SOAP for most types of web services"
 	}
 ]
