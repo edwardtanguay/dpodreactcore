@@ -1546,5 +1546,11 @@
 		"name": "SOAP",
 		"url": "https://en.wikipedia.org/wiki/SOAP",
 		"description": "Simple Object Access Protocol, created 1998, was a protocol for exchanging structured information in web services, using XML as its message format, to facilitate communication between disparate systems over the internet, less used today as REST and GraphQL are often considered more lightweight and simpler alternatives to SOAP for most types of web services"
+	},
+	{
+		"idCode": "strapi",
+		"name": "Strapi",
+		"url": "https://strapi.io",
+		"description": "an open-source headless content management system (CMS) that enables developers to build flexible and customizable APIs for content delivery across various digital platforms"
 	}
 ]
