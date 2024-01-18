@@ -1552,5 +1552,17 @@
 		"name": "Strapi",
 		"url": "https://strapi.io",
 		"description": "an open-source headless content management system (CMS) that enables developers to build flexible and customizable APIs for content delivery across various digital platforms"
+	},
+	{
+		"idCode": "ejs",
+		"name": "EJS",
+		"url": "https://ejs.co",
+		"description": "(Embedded JavaScript templating), a templating language that enables the embedding of JavaScript code within HTML markup to dynamically generate content on the server side, similar to Handlebars and Pug"
+	},
+	{
+		"idCode": "materialize",
+		"name": "Materialize",
+		"url": "https://materializecss.com",
+		"description": "a responsive front-end framework based on Google's Material Design guidelines, providing a smaller set of components than Material UI (MUI), thus focusing on simplicity and ease of use"
 	}
 ]
