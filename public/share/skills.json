@@ -637,7 +637,7 @@
 	},
 	{
 		"idCode": "cleancode",
-		"name": "clean code",
+		"name": "Clean Code",
 		"url": "https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29",
 		"description": "a set of coding principles which include: follow conventions, keep it simple, leave code cleaner than when you found it, always find the root cause"
 	},
