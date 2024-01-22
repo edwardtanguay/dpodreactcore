@@ -1564,5 +1564,17 @@
 		"name": "Materialize",
 		"url": "https://materializecss.com",
 		"description": "a responsive front-end framework based on Google's Material Design guidelines, providing a smaller set of components than Material UI (MUI), thus focusing on simplicity and ease of use"
+	},
+	{
+		"idCode": "chai",
+		"name": "Chai",
+		"url": "https://www.chaijs.com",
+		"description": "an assertion library for node and the browser that can be paired with any javascript testing framework, usually Mocha"
+	},
+	{
+		"idCode": "uml",
+		"name": "UML",
+		"url": "https://sparxsystems.com/resources/tutorials/uml/datamodel.html",
+		"description": "a general-purpose visual modeling language that is intended to provide a standard way to visualize the design of a data system and the layering of an object-oriented class model on top of a purely relational database"
 	}
 ]
