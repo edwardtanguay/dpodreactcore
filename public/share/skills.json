@@ -1576,5 +1576,11 @@
 		"name": "UML",
 		"url": "https://sparxsystems.com/resources/tutorials/uml/datamodel.html",
 		"description": "a general-purpose visual modeling language that is intended to provide a standard way to visualize the design of a data system and the layering of an object-oriented class model on top of a purely relational database"
+	},
+	{
+		"idCode": "extremeProgramming",
+		"name": "Extreme Programming",
+		"url": "https://en.wikipedia.org/wiki/Extreme_programming",
+		"description": "a software development methodology intended to improve software quality and responsiveness to changing customer requirements"
 	}
 ]
