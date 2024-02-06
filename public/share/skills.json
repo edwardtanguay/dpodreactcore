@@ -1582,5 +1582,11 @@
 		"name": "Extreme Programming",
 		"url": "https://en.wikipedia.org/wiki/Extreme_programming",
 		"description": "a software development methodology intended to improve software quality and responsiveness to changing customer requirements"
+	},
+	{
+		"idCode": "opensearch",
+		"name": "OpenSearch",
+		"url": "https://en.wikipedia.org/wiki/OpenSearch",
+		"description": "a collection of technologies that allow the publishing of search results in a format suitable for syndication and aggregation"
 	}
 ]
