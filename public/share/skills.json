@@ -1075,7 +1075,7 @@
 	},
 	{
 		"idCode": "nuxt",
-		"name": "Nuxt.js",
+		"name": "Nuxt",
 		"url": "https://onespace.pages.dev/techItems?id=218",
 		"description": "a web framework that extends Vue.js for server-rendering and static sites"
 	},
@@ -1587,6 +1587,6 @@
 		"idCode": "opensearch",
 		"name": "OpenSearch",
 		"url": "https://en.wikipedia.org/wiki/OpenSearch",
-		"description": "a collection of technologies that allow the publishing of search results in a format suitable for syndication and aggregation"
+		"description": "a collection of technologies that allow the publishing of search results in a format suitale for syndication and aggregation"
 	}
 ]
