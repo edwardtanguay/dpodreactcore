@@ -1588,5 +1588,17 @@
 		"name": "OpenSearch",
 		"url": "https://en.wikipedia.org/wiki/OpenSearch",
 		"description": "a collection of technologies that allow the publishing of search results in a format suitale for syndication and aggregation"
+	},
+	{
+		"idCode": "leaflet",
+		"name": "Leaflet",
+		"url": "https://leafletjs.com",
+		"description": "open-source JavaScript library for mobile-friendly interactive maps"
+	},
+	{
+		"idCode": "mapbox",
+		"name": "Mapbox",
+		"url": "https://www.mapbox.com",
+		"description": "AI-powered location technology for automakers, mobile app developers, and logistics services"
 	}
 ]
