@@ -1600,5 +1600,11 @@
 		"name": "Mapbox",
 		"url": "https://www.mapbox.com",
 		"description": "AI-powered location technology for automakers, mobile app developers, and logistics services"
+	},
+	{
+		"idCode": "webvitals",
+		"name": "Web Vitals",
+		"url": "https://chromewebstore.google.com/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma?pli=1",
+		"description": "Chrome extension that helps you deliver better UX by providing feedback on loading, interactivity and layout shift metrics "
 	}
 ]
