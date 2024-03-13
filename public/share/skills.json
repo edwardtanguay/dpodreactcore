@@ -1606,5 +1606,17 @@
 		"name": "Web Vitals",
 		"url": "https://chromewebstore.google.com/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma?pli=1",
 		"description": "Chrome extension that helps you deliver better UX by providing feedback on loading, interactivity and layout shift metrics "
+	},
+	{
+		"idCode": "zeromq",
+		"name": "ZeroMQ",
+		"url": "https://zeromq.org",
+		"description": "an open-source universal messaging library that functions as an embeddable networking library and a concurrency framework"
+	},
+	{
+		"idCode": "kinesis",
+		"name": "Kinesis",
+		"url": "https://aws.amazon.com/de/kinesis",
+		"description": "a stream processing service offered by AWS that simplifies the capture, processing, and storage of data streams"
 	}
 ]
