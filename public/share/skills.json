@@ -1618,5 +1618,11 @@
 		"name": "Kinesis",
 		"url": "https://aws.amazon.com/de/kinesis",
 		"description": "a stream processing service offered by AWS that simplifies the capture, processing, and storage of data streams"
+	},
+	{
+		"idCode": "dotnetcore",
+		"name": ".NET Core",
+		"url": "https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro",
+		"description": ".NET Core is a free, open-source, and cross-platform software development framework maintained by Microsoft that can run on Windows, macOS, and Linux."
 	}
 ]
