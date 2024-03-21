@@ -781,7 +781,7 @@
 	},
 	{
 		"idCode": "ai",
-		"name": "AI",
+		"name": "artificial intelligence",
 		"url": "https://rollbar.com/blog/6-ways-artificial-intelligence-improves-software-development",
 		"description": "software that is able to learn by itself within a specific context in order to process data to solve tasks that otherwise require human intelligence"
 	},
@@ -1624,5 +1624,17 @@
 		"name": ".NET Core",
 		"url": "https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro",
 		"description": ".NET Core is a free, open-source, and cross-platform software development framework maintained by Microsoft that can run on Windows, macOS, and Linux."
+	},
+	{
+		"idCode": "ember",
+		"name": "Ember.js",
+		"url": "https://emberjs.com",
+		"description": "a full-featured JavaScript Web Framework that uses convention over configuration and MVVM, a wholesale solution, peaked around 2014"
+	},
+	{
+		"idCode": "ar",
+		"name": "augmented reality",
+		"url": "https://en.wikipedia.org/wiki/Augmented_reality",
+		"description": "a system that incorporates three basic features: a combination of real and virtual worlds, real-time interaction, and accurate 3D registration of virtual and real objects"
 	}
 ]
