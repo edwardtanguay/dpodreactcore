@@ -1642,5 +1642,11 @@
 		"name": "Electron",
 		"url": "https://www.electronjs.org",
 		"description": "a framework for building cross-platform desktop applications using HTML, CSS, and JavaScript"
+	},
+	{
+		"idCode": "kibana",
+		"name": "Kibana",
+		"url": "https://www.elastic.co/kibana",
+		"description": "a tool for data analytics, security, search, threat intelligence, search analytics, logs and application monitoring"
 	}
 ]
