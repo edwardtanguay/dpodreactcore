@@ -1140,6 +1140,12 @@
 		"description": "an old (2012) JavaScript task runner, used to automatically perform frequent tasks such as minification, compilation, unit testing, and linting, older than Gulp (2017)"
 	},
 	{
+		"idCode": "gulp",
+		"name": "Gulp",
+		"url": "https://gulpjs.com",
+		"description": "a task runner built on Node.js, designed to automate repetitive tasks in web development workflows, similar to but newer than Grunt"
+	},
+	{
 		"idCode": "symfony",
 		"name": "Symfony",
 		"url": "https://onespace.pages.dev/techItems?id=180",
@@ -1648,5 +1654,29 @@
 		"name": "Kibana",
 		"url": "https://www.elastic.co/kibana",
 		"description": "a tool for data analytics, security, search, threat intelligence, search analytics, logs and application monitoring"
+	},
+	{
+		"idCode": "ruby",
+		"name": "Ruby",
+		"url": "https://www.ruby-lang.org/de",
+		"description": "a dynamic, object-oriented programming language created in the 1990s known for its simplicity and productivity"
+	},
+	{
+		"idCode": "jwt",
+		"name": "JWT",
+		"url": "https://jwt.io",
+		"description": "a technology for representing claims to be transferred between two parties securely, typically used to transmit information about an authenticated user for a web application"
+	},
+	{
+		"idCode": "selenium",
+		"name": "Selenium",
+		"url": "https://www.selenium.dev",
+		"description": "an testing framework primarily used for web applications, older than Cypress and Playwright"
+	},
+	{
+		"idCode": "perl",
+		"name": "Perl",
+		"url": "https://www.perl.org",
+		"description": "an interpreted language from the 1990s known for its versatility and ability to handle many various tasks, including text processing, system administration, web development and network programming"
 	}
 ]
