@@ -1636,5 +1636,11 @@
 		"name": "augmented reality",
 		"url": "https://en.wikipedia.org/wiki/Augmented_reality",
 		"description": "a system that incorporates three basic features: a combination of real and virtual worlds, real-time interaction, and accurate 3D registration of virtual and real objects"
+	},
+	{
+		"idCode": "electron",
+		"name": "Electron",
+		"url": "https://www.electronjs.org",
+		"description": "a framework for building cross-platform desktop applications using HTML, CSS, and JavaScript"
 	}
 ]
