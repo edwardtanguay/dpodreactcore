@@ -1101,7 +1101,7 @@
 		"idCode": "rubyonrails",
 		"name": "Ruby on Rails",
 		"url": "https://onespace.pages.dev/techItems?id=130",
-		"description": "an older web application framework with useful framework paradigms worth learning"
+		"description": "an older web application framework from 2005 with useful framework paradigms worth learning"
 	},
 	{
 		"idCode": "laravel",
@@ -1678,5 +1678,11 @@
 		"name": "Perl",
 		"url": "https://www.perl.org",
 		"description": "an interpreted language from the 1990s known for its versatility and ability to handle many various tasks, including text processing, system administration, web development and network programming"
+	},
+	{
+		"idCode": "adobecc",
+		"name": "Adobe CC",
+		"url": "https://en.wikipedia.org/wiki/Adobe_Creative_Cloud",
+		"description": "Adobe's software as a service model which gives subscribers access to all of their software such as Photoshop (photos, images), Illustrator (vector graphics), Acrobat (PDFs), InDesign (desktop publishing), Premiere (video editing), After Effects (multimedia projects), Lightroom (batch photo editing), XD (like Figma), Dreamweaver (web development), and Audition (audio editing)"
 	}
 ]
