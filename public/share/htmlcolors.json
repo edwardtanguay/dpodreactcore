@@ -100,10 +100,6 @@
 		"name": "DarkGray"
 	},
 	{
-		"hex": "#a9a9a9",
-		"name": "DarkGrey"
-	},
-	{
 		"hex": "#006400",
 		"name": "DarkGreen"
 	},
@@ -148,10 +144,6 @@
 		"name": "DarkSlateGray"
 	},
 	{
-		"hex": "#2f4f4f",
-		"name": "DarkSlateGrey"
-	},
-	{
 		"hex": "#00ced1",
 		"name": "DarkTurquoise"
 	},
@@ -170,10 +162,6 @@
 	{
 		"hex": "#696969",
 		"name": "DimGray"
-	},
-	{
-		"hex": "#696969",
-		"name": "DimGrey"
 	},
 	{
 		"hex": "#1e90ff",
@@ -214,10 +202,6 @@
 	{
 		"hex": "#808080",
 		"name": "Gray"
-	},
-	{
-		"hex": "#808080",
-		"name": "Grey"
 	},
 	{
 		"hex": "#008000",
@@ -288,10 +272,6 @@
 		"name": "LightGray"
 	},
 	{
-		"hex": "#d3d3d3",
-		"name": "LightGrey"
-	},
-	{
 		"hex": "#90ee90",
 		"name": "LightGreen"
 	},
@@ -314,10 +294,6 @@
 	{
 		"hex": "#778899",
 		"name": "LightSlateGray"
-	},
-	{
-		"hex": "#778899",
-		"name": "LightSlateGrey"
 	},
 	{
 		"hex": "#b0c4de",
@@ -530,10 +506,6 @@
 	{
 		"hex": "#708090",
 		"name": "SlateGray"
-	},
-	{
-		"hex": "#708090",
-		"name": "SlateGrey"
 	},
 	{
 		"hex": "#fffafa",
