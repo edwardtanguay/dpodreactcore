@@ -37,7 +37,7 @@
 	{
 		"hex": "#000000",
 		"name": "Black",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#ffebcd",
@@ -107,7 +107,7 @@
 	{
 		"hex": "#00008b",
 		"name": "DarkBlue",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#008b8b",
@@ -282,7 +282,7 @@
 	{
 		"hex": "#4b0082",
 		"name": "Indigo",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#fffff0",
@@ -402,7 +402,7 @@
 	{
 		"hex": "#800000",
 		"name": "Maroon",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#66cdaa",
@@ -452,7 +452,7 @@
 	{
 		"hex": "#191970",
 		"name": "MidnightBlue",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#f5fffa",
@@ -477,7 +477,7 @@
 	{
 		"hex": "#000080",
 		"name": "Navy",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#fdf5e6",
