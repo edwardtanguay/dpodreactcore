@@ -157,7 +157,7 @@
 	{
 		"hex": "#8b0000",
 		"name": "DarkRed",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#e9967a",
