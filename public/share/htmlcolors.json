@@ -47,7 +47,7 @@
 	{
 		"hex": "#0000ff",
 		"name": "Blue",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#8a2be2",
@@ -172,12 +172,12 @@
 	{
 		"hex": "#483d8b",
 		"name": "DarkSlateBlue",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#2f4f4f",
 		"name": "DarkSlateGray",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#00ced1",
@@ -412,7 +412,7 @@
 	{
 		"hex": "#0000cd",
 		"name": "MediumBlue",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#ba55d3",
@@ -562,12 +562,12 @@
 	{
 		"hex": "#800080",
 		"name": "Purple",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#663399",
 		"name": "RebeccaPurple",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#ff0000",
@@ -587,7 +587,7 @@
 	{
 		"hex": "#8b4513",
 		"name": "SaddleBrown",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#fa8072",
@@ -612,7 +612,7 @@
 	{
 		"hex": "#a0522d",
 		"name": "Sienna",
-		"textColor": "dark"
+		"textColor": "light"
 	},
 	{
 		"hex": "#c0c0c0",
