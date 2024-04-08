@@ -1684,5 +1684,11 @@
 		"name": "Adobe CC",
 		"url": "https://en.wikipedia.org/wiki/Adobe_Creative_Cloud",
 		"description": "Adobe's software as a service model which gives subscribers access to all of their software such as Photoshop (photos, images), Illustrator (vector graphics), Acrobat (PDFs), InDesign (desktop publishing), Premiere (video editing), After Effects (multimedia projects), Lightroom (batch photo editing), XD (like Figma), Dreamweaver (web development), and Audition (audio editing)"
+	},
+	{
+		"idCode": "jinja",
+		"name": "Jinja",
+		"url": "https://jinja.palletsprojects.com",
+		"description": "a popular templating engine for Python used to generate dynamic content for web applications allowing developers to embed Python-like expressions and statements into templates, which are then rendered into HTML pages, widely used with Flask and Django"
 	}
 ]
