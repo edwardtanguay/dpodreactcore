@@ -1690,5 +1690,11 @@
 		"name": "Jinja",
 		"url": "https://jinja.palletsprojects.com",
 		"description": "a popular templating engine for Python used to generate dynamic content for web applications allowing developers to embed Python-like expressions and statements into templates, which are then rendered into HTML pages, widely used with Flask and Django"
+	},
+	{
+		"idCode": "mlops",
+		"name": "MLOps",
+		"url": "https://en.wikipedia.org/wiki/MLOps",
+		"description": "the practice of deploying and maintaining machine learning models to ensure production reliably and efficiently"
 	}
 ]
