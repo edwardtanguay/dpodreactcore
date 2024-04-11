@@ -1696,5 +1696,11 @@
 		"name": "MLOps",
 		"url": "https://en.wikipedia.org/wiki/MLOps",
 		"description": "the practice of deploying and maintaining machine learning models to ensure production reliably and efficiently"
+	},
+	{
+		"idCode": "pytest",
+		"name": "pytest",
+		"url": "https://docs.pytest.org",
+		"description": "a framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries"
 	}
 ]
