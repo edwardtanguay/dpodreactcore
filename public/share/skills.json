@@ -1702,5 +1702,17 @@
 		"name": "pytest",
 		"url": "https://docs.pytest.org",
 		"description": "a framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries"
+	},
+	{
+		"idCode": "cad",
+		"name": "CAD",
+		"url": "https://en.wikipedia.org/wiki/Computer-aided_design",
+		"description": "(Computer-Aided Design) technology that allows users to create, modify, and optimize digital representations of physical objects or systems before they are built"
+	},
+	{
+		"idCode": "pid",
+		"name": "P&ID",
+		"url": "https://www.edrawsoft.com/5-best-pid-software-and-tools.html",
+		"description": "(Piping and Instrumentation Diagram) programming involves designing and implementing control systems for industrial processes using graphical representations of piping, instrumentation, and control equipment"
 	}
 ]
