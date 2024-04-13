@@ -1714,5 +1714,11 @@
 		"name": "P&ID",
 		"url": "https://www.edrawsoft.com/5-best-pid-software-and-tools.html",
 		"description": "(Piping and Instrumentation Diagram) programming involves designing and implementing control systems for industrial processes using graphical representations of piping, instrumentation, and control equipment"
+	},
+	{
+		"idCode": "solidjs",
+		"name": "SolidJS",
+		"url": "https://www.solidjs.com",
+		"description": "a JavaScript library for building user interfaces with a fine-grained reactive system and compile-time optimizations for efficiency, distinguishing itself from other frameworks like React or Vue"
 	}
 ]
