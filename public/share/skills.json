@@ -1720,5 +1720,65 @@
 		"name": "SolidJS",
 		"url": "https://www.solidjs.com",
 		"description": "a JavaScript library for building user interfaces with a fine-grained reactive system and compile-time optimizations for efficiency, distinguishing itself from other frameworks like React or Vue"
+	},
+	{
+		"idCode": "oauth2",
+		"name": "OAuth2",
+		"url": "https://oauth.net/2",
+		"description": "authorization framework that allows third-party services to access a user's resources without exposing their credentials, by providing tokens instead"
+	},
+	{
+		"idCode": "oidc",
+		"name": "OIDC",
+		"url": "https://openid.net/developers/how-connect-works",
+		"description": "an authentication layer built on top of OAuth 2.0, providing a standardized way for clients to verify the identity of end-users based on the authentication performed by an authorization server"
+	},
+	{
+		"idCode": "jpa",
+		"name": "JPA",
+		"url": "https://docs.oracle.com/javaee/6/tutorial/doc/bnbpz.html",
+		"description": "the Java Persistence API provides Java developers with an object/relational mapping facility for managing relational data in Java applications. Java Persistence consists of four areas"
+	},
+	{
+		"idCode": "hateoas",
+		"name": "HATEOAS",
+		"url": "https://en.wikipedia.org/wiki/HATEOAS",
+		"description": "(Hypermedia as the Engine of Application State) is a constraint in REST architecture where clients interact with a server through hypermedia links provided dynamically in the responses, enabling navigation of the application's state"
+	},
+	{
+		"idCode": "hal",
+		"name": "HAL",
+		"url": "https://en.wikipedia.org/wiki/Hypertext_Application_Language",
+		"description": "(Hypertext Application Language) is a convention for defining hypermedia such as links to external resources within JSON or XML code"
+	},
+	{
+		"idCode": "podman",
+		"name": "Podman",
+		"url": "https://podman.io",
+		"description": "a collection of container tools to seamlessly work with containers and Kubernetes from your local environment"
+	},
+	{
+		"idCode": "keycloak",
+		"name": "Keycloak",
+		"url": "https://www.keycloak.org",
+		"description": "a single-signon service that provides user federation, strong authentication, user management, fine-grained authorization"
+	},
+	{
+		"idCode": "jfrog",
+		"name": "JFrog",
+		"url": "https://jfrog.com",
+		"description": "leading provider of universal DevOps technology solutions, including artifact repository management and software distribution platforms"
+	},
+	{
+		"idCode": "sonatypenexus",
+		"name": "Sonatype Nexus",
+		"url": "https://www.sonatype.com/products/sonatype-nexus-repository",
+		"description": "a widely used repository manager that helps organizations efficiently manage and distribute software artifacts and dependencies throughout the software development lifecycle"
+	},
+	{
+		"idCode": "sonarcube",
+		"name": "SonarQube",
+		"url": "https://en.wikipedia.org/wiki/SonarQube",
+		"description": "an open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs and code smells on 29 programming languages"
 	}
 ]
