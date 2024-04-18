@@ -606,10 +606,10 @@
 		"description": "a CI/CD platform for Ionic development teams that helps development teams continuously build and ship their Cordova, Capacitor, and React Native apps"
 	},
 	{
-		"idCode": "awslambda",
-		"name": "AWS Lambda",
+		"idCode": "lambda",
+		"name": "Lambda",
 		"url": "https://onespace.pages.dev/techItems?id=270",
-		"description": "Amazon's event-driven, serverless cloud platform"
+		"description": "a serverless compute service that enables developers to run code in response to events without managing servers, automatically scaling to handle varying workloads and billed only for the compute time consumed"
 	},
 	{
 		"idCode": "salesforce",
@@ -1467,7 +1467,7 @@
 		"idCode": "s3",
 		"name": "S3",
 		"url": "https://aws.amazon.com/de/s3",
-		"description": "Amazon's scalable and durable cloud storage service aber to store and retrieve any amount of data on the web"
+		"description": "Amazon's cloud storage service aber to store and retrieve any amount of data on the web"
 	},
 	{
 		"idCode": "sns",
@@ -1773,12 +1773,30 @@
 		"idCode": "sonatypenexus",
 		"name": "Sonatype Nexus",
 		"url": "https://www.sonatype.com/products/sonatype-nexus-repository",
-		"description": "a widely used repository manager that helps organizations efficiently manage and distribute software artifacts and dependencies throughout the software development lifecycle"
+		"description": "a widely used repository manager that helps organizations manage and distribute software artifacts and dependencies throughout the software development lifecycle"
 	},
 	{
 		"idCode": "sonarcube",
 		"name": "SonarQube",
 		"url": "https://en.wikipedia.org/wiki/SonarQube",
 		"description": "an open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs and code smells on 29 programming languages"
+	},
+	{
+		"idCode": "ecs",
+		"name": "ECS",
+		"url": "https://aws.amazon.com/de/ecs",
+		"description": "(Elastic Container Service) is a container orchestration service that simplifies deployment, management, and scaling of Docker containers on AWS infrastructure"
+	},
+	{
+		"idCode": "rds",
+		"name": "RDS",
+		"url": "https://aws.amazon.com/de/rds",
+		"description": "(Relational Database Service) is an AWS database service that simplifies setting up, operating, and scaling relational databases in the cloud, supporting various database engines like MySQL, PostgreSQL, SQL Server, and Oracle"
+	},
+	{
+		"idCode": "cloudwatch",
+		"name": "CloudWatch",
+		"url": "https://aws.amazon.com/de/cloudwatch",
+		"description": "a monitoring and observability service that provides real-time insights into AWS resources and applications, allowing users to collect and track metrics, set alarms, and automatically react to changes in their AWS environment"
 	}
 ]
