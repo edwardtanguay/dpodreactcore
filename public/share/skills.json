@@ -129,7 +129,7 @@
 		"idCode": "pwa",
 		"name": "PWA",
 		"url": "https://onespace.pages.dev/techItems?id=306",
-		"description": "Progressive Web App - application software delivered through the web"
+		"description": "(Progressive Web Apps) a web application concept created by Google in 2015 that utilizes modern web capabilities to provide users with a native app-like experience directly through their web browser"
 	},
 	{
 		"idCode": "html",
@@ -825,7 +825,7 @@
 		"idCode": "d3",
 		"name": "D3.js",
 		"url": "https://d3js.org",
-		"description": "a JavaScript library for manipulating documents based on data"
+		"description": "a JavaScript library created in 2011 for manipulating documents based on data, enabling the creation of interactive and dynamic data visualizations in web browsers"
 	},
 	{
 		"idCode": "projektronbcs",
