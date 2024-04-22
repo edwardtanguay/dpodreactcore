@@ -1806,20 +1806,20 @@
 		"description": "a JavaScript library that simplifies the implementation of dynamic user interfaces with Model-View-ViewModel (MVVM) architecture, created in 2010, rarely used anymore in production but often referenced as a significant step towards JavaScript frameworks"
 	},
 	{
-		"idCode": "Backbone",
-		"name": "backbone",
+		"idCode": "backbone",
+		"name": "Backbone",
 		"url": "https://backbonejs.org",
 		"description": "a lightweight JavaScript library with a RESTful JSON interface and based on the Model View Presenter (MVP) application design paradigm, created in 2010 and peaked in popularity about 2013"
 	},
 	{
-		"idCode": "Google Tag Manager",
-		"name": "googletagmanager",
+		"idCode": "googletagmanager",
+		"name": "Google Tag Manager",
 		"url": "https://en.ryte.com/wiki/Google_Tag_Manager",
 		"description": "a tag management system created in 2012 that allows users to easily manage and deploy tags on their website without needing to modify the code, in order to track user interactions, analyze website performance, run marketing campaigns"
 	},
 	{
-		"idCode": "Google Analytics",
-		"name": "googleanalytics",
+		"idCode": "googleanalytics",
+		"name": "Google Analytics",
 		"url": "https://en.wikipedia.org/wiki/Google_Analytics",
 		"description": "a web analytics service created in 2005 that allows website owners to track, analyze, and report on their website's traffic and user behavior"
 	}
