@@ -1822,5 +1822,11 @@
 		"name": "Google Analytics",
 		"url": "https://en.wikipedia.org/wiki/Google_Analytics",
 		"description": "a web analytics service created in 2005 that allows website owners to track, analyze, and report on their website's traffic and user behavior"
+	},
+	{
+		"idCode": "extjs",
+		"name": "Ext JS",
+		"url": "https://docs.sencha.com/extjs/7.7.0/guides/getting_started/getting_started_with_npm.html",
+		"description": "a JavaScript framework created in 2007 for building cross-platform web applications with a rich user interface and extensive component library"
 	}
 ]
