@@ -1828,5 +1828,47 @@
 		"name": "Ext JS",
 		"url": "https://docs.sencha.com/extjs/7.7.0/guides/getting_started/getting_started_with_npm.html",
 		"description": "a JavaScript framework created in 2007 for building cross-platform web applications with a rich user interface and extensive component library"
+	},
+	{
+		"idCode": "elixir",
+		"name": "Elixir",
+		"url": "https://elixir-lang.org",
+		"description": "a functional, concurrent programming language created in 2011 on the Erlang virtual machine known for its scalability and fault-tolerance"
+	},
+	{
+		"idCode": "unity",
+		"name": "Unity",
+		"url": "https://en.wikipedia.org/wiki/Unity_(game_engine)",
+		"description": "a cross-platform game engine created in 2005 known for its versatility and ease of use, enabling developers to create interactive 2D and 3D content"
+	},
+	{
+		"idCode": "mattermost",
+		"name": "Mattermost",
+		"url": "https://mattermost.com",
+		"description": "an open-source, self-hostable Slack-like messaging platform created in 2015 with which you can create team communication channels, share files, conduct video calls, integrate with third-party services, and automate workflows using bots"
+	},
+	{
+		"idCode": "whereby",
+		"name": "Whereby",
+		"url": "https://whereby.com",
+		"description": "a browser-based video conferencing platform created in 2013 that allows users to host and join video meetings without the need for downloads or installations"
+	},
+	{
+		"idCode": "sentry",
+		"name": "Sentry",
+		"url": "https://sentry.io",
+		"description": "an open-source application monitoring platform created in 2008 that helps developers track and fix errors in real-time across the software development lifecycle"
+	},
+	{
+		"idCode": "traefik",
+		"name": "Traefik",
+		"url": "https://traefik.io/traefik",
+		"description": "an open-source reverse proxy and load balancer created in 2014 that helps developers deploy microservices with ease by providing dynamic configuration and integration with container orchestration platforms like Docker and Kubernetes"
+	},
+	{
+		"idCode": "elk",
+		"name": "ELK",
+		"url": "https://www.elastic.co/elastic-stack",
+		"description": "(Elastic Stack) comprised of Elasticsearch, Kibana, Beats, and Logstash, enables developers to search, analyze, and visualize any data from any source, in any format"
 	}
 ]
