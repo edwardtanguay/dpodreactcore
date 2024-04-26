@@ -1428,12 +1428,6 @@
 		"description": "a monitoring tool that runs equally well on cheap hardware or Cloud infrastructure, teams use Graphite to track the performance of their websites, applications, business services, and networked servers"
 	},
 	{
-		"idCode": "grafana",
-		"name": "Grafana",
-		"url": "https://grafana.com",
-		"description": "open-source analytics and monitoring platform that is commonly used for visualizing time-series data"
-	},
-	{
 		"idCode": "emotion",
 		"name": "Emotion",
 		"url": "https://emotion.sh/docs/introduction",
