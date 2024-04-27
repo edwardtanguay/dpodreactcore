@@ -927,7 +927,7 @@
 		"idCode": "zend",
 		"name": "Zend",
 		"url": "https://onespace.pages.dev/techItems?id=184",
-		"description": "popular, corporate-ownded PHP framework created in 2006"
+		"description": "an older corporate-owned PHP framework created in 2006"
 	},
 	{
 		"idCode": "latex",
@@ -1876,5 +1876,11 @@
 		"name": "PostCSS",
 		"url": "https://postcss.org",
 		"description": "a tool for transforming CSS with JavaScript plugins created 2013"
+	},
+	{
+		"idCode": "ajax",
+		"name": "Ajax",
+		"url": "https://en.wikipedia.org/wiki/Ajax_(programming)",
+		"description": "(Asynchronous JavaScript and XML) is a general technique used since 1999 in web development to create interactive and dynamic user interfaces by allowing web pages to retrieve data from the server asynchronously without interfering with the display and behavior of the existing page"
 	}
 ]
