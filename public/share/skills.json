@@ -1882,5 +1882,11 @@
 		"name": "Ajax",
 		"url": "https://en.wikipedia.org/wiki/Ajax_(programming)",
 		"description": "(Asynchronous JavaScript and XML) is a general technique used since 1999 in web development to create interactive and dynamic user interfaces by allowing web pages to retrieve data from the server asynchronously without interfering with the display and behavior of the existing page"
+	},
+	{
+		"idCode": "blueprintjs",
+		"name": "Blueprint.js",
+		"url": "https://blueprintjs.com/docs",
+		"description": "a React-based UI toolkit created in 2016 for building complex, data-dense web interfaces"
 	}
 ]
