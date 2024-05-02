@@ -1888,5 +1888,17 @@
 		"name": "Blueprint.js",
 		"url": "https://blueprintjs.com/docs",
 		"description": "a React-based UI toolkit created in 2016 for building complex, data-dense web interfaces"
+	},
+	{
+		"idCode": "dockerswarm",
+		"name": "Docker Swarm",
+		"url": "https://www.techtarget.com/searchitoperations/definition/Docker-Swarm",
+		"description": "a container orchestration tool for clustering and scheduling Docker containers"
+	},
+	{
+		"idCode": "gitops",
+		"name": "GitOps",
+		"url": "https://www.redhat.com/en/topics/devops/what-is-gitops",
+		"description": "a standard workflow for application development that uses Git repositories as a single source of truth to deliver infrastructure as code"
 	}
 ]
