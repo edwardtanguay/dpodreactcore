@@ -1906,5 +1906,11 @@
 		"name": "AWS Aurora",
 		"url": "https://en.wikipedia.org/wiki/Amazon_Aurora",
 		"description": "a proprietary relational database offered as a service by Amazon, MySQL compatible since 2014, Postgres compatible since 2017 "
+	},
+	{
+		"idCode": "lit",
+		"name": "Lit",
+		"url": "https://lit.dev",
+		"description": "a lightweight web component library released in 2020 that simplifies building web components using TypeScript"
 	}
 ]
