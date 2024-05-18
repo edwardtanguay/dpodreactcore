@@ -1912,5 +1912,11 @@
 		"name": "Lit",
 		"url": "https://lit.dev",
 		"description": "a lightweight web component library released in 2020 that simplifies building web components using TypeScript"
+	},
+	{
+		"idCode": "jakartafaces",
+		"name": "Jakarta Faces",
+		"url": "https://jakarta.ee/specifications/faces",
+		"description": "a Java-based MVC framework created in 2004 for building user interfaces for web applications using reusable UI components, renamed in 2018 from JavaServer Faces (JSF)"
 	}
 ]
