@@ -1918,5 +1918,23 @@
 		"name": "Jakarta Faces",
 		"url": "https://jakarta.ee/specifications/faces",
 		"description": "a Java-based MVC framework created in 2004 for building user interfaces for web applications using reusable UI components, renamed in 2018 from JavaServer Faces (JSF)"
+	},
+	{
+		"idCode": "airflow",
+		"name": "Airflow",
+		"url": "https://airflow.apache.org",
+		"description": "(Apache Airflow) is an open-source platform created in 2014 used to programmatically author, schedule, and monitor complex workflows"
+	},
+	{
+		"idCode": "celery",
+		"name": "Celery",
+		"url": "https://airflow.apache.org",
+		"description": "an open-source, asynchronous task queue/job queue created in 2009 and based on distributed message passing and used to execute tasks concurrently or on schedule"
+	},
+	{
+		"idCode": "r",
+		"name": "R",
+		"url": "https://onespace.pages.dev/techItems?id=113",
+		"description": "a programming language and environment for statistical computing and graphics created in 1993"
 	}
 ]
