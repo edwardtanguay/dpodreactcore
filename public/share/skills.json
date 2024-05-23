@@ -609,7 +609,7 @@
 		"idCode": "lambda",
 		"name": "Lambda",
 		"url": "https://onespace.pages.dev/techItems?id=270",
-		"description": "a serverless compute service that enables developers to run code in response to events without managing servers, automatically scaling to handle varying workloads and billed only for the compute time consumed"
+		"description": "(AWS Lambda) Amazon's serverless compute service that enables developers to run code in response to events without managing servers, automatically scaling to handle varying workloads and billed only for the compute time consumed"
 	},
 	{
 		"idCode": "salesforce",
