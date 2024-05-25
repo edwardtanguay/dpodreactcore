@@ -1936,5 +1936,11 @@
 		"name": "R",
 		"url": "https://onespace.pages.dev/techItems?id=113",
 		"description": "a programming language and environment for statistical computing and graphics created in 1993"
+	},
+	{
+		"idCode": "spfx",
+		"name": "SPFx",
+		"url": "https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview",
+		"description": "(SharePoint Framework) a framework introduced by Microsoft in 2016 that enables building web parts and extensions for SharePoint using React and Angular, allowing developers to use client-side scripting and open-source tooling for creating responsive and mobile-friendly SharePoint solutions"
 	}
 ]
