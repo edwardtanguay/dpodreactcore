@@ -1942,5 +1942,11 @@
 		"name": "SPFx",
 		"url": "https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview",
 		"description": "(SharePoint Framework) a framework introduced by Microsoft in 2016 that enables building web parts and extensions for SharePoint using React and Angular, allowing developers to use client-side scripting and open-source tooling for creating responsive and mobile-friendly SharePoint solutions"
+	},
+	{
+		"idCode": "openid",
+		"name": "OpenID",
+		"url": "https://en.wikipedia.org/wiki/OpenID",
+		"description": "an open standard and decentralized authentication protocol created in 2005 that allows users to use a single set of login credentials to access multiple websites without needing to create new accounts"
 	}
 ]
