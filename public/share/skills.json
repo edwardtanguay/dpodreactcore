@@ -471,7 +471,7 @@
 		"idCode": "rollup",
 		"name": "Rollup",
 		"url": "https://onespace.pages.dev/techItems?id=143",
-		"description": "the second most popular module bundler for JavaScript"
+		"description": "a module bundler created in 2015 used by Vite and becoming increasingly popular"
 	},
 	{
 		"idCode": "mint",
