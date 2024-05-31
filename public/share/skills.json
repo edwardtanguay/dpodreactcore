@@ -1015,9 +1015,9 @@
 	},
 	{
 		"idCode": "ddd",
-		"name": "Domain-Driven Design (DDD)",
+		"name": " DDD",
 		"url": "https://en.wikipedia.org/wiki/Domain-driven_design",
-		"description": "an approach to software design that focuses on modeling software to match a domain according to input from that domain's experts"
+		"description": "(Domain-Driven Design) an approach to software design that focuses on modeling software to match a domain according to input from that domain's experts"
 	},
 	{
 		"idCode": "iot",
@@ -1948,5 +1948,11 @@
 		"name": "OpenID",
 		"url": "https://en.wikipedia.org/wiki/OpenID",
 		"description": "an open standard and decentralized authentication protocol created in 2005 that allows users to use a single set of login credentials to access multiple websites without needing to create new accounts"
+	},
+	{
+		"idCode": "eda",
+		"name": "EDA",
+		"url": "https://en.wikipedia.org/wiki/Event-driven_architecture",
+		"description": "(Event-Driven Architecture) a software design paradigm where the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs, and allows systems to be highly responsive, scalable, and adaptable to real-time information"
 	}
 ]
