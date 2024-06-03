@@ -303,7 +303,7 @@
 		"idCode": "mui",
 		"name": "MUI",
 		"url": "https://mui.com",
-		"description": "Material UI - React components for faster and easier web development"
+		"description": "(Material UI) a popular React component library created in 2014 that implements Google's Material Design principles to provide a modern, customizable, and accessible set of UI components for building web applications"
 	},
 	{
 		"idCode": "graphql",
