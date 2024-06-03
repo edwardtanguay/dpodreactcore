@@ -1954,5 +1954,17 @@
 		"name": "EDA",
 		"url": "https://en.wikipedia.org/wiki/Event-driven_architecture",
 		"description": "(Event-Driven Architecture) a software design paradigm where the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs, and allows systems to be highly responsive, scalable, and adaptable to real-time information"
+	},
+	{
+		"idCode": "rxdb",
+		"name": "RxDB",
+		"url": "https://rxdb.info",
+		"description": "a real-time NoSQL database created in 2017 for JavaScript applications designed to enable client-side and offline-first data persistence with synchronization capabilities"
+	},
+	{
+		"idCode": "flyio",
+		"name": "Fly.io",
+		"url": "https://fly.io",
+		"description": "a platform created in 2017 that allows developers to deploy and run full-stack applications close to their users by providing a global network of micro VMs, and supports several databases including PostgreSQL, Redis, and SQLite for scalable and efficient data management"
 	}
 ]
