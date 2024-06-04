@@ -1966,5 +1966,11 @@
 		"name": "Fly.io",
 		"url": "https://fly.io",
 		"description": "a platform created in 2017 that allows developers to deploy and run full-stack applications close to their users by providing a global network of micro VMs, and supports several databases including PostgreSQL, Redis, and SQLite for scalable and efficient data management"
+	},
+	{
+		"idCode": "snowpack",
+		"name": "Snowpack",
+		"url": "https://www.snowpack.dev",
+		"description": "a build tool for web development, faster than Webpack and Parcel, but as of April 20, 2022 no longer actively maintained and is not recommended for new projects"
 	}
 ]
