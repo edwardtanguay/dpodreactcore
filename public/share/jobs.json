@@ -2384,5 +2384,15 @@
 		"skillList": "react, typescript, scss, git",
 		"publicationDate": "2024-06-05",
 		"rank": 5.0
+	},
+	{
+		"id": 266,
+		"title": "Senior Frontend Developer",
+		"company": "keylight GmbH",
+		"url": "https://www.keylight.com/careers/senior-frontend-developer",
+		"description": "\n\nCompany\nkeylight is a global subscription technology vendor founded in 2015, with offices in Berlin, Zurich, Belgrade, New York, and Singapore. The platform is the only user-centric, end-to-end solution on the market, streamlining recurring operations across commerce, sales, subscription management, billing automation, revenue and accounting automation, and advanced data analytics.\n\nCulture\nOur teams at keylight are committed to a calm work environment, where constructive communication is prioritized and challenges are faced with positivity and resilience. We value work-life integration, accountability, and continuous learning. Join us to be part of a team driven by a clear vision and purposeful innovations in technology.\nSenior Frontend Developer\nResponsibilities\n\n    Develop reusable and modular frontend components using modern JavaScript frameworks such as React, Angular, or Vue.js.\n    Implement responsive design principles to ensure seamless user experiences across desktop, tablet, and mobile devices.\n    Optimize frontend performance and load times, identifying and addressing performance bottlenecks and optimizing code for scalability and maintainability.\n    Stay up-to-date with frontend technologies and industry trends, incorporating new tools and techniques into frontend development workflows.\n    Collaborate with backend developers to integrate frontend components with backend APIs and services.\n\nSenior Frontend Developer\nQualifications\n\n    3+ years in frontend development roles, with a strong portfolio demonstrating proficiency in building user-friendly and visually appealing web applications.\n    Expertise in JS, TS, Angular, RxJS, HTML5, CSS3, and AWS.\n    Experience with frontend build tools and package managers such as Webpack, npm, or Yarn.\n    Strong understanding of responsive design principles and mobile-first development practices.\n    Excellent problem-solving and analytical skills, with a focus on delivering high-quality frontend solutions.\n\nProfile\nWho you are\n\n    A passionate and continuous learner committed to delivering high-quality user experiences.\n    Comfortable collaborating directly with senior management.\n    Highly organized and detail-oriented, with the ability to manage multiple projects and priorities simultaneously.\n    Adaptable, flexible, and a great communicator, with the ability to work effectively with cross-functional teams.\n\nkeylight Benefits\nWhat we offer\n\n    Attractive compensation package and comprehensive benefits.\n    Dynamic and calm work environment.\n    Opportunities for professional development and upward mobility.\n    Work with industry-leading subscription technology.\n\n",
+		"skillList": "angular, typescript, rxjs, aws, webpack",
+		"publicationDate": "2024-06-05",
+		"rank": 4.8
 	}
 ]

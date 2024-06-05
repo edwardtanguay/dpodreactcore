@@ -1972,5 +1972,11 @@
 		"name": "Snowpack",
 		"url": "https://www.snowpack.dev",
 		"description": "a build tool for web development, faster than Webpack and Parcel, but as of April 20, 2022 no longer actively maintained and is not recommended for new projects"
+	},
+	{
+		"idCode": "rxjs",
+		"name": "RxJS",
+		"url": "https://rxjs.dev",
+		"description": "a library created in 2015 for composing asynchronous and event-based programs using observable sequences in JavaScript"
 	}
 ]
