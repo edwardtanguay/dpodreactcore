@@ -57,7 +57,7 @@
 		"idCode": "styledcomponents",
 		"name": "styled-components",
 		"url": "https://styled-components.com",
-		"description": "the best bits of ES6 and CSS to style your React app components without stress"
+		"description": "a React tool created in 2016 that allows developers to write CSS-in-JS, enabling styling of components using tagged template literals"
 	},
 	{
 		"idCode": "storybook",
