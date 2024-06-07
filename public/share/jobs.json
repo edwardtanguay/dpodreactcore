@@ -2454,5 +2454,15 @@
 		"skillList": "react, reactnative, redux",
 		"publicationDate": "2024-06-07",
 		"rank": 4.9
+	},
+	{
+		"id": 273,
+		"title": "Fullstack Developer",
+		"company": "Shopware AG",
+		"url": "https://shopwareag.recruitee.com/o/fullstack-developer-mfd",
+		"description": "Jobbeschreibung\n\nDu möchtest mit uns den digitalen Handel revolutionieren und mit deiner Arbeit dazu beitragen, dass Online-Shopping zu einem echten Erlebnis wird? Wir bei Shopware haben die Vision, Online-Händler:innen die Möglichkeit zu bieten, mit unserer Open-Source E-Commerce-Software eigene Online-Shops und herausragende Einkaufserlebnisse zu schaffen. \n\nWerde Teil eines interdisziplinären Teams, das direkt an unserer Commerce-Software „Shopware“ codet und überwiegend den Bereich \"Checkout und Payment\" verantwortet. Dabei spielt es keine Rolle von wo aus du arbeitest, ob vor Ort bei uns am Campus in Schöppingen oder Full-Remote in Deutschland oder einem anderen Land in Europa. Du bist immer ein fester Bestandteil unserer Shopware Crew.\nDas sind deine Aufgaben:\n\n    Du arbeitest in einem interdisziplinären Development Team, bestehend aus Engineers, Design und Qualitätssicherung, das hauptsächlich am Produktbereich \"Checkout und Payment\" codet.\n    Du entwickelst und implementierst innovative Produktfeatures und Erweiterungen für unsere Open-Source E-Commerce Lösung \"Shopware 6\" auf der Basis von PHP (Symfony) und JavaScript/TypeScript (Vue.js).\n    Du arbeitest auf der Basis agiler Entwicklungsmethoden (Scrum/Kanban), u.a. mit den Tools Jira und Confluence.\n    Du unterstützt bei der Software-Dokumentation und innerhalb unserer Open-Source Development-Community.\n    Du testest deine Software selbstständig (Unit/Functional/E2E) und führst Code-Reviews durch, um deine Softwarequalität stabiler und zuverlässiger zu machen.\n    Du achtest bei deiner Arbeit auf Details bei der Umsetzung von Responsive Web Design und hast ein Auge für Cross-Browser-Kompatibilität, Barrierefreiheit und Performance.\n\nDas bringst du mit:\n\n    Du hast bereits drei Jahre Berufserfahrung als Software Developer (m/w/d) gesammelt und mit PHP und JavaScript (oder TypeScript) gearbeitet. \n    Du hast Lust überwiegend \"Fullstack\" zu arbeiten und gleichermaßen am Frontend und Backend zu coden. \n    Du hast ein Grundverständnis für Qualitätssicherung und Code-Reviews.\n    Du bist bereit 1-2 mal pro Monat an unserem Campus in Schöppingen (Nähe Münster) mit dem Team zusammenzukommen. \n    Du traust dich täglich Englisch zu sprechen und in einem internationalen Umfeld mit einem „English First“ Ansatz zu arbeiten.\n\nDas bieten wir dir:\n\n    Flexible Arbeitszeiten\n    Ortsunabhängiges Arbeiten im Rahmen von Mobile Work und Full-Remote Verträgen\n    Wahl deiner Hardware\n    Fundiertes Onboarding mit deinem persönlichen Buddy\n    Crew-Love\n    Persönliches Wachstum & Fortbildungen\n    Teamevents\n    ... und vieles mehr!\n\nEinen detaillierten Einblick bekommst du auf unserer Karriereseite",
+		"skillList": "php, symfony, vue, typescript, testing",
+		"publicationDate": "2024-06-07",
+		"rank": 4.9
 	}
 ]
