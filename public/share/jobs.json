@@ -2444,5 +2444,15 @@
 		"skillList": "node, typescript, react, rest, graphql, styledcomponents, just, cypress, docker, kubernetes, github",
 		"publicationDate": "2024-06-07",
 		"rank": 4.8
+	},
+	{
+		"id": 272,
+		"title": "Senior Frontend Developer",
+		"company": "Finanzguru GmbH",
+		"url": "https://finanzguru.de/job-detail.html?id=4219476101",
+		"description": "Deine Mission 🚀\n\n    Du entwickelst mit React-Native eine hybride App für iOS und Android\n    Du schreibst sauberen und wartbaren Code, der flexibel einsetzbar und erweiterbar ist\n    Du drehst an den letzten Stellschrauben, um unseren Benutzer:innen eine reibungslose App-Erfahrung zu bieten\n    Du denkst ganzheitlich und führst Design, fachliche Anforderungen, Tracking und andere Bereiche in der App zusammen\n\nDeine magischen Kräfte 💫\n\n    Du hast mehrere Jahre mit JavaScript gearbeitet und Frontends entwickelt\n    Du hast bereits React und/oder React-Native und ggf. mit Redux Applikationen entwickelt\n    Erfahrungen mit nativer Entwicklung für iOS oder Android wären schön, sind aber keine Voraussetzung\n    Du erarbeitest dir ein fundiertes Verständnis für das Versicherungsgeschäft, setzt dich mit der Branche und ihren Verfahren auseinander und bringst diese Expertise in deinen Arbeitsalltag ein\n    Du bist ein:e Teamspieler:in und arbeitest am Besten mit kleinen, interdisziplinären Teams\n    Du bist pragmatisch und qualitätsgetrieben\n    Du findest einfache Lösungen für komplexe Probleme\n    Du bist neugierig auf neue Technologien und willst dich immer weiterentwickeln\n    Du arbeitest eigenverantwortlich und kannst deine Ideen in die Tat umsetzen\n\nUnser Versprechen ✅\n\n    Finanzguru mitgestalten statt nur mitschwimmen: Aktive Mitarbeit an fachlichen und kulturellen Themen, die auch über den Tellerrand hinausgehen & die Tech-Community glücklich machen\n    Ein Team bestehend aus wahren Gurus auf ihren Fachgebieten, flachen Hierarchien, Transparenz und Spaß bei als auch außerhalb der Arbeit\n    Eigenverantwortung vom ersten Tag an, eine attraktive Vergütung sowie die berufliche Perspektive und die Möglichkeit, Dich in Deinem Aufgabenfeld (und darüber hinaus!) weiterzuentwickeln\n    Die Möglichkeit aus dem Home Office heraus zu arbeiten\n",
+		"skillList": "react, reactnative, redux",
+		"publicationDate": "2024-06-07",
+		"rank": 4.9
 	}
 ]
