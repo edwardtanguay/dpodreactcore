@@ -1978,5 +1978,11 @@
 		"name": "RxJS",
 		"url": "https://rxjs.dev",
 		"description": "a library created in 2015 for composing asynchronous and event-based programs using observable sequences in JavaScript"
+	},
+	{
+		"idCode": "newrelic",
+		"name": "New Relic",
+		"url": "https://newrelic.com",
+		"description": "a software analytics and performance monitoring platform created in 2008 that helps developers gain insights into their applications and infrastructure in real-time"
 	}
 ]
