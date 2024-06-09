@@ -879,7 +879,7 @@
 		"idCode": "gitlabci",
 		"name": "Gitlab CI",
 		"url": "https://www.harness.io/blog/what-is-gitlab-ci",
-		"description": "an feature of GitLab which provides build automation, test automation, pipeline config management, artifact storage, and pipeline security"
+		"description": "a feature of GitLab which provides build automation, test automation, pipeline config management, artifact storage, and pipeline security"
 	},
 	{
 		"idCode": "fastapi",
@@ -915,7 +915,7 @@
 		"idCode": "linuxadmin",
 		"name": "Linux Admin",
 		"url": "https://en.wikiversity.org/wiki/Linux_Administration",
-		"description": "skills including installing and managing a usually online Linux machine, basic commands, devices and filesystems, shells and scripting, user interfaces, administrative tasks, system services, networking fundamentals, and security"
+		"description": "skills including installing and managing an online Linux machine, basic commands, devices and filesystems, shells and scripting, user interfaces, administrative tasks, system services, networking fundamentals, and security"
 	},
 	{
 		"idCode": "sqlite",
@@ -1861,7 +1861,7 @@
 	},
 	{
 		"idCode": "elk",
-		"name": "ELK",
+		"name": "ELK stack",
 		"url": "https://www.elastic.co/elastic-stack",
 		"description": "(Elastic Stack) comprised of Elasticsearch, Kibana, Beats, and Logstash, enables developers to search, analyze, and visualize any data from any source, in any format"
 	},
@@ -1984,5 +1984,11 @@
 		"name": "New Relic",
 		"url": "https://newrelic.com",
 		"description": "a software analytics and performance monitoring platform created in 2008 that helps developers gain insights into their applications and infrastructure in real-time"
+	},
+	{
+		"idCode": "owasp10",
+		"name": "OWASP 10",
+		"url": "https://owasp.org/www-project-top-ten",
+		"description": "(Open Web Application Security Project) a standard awareness document for developers and web application security, which represents a broad consensus about the most critical security risks to web applications"
 	}
 ]
