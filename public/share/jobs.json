@@ -2494,5 +2494,15 @@
 		"skillList": "testing, node, express, rest, owasp10, redis, rabbitmq, elk, mongodb, gitlab, gitlabci, linuxadmin",
 		"publicationDate": "2024-06-08",
 		"rank": 4.8
+	},
+	{
+		"id": 277,
+		"title": "Senior Frontend Developer",
+		"company": "Finflow GmbH",
+		"url": "https://www.finanzfluss.de/jobs/senior-frontend-developer",
+		"description": "(Senior) Frontend Developer – Berlin / Remote (w/m/d)\n\n⌚ Vollzeit oder Teilzeit\n\n🏠 Berlin oder remote\nFinanzfluss – Wir machen Menschen zu finanziellen Selbstentscheidern.\n\nWir glauben, dass Geld gut ist. Du auch? Dann werde Teil unserer Community. Diese besteht aus finanzinteressierten Menschen und erreicht jeden Monat über unsere Website, Social Media, den Newsletter und Podcast ein Millionenpublikum. Zusammen mit unserer Community entstehen ständig neue Ideen, die wir mit großer Freude umsetzen.\n\nUnsere Mission ist es, Menschen das erforderliche Wissen einfach zugänglich zu machen und sie damit zu ermutigen, ihre finanzielle Zukunft aktiv selbst zu gestalten.\nDein Impact\n\nDu hilfst uns, unsere ambitionierte Tech-Roadmap für 2024 (und darüber hinaus) umzusetzen, damit mehr Menschen in unserer Community ihre finanziellen Ziele erreichen können.\nDeine Aufgaben\n\n    Du unterstützt unser Tech-Team bei der Weiterentwicklung unserer Web-Applikationen (Editorial Content, Vergleiche von Finanzprodukten, ETF Suche, Copilot)\n    Du bringst deine „State of the Art“ Best Practices zu Frontend-Entwicklung, Accessibility, Web Performance & Testing in unser Team ein\n\nDeine Skills\n\n    Du bist Expertin oder Experte in moderner TypeScript Front-End Entwicklung (das Front-End unserer Website ist mit Vue / Nuxt gebaut und das Front-End unseres Copiloten in Vanilla React)\n    Du weißt, wie man komplexe Apps sowohl auf Komponenten-Basis als auch E2E testet\n    Als gute Teamplayerin oder guter Teamplayer beherrschst du eine klare Kommunikation, du bist zuverlässig und deine Ergebnisse sind planbar\n    Optional: Du hast Erfahrung im Aufsetzen von zuverlässigen CI/CD Pipelines und dem Monitoring von produktiven Anwendungen\n\nWir bieten dir\n\n    Einen unbefristeten Arbeitsvertrag mit einem kompetitiven Vergütungspaket\n    Über unser Mitarbeiterbeteiligungsprogramm (VSOP) partizipierst du an unserem Unternehmenserfolg\n    Weiterentwicklungsmöglichkeiten in einem stark wachsenden und profitablen Start-up\n    Ein modernes Büro mit Home-Office Flexibilität",
+		"skillList": "typescript, vue, nuxt, testing, cicd",
+		"publicationDate": "2024-06-09",
+		"rank": 4.9
 	}
 ]
