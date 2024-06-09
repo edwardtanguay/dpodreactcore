@@ -2474,5 +2474,15 @@
 		"skillList": "typescript, vue, react, ruby, node, oop, graphql, testing, docker, kubernetes, contentful",
 		"publicationDate": "2024-06-08",
 		"rank": 5.0
+	},
+	{
+		"id": 275,
+		"title": "Full Stack Software Engineer",
+		"company": "DL Remote GmbH",
+		"url": "https://dlremote.teamtailor.com/jobs/4585916-full-stack-software-engineer-javascript-typescript",
+		"description": "Full Stack Software Engineer (Javascript/ Typescript)\n\nWe are currently staffing a Senior Fullstack Engineer role @ a well-funded eCommerce AI startup for visitor churn prevention.\n\nYou will join their team of ~10 software engineers to optimise and develop the next generation of their product.\n\nYou should have at least five years of experience with JavaScript /TypeScript and Node.js. Sound knowledge of software architecture principles, GCP, and Kubernetes and experience working in startup environments will be additionally helpful to succeed in this role.\n\nMongoDB experience would be nice, but it is optional.\n\n| REMOTE WORK POLICY\n\nThis role is fully remote within Europe (+/- 3 hrs from CET).\n\n| WHAT YOU WILL GET\n\n* Develop an innovative AI product which helps to improve E-Commerce solutions significantly\n\n* Work with a fast-growing, super-agile team with exceptional drive, commitment & flat hierarchies\n\n* Salary of 80-90k€ / year (negotiable in selected cases)\n\n* Fully remote setup with lots of personal flexibility\n\n* Unlimited workation opportunities anywhere in the world as long as you do a good job\n\n| NEXT STEPS\n\nIf you are interested in this role, we will share additional information about the company and role to support your decision-making process and invite you to a first chat with the head of engineering.\n\nDepartment\n    0 - Software Engineering \nRole\n    Full-Stack Engineer \nLocations\n    Berlin \nRemote status\n    Fully Remote \nEmployment type\n    Full-time \nRelocation / Visa Support\n    true \n\nAbout DL Remote\n\nDL Remote is a talent network for remote-ready or relocation-supported jobs at outstanding companies. We help you find a good match.\n",
+		"skillList": "typescript, node, gcp, docker, kubernetes, mongodb",
+		"publicationDate": "2024-06-08",
+		"rank": 4.9
 	}
 ]
