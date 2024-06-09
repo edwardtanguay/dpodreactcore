@@ -1990,5 +1990,11 @@
 		"name": "OWASP 10",
 		"url": "https://owasp.org/www-project-top-ten",
 		"description": "(Open Web Application Security Project) a standard awareness document for developers and web application security, which represents a broad consensus about the most critical security risks to web applications"
+	},
+	{
+		"idCode": "reactquery",
+		"name": "React Query",
+		"url": "https://tanstack.com/query/latest/docs/framework/react/overview",
+		"description": "a data-fetching and state management library for React applications created in 2019, designed to simplify data synchronization between your server and client, offering features like caching, background updates, and synchronization"
 	}
 ]
