@@ -2534,5 +2534,15 @@
 		"skillList": "csharp, dotnetcore, entityframework, mssql, typescript, react, gitlab, cleancode, testcafe, jest, xunit",
 		"publicationDate": "2024-06-10",
 		"rank": 4.9
+	},
+	{
+		"id": 281,
+		"title": "Senior Backend Engineer",
+		"company": "GoEuro Corp.",
+		"url": "https://www.stepstone.de/stellenangebote--Senior-Backend-Engineer-TS-Node-js-m-f-d-Berlin-GoEuro-Corp--10977598-inline.html?rltr=25_25_25_seorl_m_0_0_0_0_0_0",
+		"description": "Introduction\n\nAt Omio, we are Making Travel Easy through Technology! This is a great chance for you to join one of Europe’s fastest growing travel companies, backed by over 30 million monthly users and the world’s leading tech investors.\n\nWe are looking for a Senior Software Engineer to join our Core Platform team. You'll be solving very relatable user problems and help build a truly outstanding product experience for travellers from all over the world while they're searching, comparing and booking their best journey.\n\nYou'll get to work on interesting complex projects within Core Platform, i.e. Authentication and Live Journey updates.\nWhat you will do:\n\n    Create robust scalable solutions using state-of-the-art technologies. You will support and build key components that are used throughout all of Omio (mobile, web apps)\n    Work with your team to rapidly test ideas on users, use results for iterations and improve our product\n    Test new languages, libraries and frameworks and evaluate their potential to make sure we never stop innovating. You will share best practices with other teams and help make those a company standard.\n    Apply your engineering experience to automate processes and help to guide the team during the decision making \n\nYour profile\n\nOur tech stack:\n\n    Typescript, Node.js, React.js, ES6, Rest API/GraphQL , Styled components, Jest, Cypress, Docker, Kubernetes, GitHub ",
+		"skillList": "node, typescript, react, rest, graphql, stylecomponents, jest, cypress, docker, kubernetes, github",
+		"publicationDate": "2024-06-10",
+		"rank": 4.9
 	}
 ]
