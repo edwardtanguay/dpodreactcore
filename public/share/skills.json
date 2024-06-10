@@ -1996,5 +1996,11 @@
 		"name": "React Query",
 		"url": "https://tanstack.com/query/latest/docs/framework/react/overview",
 		"description": "a data-fetching and state management library for React applications created in 2019, designed to simplify data synchronization between your server and client, offering features like caching, background updates, and synchronization"
+	},
+	{
+		"idCode": "xunit",
+		"name": "xUnit",
+		"url": "https://xunit.net",
+		"description": "an open-source unit testing framework for .NET created in 2004, it enables developers to write unit tests in C# and other .NET languages"
 	}
 ]
