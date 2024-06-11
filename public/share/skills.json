@@ -2014,5 +2014,11 @@
 		"name": "PrimeNG",
 		"url": "https://primeng.org",
 		"description": "an open-source UI component library for Angular applications created in 2016 offering a wide range of components like data tables, charts, and form inputs to streamline the development of responsive and visually appealing user interfaces"
+	},
+	{
+		"idCode": "webassembly",
+		"name": "WebAssembly",
+		"url": "https://webassembly.org",
+		"description": "(Wasm) a binary instruction format for a stack-based virtual machine, designed to run code on web browsers with near-native performance, created in 2017 to enable high-performance applications on the web by allowing code written in multiple languages to run on the web securely and efficiently"
 	}
 ]
