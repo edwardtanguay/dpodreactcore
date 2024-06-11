@@ -2038,5 +2038,17 @@
 		"name": "Turbo",
 		"url": "https://turbo.net",
 		"description": "enables you to publish and manage all of your enterprise applications from a single point to every platform and device"
+	},
+	{
+		"idCode": "wcf",
+		"name": "WCF",
+		"url": "https://learn.microsoft.com/de-de/dotnet/framework/wcf/whats-wcf",
+		"description": "(Windows Communication Foundation) is a framework for building service-oriented applications on the .NET platform, introduced in 2006"
+	},
+	{
+		"idCode": "wpf",
+		"name": "WPF",
+		"url": "https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-8.0",
+		"description": "(Windows Presentation Foundation) is a graphical subsystem for rendering user interfaces in .NET-based Windows applications, introduced in 2006"
 	}
 ]
