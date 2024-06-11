@@ -2008,5 +2008,11 @@
 		"name": "Jamstack",
 		"url": "https://jamstack.org",
 		"description": "(JavaScript, APIs, and Markup) a modern web development architecture introduced in 2016 which emphasizes decoupling the front end from the backend, using pre-rendered static content enhanced by JavaScript and APIs to deliver dynamic functionalities"
+	},
+	{
+		"idCode": "primeng",
+		"name": "PrimeNG",
+		"url": "https://primeng.org",
+		"description": "an open-source UI component library for Angular applications created in 2016 offering a wide range of components like data tables, charts, and form inputs to streamline the development of responsive and visually appealing user interfaces"
 	}
 ]
