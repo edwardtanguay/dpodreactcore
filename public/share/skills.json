@@ -2002,5 +2002,11 @@
 		"name": "xUnit",
 		"url": "https://xunit.net",
 		"description": "an open-source unit testing framework for .NET created in 2004, it enables developers to write unit tests in C# and other .NET languages"
+	},
+	{
+		"idCode": "jamstack",
+		"name": "Jamstack",
+		"url": "https://jamstack.org",
+		"description": "(JavaScript, APIs, and Markup) a modern web development architecture introduced in 2016 which emphasizes decoupling the front end from the backend, using pre-rendered static content enhanced by JavaScript and APIs to deliver dynamic functionalities"
 	}
 ]
