@@ -2020,5 +2020,23 @@
 		"name": "WebAssembly",
 		"url": "https://webassembly.org",
 		"description": "(Wasm) a binary instruction format for a stack-based virtual machine, designed to run code on web browsers with near-native performance, created in 2017 to enable high-performance applications on the web by allowing code written in multiple languages to run on the web securely and efficiently"
+	},
+	{
+		"idCode": "fastlane",
+		"name": "fastlane",
+		"url": "https://fastlane.tools",
+		"description": "an open-source platform created in 2014 to automate the building and release process for mobile applications for iOS and Android apps"
+	},
+	{
+		"idCode": "turbo",
+		"name": "Turbo",
+		"url": "https://turbo.net",
+		"description": "enables you to publish and manage all of your enterprise applications from a single point to every platform and device"
+	},
+	{
+		"idCode": "turbo",
+		"name": "Turbo",
+		"url": "https://turbo.net",
+		"description": "enables you to publish and manage all of your enterprise applications from a single point to every platform and device"
 	}
 ]
