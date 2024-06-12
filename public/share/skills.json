@@ -2056,5 +2056,11 @@
 		"name": "SOLR",
 		"url": "https://solr.apache.org",
 		"description": "an open-source enterprise search platform from the Apache Lucene project created in 2004, designed for scalability and search efficiency"
+	},
+	{
+		"idCode": "hasura",
+		"name": "Hasura",
+		"url": "https://hasura.io",
+		"description": "an open-source engine created in 2018 that provides instant GraphQL and REST APIs on new or existing PostgreSQL databases, enabling real-time data access and CRUD operations with built-in authorization"
 	}
 ]
