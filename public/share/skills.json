@@ -2050,5 +2050,11 @@
 		"name": "WPF",
 		"url": "https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-8.0",
 		"description": "(Windows Presentation Foundation) is a graphical subsystem for rendering user interfaces in .NET-based Windows applications, introduced in 2006"
+	},
+	{
+		"idCode": "solr",
+		"name": "SOLR",
+		"url": "https://solr.apache.org",
+		"description": "an open-source enterprise search platform from the Apache Lucene project created in 2004, designed for scalability and search efficiency"
 	}
 ]
