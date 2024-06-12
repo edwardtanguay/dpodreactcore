@@ -2644,5 +2644,15 @@
 		"skillList": "typescript, svelte, react, nextjs, jwt, rest, graphql, owasp10, websockets, cypress, cloud, ux",
 		"publicationDate": "2024-06-11",
 		"rank": 4.81
+	},
+	{
+		"id": 292,
+		"title": "Fullstack Softwareentwickler React / Node.js",
+		"company": "Keaz GmbH",
+		"url": "https://join.com/companies/keaz/11610602-fullstack-softwareentwickler-react-node-js-m-w-d?pid=e65242534431eadcb0c9",
+		"description": "Fullstack Softwareentwickler React / Node.js (m/w/d)\nBerlin, Deutschland\nAngestellte/r\nWeb-Entwicklung\n\nKeaz hat sich zum Ziel gesetzt, kleinen Unternehmen durch die Bereitstellung benutzerfreundlicher Tools und von Experten entwickelter Funktionen zum Erfolg im Online-Marketing zu verhelfen. Wir glauben an die Macht digitaler Kundenbeziehungen und datengesteuerten Marketings für jedermann, und wir haben uns vorgenommen, die komplexe Welt des Online-Marketings für Unternehmen jeder Größe zugänglich und handhabbar zu machen.\nAufgaben\n\nAls Entwickler bei Keaz arbeitest du eigenverantwortlich an deinen Projekten, ohne dabei alleine gelassen zu werden. Im engen Austausch mit Produktmanagement, Design und Customer Success definierst du neue Features und setzt diese in Frontend und Backend um.\nQualifikation\n\nIn erster Linie erwarten wir von dir:\n\n    Motivation, selbständig an Projekten zu arbeiten.\n    Neugier und Kreativität in deiner Problemlösung.\n    Einen kritischen Blick, auch auf die Anforderungen die an dich gestellt werden.\n    Direkte Kommunikation, über deine Wünsche und Hindernisse\n\nTechnisch solltest du:\n\n    Zwei bis fünf Jahre Erfahrung als Entwickler haben.\n    Dich gut mit dem React Ökosystem auskennen (Wir nutzen Remix run)\n    Erfahrung mit Node.js Backends haben (Wir nutzen Nest.js und Prisma)\n\nBenefits\n\nBei Keaz kannst du Teil eines jungen, schnell wachsenden Teams werden und von Anfang an Verantwortung übernehmen. Wir Bieten dir einen Arbeitsplatz im Herzen Berlins mit State of the art Equipment, regelmäßigem Team Lunch und Zuschuss zum öffentlichen Nahverkehr.\n\nAußerdem bieten wir dir attraktive Stockoptions, um über dein Gehalt hinaus von unserem Wachstum zu profitieren.\n\nSchließ dich Keaz an, wenn dein Ehrgeiz mit unserer Vision zusammenpasst und wir bringen gemeinsam jeden lokalen Unternehmer auf das nächste Level. Werde Teil unserer Marketing-Revolution.",
+		"skillList": "react, remix, nestjs, prisma",
+		"publicationDate": "2024-06-12",
+		"rank": 4.9
 	}
 ]
