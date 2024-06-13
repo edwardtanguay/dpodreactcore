@@ -1221,7 +1221,7 @@
 		"idCode": "vercel",
 		"name": "Vercel",
 		"url": "https://vercel.com",
-		"description": "cloud hosting provider that maintains Next.js and connects to GitHub repositories for seamless deployment"
+		"description": "cloud hosting provider founded in 2015 that maintains Next.js and connects to GitHub repositories for seamless deployment"
 	},
 	{
 		"idCode": "netlify",
@@ -2062,5 +2062,17 @@
 		"name": "Hasura",
 		"url": "https://hasura.io",
 		"description": "an open-source engine created in 2018 that provides instant GraphQL and REST APIs on new or existing PostgreSQL databases, enabling real-time data access and CRUD operations with built-in authorization"
+	},
+	{
+		"idCode": "sqlalchemy",
+		"name": "SQLAlchemy",
+		"url": "https://www.sqlalchemy.org",
+		"description": "a Python SQL toolkit and Object-Relational Mapping (ORM) library created in 2006 that provides database interaction capabilities using high-level abstractions and SQL expressions"
+	},
+	{
+		"idCode": "argoworkflows",
+		"name": "Argo Workflows",
+		"url": "https://argoproj.github.io/workflows",
+		"description": "an open-source container-native workflow engine created in 2017 for orchestrating parallel jobs on Kubernetes"
 	}
 ]
