@@ -1375,7 +1375,7 @@
 	},
 	{
 		"idCode": "canvas",
-		"name": "HTML Canvas",
+		"name": "Canvas",
 		"url": "https://www.w3schools.com/graphics/canvas_intro.asp",
 		"description": "an HTML5 feature that allows you to draw and render graphics, such as lines, shapes, images, and text, dynamically using JavaScript"
 	},

@@ -2724,5 +2724,15 @@
 		"skillList": "typescript, node, express, web3, git",
 		"publicationDate": "2024-06-14",
 		"rank": 4.85
+	},
+	{
+		"id": 301,
+		"title": "Senior Web Developer",
+		"company": "Quantum Rift Labs, Inc.",
+		"url": "https://www.stepstone.de/stellenangebote--Senior-Web-Developer-w-m-d-Stuttgart-Berlin-Drees-Sommer-SE--11039326-inline.html",
+		"description": " Als führendes europäisches Beratungs-, Planungs- und Projektmanagementunternehmen bietet Drees & Sommer Lösungen für erfolgreiche Gebäude, renditestarke Portfolios, leistungsfähige Infrastruktur und lebenswerte Städte. In interdisziplinären Teams unterstützen unsere über 5.100 Mitarbeiterinnen und Mitarbeiter an 59 internationalen Standorten Auftraggeber unterschiedlichster Branchen. Bei uns gestalten Sie Ihren individuellen Karriereweg aktiv mit. Nutzen Sie die Möglichkeit, spannende und abwechslungsreiche Aufgaben zu bearbeiten und den Entscheidungsspielraum diese zu gestalten: \"YOU DECIDE\"\nIhre Aufgaben\n\n    Entwicklung und Optimierung von Webanwendungen unter Verwendung von React (fluentUI / ShadCn) und HTML5 Canvas\n    Integration von Cloud-Technologien und serverlosen Architekturen zur Skalierung und Leistungsverbesserung\n    Erweiterung bestehender NodeJS API´s\n    Konzeption und Umsetzung neuer Features und Funktionen in enger Zusammenarbeit mit dem Produktteam\n    Sicherstellung der Codequalität, Performance und Sicherheit unserer Anwendungen\n    Mentorship und Unterstützung junger Entwickler im Team\n\nIhr Profil\n\n    Umfangreiche Erfahrung in der Webentwicklung mit Schwerpunkt auf React und HTML5 Canvas\n    Erfahrung in der Nutzung von Cloud-Technologien und serverlosen Architekturen\n    Eigenständige Problemlösungsfähigkeiten und die Fähigkeit, komplexe technische Herausforderungen zu meistern\n    Motivation, Engagement und Teamgeist, um gemeinsam innovative Lösungen zu entwickeln\n    Teamorientierung und die Fähigkeit, in einem schnelllebigen Startup-Umfeld zu arbeiten\n    Idealerweise fließende Deutsch- und sehr gute Englischkenntnisse in Wort und Schrift\n\nWir bieten\n\n    Startup-Spirit: ein innovatives Produkt verbunden mit der Möglichkeit ein hohes Maß an Verantwortung für die Weiterentwicklung unseres noch jungen Unternehmens zu übernehmen\n    Vielfältige interne und externe Weiterbildungsangebote\n    Förderung einer nachhaltigen Mobilität durch Firmenrad-Leasing und ÖPNV-Zuschuss\n    Zugang zum Corporate-Benefits-Portal & kostenlose Getränke\n    Mitarbeiterempfehlungs-Programm, Networking-Events, Teamworkshops\n    Workation: Arbeite von den schönsten Orten Europas aus. Freiheit, Flexibilität und Abenteuer! \n\nIhr Kontakt\nHerr Clemens Müller\n\nwww.dreso.com\n\nArbeitsort\nLCM Digital GmbH\nObere Waldplätze\n70569 Stuttgart ",
+		"skillList": "react, shadcn, canvas, cloud, node, rest",
+		"publicationDate": "2024-06-15",
+		"rank": 4.91
 	}
 ]
