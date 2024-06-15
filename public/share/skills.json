@@ -2092,5 +2092,11 @@
 		"name": "Web3",
 		"url": "https://en.wikipedia.org/wiki/Web3",
 		"description": "a concept which became popular around 2014 which represents the next phase of the internet that incorporates blockchain technology, aiming to create a decentralized web where users have control over their own data and digital identities"
+	},
+	{
+		"idCode": "shadcn",
+		"name": "shadcn",
+		"url": "https://ui.shadcn.com/",
+		"description": "a React component library released in 2023 which is a collection of reusable UI components that you can copy and paste directly into your applications rather than installing them as dependencies via npm"
 	}
 ]
