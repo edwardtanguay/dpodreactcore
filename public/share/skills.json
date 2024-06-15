@@ -549,7 +549,7 @@
 		"idCode": "cqrs",
 		"name": "CQRS",
 		"url": "https://martinfowler.com/bliki/CQRS.html",
-		"description": "(Command Query Responsibility Singleton) the notion that you can use a different model to update information than the model you use to read information"
+		"description": "(Command Query Responsibility Singleton) a pattern popularized around 2010 that separates the read and write operations for a data store to improve scalability, performance, and maintainability"
 	},
 	{
 		"idCode": "microfrontends",
@@ -2074,5 +2074,11 @@
 		"name": "Argo Workflows",
 		"url": "https://argoproj.github.io/workflows",
 		"description": "an open-source container-native workflow engine created in 2017 for orchestrating parallel jobs on Kubernetes"
+	},
+	{
+		"idCode": "openai",
+		"name": "OpenAI",
+		"url": "https://openai.com",
+		"description": "an artificial intelligence research organization founded in 2015 dedicated to developing and promoting friendly AI for the benefit of humanity"
 	}
 ]
