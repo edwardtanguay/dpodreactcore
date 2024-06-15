@@ -2080,5 +2080,11 @@
 		"name": "OpenAI",
 		"url": "https://openai.com",
 		"description": "an artificial intelligence research organization founded in 2015 dedicated to developing and promoting friendly AI for the benefit of humanity"
+	},
+	{
+		"idCode": "sumologic",
+		"name": "Sumo Logic",
+		"url": "https://www.sumologic.com",
+		"description": "a cloud-based machine data analytics company founded in 2010 providing real-time insights for IT operations, security, and business intelligence"
 	}
 ]
