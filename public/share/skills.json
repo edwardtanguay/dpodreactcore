@@ -315,7 +315,7 @@
 		"idCode": "apollo",
 		"name": "Apollo",
 		"url": "https://onespace.pages.dev/techItems?id=64",
-		"description": "the most popular GraphQL client"
+		"description": "the most popular GraphQL client created in 2016 that allows developers to efficiently query, cache, and manage data with GraphQL in client-side applications"
 	},
 	{
 		"idCode": "aspnet",
