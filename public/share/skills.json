@@ -2086,5 +2086,11 @@
 		"name": "Sumo Logic",
 		"url": "https://www.sumologic.com",
 		"description": "a cloud-based machine data analytics company founded in 2010 providing real-time insights for IT operations, security, and business intelligence"
+	},
+	{
+		"idCode": "web3",
+		"name": "Web3",
+		"url": "https://en.wikipedia.org/wiki/Web3",
+		"description": "a concept which became popular around 2014 which represents the next phase of the internet that incorporates blockchain technology, aiming to create a decentralized web where users have control over their own data and digital identities"
 	}
 ]
