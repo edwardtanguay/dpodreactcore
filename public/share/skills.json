@@ -2098,5 +2098,11 @@
 		"name": "shadcn",
 		"url": "https://ui.shadcn.com/",
 		"description": "a React component library released in 2023 which is a collection of reusable UI components that you can copy and paste directly into your applications rather than installing them as dependencies via npm"
+	},
+	{
+		"idCode": "splunk",
+		"name": "Splunk",
+		"url": "https://www.splunk.com",
+		"description": "a software platform created in 2003 designed for searching, monitoring, and analyzing machine-generated data (big data) through a web-style interface"
 	}
 ]
