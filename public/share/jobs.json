@@ -2804,5 +2804,15 @@
 		"skillList": "java, typescript, node, react, mssql, nosql, ai",
 		"publicationDate": "2024-06-22",
 		"rank": 4.95
+	},
+	{
+		"id": 309,
+		"title": "Senior Frontend Developer",
+		"company": "Basilicom GmbH",
+		"url": "https://de.indeed.com/viewjob?jk=be586e1cbcdda682",
+		"description": "Vollständige Stellenbeschreibung\nEine richtig gute User Experience wird im Frontend umgesetzt. Hier kommt auf die Straße, was begeistert, was mitreißt, was animiert und was konvertiert. Wir finden sehr wohl, dass Frontend-Development manchmal Raketenwissenschaft ist. Es macht uns Spaß, die Rakete zu entwerfen und zu bauen. Dir auch?\n\nDu entwickelst seit mehreren Jahren professionell Web-Application-Frontends mit React, Vue.js oder Svelte, machst Testing mit Jest und kennst Building-Tools wie Webpack? Du suchst nach technischen Sparringspartner: innen, von denen du noch was lernen kannst? Du hast gleichzeitig Lust, neue Talente aufzubauen und an deinem Wissensschatz teilhaben zu lassen? Dann lass uns das gemeinsam machen!\n\nTasks\n\n    Selbstständige Entwicklung, Umsetzung und Integration von webbasierten Applikationen mit modernen Frontend-Technologien\n    Proaktives Arbeiten im Team und Anleitung von Teammitgliedern\n    Abstimmung mit deinen Team-Kolleg: innen wie Product Ownern, Tester: innen, Designer: innen, Backend, Consultants und unseren Kunden\n    Dinge vorantreiben, Ideen umsetzen, Mitreißen\n\nRequirements\n\n    Herzblut und Leidenschaft\n    mehrjährige Erfahrung in der Frontend-Entwicklung, idealerweise in einer Digitalagentur im agilen Arbeitsumfeld\n    Sehr gute Expertise in HTML/CSS/TypeScript und den entsprechenden Frameworks sowie Erfahrung mit React & Vue\n    Ein sehr gutes Gespür und Verständnis für Design und Usability\n    Verständnis von gängigen Web-Standards und Best Practices (Barrierefreiheit, Performance, SEO, Designsysteme)\n    Andere Technologien, die wir verwenden: PHP, Twig, Pimcore, Figma, Webpack, Bootstrap, Pimcore, VueJS, ReactJS, Docker, Git, u.v.m.\n\nBenefits\n\n    Flexible Arbeitszeiten und Remote-/Hybrid-Modelle\n    Inhabergeführt und unabhängig\n    Loyale, hilfsbereite und schlaue Kolleginnen und Kollegen\n    Verbieg dich nicht, come as you are!\n\nWir sind Basilicom. Als Digitalagentur unterstützen wir Unternehmen strategisch und technisch bei der Umsetzung ihrer Digitalprojekte. Wir schaffen Plattformen für PIM, E-Commerce und Customer Experience. Wir sind Pimcore Agentur Nr. 1 in Deutschland.\n\nInteresse an weiteren Informationen zu unserer Mission, unseren Werten und unseren Projekten? Bewirb dich jetzt unkompliziert bei uns oder melde Dich gerne direkt bei Kolja, unserem Recruiting Manager, unter +49 30 / 69 5660 7346\n\nWir freuen uns auf dich!",
+		"skillList": "typescript, react, vue, ux, seo, php, twig, docker, git",
+		"publicationDate": "2024-06-22",
+		"rank": 5.0
 	}
 ]
